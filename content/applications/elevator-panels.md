@@ -1,0 +1,6 @@
+Application Name	电梯轿厢装饰	Elevator Panels
+Description	用于电梯轿厢内壁、门板、吊顶等部位，兼顾美观与耐用性，提升乘梯体验，塑造高端商务或住宅形象。	Used for elevator car inner walls, door panels, ceilings and other parts, balancing aesthetics and durability to enhance the elevator riding experience and shape a high-end commercial or residential image.
+Typical Products	不锈钢镜面板、不锈钢蚀刻板、不锈钢蜂窝板	Stainless Steel Mirror Sheets, Stainless Steel Etched Sheets, Stainless Steel Honeycomb Panels
+Benefits	耐磨抗刮、防火阻燃、易清洁消毒，表面可定制纹理与颜色，适配不同建筑风格，提升空间质感。	Wear-resistant and scratch-resistant, fire-retardant, easy to clean and disinfect; surface texture and color can be customized to adapt to different architectural styles and enhance spatial texture.
+Case Example	高端写字楼电梯轿厢采用黑钛镜面不锈钢板，搭配极简线条，营造出科技感与高级感，提升租户体验。	The elevator car of a high-end office building uses black titanium mirror stainless steel sheets with minimalist lines, creating a sense of technology and luxury to enhance tenant experience.
+FAQ	Q：电梯面板是否符合消防规范？A：采用不锈钢材质，具备 A 级防火性能，可满足商业建筑消防验收要求。	Q: Do elevator panels comply with fire codes?A: Made of stainless steel with Class A fire resistance, meeting fire acceptance requirements for commercial buildings.

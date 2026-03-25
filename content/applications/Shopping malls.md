@@ -1,0 +1,7 @@
+字段	中文内容	英文内容
+Application Name	购物中心	Shopping Malls
+Description	应用于购物中心中庭、走廊、电梯厅、店铺门面等区域，打造现代、时尚、富有活力的商业公共空间。	Applied to atriums, corridors, elevator lobbies, store facades and other areas of shopping malls to create a modern, fashionable and dynamic commercial public space.
+Typical Products	不锈钢装饰板、不锈钢蜂窝板、不锈钢屏风	Stainless Steel Decorative Sheets, Stainless Steel Honeycomb Panels, Stainless Steel Screens
+Benefits	耐磨抗冲击、易清洁，可定制大版面与丰富纹理，提升空间视觉冲击力，适配高频人流场景。	Wear-resistant and impact-resistant, easy to clean; customizable large format and rich textures to enhance spatial visual impact, suitable for high-frequency pedestrian flow scenarios.
+Case Example	大型购物中心中庭采用水波纹不锈钢板做墙面装饰，流动纹理与灯光结合，营造出灵动时尚的商业氛围。	The atrium of a large shopping mall uses water ripple stainless steel sheets for wall decoration, combining flowing texture with lighting to create a dynamic and fashionable commercial atmosphere.
+FAQ	Q：购物中心高频人流下，不锈钢装饰是否易磨损？A：选用加厚板材与耐磨表面处理，抗刮抗冲击，可长期保持外观完好。	Q: Is stainless steel decoration easy to wear under high-frequency pedestrian flow in shopping malls?A: Thickened sheets and wear-resistant surface treatment are selected, scratch and impact resistant, and can maintain good appearance for a long time.

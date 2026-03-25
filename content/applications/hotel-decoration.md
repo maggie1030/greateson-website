@@ -1,0 +1,6 @@
+Application Name	酒店装饰	Hotel Decoration
+Description	适用于高端酒店大堂、客房、走廊、背景墙等空间，打造奢华、现代的视觉效果，提升酒店整体档次与品质。	Suitable for high-end hotel lobbies, guest rooms, corridors, background walls and other spaces, creating a luxurious and modern visual effect to enhance the overall grade and quality of the hotel.
+Typical Products	不锈钢屏风、不锈钢装饰板（镜面板 / 水波纹板 / 做旧板）、不锈钢蜂窝板	Stainless Steel Screens, Stainless Steel Decorative Sheets (Mirror/Water Ripple/Antique Sheets), Stainless Steel Honeycomb Panels
+Benefits	耐腐蚀、易清洁、质感高级，可定制化匹配酒店设计风格，使用寿命长，维护成本低。	Corrosion-resistant, easy to clean, high-grade texture, customizable to match hotel design styles, long service life, low maintenance cost.
+Case Example	某五星级商务酒店大堂背景墙采用水波纹不锈钢板 + 不锈钢屏风组合，营造出流动光影与轻奢氛围，成为网红打卡点。	The background wall of a five-star business hotel lobby adopts a combination of water ripple stainless steel sheets + stainless steel screens, creating flowing light and shadow and a light luxury atmosphere, becoming a popular check-in spot.
+FAQ	Q：酒店潮湿环境下不锈钢会生锈吗？A：选用 304/316 材质，表面镀色处理，具备优异防潮抗腐蚀性能，适合酒店卫浴、泳池区等潮湿场景。	Q: Will stainless steel rust in the humid hotel environment?A: 304/316 materials with surface color plating are used, which have excellent moisture and corrosion resistance, suitable for humid scenes such as hotel bathrooms and pool areas.

@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f1714;
+  --foreground: #f4f1ea;
+  --muted: #8fa099;
+  --line: #26342f;
+  --gold: #d9bb85;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), serif;
+}
+
+.section {
+  @apply mx-auto w-full max-w-6xl px-6 py-20;
+}
+
+.eyebrow {
+  @apply text-xs tracking-[0.24em] uppercase text-[#d9bb85];
+}
+
+.card {
+  @apply rounded-2xl border border-[#2a3a33] bg-[#13211d];
+}
+
+.markdown {
+  @apply text-zinc-200;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  @apply mt-8 text-[#f5e5c5];
+}
+
+.markdown p {
+  @apply mt-3 leading-7 text-zinc-300;
+}
+
+.markdown ul,
+.markdown ol {
+  @apply mt-3 list-inside space-y-2 text-zinc-300;
+}
+
+.markdown a {
+  @apply text-[#d9bb85] underline underline-offset-2;
+}
+
+.markdown table {
+  @apply mt-4 w-full border-collapse text-sm;
+}
+
+.markdown th,
+.markdown td {
+  @apply border border-[#32453d] p-2 align-top;
 }

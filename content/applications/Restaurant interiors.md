@@ -1,0 +1,7 @@
+字段	中文内容	英文内容
+Application Name	餐厅室内装饰	Restaurant Interiors
+Description	适用于高端餐厅、主题餐厅、连锁餐饮的墙面、隔断、背景墙，营造独特用餐氛围，提升品牌辨识度。	Suitable for walls, partitions and background walls of high-end restaurants, theme restaurants and chain restaurants, creating a unique dining atmosphere and enhancing brand recognition.
+Typical Products	不锈钢屏风、不锈钢装饰板（做旧 / 蚀刻板）、不锈钢展示柜	Stainless Steel Screens, Stainless Steel Decorative Sheets (Antique/Etched Sheets), Stainless Steel Display Cabinets
+Benefits	易清洁消毒、防火防潮，可定制复古 / 工业 / 现代等风格，适配不同餐饮定位，耐用性强。	Easy to clean and disinfect, fire and moisture resistant; customizable retro/industrial/modern styles to adapt to different catering positioning, with strong durability.
+Case Example	网红工业风餐厅采用做旧不锈钢板做墙面装饰，搭配铁艺与灯光，营造出复古粗犷的用餐氛围，吸引年轻客群。	An internet-famous industrial-style restaurant uses antique stainless steel sheets for wall decoration, paired with ironwork and lighting, creating a retro and rough dining atmosphere to attract young customers.
+FAQ	Q：餐厅油烟环境下不锈钢板是否难清洁？A：表面光滑致密，油污易擦拭，日常用中性清洁剂即可快速清洁。	Q: Is it difficult to clean stainless steel sheets in the restaurant's oily smoke environment?A: The surface is smooth and dense, oil stains are easy to wipe, and can be quickly cleaned with neutral detergent daily.
