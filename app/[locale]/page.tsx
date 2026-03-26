@@ -64,8 +64,9 @@ export default async function HomePage({ params }: Props) {
       <JsonLd data={homepageFaqSchema} />
       <section className="relative w-full min-h-[calc(100svh-72px)] overflow-hidden">
         <div className="absolute inset-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/api/site-media?file=微信图片_20260326142717_1044_55.jpg"
+            src="/api/site-media?file=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326142717_1044_55.jpg"
             alt={isEn ? "Greateson architectural scene" : "顺佳兴工程场景垫图"}
             className="h-full w-full object-cover blur-[0.8px]"
           />

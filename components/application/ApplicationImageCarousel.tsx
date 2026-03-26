@@ -18,6 +18,7 @@ export function ApplicationImageCarousel({ images, alt }: Props) {
   return (
     <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
       <div className="relative">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={images[index]} alt={alt} className="aspect-[3/4] w-full object-cover" />
         {canSlide ? (
           <>

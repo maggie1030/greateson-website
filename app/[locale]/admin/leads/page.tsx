@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { AdminLogoutButton } from "@/components/admin/AdminLogoutButton";
 import { LeadStatusForm } from "@/components/admin/LeadStatusForm";
 import { isLocale } from "@/lib/i18n";
 import { buildMetadata } from "@/lib/seo";
@@ -79,7 +80,10 @@ export default async function AdminLeadsPage({ params }: Props) {
   return (
     <section className="section">
       <p className="eyebrow">{isEn ? "Admin" : "后台"}</p>
-      <h1 className="mt-3 text-4xl">{isEn ? "Lead Management" : "询盘管理"}</h1>
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
+        <h1 className="text-4xl">{isEn ? "Lead Management" : "询盘管理"}</h1>
+        <AdminLogoutButton locale={locale} />
+      </div>
       <p className="mt-4 text-sm text-zinc-300">
         {isEn ? "Track RFQ submissions and update WeChat follow-up status." : "查看询盘提交并更新微信跟进状态。"}
       </p>

@@ -10,6 +10,8 @@ Copy `.env.example` to `.env.local` and fill values:
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 - `SUPABASE_SERVICE_ROLE_KEY`
+- `ADMIN_USERNAME`
+- `ADMIN_PASSWORD`
 
 > `SUPABASE_SERVICE_ROLE_KEY` must be the server key from Supabase API settings, not the publishable key.
 
@@ -27,6 +29,12 @@ Examples:
 
 - `/zh/admin/leads`
 - `/en/admin/leads`
+
+Admin pages are protected by session login.
+Set `ADMIN_USERNAME` and `ADMIN_PASSWORD` in `.env.local`, then sign in at:
+
+- `/zh/admin/login`
+- `/en/admin/login`
 
 ## 4) CMS articles
 

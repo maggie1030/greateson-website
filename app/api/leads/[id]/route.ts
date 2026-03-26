@@ -1,4 +1,5 @@
 import { getSupabaseServiceClient, leadStatuses } from "@/lib/supabase";
+import { isValidAdminSessionToken, readAdminSessionFromCookieHeader } from "@/lib/admin-auth";
 
 type Payload = {
   status?: string;
@@ -7,6 +8,11 @@ type Payload = {
 };
 
 export async function PATCH(request: Request, { params }: { params: Promise<{ id: string }> }) {
+  const token = readAdminSessionFromCookieHeader(request.headers.get("cookie"));
+  if (!isValidAdminSessionToken(token)) {
+    return Response.json({ ok: false, message: "Unauthorized" }, { status: 401 });
+  }
+
   const supabase = getSupabaseServiceClient();
   if (!supabase) {
     return Response.json({ ok: false, message: "Supabase env is not configured." }, { status: 500 });

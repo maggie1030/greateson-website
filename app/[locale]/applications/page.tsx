@@ -43,6 +43,7 @@ export default async function ApplicationsPage({ params }: Props) {
       <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
         {applicationCards.map((item) => (
           <article key={item.slug} className="card overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={item.displayImage} alt={item.name[locale]} className="aspect-[3/4] w-full object-cover" />
             <div className="p-5">
               <h2 className="text-2xl text-[#f5e5c5]">{item.name[locale]}</h2>

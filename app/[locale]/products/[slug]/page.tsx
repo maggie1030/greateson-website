@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -10,7 +9,6 @@ import {
   getProductDocument,
   getProductSeriesImages,
   localizeFieldLabel,
-  type ProductSeries,
 } from "@/lib/product-content";
 import { buildMetadata } from "@/lib/seo";
 import { productBySlug, products } from "@/lib/site-data";
