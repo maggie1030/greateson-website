@@ -74,6 +74,8 @@ export const nav = {
     products: "Products",
     applications: "Applications",
     cases: "Case Studies",
+    blog: "Blog",
+    guides: "Guides",
     faq: "FAQ",
     contact: "Contact",
     quote: "Get Quote",
@@ -85,6 +87,8 @@ export const nav = {
     products: "产品中心",
     applications: "应用场景",
     cases: "工程案例",
+    blog: "博客",
+    guides: "选购指南",
     faq: "常见问题",
     contact: "联系我们",
     quote: "获取报价",
@@ -571,7 +575,7 @@ export const faqEntries = [
     q: { en: "What are common finishes for decorative stainless steel?", zh: "不锈钢装饰板常见表面工艺有哪些？" },
     a: {
       en: "Common finishes include:\n- Mirror (8K)\n- Brushed (Hairline / Satin)\n- Embossed\n- Etched\n- Sandblasted\n- PVD colored finishes\nEach finish offers different visual and functional properties depending on the application.",
-      zh: "常见表面工艺包括：\n- 镜面（No.8）\n- 拉丝（发丝纹 / 缎面）\n- 压纹\n- 蚀刻\n- 喷砂\n- PVD 彩色镀层\n不同工艺在视觉效果与功能表现上各有差异，应根据应用场景选择。",
+      zh: "常见表面工艺包括：\n- 镜面（8K）\n- 拉丝（发丝纹 / 缎面）\n- 压纹\n- 蚀刻\n- 喷砂\n- PVD 彩色镀层\n不同工艺在视觉效果与功能表现上各有差异，应根据应用场景选择。",
     },
   },
   {

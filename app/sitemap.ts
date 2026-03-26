@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
 
+import { getArticlesByCategory } from "@/lib/articles";
 import { applications, caseStudies, products } from "@/lib/site-data";
 
 const base = "https://greateson.com";
 const locales = ["en", "zh"] as const;
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPaths = [
     "",
     "/about",
@@ -22,6 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const entries: MetadataRoute.Sitemap = [];
+
+  const blogs = await getArticlesByCategory("blog");
+  const guides = await getArticlesByCategory("guide");
 
   locales.forEach((locale) => {
     staticPaths.forEach((path) => {
@@ -55,6 +59,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${base}/${locale}/cases/${item.slug}`,
         lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+      });
+    });
+
+    blogs.forEach((item) => {
+      entries.push({
+        url: `${base}/${locale}/blog/${item.slug}`,
+        lastModified: new Date(item.publishedAt),
+        changeFrequency: "monthly",
+        priority: 0.7,
+      });
+    });
+
+    guides.forEach((item) => {
+      entries.push({
+        url: `${base}/${locale}/guides/${item.slug}`,
+        lastModified: new Date(item.publishedAt),
         changeFrequency: "monthly",
         priority: 0.7,
       });

@@ -136,7 +136,7 @@ function zhWhyUsContent(key: string, fallback: string) {
 
 const lines = [
   { en: "PVD Vacuum Coating Line", zh: "真空镀膜线", image: "/images/factory/pvd-coating-line/图片1.png" },
-  { en: "Copper Electroplating Line", zh: "铜电镀线", image: "/images/factory/electroplating-line/图片2.png" },
+  { en: "Copper Electroplating Line", zh: "镀铜线", image: "/images/factory/electroplating-line/图片2.png" },
   { en: "Chemical Etching Line", zh: "化学蚀刻线", image: "/images/factory/etching-line/图片5.png" },
   { en: "Embossing Line", zh: "压花线", image: "/images/factory/embossing-line/图片6.png" },
   { en: "Sandblasting Line", zh: "喷砂线", image: "/images/factory/sandblasting-line/图片8.png" },

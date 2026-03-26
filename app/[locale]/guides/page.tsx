@@ -1,26 +1,13 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { getArticlesByCategory } from "@/lib/articles";
 import { buildMetadata } from "@/lib/seo";
 import { isLocale } from "@/lib/i18n";
 
 type Props = {
   params: Promise<{ locale: string }>;
-};
-
-const guideTitles = {
-  en: [
-    "How to Select Stainless Steel Panels for Hotel Projects",
-    "Surface Finish Comparison: Mirror vs Hairline vs Etched",
-    "Honeycomb Panels vs Solid Sheet: Weight and Structure",
-    "Installation Guide for Stainless Steel Wall Cladding",
-  ],
-  zh: [
-    "酒店项目如何选择不锈钢装饰板",
-    "镜面、拉丝、蚀刻工艺对比指南",
-    "蜂窝板与实心板重量和结构对比",
-    "不锈钢墙面装饰安装指南",
-  ],
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -41,15 +28,23 @@ export default async function GuidesPage({ params }: Props) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const isEn = locale === "en";
+  const guides = await getArticlesByCategory("guide");
 
   return (
     <section className="section">
       <p className="eyebrow">{isEn ? "Guides" : "应用指南"}</p>
       <h1 className="mt-3 text-4xl">{isEn ? "Technical Guide Library" : "技术指南内容库"}</h1>
       <div className="mt-10 space-y-4">
-        {guideTitles[locale].map((title) => (
-          <article key={title} className="card p-5 text-zinc-200">
-            {title}
+        {guides.map((item) => (
+          <article key={item.slug} className="card p-5 text-zinc-200">
+            <p className="text-xs text-zinc-400">
+              {item.publishedAt} · {item.readTime[locale]}
+            </p>
+            <h2 className="mt-2 text-xl text-[#f5e5c5]">{item.title[locale]}</h2>
+            <p className="mt-3 text-sm leading-7 text-zinc-300">{item.excerpt[locale]}</p>
+            <Link href={`/${locale}/guides/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">
+              {isEn ? "Read full guide" : "阅读全文"}
+            </Link>
           </article>
         ))}
       </div>
