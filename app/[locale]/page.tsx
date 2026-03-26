@@ -117,7 +117,14 @@ export default async function HomePage({ params }: Props) {
         <div className="grid gap-4 md:grid-cols-4">
           {hotProducts.map((item) => (
             <article key={item.slug} className="card overflow-hidden">
-              <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[4/5] w-full object-cover" />
+              <Image
+                src={item.image}
+                alt={item.name[locale]}
+                width={1200}
+                height={900}
+                unoptimized
+                className="aspect-[4/5] w-full object-cover"
+              />
               <div className="p-4">
                 <h3 className="text-xl text-[#f5e5c5]">{item.name[locale]}</h3>
                 <p className="mt-2 text-sm text-zinc-300">{item.advantages[locale]}</p>

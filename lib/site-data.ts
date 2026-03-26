@@ -122,7 +122,8 @@ export const products: Product[] = [
         },
       },
     ],
-    image: "/images/products/screens/微信图片_20260324140047_434_50.jpg",
+    image:
+      "/api/product-media?product=stainless-steel-products&series=Stainless%20Steel%20Screen&file=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326130138.jpg",
   },
   {
     slug: "stainless-steel-decorative-sheet",
@@ -157,7 +158,8 @@ export const products: Product[] = [
         },
       },
     ],
-    image: "/images/products/sheets/微信图片_20260324141412_438_50.jpg",
+    image:
+      "/api/product-media?product=stainless-steel-decorative-sheet&series=Color%20Electroplating%20Series&file=%E5%9B%BE%E7%89%871.png",
   },
   {
     slug: "stainless-steel-honeycomb-panel",
@@ -192,7 +194,8 @@ export const products: Product[] = [
         },
       },
     ],
-    image: "/images/products/panels/微信图片_20260324142352_442_50.jpg",
+    image:
+      "/api/product-media?product=stainless-steel-honeycomb-panel&series=Water%20ripple%20honeycomb%20panel%20&file=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260324142351_440_50.jpg",
   },
 ];
 
