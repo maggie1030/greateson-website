@@ -37,12 +37,12 @@ export default async function ProductsPage({ params }: Props) {
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         {products.map((item) => (
           <article key={item.slug} className="card overflow-hidden">
-            <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="h-56 w-full object-cover" />
+            <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
             <div className="p-6">
               <h2 className="text-2xl text-[#f5e5c5]">{item.name[locale]}</h2>
               <p className="mt-2 text-sm text-zinc-300">{item.category[locale]}</p>
               <p className="mt-2 text-sm text-zinc-300">
-                {isEn ? "Material" : "材质"}: {item.material}
+                {isEn ? "Material" : "材质"}: {item.material[locale]}
               </p>
               <Link href={`/${locale}/products/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">
                 {isEn ? "View specifications" : "查看参数"}

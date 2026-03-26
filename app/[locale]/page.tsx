@@ -84,7 +84,7 @@ export default async function HomePage({ params }: Props) {
             </Link>
           </div>
         </div>
-        <div className="overflow-hidden rounded-3xl border border-[#2a3a33]">
+        <div className="aspect-[3/4] overflow-hidden rounded-3xl border border-[#2a3a33]">
           <Image
             src="/images/products/sheets/微信图片_20260324141412_438_50.jpg"
             alt={isEn ? "Decorative stainless steel sheet texture" : "不锈钢装饰板纹理"}
@@ -139,7 +139,7 @@ export default async function HomePage({ params }: Props) {
         <div className="grid gap-5 md:grid-cols-2">
           {hotProducts.map((item) => (
             <article key={item.slug} className="card overflow-hidden">
-              <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="h-52 w-full object-cover" />
+              <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
               <div className="p-5">
                 <h3 className="text-2xl text-[#f5e5c5]">{item.name[locale]}</h3>
                 <p className="mt-2 text-sm text-zinc-300">{item.advantages[locale]}</p>
@@ -171,11 +171,11 @@ export default async function HomePage({ params }: Props) {
         <div className="mt-8 grid gap-5 md:grid-cols-3">
           {featuredCases.map((item) => (
             <article key={item.slug} className="card overflow-hidden">
-              <Image src={item.image} alt={item.title[locale]} width={1200} height={900} className="h-48 w-full object-cover" />
+              <Image src={item.image} alt={item.title[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
               <div className="p-5">
                 <h3 className="text-xl text-[#f5e5c5]">{item.title[locale]}</h3>
                 <p className="mt-2 text-sm text-zinc-300">
-                  {item.location} · {item.year}
+                  {item.location[locale]} · {item.year}
                 </p>
                 <p className="mt-3 text-sm text-zinc-300">{item.summary[locale]}</p>
                 <Link href={`/${locale}/cases/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">

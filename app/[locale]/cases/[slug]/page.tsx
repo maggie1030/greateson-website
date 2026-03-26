@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: `/cases/${slug}`,
     title: data.title[locale],
     description: data.summary[locale],
-    keywords: data.keywords,
+    keywords: data.keywords.map((item) => item[locale]),
   });
 }
 
@@ -42,10 +42,13 @@ export default async function CaseDetailPage({ params }: Props) {
     .map((slugName) => products.find((item) => item.slug === slugName))
     .filter((item): item is Product => Boolean(item));
 
+  const displayLocation = data.location[locale];
+  const displayKeywords = data.keywords.map((item) => item[locale]);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: data.title.en,
+    headline: data.title[locale],
     author: { "@type": "Organization", name: "Greateson" },
     datePublished: "2026-03-01",
     dateModified: "2026-03-24",
@@ -62,7 +65,7 @@ export default async function CaseDetailPage({ params }: Props) {
           : `${data.title.zh} 使用了哪些产品？`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: related.map((item) => item.name.en).join(", "),
+          text: related.map((item) => item.name[locale]).join(", "),
         },
       },
       {
@@ -88,27 +91,43 @@ export default async function CaseDetailPage({ params }: Props) {
         <span className="text-zinc-200">{data.title[locale]}</span>
       </nav>
       <p className="eyebrow">{isEn ? "Case Detail" : "案例详情"}</p>
-      <h1 className="mt-3 text-4xl">{data.title[locale]}</h1>
-      <p className="mt-4 text-sm text-zinc-300">
-        {data.location} · {data.year}
-      </p>
+      <h1 className="mt-3 max-w-4xl text-4xl leading-tight md:text-5xl">{data.title[locale]}</h1>
 
-      <Image src={data.image} alt={data.title[locale]} width={1600} height={1000} className="card mt-8 h-[420px] w-full object-cover" />
+      <div className="mt-8 grid items-start gap-6 md:grid-cols-[minmax(280px,0.7fr)_minmax(0,1.3fr)]">
+        <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
+          <Image src={data.image} alt={data.title[locale]} width={1600} height={1000} className="aspect-[3/4] w-full object-cover" />
+        </article>
 
-      <div className="mt-10 grid gap-5 md:grid-cols-3">
-        <article className="card p-5">
-          <h2 className="text-xl text-[#f5e5c5]">{isEn ? "Project Summary" : "项目概况"}</h2>
-          <p className="mt-3 text-sm text-zinc-300">{data.summary[locale]}</p>
-        </article>
-        <article className="card p-5">
-          <h2 className="text-xl text-[#f5e5c5]">{isEn ? "Challenge" : "项目挑战"}</h2>
-          <p className="mt-3 text-sm text-zinc-300">{data.challenge[locale]}</p>
-        </article>
-        <article className="card p-5">
-          <h2 className="text-xl text-[#f5e5c5]">{isEn ? "Solution & Result" : "解决方案与成果"}</h2>
-          <p className="mt-3 text-sm text-zinc-300">{data.solution[locale]}</p>
-          <p className="mt-2 text-sm text-zinc-300">{data.result[locale]}</p>
-        </article>
+        <div className="space-y-4">
+          <article className="card p-5">
+            <p className="text-sm text-zinc-300">
+              {displayLocation} · {data.year}
+            </p>
+            <h2 className="mt-3 text-2xl text-[#f5e5c5]">{isEn ? "Project Summary" : "项目概况"}</h2>
+            <p className="mt-3 text-sm leading-7 text-zinc-300">{data.summary[locale]}</p>
+            <div className="mt-5 flex flex-wrap gap-2 text-xs text-zinc-300">
+              {displayKeywords.map((keyword) => (
+                <span key={keyword} className="rounded-full border border-[#3a4f46] px-3 py-1">
+                  {keyword}
+                </span>
+              ))}
+            </div>
+          </article>
+
+          <article className="card p-5">
+            <h2 className="text-xl text-[#f5e5c5]">{isEn ? "Challenge" : "项目挑战"}</h2>
+            <p className="mt-3 text-sm leading-7 text-zinc-300">{data.challenge[locale]}</p>
+          </article>
+
+          <article className="card p-5">
+            <h2 className="text-xl text-[#f5e5c5]">{isEn ? "Solution" : "解决方案"}</h2>
+            <p className="mt-3 text-sm leading-7 text-zinc-300">{data.solution[locale]}</p>
+          </article>
+          <article className="card p-5">
+            <h2 className="text-xl text-[#f5e5c5]">{isEn ? "Result" : "交付成果"}</h2>
+            <p className="mt-3 text-sm leading-7 text-zinc-300">{data.result[locale]}</p>
+          </article>
+        </div>
       </div>
 
       <div className="mt-10">

@@ -35,14 +35,14 @@ export default async function CasesPage({ params }: Props) {
       <p className="eyebrow">{isEn ? "Case Studies" : "工程案例"}</p>
       <h1 className="mt-3 text-4xl">{isEn ? "Delivered Landmark Projects" : "已交付地标项目"}</h1>
 
-      <div className="mt-10 grid gap-5 md:grid-cols-2">
+      <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
         {caseStudies.map((item) => (
           <article key={item.slug} className="card overflow-hidden">
-            <Image src={item.image} alt={item.title[locale]} width={1200} height={900} className="h-56 w-full object-cover" />
+            <Image src={item.image} alt={item.title[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
             <div className="p-6">
               <h2 className="text-2xl text-[#f5e5c5]">{item.title[locale]}</h2>
               <p className="mt-2 text-sm text-zinc-300">
-                {item.location} · {item.year}
+                {item.location[locale]} · {item.year}
               </p>
               <p className="mt-3 text-sm text-zinc-300">{item.summary[locale]}</p>
               <Link href={`/${locale}/cases/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">

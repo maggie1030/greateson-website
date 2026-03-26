@@ -34,10 +34,10 @@ export default async function ApplicationsPage({ params }: Props) {
     <section className="section">
       <p className="eyebrow">{isEn ? "Applications" : "应用场景"}</p>
       <h1 className="mt-3 text-4xl">{isEn ? "10 Engineering Application Contexts" : "10 大工程应用场景"}</h1>
-      <div className="mt-10 grid gap-5 md:grid-cols-2">
+      <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
         {applications.map((item) => (
           <article key={item.slug} className="card overflow-hidden">
-            <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="h-48 w-full object-cover" />
+            <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
             <div className="p-5">
               <h2 className="text-2xl text-[#f5e5c5]">{item.name[locale]}</h2>
               <p className="mt-2 text-sm text-zinc-300">{item.description[locale]}</p>

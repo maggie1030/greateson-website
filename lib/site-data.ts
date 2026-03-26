@@ -6,9 +6,9 @@ export type Product = {
   slug: string;
   name: LocalizedText;
   category: LocalizedText;
-  material: string;
-  thickness: string;
-  size: string;
+  material: LocalizedText;
+  thickness: LocalizedText;
+  size: LocalizedText;
   finish: LocalizedText;
   applications: LocalizedText;
   moq: LocalizedText;
@@ -31,13 +31,13 @@ export type Application = {
 export type CaseStudy = {
   slug: string;
   title: LocalizedText;
-  location: string;
+  location: LocalizedText;
   year: string;
   summary: LocalizedText;
   challenge: LocalizedText;
   solution: LocalizedText;
   result: LocalizedText;
-  keywords: string[];
+  keywords: LocalizedText[];
   productSlugs: string[];
   image: string;
 };
@@ -96,9 +96,9 @@ export const products: Product[] = [
     slug: "stainless-steel-screen",
     name: { en: "Stainless Steel Decorative Screen", zh: "不锈钢装饰屏风" },
     category: { en: "Engineering Decorative Product", zh: "不锈钢工程装饰制品" },
-    material: "201 / 304 / 316",
-    thickness: "Customized",
-    size: "Customized Width & Length",
+    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
+    thickness: { en: "Customized", zh: "支持定制" },
+    size: { en: "Customized Width & Length", zh: "宽度与长度可定制" },
     finish: {
       en: "Mirror, brushed, titanium gold, rose gold, black titanium, antique copper, water ripple, etched",
       zh: "镜面、拉丝、钛金、玫瑰金、黑钛金、仿古铜、水波纹、蚀纹",
@@ -128,9 +128,9 @@ export const products: Product[] = [
     slug: "stainless-steel-display-cabinet",
     name: { en: "Stainless Steel Display Cabinet", zh: "不锈钢展示柜" },
     category: { en: "Engineering Decorative Product", zh: "不锈钢工程装饰制品" },
-    material: "201 / 304 / 316",
-    thickness: "Customized",
-    size: "Customized Width & Length",
+    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
+    thickness: { en: "Customized", zh: "支持定制" },
+    size: { en: "Customized Width & Length", zh: "宽度与长度可定制" },
     finish: {
       en: "Mirror, brushed, fluorocarbon paint, color titanium, etched, water ripple",
       zh: "镜面、拉丝、氟碳漆、彩色镀钛、蚀刻板、水波纹板",
@@ -160,9 +160,12 @@ export const products: Product[] = [
     slug: "stainless-steel-decorative-sheet",
     name: { en: "Stainless Steel Decorative Sheet", zh: "不锈钢装饰板" },
     category: { en: "Engineering Decorative Sheet", zh: "不锈钢工程装饰板材" },
-    material: "201 / 304 / 316",
-    thickness: "0.4mm-3.0mm",
-    size: "1000/1219/1500 × 2000/2438/3000mm, custom size",
+    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
+    thickness: { en: "0.4mm-3.0mm", zh: "0.4mm-3.0mm" },
+    size: {
+      en: "1000/1219/1500 × 2000/2438/3000mm, custom size",
+      zh: "1000/1219/1500 × 2000/2438/3000mm，支持定制尺寸",
+    },
     finish: {
       en: "Mirror 8K, brushed, water ripple, etched, antique, PVD colors",
       zh: "镜面8K、拉丝、水波纹、蚀纹、做旧、钛金镀色",
@@ -192,9 +195,12 @@ export const products: Product[] = [
     slug: "stainless-steel-honeycomb-panel",
     name: { en: "Stainless Steel Honeycomb Panel", zh: "不锈钢蜂窝板" },
     category: { en: "Engineering Decorative Sheet", zh: "不锈钢工程装饰板材" },
-    material: "Stainless panel + galvanized/aluminum back + aluminum honeycomb core",
-    thickness: "8mm-50mm",
-    size: "Max width 2m, max length 10m",
+    material: {
+      en: "Stainless panel + galvanized/aluminum back + aluminum honeycomb core",
+      zh: "不锈钢面板 + 镀锌/铝背板 + 铝蜂窝芯",
+    },
+    thickness: { en: "8mm-50mm", zh: "8mm-50mm" },
+    size: { en: "Max width 2m, max length 10m", zh: "最大宽度2m，最大长度10m" },
     finish: {
       en: "Mirror, brushed, etched, water ripple, fluorocarbon paint, PVD colors",
       zh: "镜面、拉丝、蚀刻、水波纹、氟碳漆、镀钛",
@@ -412,7 +418,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "cambodia-luxury-club",
     title: { en: "Cambodia Premium Private Club", zh: "柬埔寨高端私人会所" },
-    location: "Phnom Penh, Cambodia",
+    location: { en: "Phnom Penh, Cambodia", zh: "柬埔寨 金边" },
     year: "2025",
     summary: {
       en: "Custom petal tables and column cladding in champagne-gold stainless steel for a premium entertainment space.",
@@ -430,14 +436,18 @@ export const caseStudies: CaseStudy[] = [
       en: "Delivered ahead of schedule and became the venue's signature visual identity.",
       zh: "提前交付并成为会所最具辨识度的空间符号。",
     },
-    keywords: ["cambodia stainless steel project", "custom petal table fabrication", "luxury club interior metalwork"],
+    keywords: [
+      { en: "cambodia stainless steel project", zh: "柬埔寨不锈钢项目" },
+      { en: "custom petal table fabrication", zh: "花瓣台定制加工" },
+      { en: "luxury club interior metalwork", zh: "高端会所金属装饰" },
+    ],
     productSlugs: ["stainless-steel-display-cabinet", "stainless-steel-decorative-sheet"],
     image: "/images/cases/cambodia-luxury-club/微信图片_20260319161927_25_220.jpg",
   },
   {
     slug: "taiyuan-jinmao-mansion",
     title: { en: "Taiyuan Jinmao Mansion Sales Center", zh: "太原金茂府售楼中心" },
-    location: "Taiyuan, China",
+    location: { en: "Taiyuan, China", zh: "中国 太原" },
     year: "2025",
     summary: {
       en: "15-meter seamless stainless grille wall with integrated champagne gold PVD finish.",
@@ -455,14 +465,18 @@ export const caseStudies: CaseStudy[] = [
       en: "Created a landmark arrival experience and improved project brand perception.",
       zh: "形成地标级入口体验，显著增强项目品牌形象。",
     },
-    keywords: ["taiyuan stainless steel project", "stainless steel grille wall", "luxury sales center facade"],
+    keywords: [
+      { en: "taiyuan stainless steel project", zh: "太原不锈钢项目" },
+      { en: "stainless steel grille wall", zh: "不锈钢隔栅墙" },
+      { en: "luxury sales center facade", zh: "高端售楼中心外立面" },
+    ],
     productSlugs: ["stainless-steel-screen", "stainless-steel-decorative-sheet"],
     image: "/images/cases/taiyuan-jinmao-mansion/微信图片_20260324153518_616_9.jpg",
   },
   {
     slug: "beijing-residential-sales-center",
     title: { en: "Beijing Luxury Residential Sales Center", zh: "北京高端住宅售楼中心" },
-    location: "Beijing, China",
+    location: { en: "Beijing, China", zh: "中国 北京" },
     year: "2025",
     summary: {
       en: "Great Wall profile stainless facade with lighting integration for iconic street presence.",
@@ -480,14 +494,18 @@ export const caseStudies: CaseStudy[] = [
       en: "Increased foot traffic and became a key visual element in the project campaign.",
       zh: "有效提升到访关注度，成为项目传播的核心视觉资产。",
     },
-    keywords: ["beijing metal facade", "great wall panel", "champagne gold cladding"],
+    keywords: [
+      { en: "beijing metal facade", zh: "北京金属外立面" },
+      { en: "great wall panel", zh: "长城板型" },
+      { en: "champagne gold cladding", zh: "香槟金包覆系统" },
+    ],
     productSlugs: ["stainless-steel-decorative-sheet", "stainless-steel-screen"],
     image: "/images/products/sheets/微信图片_20260324140618_436_50.jpg",
   },
   {
     slug: "hefei-luxury-hotel",
     title: { en: "Hefei Luxury Hotel Starlight Ceiling", zh: "合肥高端酒店星光吊顶" },
-    location: "Hefei, China",
+    location: { en: "Hefei, China", zh: "中国 合肥" },
     year: "2025",
     summary: {
       en: "Perforated stainless honeycomb ceiling with integrated LED matrix for immersive guest arrival.",
@@ -505,7 +523,11 @@ export const caseStudies: CaseStudy[] = [
       en: "Created a signature social-media-ready hotel feature with strong durability.",
       zh: "形成酒店标志性视觉打卡点，并长期保持稳定表现。",
     },
-    keywords: ["hefei hotel metal ceiling", "perforated honeycomb panel", "starlight ceiling"],
+    keywords: [
+      { en: "hefei hotel metal ceiling", zh: "合肥酒店金属吊顶" },
+      { en: "perforated honeycomb panel", zh: "穿孔蜂窝板" },
+      { en: "starlight ceiling", zh: "星光吊顶系统" },
+    ],
     productSlugs: ["stainless-steel-honeycomb-panel", "stainless-steel-decorative-sheet"],
     image: "/images/products/panels/微信图片_20260324142351_440_50.jpg",
   },
@@ -518,39 +540,109 @@ export const faqEntries = [
       zh: "什么是不锈钢装饰板？",
     },
     a: {
-      en: "Decorative stainless steel sheets are architectural-grade surfaces processed with mirror, brushed, embossed, etched or PVD finishes for aesthetics and durability.",
-      zh: "不锈钢装饰板是用于建筑与室内装饰的金属材料，可做镜面、拉丝、压纹、蚀刻和 PVD 等工艺，兼具美观与耐用性。",
+      en: "Decorative stainless steel sheet is a type of stainless steel material designed for aesthetic and architectural applications. It is processed with surface finishes such as mirror, brushed, embossed, etched, or colored coatings to enhance visual appeal. These sheets are widely used in interior and exterior design, including hotels, elevators, wall cladding, and retail spaces, due to their durability, corrosion resistance, and modern appearance.",
+      zh: "不锈钢装饰板是一种用于美观和建筑应用的不锈钢材料。它通过镜面、拉丝、压纹、蚀刻或彩色镀层等表面工艺处理，以提升视觉效果。由于具备耐用性、耐腐蚀性和现代外观，这类板材广泛用于室内外设计场景，包括酒店、电梯、墙面包覆和零售空间。",
     },
   },
   {
     q: {
-      en: "What thickness is best for wall cladding?",
-      zh: "墙面装饰常用厚度是多少？",
+      en: "What thickness is best for stainless steel wall cladding?",
+      zh: "不锈钢墙面包覆最常用厚度是多少？",
     },
     a: {
-      en: "Typical ranges are 0.8-1.5mm for interiors and over 1.5mm for high-traffic or exterior structural scenarios.",
-      zh: "室内墙面常见 0.8-1.5mm；高人流或结构性外用场景通常使用 1.5mm 以上。",
+      en: "The most commonly used thickness for stainless steel wall cladding ranges from 0.8mm to 1.5mm, depending on the application.\n- 0.8mm–1.0mm: suitable for interior decoration\n- 1.0mm–1.5mm: suitable for high-traffic or commercial areas\n- Above 1.5mm: used for structural or exterior applications\nChoosing the right thickness depends on durability requirements, installation method, and budget.",
+      zh: "不锈钢墙面包覆最常用厚度通常在 0.8mm 到 1.5mm 之间，具体取决于应用场景。\n- 0.8mm–1.0mm：适合室内装饰\n- 1.0mm–1.5mm：适合高人流或商业区域\n- 1.5mm 以上：用于结构性或外墙应用\n最终厚度选择应结合耐久要求、安装方式和预算。",
     },
   },
   {
     q: { en: "What is the difference between 201 and 304 stainless steel?", zh: "201 和 304 不锈钢有什么区别？" },
     a: {
-      en: "304 has higher corrosion resistance and is preferred for humid or outdoor use, while 201 is cost-effective for interior decoration.",
-      zh: "304 耐腐蚀更强，适合潮湿或户外；201 成本更优，常用于室内装饰。",
+      en: "The main difference between 201 and 304 stainless steel lies in their corrosion resistance and composition.\n- 201 stainless steel: lower cost, suitable for indoor use\n- 304 stainless steel: higher corrosion resistance, suitable for humid or outdoor environments\n304 contains more nickel, making it more durable and resistant to rust. For decorative applications, 201 is often used for interior projects, while 304 is recommended for long-term or premium applications.",
+      zh: "201 和 304 不锈钢的主要区别在于耐腐蚀性和成分。\n- 201 不锈钢：成本较低，适合室内使用\n- 304 不锈钢：耐腐蚀性更高，适合潮湿或户外环境\n304 含有更多镍元素，因此更耐用、抗锈能力更强。在装饰应用中，201 常用于室内项目，而 304 更适合长期或高端应用。",
+    },
+  },
+  {
+    q: { en: "What is mirror stainless steel sheet?", zh: "什么是镜面不锈钢板？" },
+    a: {
+      en: "Mirror stainless steel sheet is a highly polished stainless steel surface that reflects light like a mirror. It is achieved through precision grinding and polishing processes, creating a smooth, reflective finish. This material is widely used in luxury interiors, elevator panels, hotel lobbies, and decorative walls due to its modern and high-end appearance.",
+      zh: "镜面不锈钢板是一种高度抛光的不锈钢表面，能够像镜子一样反射光线。它通过精密打磨与抛光工艺实现，形成光滑且高反射的表面效果。由于其现代且高端的视觉表现，这种材料广泛用于高端室内空间、电梯面板、酒店大堂和装饰墙面。",
+    },
+  },
+  {
+    q: { en: "What is brushed stainless steel finish?", zh: "什么是拉丝不锈钢表面？" },
+    a: {
+      en: "Brushed stainless steel, also known as satin finish, is created by polishing the surface with abrasive belts to produce fine linear textures. It offers a matte, anti-glare appearance and is resistant to fingerprints and scratches. This finish is commonly used in commercial interiors, elevators, and kitchen applications.",
+      zh: "拉丝不锈钢（也称缎面）是通过砂带对表面进行打磨而形成细腻线性纹理的工艺。它具有哑光、低反光的外观，并且耐指纹、耐刮擦。这种表面常用于商业室内、电梯以及厨房应用场景。",
+    },
+  },
+  {
+    q: { en: "What is PVD coating on stainless steel?", zh: "什么是 PVD 不锈钢镀层？" },
+    a: {
+      en: "PVD (Physical Vapor Deposition) is a coating technology used to apply colored finishes onto stainless steel surfaces. It creates a thin, durable coating that enhances corrosion resistance and provides colors such as gold, black, bronze, and rose gold. PVD-coated stainless steel is widely used in high-end architectural and decorative applications.",
+      zh: "PVD（物理气相沉积）是一种将彩色表面效果应用到不锈钢上的镀层技术。它可形成薄而耐用的涂层，提升耐腐蚀性能，并可实现如金色、黑色、古铜色和玫瑰金等颜色。PVD 彩色不锈钢广泛用于高端建筑与装饰项目。",
     },
   },
   {
     q: { en: "Is colored stainless steel durable?", zh: "彩色不锈钢耐用吗？" },
     a: {
-      en: "Yes. PVD coatings provide excellent wear, corrosion and fade resistance when proper cleaning is followed.",
-      zh: "耐用。采用 PVD 镀色后具有优良耐磨、耐腐蚀和抗褪色表现，规范维护可长期使用。",
+      en: "Yes, colored stainless steel is highly durable, especially when produced using PVD coating technology. The coating is resistant to wear, corrosion, and fading, making it suitable for both indoor and outdoor applications. Proper maintenance ensures long-lasting color and surface quality.",
+      zh: "是的，彩色不锈钢具有较高耐久性，尤其在采用 PVD 镀层工艺时更为明显。该镀层具备耐磨、耐腐蚀和抗褪色能力，适用于室内和室外场景。通过正确维护，可长期保持颜色与表面质量。",
     },
   },
   {
-    q: { en: "Can products be fully customized?", zh: "产品可以完全定制吗？" },
+    q: { en: "What is embossed stainless steel sheet?", zh: "什么是压纹不锈钢板？" },
     a: {
-      en: "Yes. We support custom size, thickness, pattern, color, structure and fabrication details for OEM/ODM projects.",
-      zh: "可以。支持尺寸、厚度、纹理、颜色、结构与加工细节的 OEM/ODM 定制。",
+      en: "Embossed stainless steel sheet features raised patterns created by rolling or pressing processes. These textures improve both aesthetics and surface strength, making the material more resistant to scratches and deformation. It is commonly used in decorative panels, elevators, and architectural designs.",
+      zh: "压纹不锈钢板是通过辊压或压制工艺形成凸起纹理的不锈钢板材。这类纹理可同时提升美观度与表面强度，使材料更耐刮擦、抗变形。它常用于装饰面板、电梯和建筑设计项目。",
+    },
+  },
+  {
+    q: { en: "What are common finishes for decorative stainless steel?", zh: "不锈钢装饰板常见表面工艺有哪些？" },
+    a: {
+      en: "Common finishes include:\n- Mirror (8K)\n- Brushed (Hairline / Satin)\n- Embossed\n- Etched\n- Sandblasted\n- PVD colored finishes\nEach finish offers different visual and functional properties depending on the application.",
+      zh: "常见表面工艺包括：\n- 镜面（No.8）\n- 拉丝（发丝纹 / 缎面）\n- 压纹\n- 蚀刻\n- 喷砂\n- PVD 彩色镀层\n不同工艺在视觉效果与功能表现上各有差异，应根据应用场景选择。",
+    },
+  },
+  {
+    q: { en: "How to choose stainless steel for interior decoration?", zh: "室内装饰如何选择不锈钢材料？" },
+    a: {
+      en: "When selecting stainless steel for interior decoration, consider:\n- Material grade (201 or 304)\n- Surface finish\n- Thickness\n- Color options\n- Budget\nFor most indoor applications, 201 stainless steel with brushed or mirror finish is cost-effective, while 304 is preferred for higher durability.",
+      zh: "选择室内装饰不锈钢时，建议考虑：\n- 材质等级（201 或 304）\n- 表面工艺\n- 厚度\n- 颜色选项\n- 预算\n多数室内项目中，201 配合拉丝或镜面工艺更具性价比；若对耐久性要求更高，建议选用 304。",
+    },
+  },
+  {
+    q: { en: "What is stainless steel fabrication?", zh: "什么是不锈钢深加工？" },
+    a: {
+      en: "Stainless steel fabrication refers to the process of cutting, bending, welding, and assembling stainless steel into customized products. It is widely used in architectural structures, decorative elements, and industrial components. Shunjiaxing provide custom fabrication services based on project drawings and requirements.",
+      zh: "不锈钢深加工是指通过切割、折弯、焊接和组装等工序，将不锈钢制成定制化产品的过程。它广泛用于建筑结构、装饰构件和工业部件。顺佳兴可根据项目图纸和需求提供定制加工服务。",
+    },
+  },
+  {
+    q: { en: "What is stainless steel used for in architecture?", zh: "建筑项目中不锈钢常用于哪些部位？" },
+    a: {
+      en: "Stainless steel is widely used in architecture for:\n- Wall cladding\n- Elevator panels\n- Facades\n- Ceilings\n- Decorative structures\nIts corrosion resistance, strength, and modern appearance make it ideal for both interior and exterior applications.",
+      zh: "不锈钢在建筑中的常见应用包括：\n- 墙面包覆\n- 电梯面板\n- 建筑外立面\n- 吊顶\n- 装饰结构\n其耐腐蚀性、强度与现代外观使其非常适合室内外应用。",
+    },
+  },
+  {
+    q: { en: "How to maintain decorative stainless steel?", zh: "不锈钢装饰面如何维护？" },
+    a: {
+      en: "Maintenance is simple:\n- Clean regularly with soft cloth\n- Use mild detergent\n- Avoid strong chemicals\n- Prevent scratches\nProper care ensures long-term shine and durability.",
+      zh: "维护方法很简单：\n- 定期使用软布清洁\n- 使用中性清洁剂\n- 避免强腐蚀化学品\n- 防止划伤\n正确维护可确保长期光泽与耐用性。",
+    },
+  },
+  {
+    q: { en: "What is the MOQ for stainless steel sheets?", zh: "不锈钢板最小起订量（MOQ）是多少？" },
+    a: {
+      en: "MOQ (Minimum Order Quantity) varies by manufacturer and product type.\nStainless Steel Decorative Sheet : 20 Pieces\nStainless Steel Honeycomb Panel  ：20 Pieces\nStainless Steel Products： 1 Piece (Support Small-batch Customization)",
+      zh: "MOQ（最小起订量）会因制造商和产品类型而不同。\n不锈钢装饰板：20 件\n不锈钢蜂窝板：20 件\n不锈钢制品：1 件（支持小批量定制）",
+    },
+  },
+  {
+    q: { en: "Can stainless steel be customized?", zh: "不锈钢可以定制吗？" },
+    a: {
+      en: "Yes, stainless steel can be fully customized.\nCustomization options include:\n- Size and thickness\n- Surface finish\n- Color\n- Pattern\n- Fabrication design",
+      zh: "可以，不锈钢可以完全定制。\n定制选项包括：\n- 尺寸和厚度\n- 表面工艺\n- 颜色\n- 纹理\n- 加工设计",
     },
   },
 ];

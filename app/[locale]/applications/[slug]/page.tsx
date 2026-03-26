@@ -39,9 +39,11 @@ export default async function ApplicationDetailPage({ params }: Props) {
       <p className="eyebrow">{isEn ? "Application Detail" : "场景详情"}</p>
       <h1 className="mt-3 text-4xl">{data.name[locale]}</h1>
 
-      <div className="mt-8 grid gap-8 md:grid-cols-2">
-        <Image src={data.image} alt={data.name[locale]} width={1200} height={900} className="card h-full w-full object-cover" />
-        <div className="space-y-5 text-sm text-zinc-200">
+      <div className="mt-8 grid items-start gap-6 md:grid-cols-[minmax(280px,0.72fr)_minmax(0,1.28fr)]">
+        <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
+          <Image src={data.image} alt={data.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
+        </article>
+        <div className="card space-y-5 p-5 text-sm text-zinc-200">
           <p><strong>{isEn ? "Description" : "场景说明"}:</strong> {data.description[locale]}</p>
           <p><strong>{isEn ? "Typical Products" : "典型产品"}:</strong> {data.typicalProducts[locale]}</p>
           <p><strong>{isEn ? "Benefits" : "场景优势"}:</strong> {data.benefits[locale]}</p>

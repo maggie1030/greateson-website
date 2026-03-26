@@ -27,7 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: `/products/${slug}`,
     title: product.name[locale],
     description: product.advantages[locale],
-    keywords: ["stainless steel decorative panels", "custom metal fabrication China", product.name.en],
+    keywords:
+      locale === "en"
+        ? ["stainless steel decorative panels", "custom metal fabrication China", product.name.en]
+        : ["不锈钢装饰板", "中国定制金属加工", product.name.zh],
   });
 }
 
@@ -42,9 +45,9 @@ export default async function ProductDetailPage({ params }: Props) {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: product.name.en,
-    description: product.advantages.en,
-    material: product.material,
+    name: product.name[locale],
+    description: product.advantages[locale],
+    material: product.material[locale],
     brand: { "@type": "Brand", name: "Greateson" },
     manufacturer: { "@type": "Organization", name: "Greateson" },
   };
@@ -73,12 +76,12 @@ export default async function ProductDetailPage({ params }: Props) {
       <p className="eyebrow">{isEn ? "Product Detail" : "产品详情"}</p>
       <h1 className="mt-3 text-4xl">{product.name[locale]}</h1>
       <div className="mt-8 grid gap-8 md:grid-cols-2">
-        <Image src={product.image} alt={product.name[locale]} width={1400} height={1100} className="card h-full w-full object-cover" />
+        <Image src={product.image} alt={product.name[locale]} width={1400} height={1100} className="card aspect-[3/4] w-full object-cover" />
         <div className="space-y-4 text-sm text-zinc-200">
           <p><strong>{isEn ? "Category" : "类别"}:</strong> {product.category[locale]}</p>
-          <p><strong>{isEn ? "Material" : "材质"}:</strong> {product.material}</p>
-          <p><strong>{isEn ? "Thickness" : "厚度"}:</strong> {product.thickness}</p>
-          <p><strong>{isEn ? "Size" : "规格"}:</strong> {product.size}</p>
+          <p><strong>{isEn ? "Material" : "材质"}:</strong> {product.material[locale]}</p>
+          <p><strong>{isEn ? "Thickness" : "厚度"}:</strong> {product.thickness[locale]}</p>
+          <p><strong>{isEn ? "Size" : "规格"}:</strong> {product.size[locale]}</p>
           <p><strong>{isEn ? "Surface Finish" : "表面工艺"}:</strong> {product.finish[locale]}</p>
           <p><strong>{isEn ? "Applications" : "应用"}:</strong> {product.applications[locale]}</p>
           <p><strong>{isEn ? "MOQ" : "起订量"}:</strong> {product.moq[locale]}</p>
@@ -93,7 +96,7 @@ export default async function ProductDetailPage({ params }: Props) {
           <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "OEM" : "来图定制"}</span>
           <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "ODM" : "来样定制"}</span>
           <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "Custom Fabrication" : "定制加工"}</span>
-          <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{product.material}</span>
+          <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{product.material[locale]}</span>
         </div>
       </div>
 

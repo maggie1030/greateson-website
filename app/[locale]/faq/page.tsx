@@ -21,6 +21,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale === "en"
         ? "Answers to common questions on stainless steel grades, finishes, customization, MOQ and project delivery."
         : "涵盖材质等级、表面工艺、定制、起订量与交付等常见问题解答。",
+    keywords:
+      locale === "en"
+        ? [
+            "decorative stainless steel sheet FAQ",
+            "201 vs 304 stainless steel",
+            "PVD coated stainless steel",
+            "stainless steel wall cladding thickness",
+            "stainless steel customization OEM ODM",
+          ]
+        : [
+            "不锈钢装饰板 常见问题",
+            "201和304不锈钢区别",
+            "PVD彩色不锈钢",
+            "不锈钢墙面装饰厚度",
+            "不锈钢定制加工",
+          ],
   });
 }
 
@@ -48,7 +64,7 @@ export default async function FaqPage({ params }: Props) {
         {faqEntries.map((item, index) => (
           <article key={index} className="card p-6">
             <h2 className="text-xl text-[#f5e5c5]">{item.q[locale]}</h2>
-            <p className="mt-3 text-sm text-zinc-300">{item.a[locale]}</p>
+            <p className="mt-3 whitespace-pre-line text-sm text-zinc-300">{item.a[locale]}</p>
           </article>
         ))}
       </div>

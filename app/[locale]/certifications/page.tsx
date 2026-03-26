@@ -42,7 +42,7 @@ export default async function CertificationsPage({ params }: Props) {
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         {certImages.map((src) => (
           <article key={src} className="card overflow-hidden">
-            <Image src={src} alt={isEn ? "Greateson certification document" : "顺佳兴资质证书"} width={1200} height={860} className="h-80 w-full object-cover" />
+            <Image src={src} alt={isEn ? "Greateson certification document" : "顺佳兴资质证书"} width={1200} height={860} className="aspect-[3/4] w-full object-cover" />
           </article>
         ))}
       </div>

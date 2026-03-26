@@ -87,7 +87,7 @@ export default async function FactoryPage({ params }: Props) {
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         {lines.map((line) => (
           <article key={line.en} className="card overflow-hidden">
-            <Image src={line.image} alt={line[locale]} width={900} height={600} className="h-40 w-full object-cover" />
+            <Image src={line.image} alt={line[locale]} width={900} height={600} className="aspect-[3/4] w-full object-cover" />
             <div className="p-4 text-sm text-zinc-200">{line[locale]}</div>
           </article>
         ))}
