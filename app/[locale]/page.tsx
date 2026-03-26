@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 import { JsonLd } from "@/components/JsonLd";
 import { isLocale } from "@/lib/i18n";
-import { applications, caseStudies, company, faqEntries, products } from "@/lib/site-data";
+import { applications, caseStudies, faqEntries, products } from "@/lib/site-data";
 import { buildMetadata, organizationSchema } from "@/lib/seo";
 
 type Props = {
@@ -41,8 +41,8 @@ export default async function HomePage({ params }: Props) {
 
   const isEn = locale === "en";
   const hotProducts = products.slice(0, 4);
-  const hotApplications = applications.slice(0, 6);
-  const featuredCases = caseStudies.slice(0, 3);
+  const hotApplications = applications.slice(0, 4);
+  const featuredCases = caseStudies.slice(0, 4);
   const topFaqEntries = faqEntries.slice(0, 5);
 
   const homepageFaqSchema = {
@@ -62,66 +62,44 @@ export default async function HomePage({ params }: Props) {
     <>
       <JsonLd data={organizationSchema(locale)} />
       <JsonLd data={homepageFaqSchema} />
-      <section className="section grid items-center gap-10 pb-10 md:grid-cols-2">
-        <div>
-          <p className="eyebrow">{isEn ? "Premium Metal Craft Since 2008" : "2008年起深耕高端金属工艺"}</p>
-          <h1 className="mt-5 text-4xl leading-tight text-[#f6f2e9] md:text-6xl">
-            {isEn
-              ? "Stainless Steel Solutions for Architecture & Interiors"
-              : "建筑与室内空间的不锈钢解决方案"}
-          </h1>
-          <p className="mt-6 max-w-xl text-zinc-300">
-            {isEn
-              ? "From decorative sheets to custom screens and honeycomb systems, Greateson delivers full-chain fabrication for hospitality, retail and landmark facade projects."
-              : "从装饰板到定制屏风与蜂窝系统，顺佳兴提供覆盖设计、加工、交付的一体化制造服务，服务酒店、零售和地标外立面项目。"}
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link href={`/${locale}/products`} className="rounded-full bg-[#d9bb85] px-6 py-3 font-medium text-[#1b1610]">
-              {isEn ? "Explore Products" : "浏览产品"}
-            </Link>
-            <Link href={`/${locale}/cases`} className="rounded-full border border-[#d9bb85] px-6 py-3 text-[#e9d4a9]">
-              {isEn ? "View Case Studies" : "查看案例"}
-            </Link>
-          </div>
-        </div>
-        <div className="aspect-[3/4] overflow-hidden rounded-3xl border border-[#2a3a33]">
-          <Image
-            src="/images/products/sheets/微信图片_20260324141412_438_50.jpg"
-            alt={isEn ? "Decorative stainless steel sheet texture" : "不锈钢装饰板纹理"}
-            width={1280}
-            height={960}
-            className="h-full w-full object-cover"
-            priority
+      <section className="relative w-full min-h-[calc(100svh-72px)] overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/api/site-media?file=微信图片_20260326142717_1044_55.jpg"
+            alt={isEn ? "Greateson architectural scene" : "顺佳兴工程场景垫图"}
+            className="h-full w-full object-cover blur-[0.8px]"
           />
+          <div className="absolute inset-0 bg-[#0c1714]/45" />
         </div>
-      </section>
-
-      <section className="section pt-10">
-        <div className="card p-8">
-          <p className="eyebrow">{isEn ? "Company Facts for GEO" : "结构化公司事实"}</p>
-          <div className="mt-6 grid gap-4 text-sm text-zinc-200 md:grid-cols-4">
-            <p>{isEn ? "Founded" : "成立"}: {company.foundedYear}</p>
-            <p>{isEn ? "Factory" : "工厂面积"}: {company.factoryArea}</p>
-            <p>{isEn ? "Team" : "团队规模"}: {company.employees}</p>
-            <p>{isEn ? "Markets" : "主要市场"}: {company.markets[locale]}</p>
-          </div>
-          <div className="mt-6 flex flex-wrap gap-2 text-xs text-zinc-300">
-            {(isEn
-              ? [
-                  "stainless steel decorative panels",
-                  "stainless steel screen manufacturer",
-                  "custom metal fabrication China",
-                  "PVD coated stainless steel sheets for hotels",
-                ]
-              : [
-                  "不锈钢装饰板",
-                  "不锈钢屏风制造商",
-                  "中国定制金属加工",
-                  "酒店装饰彩色不锈钢板",
-                ]
-            ).map((tag) => (
-              <span key={tag} className="rounded-full border border-[#3a4f46] px-3 py-1">{tag}</span>
-            ))}
+        <div className="relative z-10 mx-auto flex w-full max-w-6xl min-h-[calc(100svh-72px)] items-center justify-center px-6 py-16 md:py-20">
+          <div className="max-w-4xl text-center">
+            <p className="eyebrow">{isEn ? "Premium Metal Craft Since 2008" : "2008年起深耕高端金属工艺"}</p>
+            <h1 className="mt-5 text-4xl leading-[1.15] text-[#f6f2e9] md:text-7xl">
+              {isEn ? (
+                <>
+                  <span className="block">Architecture & Interior Spaces</span>
+                  <span className="block">Stainless Steel Solutions</span>
+                </>
+              ) : (
+                <>
+                  <span className="block">建筑与室内空间</span>
+                  <span className="block">不锈钢解决方案</span>
+                </>
+              )}
+            </h1>
+            <p className="mt-6 border-t border-white/25 pt-4 text-zinc-200">
+              {isEn
+                ? "From decorative sheets to custom screens and honeycomb systems, Greateson delivers full-chain fabrication for hospitality, retail and landmark facade projects."
+                : "从装饰板到定制屏风与蜂窝系统，顺佳兴提供覆盖设计、加工、交付的一体化制造服务，服务酒店、零售和地标外立面项目。"}
+            </p>
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <Link href={`/${locale}/products`} className="rounded-full bg-[#d9bb85] px-6 py-3 font-medium text-[#1b1610]">
+                {isEn ? "Explore Products" : "浏览产品"}
+              </Link>
+              <Link href={`/${locale}/cases`} className="rounded-full border border-[#d9bb85] px-6 py-3 text-[#e9d4a9]">
+                {isEn ? "View Case Studies" : "查看案例"}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -136,12 +114,12 @@ export default async function HomePage({ params }: Props) {
             {isEn ? "All products" : "全部产品"}
           </Link>
         </div>
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-4">
           {hotProducts.map((item) => (
             <article key={item.slug} className="card overflow-hidden">
-              <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
-              <div className="p-5">
-                <h3 className="text-2xl text-[#f5e5c5]">{item.name[locale]}</h3>
+              <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[4/5] w-full object-cover" />
+              <div className="p-4">
+                <h3 className="text-xl text-[#f5e5c5]">{item.name[locale]}</h3>
                 <p className="mt-2 text-sm text-zinc-300">{item.advantages[locale]}</p>
                 <Link href={`/${locale}/products/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">
                   {isEn ? "Learn more" : "查看详情"}
@@ -153,26 +131,43 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="section">
-        <p className="eyebrow">{isEn ? "Applications" : "应用场景"}</p>
-        <h2 className="mt-2 text-3xl">{isEn ? "Built for Real Project Contexts" : "面向真实项目场景"}</h2>
-        <div className="mt-8 grid gap-4 md:grid-cols-3">
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <p className="eyebrow">{isEn ? "Applications" : "应用场景"}</p>
+            <h2 className="mt-2 text-3xl">{isEn ? "Built for Real Project Contexts" : "面向真实项目场景"}</h2>
+          </div>
+          <Link href={`/${locale}/applications`} className="text-sm text-[#e6cf9f]">
+            {isEn ? "Learn more" : "了解更多"}
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-4">
           {hotApplications.map((item) => (
-            <Link key={item.slug} href={`/${locale}/applications/${item.slug}`} className="card p-5 transition hover:-translate-y-0.5">
-              <h3 className="text-xl text-[#f5e5c5]">{item.name[locale]}</h3>
-              <p className="mt-2 text-sm text-zinc-300">{item.description[locale]}</p>
+            <Link key={item.slug} href={`/${locale}/applications/${item.slug}`} className="card overflow-hidden transition hover:-translate-y-0.5">
+              <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[4/5] w-full object-cover" />
+              <div className="p-4">
+                <h3 className="text-xl text-[#f5e5c5]">{item.name[locale]}</h3>
+                <p className="mt-2 text-sm text-zinc-300">{item.description[locale]}</p>
+              </div>
             </Link>
           ))}
         </div>
       </section>
 
       <section className="section">
-        <p className="eyebrow">{isEn ? "Case Studies" : "工程案例"}</p>
-        <h2 className="mt-2 text-3xl">{isEn ? "Recent Delivery Highlights" : "近期交付项目精选"}</h2>
-        <div className="mt-8 grid gap-5 md:grid-cols-3">
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <p className="eyebrow">{isEn ? "Case Studies" : "工程案例"}</p>
+            <h2 className="mt-2 text-3xl">{isEn ? "Recent Delivery Highlights" : "近期交付项目精选"}</h2>
+          </div>
+          <Link href={`/${locale}/cases`} className="text-sm text-[#e6cf9f]">
+            {isEn ? "Learn more" : "了解更多"}
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-4">
           {featuredCases.map((item) => (
             <article key={item.slug} className="card overflow-hidden">
-              <Image src={item.image} alt={item.title[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
-              <div className="p-5">
+              <Image src={item.image} alt={item.title[locale]} width={1200} height={900} className="aspect-[4/5] w-full object-cover" />
+              <div className="p-4">
                 <h3 className="text-xl text-[#f5e5c5]">{item.title[locale]}</h3>
                 <p className="mt-2 text-sm text-zinc-300">
                   {item.location[locale]} · {item.year}

@@ -34,7 +34,7 @@ export default async function ProductsPage({ params }: Props) {
     <section className="section">
       <p className="eyebrow">{isEn ? "Products" : "产品中心"}</p>
       <h1 className="mt-3 text-4xl">{isEn ? "Core Product Portfolio" : "核心产品矩阵"}</h1>
-      <div className="mt-10 grid gap-5 md:grid-cols-2">
+      <div className="mt-10 grid gap-5 md:grid-cols-4">
         {products.map((item) => (
           <article key={item.slug} className="card overflow-hidden">
             <Image src={item.image} alt={item.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />

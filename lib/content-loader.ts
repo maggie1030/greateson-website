@@ -21,7 +21,6 @@ const caseFileMap: Record<CaseSlug, string> = {
 
 const productFileMap: Record<string, string> = {
   "stainless-steel-screen": "products/stainless-steel-screen.md",
-  "stainless-steel-display-cabinet": "products/stainless-steel-display-cabinet.md",
   "stainless-steel-decorative-sheet": "products/stainless-steel-decorative-sheet.md",
   "stainless-steel-honeycomb-panel": "products/stainless-steel-honeycomb-panel.md",
 };

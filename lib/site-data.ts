@@ -69,7 +69,7 @@ export const company = {
 export const nav = {
   en: {
     home: "Home",
-    about: "About",
+    about: "About us",
     factory: "Factory",
     products: "Products",
     applications: "Applications",
@@ -94,7 +94,7 @@ export const nav = {
 export const products: Product[] = [
   {
     slug: "stainless-steel-screen",
-    name: { en: "Stainless Steel Decorative Screen", zh: "不锈钢装饰屏风" },
+    name: { en: "Stainless Steel Products", zh: "不锈钢制品" },
     category: { en: "Engineering Decorative Product", zh: "不锈钢工程装饰制品" },
     material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
     thickness: { en: "Customized", zh: "支持定制" },
@@ -123,38 +123,6 @@ export const products: Product[] = [
       },
     ],
     image: "/images/products/screens/微信图片_20260324140047_434_50.jpg",
-  },
-  {
-    slug: "stainless-steel-display-cabinet",
-    name: { en: "Stainless Steel Display Cabinet", zh: "不锈钢展示柜" },
-    category: { en: "Engineering Decorative Product", zh: "不锈钢工程装饰制品" },
-    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
-    thickness: { en: "Customized", zh: "支持定制" },
-    size: { en: "Customized Width & Length", zh: "宽度与长度可定制" },
-    finish: {
-      en: "Mirror, brushed, fluorocarbon paint, color titanium, etched, water ripple",
-      zh: "镜面、拉丝、氟碳漆、彩色镀钛、蚀刻板、水波纹板",
-    },
-    applications: {
-      en: "Luxury retail, jewelry stores, cosmetics counters, museums, brand showrooms",
-      zh: "奢侈品店、珠宝店、化妆品专柜、博物馆、品牌展厅",
-    },
-    moq: { en: "1 set", zh: "1套起订" },
-    leadTime: { en: "10-20 days", zh: "常规10-20天" },
-    advantages: {
-      en: "High precision, rust-resistant, long lifecycle, suitable for premium commercial spaces",
-      zh: "工艺精度高，防潮防锈，使用寿命长，适配高端商业空间",
-    },
-    faq: [
-      {
-        q: { en: "Can intelligent lighting be integrated?", zh: "能否加装智能灯光系统？" },
-        a: {
-          en: "Yes. We provide custom LED strip and sensor lighting options.",
-          zh: "支持。可定制 LED 灯带和感应灯光方案。",
-        },
-      },
-    ],
-    image: "/images/products/cabinets/微信图片_20260324135350_429_50.jpg",
   },
   {
     slug: "stainless-steel-decorative-sheet",
@@ -441,7 +409,7 @@ export const caseStudies: CaseStudy[] = [
       { en: "custom petal table fabrication", zh: "花瓣台定制加工" },
       { en: "luxury club interior metalwork", zh: "高端会所金属装饰" },
     ],
-    productSlugs: ["stainless-steel-display-cabinet", "stainless-steel-decorative-sheet"],
+    productSlugs: ["stainless-steel-screen", "stainless-steel-decorative-sheet"],
     image: "/images/cases/cambodia-luxury-club/微信图片_20260319161927_25_220.jpg",
   },
   {

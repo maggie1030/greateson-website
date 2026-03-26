@@ -5,6 +5,13 @@ import Link from "next/link";
 
 import { JsonLd } from "@/components/JsonLd";
 import { isLocale, locales } from "@/lib/i18n";
+import { ApplicationImageCarousel } from "@/components/application/ApplicationImageCarousel";
+import {
+  getProductDocument,
+  getProductSeriesImages,
+  localizeFieldLabel,
+  type ProductSeries,
+} from "@/lib/product-content";
 import { buildMetadata } from "@/lib/seo";
 import { productBySlug, products } from "@/lib/site-data";
 
@@ -41,6 +48,16 @@ export default async function ProductDetailPage({ params }: Props) {
   if (!product) notFound();
 
   const isEn = locale === "en";
+  const productDoc = await getProductDocument(slug);
+
+  const seriesWithImages = productDoc?.series?.length
+    ? await Promise.all(
+        productDoc.series.map(async (series) => ({
+          series,
+          images: await getProductSeriesImages(slug, series, product.image),
+        })),
+      )
+    : [];
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -75,30 +92,58 @@ export default async function ProductDetailPage({ params }: Props) {
       </nav>
       <p className="eyebrow">{isEn ? "Product Detail" : "产品详情"}</p>
       <h1 className="mt-3 text-4xl">{product.name[locale]}</h1>
-      <div className="mt-8 grid gap-8 md:grid-cols-2">
-        <Image src={product.image} alt={product.name[locale]} width={1400} height={1100} className="card aspect-[3/4] w-full object-cover" />
-        <div className="space-y-4 text-sm text-zinc-200">
-          <p><strong>{isEn ? "Category" : "类别"}:</strong> {product.category[locale]}</p>
-          <p><strong>{isEn ? "Material" : "材质"}:</strong> {product.material[locale]}</p>
-          <p><strong>{isEn ? "Thickness" : "厚度"}:</strong> {product.thickness[locale]}</p>
-          <p><strong>{isEn ? "Size" : "规格"}:</strong> {product.size[locale]}</p>
-          <p><strong>{isEn ? "Surface Finish" : "表面工艺"}:</strong> {product.finish[locale]}</p>
-          <p><strong>{isEn ? "Applications" : "应用"}:</strong> {product.applications[locale]}</p>
-          <p><strong>{isEn ? "MOQ" : "起订量"}:</strong> {product.moq[locale]}</p>
-          <p><strong>{isEn ? "Lead Time" : "交期"}:</strong> {product.leadTime[locale]}</p>
+      <div className="mt-8">
+        <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "Product Overview" : "产品概述"}</h2>
+        <div className="card mt-4 p-6">
+          {productDoc?.overview?.length ? (
+            <div className="grid gap-3 text-sm text-zinc-200 md:grid-cols-2">
+              {productDoc.overview.map((row) => (
+                <p key={row.field} className="leading-7">
+                  <strong>{localizeFieldLabel(row.field, locale)}:</strong> {row.value[locale]}
+                </p>
+              ))}
+            </div>
+          ) : (
+            <div className="grid gap-3 text-sm text-zinc-200 md:grid-cols-2">
+              <p><strong>{isEn ? "Category" : "类别"}:</strong> {product.category[locale]}</p>
+              <p><strong>{isEn ? "Material" : "材质"}:</strong> {product.material[locale]}</p>
+              <p><strong>{isEn ? "Thickness" : "厚度"}:</strong> {product.thickness[locale]}</p>
+              <p><strong>{isEn ? "Size" : "规格"}:</strong> {product.size[locale]}</p>
+              <p><strong>{isEn ? "Surface Finish" : "表面工艺"}:</strong> {product.finish[locale]}</p>
+              <p><strong>{isEn ? "Applications" : "应用"}:</strong> {product.applications[locale]}</p>
+              <p><strong>{isEn ? "MOQ" : "起订量"}:</strong> {product.moq[locale]}</p>
+              <p><strong>{isEn ? "Lead Time" : "交期"}:</strong> {product.leadTime[locale]}</p>
+            </div>
+          )}
         </div>
       </div>
 
-      <div className="card mt-10 p-6">
-        <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "Why this product" : "产品优势"}</h2>
-        <p className="mt-3 text-zinc-300">{product.advantages[locale]}</p>
-        <div className="mt-5 flex flex-wrap gap-2 text-xs">
-          <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "OEM" : "来图定制"}</span>
-          <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "ODM" : "来样定制"}</span>
-          <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "Custom Fabrication" : "定制加工"}</span>
-          <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{product.material[locale]}</span>
+      {seriesWithImages.length ? (
+        <div className="mt-10 space-y-10">
+          {seriesWithImages.map(({ series, images }) => (
+            <section key={series.code} className="space-y-4">
+              <h2 className="text-2xl text-[#f5e5c5]">{series.title[locale]}</h2>
+              <div className="grid items-start gap-6 md:grid-cols-[minmax(280px,0.72fr)_minmax(0,1.28fr)]">
+                <ApplicationImageCarousel images={images} alt={series.title[locale]} />
+                <article className="card p-6 text-sm text-zinc-200">
+                  <p className="leading-8">{series.description[locale]}</p>
+                </article>
+              </div>
+            </section>
+          ))}
         </div>
-      </div>
+      ) : (
+        <div className="card mt-10 p-6">
+          <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "Why this product" : "产品优势"}</h2>
+          <p className="mt-3 text-zinc-300">{product.advantages[locale]}</p>
+          <div className="mt-5 flex flex-wrap gap-2 text-xs">
+            <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "OEM" : "来图定制"}</span>
+            <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "ODM" : "来样定制"}</span>
+            <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "Custom Fabrication" : "定制加工"}</span>
+            <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{product.material[locale]}</span>
+          </div>
+        </div>
+      )}
 
       <div className="mt-10">
         <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "FAQ" : "常见问题"}</h2>

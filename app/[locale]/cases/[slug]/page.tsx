@@ -145,7 +145,7 @@ export default async function CaseDetailPage({ params }: Props) {
         <Link href={`/${locale}/applications`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">
           {isEn ? "Explore applications" : "查看应用场景"}
         </Link>
-        <Link href={`/${locale}/factory`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">
+        <Link href={`/${locale}/about#factory`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">
           {isEn ? "Review factory capability" : "查看工厂能力"}
         </Link>
         <Link href={`/${locale}/quote`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">

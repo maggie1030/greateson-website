@@ -1,10 +1,11 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { ApplicationImageCarousel } from "@/components/application/ApplicationImageCarousel";
 import { applicationBySlug, applications } from "@/lib/site-data";
 import { buildMetadata } from "@/lib/seo";
 import { isLocale, locales } from "@/lib/i18n";
+import { getApplicationCarouselImages, getApplicationNarrative } from "@/lib/application-content";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -33,6 +34,8 @@ export default async function ApplicationDetailPage({ params }: Props) {
   const data = applicationBySlug(slug);
   if (!data) notFound();
   const isEn = locale === "en";
+  const narrative = await getApplicationNarrative(slug, locale, data);
+  const carouselImages = await getApplicationCarouselImages(slug, data.image);
 
   return (
     <section className="section">
@@ -40,14 +43,28 @@ export default async function ApplicationDetailPage({ params }: Props) {
       <h1 className="mt-3 text-4xl">{data.name[locale]}</h1>
 
       <div className="mt-8 grid items-start gap-6 md:grid-cols-[minmax(280px,0.72fr)_minmax(0,1.28fr)]">
-        <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
-          <Image src={data.image} alt={data.name[locale]} width={1200} height={900} className="aspect-[3/4] w-full object-cover" />
-        </article>
-        <div className="card space-y-5 p-5 text-sm text-zinc-200">
-          <p><strong>{isEn ? "Description" : "场景说明"}:</strong> {data.description[locale]}</p>
-          <p><strong>{isEn ? "Typical Products" : "典型产品"}:</strong> {data.typicalProducts[locale]}</p>
-          <p><strong>{isEn ? "Benefits" : "场景优势"}:</strong> {data.benefits[locale]}</p>
-          <p><strong>{isEn ? "Reference Case" : "案例示例"}:</strong> {data.caseExample[locale]}</p>
+        <ApplicationImageCarousel images={carouselImages} alt={data.name[locale]} />
+        <div className="space-y-4 text-sm text-zinc-200">
+          <article className="card p-5">
+            <h2 className="text-lg text-[#f5e5c5]">{isEn ? "Description" : "场景说明"}</h2>
+            <p className="mt-2 leading-7">{narrative.description}</p>
+          </article>
+          <article className="card p-5">
+            <h2 className="text-lg text-[#f5e5c5]">{isEn ? "Typical Products" : "典型产品"}</h2>
+            <p className="mt-2 leading-7">{narrative.typicalProducts}</p>
+          </article>
+          <article className="card p-5">
+            <h2 className="text-lg text-[#f5e5c5]">{isEn ? "Benefits" : "场景优势"}</h2>
+            <p className="mt-2 leading-7">{narrative.benefits}</p>
+          </article>
+          <article className="card p-5">
+            <h2 className="text-lg text-[#f5e5c5]">{isEn ? "Case Example" : "案例示例"}</h2>
+            <p className="mt-2 leading-7">{narrative.caseExample}</p>
+          </article>
+          <article className="card p-5">
+            <h2 className="text-lg text-[#f5e5c5]">{isEn ? "FAQ" : "常见问答"}</h2>
+            <p className="mt-2 leading-7">{narrative.faq}</p>
+          </article>
         </div>
       </div>
     </section>
