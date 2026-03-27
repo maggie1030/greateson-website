@@ -1,4 +1,5 @@
 import { blogPosts, type BlogPost } from "./blog-data";
+import { blogArticles } from "./blog-articles-data";
 import { sanityClient } from "./sanity-client";
 
 export type ArticleCategory = "blog" | "guide";
@@ -55,7 +56,7 @@ const fallbackGuides: BlogPost[] = fallbackGuideTitles.en.map((enTitle, index) =
   };
 });
 
-const fallbackArticles: BlogPost[] = [...blogPosts, ...fallbackGuides];
+const fallbackArticles: BlogPost[] = [...blogPosts, ...blogArticles, ...fallbackGuides];
 
 function normalizeArticle(item: RawSanityArticle): BlogPost | null {
   const slug = item.slug?.current?.trim();
@@ -168,8 +169,10 @@ async function fetchSanityArticles(): Promise<BlogPost[]> {
 
 export async function getArticlesByCategory(category: ArticleCategory) {
   const sanityArticles = await fetchSanityArticles();
-  const source = sanityArticles.length > 0 ? sanityArticles : fallbackArticles;
-  return source.filter((item) => item.category === category);
+  const sanitySlugSet = new Set(sanityArticles.map((a) => a.slug));
+  const localNotInSanity = fallbackArticles.filter((a) => !sanitySlugSet.has(a.slug));
+  const merged = [...sanityArticles, ...localNotInSanity];
+  return merged.filter((item) => item.category === category);
 }
 
 export async function getArticleBySlug(slug: string, category: ArticleCategory) {
