@@ -1,4 +1,4 @@
-Core Advantages	核心优势（3~5条）	"1. One-stop service from raw stainless steel sheets to finished decorative products
+Core Advantages	核心优势	"1. One-stop service from raw stainless steel sheets to finished decorative products
 2. Full in-house production with own factory, workers and equipment
 3. Diverse product range covering decorative sheets, finished products and honeycomb panels
 4. 10,000 sqm production base ensuring stable capacity and quality control"

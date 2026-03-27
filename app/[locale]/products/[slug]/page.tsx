@@ -17,6 +17,145 @@ type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
 
+type SeriesCard = {
+  title: string;
+  lines: string[];
+};
+
+function headingColorClass(title: string, locale: "zh" | "en") {
+  void title;
+  void locale;
+  return "text-[#f5e5c5]";
+}
+
+function canonicalizeHeading(title: string, locale: "zh" | "en") {
+  const normalized = title.trim();
+  if (locale === "zh") {
+    if (/^什么是/.test(normalized)) return "核心介绍";
+    if (/优势/.test(normalized) && !/工艺优势/.test(normalized)) return "核心优势";
+    if (/应用场景|应用/.test(normalized)) return "应用场景";
+
+    const zhAliasMap: Record<string, string> = {
+      "规格参数": "技术参数",
+      "制造流程": "工艺流程",
+      "常见问题": "FAQ",
+    };
+    return zhAliasMap[normalized] ?? normalized;
+  }
+
+  const enAliasMap: Record<string, string> = {
+    Specifications: "Technical Parameters",
+    "Manufacturing Process": "Manufacturing Process",
+    "Common Questions": "FAQ",
+    "Core Advantages": "Core Advantages",
+  };
+  if (/^What is\b/i.test(normalized)) return "Core Introduction";
+  if (/^Applications? of\b/i.test(normalized)) return "Applications";
+  if (/^Advantages? of\b/i.test(normalized)) return "Core Advantages";
+  return enAliasMap[normalized] ?? normalized;
+}
+
+function parseSeriesCards(text: string, locale: "zh" | "en"): SeriesCard[] {
+  const lines = text
+    .split(/\r?\n/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  const headingSet =
+    locale === "zh"
+      ? new Set(["核心介绍", "规格参数", "颜色体系", "工艺优势", "核心优势", "技术参数", "应用场景", "制造流程", "工艺流程", "FAQ", "常见问题"])
+      : new Set(["Core Introduction", "Specifications", "Color System", "Process Advantages", "Core Advantages", "Technical Parameters", "Applications", "Manufacturing Process", "FAQ"]);
+
+  const cards: SeriesCard[] = [];
+  let current: SeriesCard | null = null;
+
+  for (const line of lines) {
+    const markdownHeading = line.match(/^#{1,6}\s*(.+)$/);
+    if (markdownHeading) {
+      if (current && current.lines.length) cards.push(current);
+      current = {
+        title: canonicalizeHeading(markdownHeading[1].trim(), locale),
+        lines: [],
+      };
+      continue;
+    }
+
+    const plainHeading = line.replace(/^#{1,6}\s*/, "").trim();
+    const looseHeadingRegex =
+      locale === "zh"
+        ? /^(什么是.+[?？]|核心介绍|颜色体系|工艺优势|核心优势|技术参数|规格参数|应用场景|工艺流程|制造流程|FAQ|常见问题)$/
+        : /^(What is .+\?|Core Introduction|Color System|Process Advantages|Core Advantages|Technical Parameters|Specifications|Applications(?: of .+)?|Advantages?(?: of .+)?|Manufacturing Process|FAQ)$/i;
+
+    if (looseHeadingRegex.test(plainHeading)) {
+      if (current && current.lines.length) cards.push(current);
+      current = {
+        title: canonicalizeHeading(plainHeading, locale),
+        lines: [],
+      };
+      continue;
+    }
+
+    if (headingSet.has(plainHeading)) {
+      if (current && current.lines.length) cards.push(current);
+      current = { title: canonicalizeHeading(plainHeading, locale), lines: [] };
+      continue;
+    }
+
+    if (/^Q\d*[:：]/i.test(line)) {
+      if (current && current.lines.length) cards.push(current);
+      current = { title: "FAQ", lines: [line.replace(/^Q\d*[:：]\s*/i, "").trim()] };
+      continue;
+    }
+
+    if (/^A\d*[:：]/i.test(line)) {
+      if (!current || current.title !== "FAQ") {
+        if (current && current.lines.length) cards.push(current);
+        current = { title: "FAQ", lines: [] };
+      }
+      current.lines.push(line.replace(/^A\d*[:：]\s*/i, "").trim());
+      continue;
+    }
+
+    if (!current) {
+      current = {
+        title: locale === "en" ? "Overview" : "概述",
+        lines: [],
+      };
+    }
+
+    const normalized = line.replace(/^[-*]\s+/, "").replace(/^#{1,6}\s*/, "").trim();
+    if (normalized) current.lines.push(normalized);
+  }
+
+  if (current && current.lines.length) cards.push(current);
+  if (!cards.length && text.trim()) {
+    return [{ title: locale === "en" ? "Overview" : "概述", lines: [text.trim()] }];
+  }
+  return cards;
+}
+
+function orderSeriesCards(cards: SeriesCard[], locale: "zh" | "en"): SeriesCard[] {
+  const orderedTitles =
+    locale === "zh"
+      ? ["核心介绍", "颜色体系", "工艺优势", "技术参数", "应用场景", "核心优势", "工艺流程", "FAQ"]
+      : ["Core Introduction", "Color System", "Process Advantages", "Technical Parameters", "Applications", "Core Advantages", "Manufacturing Process", "FAQ"];
+
+  const consumed = new Set<number>();
+  const ordered: SeriesCard[] = [];
+
+  for (const title of orderedTitles) {
+    cards.forEach((card, index) => {
+      if (!consumed.has(index) && card.title === title) {
+        ordered.push(card);
+        consumed.add(index);
+      }
+    });
+  }
+
+  const rest = cards.filter((_, index) => !consumed.has(index));
+  return [...ordered, ...rest];
+}
+
 export async function generateStaticParams() {
   return locales.flatMap((locale) => products.map((product) => ({ locale, slug: product.slug })));
 }
@@ -121,12 +260,146 @@ export default async function ProductDetailPage({ params }: Props) {
           {seriesWithImages.map(({ series, images }) => (
             <section key={series.code} className="space-y-4">
               <h2 className="text-2xl text-[#f5e5c5]">{series.title[locale]}</h2>
-              <div className="grid items-start gap-6 md:grid-cols-[minmax(280px,0.72fr)_minmax(0,1.28fr)]">
-                <ApplicationImageCarousel images={images} alt={series.title[locale]} />
-                <article className="card p-6 text-sm text-zinc-200">
-                  <p className="leading-8">{series.description[locale]}</p>
-                </article>
-              </div>
+              {(() => {
+                const parsed = parseSeriesCards(series.description[locale], locale);
+                const cards = orderSeriesCards(parsed, locale);
+                const introTitle = locale === "en" ? "Core Introduction" : "核心介绍";
+                const faqTitles = locale === "en" ? new Set(["FAQ"]) : new Set(["FAQ", "常见问题"]);
+                const faqCards = cards.filter((card) => faqTitles.has(card.title));
+                const contentCards = cards.filter((card) => !faqTitles.has(card.title));
+                const introCard = contentCards.find((card) => card.title === introTitle) ?? contentCards[0] ?? null;
+                const tailCards = introCard ? contentCards.filter((card) => card !== introCard) : contentCards;
+                const rowCards = tailCards.slice(0, 4);
+                const extraCards = tailCards.slice(4);
+                const isHoneycombPage = slug === "stainless-steel-honeycomb-panel";
+                const isDecorativeSheetPage = slug === "stainless-steel-decorative-sheet";
+                const processTitles = locale === "en" ? new Set(["Manufacturing Process"]) : new Set(["工艺流程", "制造流程"]);
+                const processCard = isHoneycombPage
+                  ? [...rowCards, ...extraCards].find((card) => processTitles.has(card.title)) ?? null
+                  : null;
+                const upperCards = rowCards.slice(0, 2);
+                const lowerCards = [...rowCards.slice(2, 4), ...extraCards].filter((card) => card !== processCard);
+                const decorativeRowTitles =
+                  locale === "en"
+                    ? new Set(["Applications", "Manufacturing Process", "Color System", "Surface Color and Treatment"])
+                    : new Set(["应用场景", "工艺流程", "制造流程", "表面颜色和处理", "颜色和表面处理"]);
+                const decorativeThreeCards = isDecorativeSheetPage
+                  ? lowerCards.filter((card) => decorativeRowTitles.has(card.title))
+                  : [];
+                const normalLowerCards = isDecorativeSheetPage
+                  ? lowerCards.filter((card) => !decorativeRowTitles.has(card.title))
+                  : lowerCards;
+
+                return (
+                  <div className="space-y-4">
+                    <div className="grid items-start gap-6 md:grid-cols-[minmax(280px,0.72fr)_minmax(0,1.28fr)]">
+                      <ApplicationImageCarousel images={images} alt={series.title[locale]} />
+                      <div className="space-y-4">
+                        {introCard ? (
+                          <article className="card p-6 text-sm text-zinc-200">
+                            <h3 className={`text-lg font-semibold ${headingColorClass(introCard.title, locale)}`}>{introCard.title}</h3>
+                            <div className="mt-3 space-y-2">
+                              {introCard.lines.map((line, index) => (
+                                <p key={index} className="leading-8 text-zinc-200">
+                                  {line}
+                                </p>
+                              ))}
+                            </div>
+                          </article>
+                        ) : null}
+
+                        {upperCards.length ? (
+                          <div className="grid gap-3 md:grid-cols-2">
+                            {upperCards.map((card, cardIndex) => (
+                              <article key={`upper-${card.title}-${cardIndex}`} className="card p-5 text-sm text-zinc-200">
+                                <h3 className={`text-base font-semibold ${headingColorClass(card.title, locale)}`}>{card.title}</h3>
+                                <div className="mt-2 space-y-1.5">
+                                  {card.lines.map((line, index) => (
+                                    <p key={index} className="leading-7 text-zinc-200">
+                                      {line}
+                                    </p>
+                                  ))}
+                                </div>
+                              </article>
+                            ))}
+                          </div>
+                        ) : null}
+
+                        {isHoneycombPage && processCard ? (
+                          <article className="card p-5 text-sm text-zinc-200">
+                            <h3 className={`text-base font-semibold ${headingColorClass(processCard.title, locale)}`}>{processCard.title}</h3>
+                            <div className="mt-2 space-y-1.5">
+                              {processCard.lines.map((line, index) => (
+                                <p key={index} className="leading-7 text-zinc-200">
+                                  {line}
+                                </p>
+                              ))}
+                            </div>
+                          </article>
+                        ) : null}
+                      </div>
+                    </div>
+
+                    {isDecorativeSheetPage && decorativeThreeCards.length ? (
+                      <div className="grid gap-3 md:grid-cols-3">
+                        {decorativeThreeCards.map((card, cardIndex) => (
+                          <article key={`lower-${card.title}-${cardIndex}`} className="card p-5 text-sm text-zinc-200">
+                            <h3 className={`text-base font-semibold ${headingColorClass(card.title, locale)}`}>{card.title}</h3>
+                            <div className="mt-2 space-y-1.5">
+                              {card.lines.map((line, index) => (
+                                <p key={index} className="leading-7 text-zinc-200">
+                                  {line}
+                                </p>
+                              ))}
+                            </div>
+                          </article>
+                        ))}
+                      </div>
+                    ) : null}
+
+                    {normalLowerCards.length ? (
+                      <div className="grid gap-3 md:grid-cols-2">
+                        {normalLowerCards.map((card, cardIndex) => (
+                          <article key={`lower-${card.title}-${cardIndex}`} className="card p-5 text-sm text-zinc-200">
+                            <h3 className={`text-base font-semibold ${headingColorClass(card.title, locale)}`}>{card.title}</h3>
+                            <div className="mt-2 space-y-1.5">
+                              {card.lines.map((line, index) => (
+                                <p key={index} className="leading-7 text-zinc-200">
+                                  {line}
+                                </p>
+                              ))}
+                            </div>
+                          </article>
+                        ))}
+                      </div>
+                    ) : null}
+
+                    {faqCards.length ? (
+                      <section className="space-y-3">
+                        <h3 className="text-base font-semibold text-[#f5e5c5]">FAQ</h3>
+                        <div className="grid gap-3 md:grid-cols-2">
+                          {faqCards.map((card, cardIndex) => {
+                            const [question, ...answerParts] = card.lines;
+                            return (
+                                <article
+                                  key={`faq-${cardIndex}`}
+                                  className={`card p-5 text-sm text-zinc-200 ${
+                                    isHoneycombPage && faqCards.length === 1 ? "md:col-span-2" : ""
+                                  }`}
+                                >
+                                {question ? <p className="font-medium text-[#f5e5c5]">{question}</p> : null}
+                                {answerParts.length ? (
+                                  <p className="mt-2 leading-7 text-zinc-300">{answerParts.join(" ")}</p>
+                                ) : null}
+                              </article>
+                            );
+                          })}
+                        </div>
+                      </section>
+                    ) : null}
+                  </div>
+                );
+              })()}
             </section>
           ))}
         </div>
