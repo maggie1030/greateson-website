@@ -6,11 +6,11 @@ export const blogArticles: BlogPost[] = [
     category: "blog",
     title: {
       zh: "侘寂风与工业风的绝佳搭档：手工仿古做旧不锈钢的独特艺术魅力",
-      en: "The Perfect Partner for Wabi-Sabi and Industrial Style: The Unique Artistry of Handmade Antique Stainless Steel",
+      en: "The Perfect Match for Wabi-Sabi and Industrial Style: The Unique Artistic Charm of Handmade Antique Stainless Steel",
     },
     excerpt: {
       zh: "伴随侘寂风、复古工业风的盛行，“做旧”材质成为商业空间突显高级感的利器。本文将深入探讨手工仿古做旧不锈钢的工艺秘辛——从底层的直拉丝、镀真铜到手工药水氧化，带您领略这种“千板千面、无限接近却绝不雷同”的独特艺术材料。为设计师提供尺寸、厚度及拼接余量的专业选购指南。",
-      en: "As wabi-sabi and vintage industrial aesthetics gain momentum, \“distressed\” finishes have become the go-to material for elevating commercial interiors. This article reveals the craft behind handmade antique stainless steel — from base satin brushing and real copper plating to hand-applied chemical oxidation — showcasing a material where no two panels are ever identical. A professional sourcing guide on dimensions, thickness, and seam allowances for architects and designers.",
+      en: "As wabi-sabi and vintage industrial aesthetics continue to rise, “distressed” materials have become a key tool for creating premium commercial interiors. This article dives into the craftsmanship behind handmade antique-finish stainless steel—from base hairline treatment and real copper plating to manual chemical oxidation—so you can understand this unique artistic material where every sheet is different yet highly consistent in style. It also provides practical guidance on size, thickness, and installation allowance for designers and buyers.",
     },
     publishedAt: "2026-03-27",
     readTime: { zh: "10 分钟", en: "10 min read" },
@@ -49,109 +49,161 @@ export const blogArticles: BlogPost[] = [
     sections: [
       {
         heading: {
-          zh: "行业趋势：反工业化的“时间痕迹”美学",
-          en: "Industry Trend: The Anti-Industrial Aesthetic of \“Time-Worn\” Surfaces",
+          zh: "1）行业趋势",
+          en: "1) Industry Trend",
         },
         paragraphs: [
           {
             zh: "在过去，不锈钢总是与“冰冷、光亮、现代”绑定。然而，随着消费者审美向追求质朴、自然、岁月感的“侘寂风（Wabi-Sabi）”和“复古工业风”演变，带有氧化痕迹、锈斑和斑驳纹理的装饰材料变得炙手可热。相比于自然生锈的真实铁板（存在掉渣、腐蚀损坏基材、难以维护的致命缺陷），在不锈钢表面进行手工仿古做旧工艺，既完美还原了时间的沉淀感，又保留了不锈钢本身的结构强度与易清洁属性，成为高阶设计师打造“故事感”空间的首选。",
-            en: "Stainless steel was once synonymous with cold, glossy modernism. However, as consumer taste shifts toward the rustic, natural, and time-worn — embodied by Wabi-Sabi and vintage industrial aesthetics — decorative surfaces bearing oxidation marks, patina, and mottled textures have become highly sought after. Compared to genuinely rusted iron plates, which suffer from flaking, substrate corrosion, and near-impossible maintenance, hand-applied antique finishing on stainless steel faithfully recreates the patina of age while preserving the structural integrity and easy-clean properties of the base metal. This makes it the top choice for discerning designers crafting spaces that tell a story.",
+            en: "In the past, stainless steel was always associated with “cold, bright, and modern.” However, as aesthetics have shifted toward the rustic, natural, and time-worn feeling of Wabi-Sabi and vintage industrial style, decorative materials with oxidation marks, rust effects, and mottled textures have become increasingly popular. Compared with naturally rusted real iron plates—which suffer from flaking residue, substrate corrosion, and difficult maintenance—handmade antique finishing on stainless steel can recreate the sense of time while preserving stainless steel’s structural strength and easy-clean performance, making it a preferred option for designers creating narrative spaces.",
           },
         ],
       },
       {
         heading: {
-          zh: "产品定义与核心参数",
-          en: "Product Definition and Key Specifications",
+          zh: "2）产品定义与核心参数",
+          en: "2) Product Definition and Core Parameters",
         },
         paragraphs: [
           {
             zh: "仿古做旧不锈钢，是通过在一块光洁的不锈钢板上，经过复杂的打底、镀铜、药水氧化以及纯手工涂刷摩擦，最终呈现出类似历经岁月侵蚀的青铜、红铜或黄铜的复古效果。主要产品包括：手工拉丝发黑古铜、手工乱纹发黑古铜、以及仿锈作旧系列。",
-            en: "Antique distressed stainless steel is produced by applying a sequence of complex processes to a clean stainless steel sheet — priming, copper electroplating, chemical oxidation, and purely manual brushing and rubbing — to achieve a vintage finish resembling centuries-old green patina bronze, red bronze, or yellow bronze. The main product lines include hand-brushed blackened bronze, hand-applied random-grain blackened bronze, and the faux-rust distressed series.",
+            en: "Antique distressed stainless steel is made by applying a complex process sequence on a clean stainless steel sheet, including base treatment, copper plating, chemical oxidation, and fully manual brushing/rubbing, to create a vintage effect similar to weathered bronze, red copper, or yellow copper. Main product types include hand-brushed blackened bronze, hand-random blackened bronze, and faux-rust distressed series.",
           },
           {
-            zh: "材质通常采用304不锈钢作为基材。推荐厚度在0.5mm～2.5mm之间，不建议超过2.5mm，因为越厚越重，手工操作难度极大，且镀铜时间会呈指数级增长。宽度受限于加工设备与人工搬运能力，只能做到1.5米以内，长度建议控制在4.5米以内。",
-            en: "The substrate is typically 304 stainless steel. Recommended thickness ranges from 0.5 mm to 2.5 mm; exceeding 2.5 mm is inadvisable because the added weight dramatically increases manual handling difficulty and copper plating time grows exponentially. Width is limited to within 1.5 m due to equipment and manual handling constraints, and length should be kept within 4.5 m.",
+            zh: "- 材质：通常采用304不锈钢作为基材。",
+            en: "- Material: 304 stainless steel is typically used as the base substrate.",
           },
           {
-            zh: "核心工艺流程为：开板 -> 磨砂（直拉丝打底） -> 打底（镀真铜） -> 药水氧化做旧 -> 表面不规则手绘花形（用百洁布、海绵、甚至树叶等） -> 清洗与抛光（反复3-4次） -> 手工喷色 -> 封无指纹油。这种工艺极具艺术感染力，每一张板材都是纯手工制作的独一无二之作。但其局限在于产能极低、耗时长，且存在自然色差，无法实现两张完全一模一样的板材。",
-            en: "The core process flow is: sheet cutting, satin grinding (straight-line brushing as primer), priming (real copper electroplating), chemical oxidation patina, irregular hand-drawn surface patterns using scouring pads, sponges, or even leaves, washing and polishing (repeated 3–4 times), hand-applied color spraying, and anti-fingerprint oil sealing. This process yields panels of extraordinary artistic impact — every single sheet is a one-of-a-kind handcrafted original. The trade-off is extremely low throughput, long lead times, and inherent natural color variation that makes it impossible to produce two perfectly identical panels.",
+            zh: "- 厚度：推荐在0.5mm～2.5mm之间。不建议超过2.5mm，因为越厚越重，手工操作难度极大，且镀铜时间会呈指数级增长。",
+            en: "- Thickness: 0.5mm to 2.5mm is recommended. More than 2.5mm is not advised, because greater thickness means heavier handling, much higher manual difficulty, and exponentially longer copper-plating time.",
+          },
+          {
+            zh: "- 宽度与长度：受限于加工设备与人工搬运能力，宽度只能做到1.5米以内，长度建议控制在4.5米以内。",
+            en: "- Width and length: Due to equipment limits and manual handling capacity, width is typically within 1.5m and recommended length is within 4.5m.",
+          },
+          {
+            zh: "- 核心工艺流程：开板 -> 磨砂（直拉丝打底） -> 打底（镀真铜） -> 药水氧化做旧 -> 表面不规则手绘花形（用百洁布、海绵、甚至树叶等） -> 清洗与抛光（反复3-4次） -> 手工喷色 -> 封无指纹油。",
+            en: "- Core process flow: sheet cutting -> sanding (straight hairline base) -> base treatment (real copper plating) -> chemical oxidation antique effect -> irregular hand-drawn surface patterns (using scouring pads, sponges, and even leaves) -> cleaning and polishing (repeated 3–4 rounds) -> manual color spraying -> anti-fingerprint oil sealing.",
+          },
+          {
+            zh: "- 优势：极具艺术感染力，纯手工制作独一无二。",
+            en: "- Advantage: highly artistic expression; each piece is handcrafted and unique.",
+          },
+          {
+            zh: "- 局限：产能极低，耗时长；存在自然色差，无法实现两张完全一模一样的板材。",
+            en: "- Limitation: very low production capacity and long lead time; natural color variation exists, so two sheets cannot be 100% identical.",
           },
         ],
       },
       {
         heading: {
-          zh: "适用场景：让空间充满故事感",
-          en: "Application Scenarios: Infusing Spaces with Narrative Character",
+          zh: "3）适用场景",
+          en: "3) Application Scenarios",
         },
         paragraphs: [
           {
-            zh: "在侘寂风茶室与艺术馆背景墙中，利用仿锈作旧的青绿古铜或黄古铜作为背景主墙，其表面斑驳的肌理与原木、微水泥等材质完美契合，营造出一种宁静、悠远、充满禅意的空间氛围。在复古酒吧与咖啡馆的门头及包柱场景中，通过大幅面的发黑红古铜或乱纹青古铜包覆承重柱或吧台，搭配暖色调的点光源，能瞬间提升空间的复古质感与厚重感。而在高端买手店与珠宝展示柜中，使用手工拉丝发黑的古铜不锈钢作为展柜材质，其内敛的哑光质感与高级的暗色调，能够极其克制地衬托出展品本身的光芒，而不会喧宾夺主。",
-            en: "For wabi-sabi tea rooms and gallery feature walls, faux-rust green patina or yellow bronze panels serve as the primary backdrop — their mottled, organic texture pairs seamlessly with raw wood and micro-cement, evoking a serene, timeless, Zen-inspired atmosphere. In vintage bar and café façades and column cladding, large-format blackened red bronze or random-grain green patina wrapping structural columns or bar counters, combined with warm spot lighting, instantly amplifies the space's retro gravitas. For high-end concept stores and jewelry display cases, hand-brushed blackened bronze stainless steel lends a restrained matte quality and sophisticated dark tone that elegantly highlights the merchandise without competing for attention.",
+            zh: "场景A：侘寂风茶室与艺术馆背景墙",
+            en: "Scenario A: Wabi-Sabi tea rooms and gallery feature walls",
+          },
+          {
+            zh: "利用仿锈作旧的青绿古铜或黄古铜作为背景主墙，其表面斑驳的肌理与原木、微水泥等材质完美契合，营造出一种宁静、悠远、充满禅意的空间氛围。",
+            en: "Using faux-rust antique green bronze or yellow bronze as the main background wall, the mottled texture pairs well with raw wood and micro-cement, creating a calm, timeless, and Zen-like atmosphere.",
+          },
+          {
+            zh: "场景B：复古酒吧与咖啡馆门头及包柱",
+            en: "Scenario B: Vintage bar and café entrance fascia and column wrapping",
+          },
+          {
+            zh: "工业风场景中，通过大幅面的发黑红古铜或乱纹青古铜包覆承重柱或吧台，搭配暖色调的点光源，能瞬间提升空间的复古质感与厚重感。",
+            en: "In industrial-style spaces, large-format blackened red bronze or random-grain green bronze can wrap structural columns or bar counters; with warm point lighting, this quickly enhances retro atmosphere and visual depth.",
+          },
+          {
+            zh: "场景C：高端买手店与珠宝展示柜",
+            en: "Scenario C: High-end concept stores and jewelry showcases",
+          },
+          {
+            zh: "使用手工拉丝发黑的古铜不锈钢作为展柜材质，其内敛的哑光质感与高级的暗色调，能够极其克制地衬托出展品本身的光芒，而不会喧宾夺主。",
+            en: "Using hand-brushed blackened antique bronze stainless steel for showcases provides a restrained matte texture and premium dark tone, which highlights products elegantly without overpowering them.",
           },
         ],
       },
       {
         heading: {
-          zh: "选型建议：镀真铜 vs 纳米色油",
-          en: "Material Selection: Real Copper Plating vs. Nano Color Oil",
+          zh: "4）选型建议：镀真铜 vs 纳米色油",
+          en: "4) Selection Advice: Real Copper Plating vs Nano Color Oil",
         },
         paragraphs: [
           {
             zh: "在打造古铜效果时，常有两种工艺。顺佳兴强烈主推“镀真铜”工艺。从质感对比来看，用小刀刮开表面，纳米色油（漆面）底层是钢的本色；而“镀铜做旧”底层有一层真正的铜层，拉丝纹路更加连贯、直挺，散发着真铜的厚重光泽。",
-            en: "Two processes are commonly used to achieve an antique bronze finish. Greateson strongly recommends real copper plating. In terms of texture comparison, scraping the surface with a blade reveals that nano color oil (paint finish) exposes bare steel underneath, whereas copper-plated distressed panels have a genuine copper layer beneath — the brush lines are more continuous and defined, radiating the rich luster of real copper.",
+            en: "Two processes are commonly used to create antique bronze effects. Greateson strongly recommends real copper plating. In texture comparison, if you scratch the surface, nano color oil (paint coating) reveals steel color underneath, while copper-plated antique finishing reveals a true copper layer, with more continuous and straighter brush lines and a heavier authentic copper gloss.",
           },
           {
             zh: "在耐用性与加工方面，厚度超过1.2mm的板材如果在折边时使用纳米色油，极易出现漆面拉扯破裂（爆边泛白，客户常误以为是掉油）；而镀铜板是金属离子的结合，延展性更好，不易出现此类问题。当然，镀铜的成本会比纳米色油高出约15元/平方。",
-            en: "Regarding durability and fabrication, panels thicker than 1.2 mm finished with nano color oil are highly prone to paint cracking during bending — edge fracturing and whitening that clients often mistake for coating failure. Copper-plated panels bond at the ionic level, offering superior ductility and far less susceptibility to such issues. The cost premium for copper plating is approximately 15 RMB per square meter over nano color oil.",
+            en: "For durability and fabrication, if sheet thickness is over 1.2mm and nano color oil is used during bending, paint film can easily crack under tension (edge cracking and whitening, often mistaken by clients as paint shedding). Copper-plated panels use metallic ion bonding, offering better ductility and fewer such issues. However, copper plating usually costs about RMB 15/m² more than nano color oil.",
           },
         ],
       },
       {
         heading: {
-          zh: "成本与交期参考",
-          en: "Cost and Lead Time Reference",
+          zh: "5）成本与交期参考",
+          en: "5) Cost and Lead-Time Reference",
         },
         paragraphs: [
           {
-            zh: "仿古做旧属于不锈钢表面加工中的“奢侈品”。工序繁多（5-10道），且极度依赖老工匠的经验与手艺。交期极长：普通电镀可能3天交货，但仿锈做旧板的生产周期通常需要10-15天。产能极低，一个样板一天最多只能生产几十张。成本高昂：属于纯手工作品，且1.2mm以上的厚度加工费会随着厚度增加而飙升（因为板材重，工人搬运翻面辛苦；且3.0mm板的镀铜时间是1.0mm板的几倍）。打样通常会收取打样费（约300元）。",
-            en: "Antique distressing is the \“luxury tier\” of stainless steel surface finishing. It involves 5 to 10 process steps and depends heavily on the experience and skill of veteran craftsmen. Lead times are long: standard electroplating may ship in 3 days, but faux-rust distressed panels typically require 10–15 days. Daily output is extremely limited — a single workshop can produce only a few dozen sheets per day at most. Costs are high: these are purely handcrafted works, and processing fees for thicknesses above 1.2 mm escalate sharply with each increment, as heavier sheets are harder for workers to handle and flip, and copper plating time for a 3.0 mm panel is several times that of a 1.0 mm panel. Sample fees are typically around 300 RMB.",
+            zh: "仿古做旧属于不锈钢表面加工中的“奢侈品”。工序繁多（5-10道），且极度依赖老工匠的经验与手艺。",
+            en: "Antique distressed finishing is a “luxury” segment in stainless steel surface processing. It involves many steps (5–10) and relies heavily on experienced craftsmen.",
+          },
+          {
+            zh: "- 交期极长：普通电镀可能3天交货，但仿锈做旧板的生产周期通常需要10-15天。产能极低，一个样板一天最多只能生产几十张。",
+            en: "- Lead time is long: ordinary electroplating may deliver in 3 days, but faux-rust antique sheets typically need 10–15 days. Output is very low, often only dozens of sheets per day for one setup.",
+          },
+          {
+            zh: "- 成本高昂：属于纯手工作品，且1.2mm以上的厚度加工费会随着厚度增加而飙升（因为板材重，工人搬运翻面辛苦；且3.0mm板的镀铜时间是1.0mm板的几倍）。打样通常会收取打样费（约300元）。",
+            en: "- Cost is high: this is a handcrafted process. For thickness above 1.2mm, processing fees rise sharply as thickness increases (heavier sheets are harder to handle, and 3.0mm sheets require several times longer copper-plating time than 1.0mm sheets). Sampling usually has a sample fee (about RMB 300).",
           },
         ],
       },
       {
         heading: {
-          zh: "常见误区",
-          en: "Common Misconceptions",
+          zh: "6）常见误区",
+          en: "6) Common Misconceptions",
         },
         paragraphs: [
           {
-            zh: "误区1：要求大批量订单的每一张板纹理和颜色必须100%一致。真相：这在手工做旧工艺中是绝对不可能的。由于是师傅纯手工使用百洁布、海绵蘸取化学药水进行不规则氧化，每一张板材都是唯一的艺术品，只能“无限接近”，绝不雷同。这也是做旧板的魅力所在。",
-            en: "Misconception 1: Demanding that every panel in a bulk order be 100% identical in pattern and color. Reality: This is absolutely impossible with handmade distressing. Because craftsmen manually apply chemical solutions with scouring pads and sponges in irregular oxidation patterns, each panel is a unique work of art — they can be infinitely close, but never identical. This irreproducibility is precisely what gives distressed panels their charm.",
+            zh: "- 误区1：要求大批量订单的每一张板纹理和颜色必须100%一致。 真相：这在手工做旧工艺中是绝对不可能的。由于是师傅纯手工使用百洁布、海绵蘸取化学药水进行不规则氧化，每一张板材都是唯一的艺术品，只能“无限接近”，绝不雷同。这也是做旧板的魅力所在。",
+            en: "- Misconception 1: Every sheet in a large order must be 100% identical in texture and color. Reality: this is impossible in handmade antique finishing. Craftsmen create irregular oxidation manually, so each sheet is unique; they can be very close, but never exactly the same. This is also the charm of antique-finish sheets.",
           },
           {
-            zh: "误区2：下单尺寸刚好，不留余量。真相：因为批次之间存在色差，不同批次的板材绝对不能拼接在一起使用。通常我们会强烈建议客户在同一批次中多下10%~20%的损耗预留量，避免后期补单出现尴尬的颜色断层。",
-            en: "Misconception 2: Ordering the exact quantity needed with zero allowance. Reality: Color variation between production batches makes it impossible to combine panels from different runs. We strongly recommend ordering 10%–20% extra within the same batch as a waste and replacement reserve, preventing awkward color discontinuities if supplementary orders become necessary.",
+            zh: "- 误区2：下单尺寸刚好，不留余量。 真相：因为批次之间存在色差，不同批次的板材绝对不能拼接在一起使用。通常我们会强烈建议客户在同一批次中多下10%~20%的损耗预留量，避免后期补单出现尴尬的颜色断层。",
+            en: "- Misconception 2: Ordering exact quantity with no allowance. Reality: because batch-to-batch color difference exists, sheets from different batches should not be spliced together. Usually 10%–20% extra in the same batch is recommended to avoid awkward color breaks in later supplementary orders.",
           },
           {
-            zh: "误区3：仿锈板可以直接暴露在户外风吹雨打中。真相：虽然做了无指纹封油处理（正常使用5-10年），且可添加室外抗UV油（需加价），但所有带有鲜艳氧化色彩的材料在严酷的室外环境中，依然存在随时间推移逐渐褪色的风险。",
-            en: "Misconception 3: Faux-rust panels can be left fully exposed to outdoor weather. Reality: While the anti-fingerprint oil seal provides protection for 5–10 years under normal use, and outdoor UV-resistant coatings are available at additional cost, all materials with vivid oxidation colors still face gradual fading risk under harsh outdoor exposure over time.",
+            zh: "- 误区3：仿锈板可以直接暴露在户外风吹雨打中。 真相：虽然做了无指纹封油处理（正常使用5-10年），且可添加室外抗UV油（需加价），但所有带有鲜艳氧化色彩的材料在严酷的室外环境中，依然存在随时间推移逐渐褪色的风险。",
+            en: "- Misconception 3: Faux-rust sheets can be directly exposed outdoors. Reality: although anti-fingerprint sealing oil is applied (typically lasting 5–10 years in normal use) and outdoor UV-resistant oil can be added, vividly oxidized colors still carry fading risk over time in harsh outdoor environments.",
           },
         ],
       },
       {
         heading: {
-          zh: "案例参考与采购建议",
-          en: "Project Reference and Procurement Advice",
+          zh: "7）案例参考",
+          en: "7) Case Reference",
         },
         paragraphs: [
           {
-            zh: "我们曾为某知名连锁精品咖啡的旗舰店定制了近千平米的“手工乱纹发黑红古铜”不锈钢板，用于其吧台、立柱与墙面。师傅们耗时近20天纯手工打磨氧化，最终呈现的复古金属质感，与店内的复古砖墙交相辉映，成为该地的核心打卡点。",
-            en: "We custom-produced nearly 1,000 square meters of hand-applied random-grain blackened red bronze stainless steel panels for the flagship store of a renowned specialty coffee chain, covering bar counters, structural columns, and walls. Our craftsmen spent nearly 20 days hand-grinding and oxidizing the surfaces. The resulting vintage metal texture complemented the store's exposed brick walls perfectly, turning the location into a landmark destination.",
+            zh: "我们曾为某知名连锁精品咖啡的旗舰店定制了近千平米的“手工乱纹发黑红古铜”不锈钢板，用于其吧台、立柱与墙面。师傅们耗时近20天纯手工打磨氧化，最终呈现的复古金属质感，与店内的复古砖墙交相辉映，成为该地的核心打卡点。（详见顺佳兴官网复古工业风专栏）。",
+            en: "We once customized nearly 1,000 square meters of “handmade random-grain blackened red bronze” stainless steel panels for the flagship store of a well-known boutique coffee chain, used on its bar counter, columns, and wall surfaces. Craftsmen spent nearly 20 days on pure manual grinding and oxidation. The final vintage metallic texture echoed the retro brick walls in the store and became a signature check-in highlight (see Greateson’s retro industrial case section).",
           },
+        ],
+      },
+      {
+        heading: {
+          zh: "8）结论与采购建议",
+          en: "8) Conclusion and Procurement Advice",
+        },
+        paragraphs: [
           {
             zh: "手工仿古做旧不锈钢不是简单的工业化标准品，而是凝聚了工匠心血与时间质感的艺术品。它极其适合追求极致个性化的高端项目。在选购时，请务必向甲方或设计师明确说明其“千板千面”的手工色差特性，并在同一批次中预留足额的损耗余量。",
-            en: "Handmade antique distressed stainless steel is not a mass-produced commodity — it is an art form that embodies craftsman dedication and the texture of time. It is ideally suited for high-end projects that demand ultimate individuality. When specifying, be sure to communicate its inherent \“every panel is unique\” handmade color variation to clients and designers, and always reserve adequate waste allowance within the same production batch.",
+            en: "Handmade antique-finish stainless steel is not a simple industrial standard product, but an artistic material shaped by craftsmanship and a strong sense of time. It is highly suitable for high-end projects that pursue extreme individuality. During procurement, be sure to clearly communicate its “each sheet is unique” handmade variation characteristic to the client and designers, and reserve sufficient loss allowance within the same production batch.",
           },
         ],
       },
@@ -159,7 +211,7 @@ export const blogArticles: BlogPost[] = [
     faq: [
       {
         q: {
-          zh: "为什么仿古做旧板底层一定要做一层“直拉丝”？",
+          zh: "为什么仿古做旧板底层一定要做一层“直拉丝”？ ",
           en: "Why must antique distressed panels have a straight satin brush base layer?",
         },
         a: {
@@ -169,7 +221,7 @@ export const blogArticles: BlogPost[] = [
       },
       {
         q: {
-          zh: "做旧绿锈（青绿古铜）的折弯部位掉漆了怎么修复？",
+          zh: "做旧绿锈（青绿古铜）的折弯部位掉漆了怎么修复？ ",
           en: "How do you repair paint loss at bend points on green patina (verdigris bronze) panels?",
         },
         a: {
@@ -179,7 +231,7 @@ export const blogArticles: BlogPost[] = [
       },
       {
         q: {
-          zh: "镀铜板不封无指纹油可以吗？",
+          zh: "镀铜板不封无指纹油可以吗？ ",
           en: "Can copper-plated panels skip the anti-fingerprint oil seal?",
         },
         a: {
@@ -189,7 +241,7 @@ export const blogArticles: BlogPost[] = [
       },
       {
         q: {
-          zh: "机器磨乱纹和手工磨乱纹，哪个更均匀？",
+          zh: "机器磨乱纹和手工磨乱纹，哪个更均匀？ ",
           en: "Which produces a more uniform random grain — machine or hand grinding?",
         },
         a: {
@@ -199,7 +251,7 @@ export const blogArticles: BlogPost[] = [
       },
       {
         q: {
-          zh: "仿古做旧板最小起订量是多少？",
+          zh: "仿古做旧板最小起订量是多少？ ",
           en: "What is the minimum order quantity for antique distressed panels?",
         },
         a: {

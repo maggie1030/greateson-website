@@ -361,6 +361,296 @@ Applications
 - Decorative bar counters
 - High-end commercial spaces`,
   },
+  "stainless-steel-decorative-sheet:3.1.2.1": {
+    enFromZh: `### Core Introduction
+Color electroplated stainless steel is produced by PVD (Physical Vapor Deposition) or electrochemical plating to deposit a metal/alloy layer on the stainless steel surface, creating multiple colors and decorative finishes.
+In vacuum or electrolytic environments, gas media (such as nitrogen and oxygen) react with metal ions so color bonds to the substrate and forms a uniform, stable decorative layer.
+Compared with conventional surface treatment, color electroplating not only improves visual effect, but also provides better wear resistance, corrosion resistance, and metallic texture. It is widely used in architectural decoration, commercial spaces, and high-end interiors.
+### Surface Color and Treatment
+1. Common colors: Titanium Gold, Champagne Gold, Rose Gold, Black Titanium, Antique Bronze, Grey Steel, Sapphire Blue, Deep Brown
+2. Special colors: Purple / Green / Multi-color gradient
+(Some highly saturated colors are not recommended for outdoor use.)
+### Process Advantages
+- Rich color options and diverse metallic effects
+- Uniform coating and premium surface texture
+- Good wear resistance and corrosion resistance
+- Can be combined with hairline, sandblasting, etching, and other textures
+- Suitable for large-area decorative applications
+- Supports anti-fingerprint treatment to improve user experience
+- Better metallic texture and durability than paint-only solutions
+### Technical Parameters
+- Substrate grade: 201 / 304 / 316 stainless steel
+- Thickness range: 0.3 mm - 3.0 mm
+- Coating thickness: typically around 1 um (not over 3 um)
+- Maximum size: vertical furnace up to 10 m length; horizontal furnace usually within 4 m
+- Process route: PVD / electrochemical plating
+- Surface textures: Hairline / Mirror / Sandblasted / Random / Satin / Cross-hairline
+- Double-side plating: supported (cold-furnace process)
+- Surface topcoat: usually anti-fingerprint coating
+### Applications
+Architectural facades, elevator panels, hotel decoration, commercial interiors, display cabinets, bar counters, partition screens, furniture decoration.
+Color electroplated sheet is one of the most widely used stainless steel surface solutions in high-end decorative spaces.
+### Manufacturing Process
+Machine cleaning (basic cleaning) -> Manual fine cleaning (for high-requirement panels) -> Punching / furnace hanging -> Enter plating furnace (vacuum or electrolytic environment) -> Color coating (PVD or electroplating) -> Furnace-out treatment -> Surface film / anti-fingerprint treatment
+Typical process combinations:
+- Hairline Rose Gold: slitting -> hairline -> color coating -> anti-fingerprint
+- Mirror + bead-blast gunmetal: mirror -> bead-blast -> color coating -> anti-fingerprint
+- Etched elevator panel: etching -> color coating -> anti-fingerprint
+### FAQ
+Q: Will color electroplated sheets fade?
+A: Under normal process control, fading is uncommon. If pre-cleaning or coating control is poor, "titanium peeling" can occur.
+Q: Why can different batches have color differences?
+A: Color tuning depends on equipment and process control. Different furnace runs may create slight color variation, so one project should use one batch when possible.
+Q: How large can color electroplated sheets be?
+A: Vertical furnaces can reach around 10 meters; horizontal furnace applications are generally recommended within 4 meters.
+Q: Can all colors be produced?
+A: Most colors can be achieved, but very high-saturation colors (such as China Red or orange) are harder to stabilize.
+Q: Can these sheets be used outdoors?
+A: Standard colors are mainly for indoor use. Some colors require additional UV-resistant treatment for outdoor environments.
+Q: Is thicker sheet always better for electroplating?
+A: Not necessarily. Thickness mainly impacts structure and cost, and has limited effect on plating film thickness.
+Q: Can sheets from different batches be spliced together?
+A: Cross-batch splicing is not recommended due to visible color differences.`,
+  },
+  "stainless-steel-decorative-sheet:3.1.2.2": {
+    enFromZh: `### Core Introduction
+Antique-finish stainless steel combines multiple processes such as copper plating, blackening, oxidation, coloring, manual hairline brushing, and random-grain treatment to reproduce antique copper, bronze, red copper, yellow copper, and rust-like artistic effects.
+Its texture is not a single mechanical repeat. Through manual treatment and oxidation reactions, it forms layered and aged surface character so every sheet has its own vintage appearance.
+Compared with standard colored stainless steel, antique-finish series emphasizes artistic expression, atmosphere, and material depth. It is widely used in premium commercial spaces, hotels, clubs, feature walls, display cabinets, elevator decoration, and classical-style interiors.
+### Surface Color and Treatment
+Colors:
+Antique Green Bronze, Antique Red Bronze, Antique Yellow Bronze, Blackened Antique Bronze, Rustic Bronze, Verdigris, and other custom vintage palettes.
+Optional texture effects: manual hairline grain, manual random grain, rust-style distressing, oxidation mottled texture, and combined processes such as etching, embossing, and transfer printing.
+Natural texture variation between sheets and batches is a core feature of this series.
+### Process Advantages
+- Strong vintage character and richer decorative expression
+- Naturally unique sheet-to-sheet texture and stronger artistic value
+- Can simulate antique copper, bronze, and rusted metal effects
+- Retains stainless steel substrate strength with high decorative quality
+- Suitable for high-end Chinese, European, hotel, and club spaces
+- Can be layered with etching, embossing, and transfer printing for added depth
+- Surface sealing/oil protection provides practical durability and anti-rust support
+If real copper base plating is used, a true copper layer is formed and overall texture/durability is usually better than paint-only effects.
+### Technical Parameters
+- Substrate grade: 201 / 304 / 316 stainless steel
+- Standard thickness: 0.5 mm - 3.0 mm
+- Recommended thickness: within 2.5 mm
+- Maximum width: within 1.5 m
+- Recommended length: within 4.5 m
+- Maximum achievable length: around 7 m
+- Surface process: copper plating / blackening / oxidation / manual brushing / random grain / spray coloring / sealing oil
+- Compatible combined processes: etching / embossing / transfer printing
+- MOQ: usually from 5 sheets
+- Sample fee: around CNY 300 per sample
+Special notes:
+- Antique-finish sheets are mostly handmade and cannot be 100% identical.
+- Seamless splicing across different batches is not recommended. Reserve 10%-20% extra quantity.
+- Thick-sheet processing is more expensive, and plating/handwork time rises with thickness.
+### Applications
+Feature walls, column wrapping, display cabinets, ceilings, wall decoration, door frames/opening trims, elevator panels/door frames, furniture decoration, decorative components, exterior facades.
+### Manufacturing Process
+1. Standard antique-finish route
+Slitting -> Surface sanding -> Base treatment (copper plating / electroplating / water plating) -> Chemical oxidation for distressed effect -> Manual irregular pattern/texture creation -> Surface cleaning -> Repeated polishing adjustment (3-4 rounds) -> Manual spray coloring -> Sealing protection -> Protective film
+2. Hairline blackened red/green/yellow antique copper route
+Slitting -> Sanding -> Copper plating -> Blackened nickel process -> Manual hairline or random-grain treatment -> Oil protection -> Protective film
+3. Optional combined routes
+Etch then antique finish / Emboss then antique finish / Transfer print then antique finish
+Antique-finish series usually involves many steps (commonly 5-10+) with a typical lead time of around 10-15 days.
+### FAQ
+Q: Can every antique-finish sheet be exactly identical?
+A: No. Most effects are handmade. Sheets can be highly similar but never 100% identical, and this is part of their artistic value.
+Q: Is copper plating always required?
+A: Not always. Some effects use copper as a base layer, while others can be achieved on 2B base depending on target look and budget.
+Q: Why do colors vary between batches?
+A: Because this process depends on manual operation and oxidation reaction, natural variation in tone/texture is expected.
+Q: Is this series suitable for outdoor use?
+A: It can be enhanced with outdoor protective oil, but outdoor projects need additional cost and environment-specific evaluation.
+Q: Why is lead time longer?
+A: The workflow is complex and highly manual, often including oxidation, polishing, spray coloring, and sealing; typical production is 10-15 days.
+Q: Can bending cause edge cracking or whitening?
+A: Some routes may have this risk, especially on thick sheets or paint-heavy systems. Design and processing planning should include preventive measures and repair options.
+Q: What is the maximum sheet size?
+A: Recommended width is within 1.5 m and length within 4.5 m. Oversize sheets are possible but with much higher difficulty and cost.`,
+  },
+  "stainless-steel-decorative-sheet:3.1.2.3": {
+    enFromZh: `### Core Introduction
+Etched metal sheet is a decorative material that uses chemical corrosion to form patterns, textures, and relief effects on stainless steel surfaces.
+By protecting selected areas and etching only target zones, the pattern is "engraved" into the sheet and creates layered visual depth with fine detail.
+Etching is often combined with hairline, sandblasting, electroplating, copper plating, antique finishing, and transfer printing for richer visual expression.
+It features high detail, layered depth, and strong customization, and is widely used in elevator decoration, feature walls, commercial spaces, and high-end projects.
+### Surface Color and Treatment
+Etching itself is a texture process; color normally comes from post-treatment.
+1. Common combined colors: Titanium Gold / Champagne Gold / Rose Gold; Black Titanium / Grey Steel; Antique Bronze / Bronze / Red Copper; Vintage distressed palettes; multi-color paint-filled etching
+2. Achievable effects:
+Colored etching (overall color), de-titanium etching (etched areas colorless or different tone), multi-color filled etching (pattern color filling)
+Color outcome is related to process order (etch first vs color first gives different results).
+### Process Advantages
+- Supports high-precision complex graphics (landscape art, human figures, etc.)
+- Strong relief and layered visual effect
+- High customization (drawing -> tooling -> production)
+- Can be combined with multiple processes (electroplating / antique finish / transfer printing)
+- Suitable for large decorative areas and high-end projects
+- Premium visual output for branded spaces
+- Continuous splicing patterns are achievable with high-precision process control
+Photochemical etching can achieve around 1 mm-level fine lines, which is a key advantage in premium projects.
+### Technical Parameters
+- Substrate grade: 304 (recommended for large areas) / 201 / 316
+- Maximum length: around 6 m
+- Standard thickness: 0.5 mm - 3.0 mm
+- Etching depth:
+  - 3-5c: shallow texture (mirror applications)
+  - 8c+: tactile effect
+  - 10-15c: clear relief effect
+  - Special routes can reach 40-50c
+- Process types:
+  - Photochemical etching (high precision)
+  - Silk-screen etching (high efficiency)
+- Tooling cost:
+  - Photochemical etching: around CNY 150/m2
+  - Silk-screen etching: around CNY 1200/set
+For large-area etching, 304 is recommended to reduce impurity/watermark risks.
+### Applications
+Elevator cabin panels, feature walls, display cabinets, cabinetry, ceilings, commercial-space decoration, storefront headers, and decorative trims.
+Elevator panels are one of the most representative applications of etched sheets.
+### Manufacturing Process
+1. Basic etching route
+Pattern design & tooling -> Protective resist coating -> Natural drying -> Chemical etching (time controls depth) -> De-masking & cleaning -> Surface finishing
+2. Typical combined routes
+Electroplated etching: slitting -> hairline/8K -> sandblasting -> etching -> electroplating -> oil protection -> protective film
+Copper-plated etching: slitting -> etching -> sanding -> copper plating -> blackening -> hairline -> oil protection
+Antique etched finish: etching -> copper plating -> oxidation -> manual texture -> polishing -> spray coloring -> sealing oil
+Transfer-printed etching: etching -> transfer print (wood/stone pattern) -> drying -> protective film
+### FAQ
+Q: How fine can etched patterns be?
+A: Photochemical etching can achieve around 1 mm-level details and is suitable for high-precision graphics.
+Q: What is the difference between photochemical and silk-screen etching?
+A: Photochemical etching provides higher precision for complex/small-batch graphics; silk-screen etching is lower in cost for large-batch production but with slightly lower precision.
+Q: Why can etched sheets have poor color adhesion?
+A: Incomplete post-etch cleaning can leave chemical residue and negatively affect subsequent plating/coating.
+Q: Why is 304 recommended for large-area etching?
+A: Compared with some 201 materials, 304 generally has lower impurity-related risk for issues such as watermarks and black dots after etching.
+Q: Can etched sheets be spliced?
+A: Yes, but high-precision splicing should use photochemical etching to reduce alignment deviation.
+Q: How should etching depth be selected?
+A: Decoration-oriented: 3-5c; tactile effect: 8c+; clear relief effect: 10-15c.
+Q: What is the production lead time?
+A: Standard route is around 7-10 days; complex routes (antique/multi-color) are usually around 10-15 days.`,
+  },
+  "stainless-steel-decorative-sheet:3.1.2.4": {
+    enFromZh: `### Core Introduction
+Embossed stainless steel is formed by stamping, rolling, or hydraulic processing, where die textures are transferred to metal surfaces under high pressure to create tactile three-dimensional decorative sheets.
+This process strengthens visual depth and improves decorative expression and spatial texture.
+Embossed sheets are often combined with hairline, mirror, sandblasting, and electroplating finishes to create multiple styles, and are widely used in commercial interiors and architectural facades.
+### Surface Color and Treatment
+Embossing is a texture process; color is usually provided by post-treatment.
+Common color sets: Titanium Gold / Champagne Gold / Rose Gold; Black Titanium / Grey Steel; Antique Bronze / Bronze; Mirror Silver / Natural Hairline.
+Compatible surface treatments: PVD electroplating (premium decoration), antique finish (vintage style), anti-fingerprint coating (engineering use).
+The same color appears different on different textures.
+### Process Advantages
+- Strong 3D surface effect and visual impact
+- Multiple texture styles (regular / natural / artistic)
+- Better spatial layering and premium feel
+- Can be combined with electroplating, etching, and other processes
+- Suitable for large decorative areas
+- Improves sheet stiffness and deformation resistance
+- Supports functional requirements such as anti-slip and anti-fingerprint
+### Technical Parameters
+1. Process categories: stamping, rolling, hydraulic
+2. Size range:
+Stamping series: width <= 1.5 m, length <= 8 m
+Rolling series: width <= 1.22 m, length <= 8 m
+Hydraulic series: width <= 1.22 m, length <= 2.44 m
+3. Thickness range:
+- Stamping: 0.4 - 3.0 mm
+- Rolling: 0.5 - 1.2 mm
+- Hydraulic: 0.4 - 1.2 mm
+MOQ:
+- Stamping / hydraulic: from 1 sheet
+- Rolling: full coil or around 2 tons
+Some fine textures are better executed on 304; 201 may not reproduce details as well.
+### Applications
+1. Stamping series: ceiling systems, wall decoration, KTV door panels, column wrapping, furniture decoration
+2. Rolling series: cabinet tops, exterior facades, furniture decoration
+3. Hydraulic series: KTV decorative door patterns, custom decorative panels
+Embossed sheets are widely used in entertainment and commercial spaces.
+### Manufacturing Process
+Stamping route: surface pretreatment -> embossing forming -> post-treatment (electroplating / polishing, etc.)
+Rolling route: coil pretreatment (6K / 8K / sanding) -> rolling -> leveling -> cut-to-length -> post-treatment
+Hydraulic route: surface pretreatment -> hydraulic die forming -> post-treatment
+Core principle:
+Permanent 3D structure is formed by pressing die textures directly into the metal surface.
+### FAQ
+Q: What is the difference between embossed and etched sheets?
+A: Embossing is physical pressure forming with stronger 3D depth; etching is chemical corrosion and is better for fine graphic detail.
+Q: Why do some water-ripple embossed sheets shrink or deform?
+A: Material deformation under forming stress can cause dimensional shrinkage. Typical shrinkage depends on pattern size and process control.
+Q: Can embossed sheets be bent?
+A: Yes, but process sequencing is important. Trial validation is recommended for complex bends.
+Q: Can embossed sheets be laminated with honeycomb core?
+A: Yes, but uneven surfaces increase adhesive demand and cost.
+Q: Can 201 be used for all textures?
+A: Not always. Some fine/complex textures are better achieved with 304.
+Q: What is the difference between rolling and stamping?
+A: Stamping processes single sheets with stronger depth expression; rolling is continuous coil processing for larger-volume production.
+Q: What is the production lead time?
+A: Standard routes are often around 10-15 days, and longer for custom or combined processes.`,
+  },
+  "stainless-steel-decorative-sheet:3.1.2.5": {
+    enFromZh: `### Core Introduction
+Hammered stainless steel is a decorative sheet formed by mechanical hammering or special pressing to create irregular raised-and-recessed textures on the metal surface.
+Its texture resembles hand-forged effects, with a natural, random, and strongly metallic visual expression.
+Compared with standard hairline or mirror finishes, hammered textures offer stronger layering and artistic character, while helping reduce glare and hide scratches. It is commonly used in high-end space design.
+### Surface Color and Treatment
+Hammered texture is a texture process; color usually comes from post-treatment.
+Common colors: Titanium Gold, Champagne Gold, Rose Gold, Black Titanium, Antique Bronze, Natural Hairline, Mirror.
+Common combinations:
+- Hammered + PVD electroplating (premium commercial spaces)
+- Hammered + antique finish (vintage style)
+- Hammered + anti-fingerprint (engineering projects)
+Hammered texture presents very different visual feel under different colors.
+### Process Advantages
+- Natural irregular texture and premium visual quality
+- Reduced glare and improved spatial comfort
+- Better ability to hide scratches and daily wear traces
+- Strong surface tactility and depth
+- Suitable for high-end and artistic spaces
+- Can be combined with electroplating / antique finish / hairline
+- Random texture makes each sheet more unique
+### Technical Parameters
+- Substrate grade: 201 / 304 / 316 stainless steel
+- Standard thickness: 0.5 mm - 3.0 mm
+- Texture options: medium hammer / small hammer / large hammer / irregular hammer
+- Maximum size:
+  - Width <= 1.5 m
+  - Length <= 6 m (depends on equipment)
+- Surface routes: hairline / mirror / sandblasted, PVD electroplating, antique finish, anti-fingerprint treatment
+Greater thickness usually produces stronger hammered depth and visual texture.
+### Applications
+Premium feature walls, hotel/club decoration, bar counters, display cabinets, elevator decoration, door and wall panels, art installations.
+Hammered texture is especially suitable for spaces requiring low glare with strong material texture.
+### Manufacturing Process
+1. Basic process route:
+Slitting -> Surface pretreatment (hairline / mirror / sanding) -> Hammered texturing (mechanical or die pressing) -> Surface refinement -> Post-treatment (electroplating / antique / polishing) -> Anti-fingerprint treatment -> Protective film
+2. Typical combinations:
+- Hammered Champagne Gold: hairline -> hammered -> color coating -> anti-fingerprint
+- Hammered Antique Bronze: hammered -> copper plating -> antique finish -> sealing oil
+- Hammered Black Titanium: hammered -> mirror -> electroplating -> anti-fingerprint
+### FAQ
+Q: Is hammered texture random, and can sheets be exactly identical?
+A: Hammered texture is naturally random. Absolute identity is not achievable, but consistent style can be controlled.
+Q: Does hammering reduce sheet strength?
+A: Generally no. It can improve local rigidity and anti-deformation performance in many applications.
+Q: Is hammered surface easy to get dirty?
+A: Usually less fingerprint-sensitive than mirror surfaces, and anti-fingerprint treatment is commonly applied.
+Q: Can hammered sheets be made in color?
+A: Yes. Hammered texture is often combined with PVD electroplating for multiple color effects.
+Q: Is hammered texture suitable for large areas?
+A: Yes, but same-batch production is recommended to minimize texture and color variation.
+Q: What is the difference between hammered and water-ripple?
+A: Hammered texture is irregular and hand-crafted in character, while water-ripple is more flowing and decorative.
+Q: What is the production lead time?
+A: Standard routes are usually around 7-12 days, and longer for custom combined processes.`,
+  },
 };
 
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp", ".JPG", ".PNG", ".JPEG"]);
@@ -471,10 +761,11 @@ function applyManualSeriesTranslation(slug: string, code: string, source: Locali
 
   const zhWeak = !source.zh || lineCount(source.zh) < 3;
   const enWeak = !source.en || lineCount(source.en) < 3;
+  const forceDecorativeSheetEn = slug === "stainless-steel-decorative-sheet" && Boolean(manual.enFromZh);
 
   return {
     zh: zhWeak && manual.zhFromEn ? manual.zhFromEn : source.zh,
-    en: enWeak && manual.enFromZh ? manual.enFromZh : source.en,
+    en: forceDecorativeSheetEn ? manual.enFromZh ?? source.en : enWeak && manual.enFromZh ? manual.enFromZh : source.en,
   };
 }
 
@@ -578,6 +869,18 @@ export async function getProductDocument(slug: string): Promise<ProductDocument 
             slug === "stainless-steel-decorative-sheet"
               ? buildDecorativeSheetDescription(docRaw)
               : extractLocalizedSeriesDescription(docRaw);
+          if (slug === "stainless-steel-decorative-sheet") {
+            const manual = manualSeriesTranslationMap[`${slug}:${series.code}`];
+            return {
+              ...series,
+              description: {
+                zh: extracted.zh || series.description.zh,
+                // Decorative-sheet EN must map one-to-one with zh card structure.
+                en: manual?.enFromZh?.trim() || extracted.en || series.description.en,
+              },
+            };
+          }
+
           const merged = {
             zh: extracted.zh || series.description.zh,
             en: extracted.en || series.description.en,
