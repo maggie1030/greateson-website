@@ -36,7 +36,7 @@ export function Header({ locale }: { locale: Locale }) {
           <span className="h-8 w-8 overflow-hidden rounded-full border border-white/20">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/api/logo-media?file=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326145357_1071_55.jpg"
+              src="/images/logo/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326145357_1071_55.jpg"
               alt={locale === "en" ? "Greateson logo mark" : "顺佳兴品牌图标"}
               className="h-full w-auto max-w-none object-cover object-left"
             />

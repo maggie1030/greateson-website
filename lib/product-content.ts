@@ -23,9 +23,9 @@ export type ProductDocument = {
 };
 
 const productDocNameMap: Record<string, string[]> = {
-  "stainless-steel-screen": ["stainless-steel-products.md", "stainless-steel-screen.md"],
-  "stainless-steel-decorative-sheet": ["stainless-steel-decorative-sheet.md"],
-  "stainless-steel-honeycomb-panel": ["stainless-steel-honeycomb-panel.md"],
+  "stainless-steel-screen": ["products/stainless-steel-screen.md"],
+  "stainless-steel-decorative-sheet": ["products/stainless-steel-decorative-sheet.md"],
+  "stainless-steel-honeycomb-panel": ["products/stainless-steel-honeycomb-panel.md"],
   "stainless-steel-double-curved-fabrication": ["stainless-steel-double-curved-fabrication.md"],
 };
 
@@ -858,7 +858,7 @@ function applyManualSeriesTranslation(slug: string, code: string, source: Locali
 async function getSeriesDocPath(slug: string, code: string) {
   const fileName = productSeriesSeedMap[slug]?.find((series) => series.code === code)?.docFileName;
   if (!fileName) return null;
-  const candidatePath = path.join(process.cwd(), "content", "products", fileName);
+  const candidatePath = path.join(/* turbopackIgnore: true */ process.cwd(), "content", "products", fileName);
   return (await pathExists(candidatePath)) ? candidatePath : null;
 }
 
@@ -873,7 +873,7 @@ async function enrichProductSeries(slug: string, seriesList: ProductSeries[]) {
         };
       }
 
-      const docRaw = (await readFile(docPath, "utf8")).trim();
+      const docRaw = (await readFile(/* turbopackIgnore: true */ docPath, "utf8")).trim();
       if (!docRaw) {
         return {
           ...series,
@@ -974,13 +974,13 @@ function parseProductMarkdown(raw: string): ProductDocument {
 
 export async function getProductDocument(slug: string): Promise<ProductDocument | null> {
   const fileCandidates = productDocNameMap[slug] ?? [`${slug}.md`];
-  const contentRoot = path.join(process.cwd(), "content");
+  const contentRoot = path.join(/* turbopackIgnore: true */ process.cwd(), "content");
   const seedSeries = productSeriesSeedMap[slug] ?? [];
 
   for (const fileName of fileCandidates) {
     const fullPath = path.join(contentRoot, fileName);
     if (!(await pathExists(fullPath))) continue;
-    const raw = (await readFile(fullPath, "utf8")).trim();
+    const raw = (await readFile(/* turbopackIgnore: true */ fullPath, "utf8")).trim();
     if (!raw) continue;
     const parsed = parseProductMarkdown(raw);
     const seriesBase = seedSeries.length ? seedSeries : parsed.series;
@@ -1034,7 +1034,7 @@ export async function getProductSeriesImages(
   const imageDir = productSeriesImageDirMap[slug]?.[series.code];
   if (!imageDir) return [fallbackImage];
 
-  const folderPath = path.join(process.cwd(), "public", "images", "products", imageDir);
+  const folderPath = path.join(/* turbopackIgnore: true */ process.cwd(), "public", "images", "products", imageDir);
   if (!(await pathExists(folderPath))) return [fallbackImage];
 
   const files = await readdir(folderPath);

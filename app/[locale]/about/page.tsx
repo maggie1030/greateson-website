@@ -25,14 +25,13 @@ type WhyUsRow = {
   enContent: string;
 };
 
-async function readWorkspaceFile(relativePath: string) {
-  const workspaceRoot = path.resolve(process.cwd(), "..");
-  const filePath = path.join(workspaceRoot, relativePath);
+async function readProjectContentFile(fileName: string) {
+  const filePath = path.join(process.cwd(), "content", fileName);
   return readFile(filePath, "utf8");
 }
 
 async function readCompanyProfile() {
-  const raw = await readWorkspaceFile("company-profile.md");
+  const raw = await readProjectContentFile("company-profile.md");
   const lines = raw.split(/\r?\n/).map((line) => line.trim());
 
   const englishStart = lines.findIndex((line) => line.startsWith("Guangdong Shun Jiaxing Stainless Steel Co., Ltd."));
@@ -62,7 +61,7 @@ async function readCompanyProfile() {
 }
 
 async function readWhyUsRows() {
-  const raw = await readWorkspaceFile("why-us.md");
+  const raw = await readProjectContentFile("why-us.md");
   const lines = raw.split(/\r?\n/).map((line) => line.trim());
   const rows: WhyUsRow[] = [];
   let current: WhyUsRow | null = null;
@@ -135,7 +134,7 @@ function zhWhyUsContent(key: string, fallback: string) {
 }
 
 const lines = [
-  { en: "PVD Vacuum Coating Line", zh: "真空镀膜线", image: "/images/factory/pvd-coating-line/图片1.png" },
+  { en: "PVD Vacuum Coating Line", zh: "真空镀膜线", image: "/images/factory/pvd-coating-line/9e9f99a7d09ef39c746223331d9c9c66.jpg" },
   { en: "Copper Electroplating Line", zh: "镀铜线", image: "/images/factory/electroplating-line/图片2.png" },
   { en: "Chemical Etching Line", zh: "化学蚀刻线", image: "/images/factory/etching-line/图片5.png" },
   { en: "Embossing Line", zh: "压花线", image: "/images/factory/embossing-line/图片6.png" },

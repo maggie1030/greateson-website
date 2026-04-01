@@ -55,8 +55,9 @@ function canonicalizeHeading(title: string, locale: "zh" | "en") {
   return enAliasMap[normalized] ?? normalized;
 }
 
-function parseSeriesCards(text: string, locale: "zh" | "en"): SeriesCard[] {
-  const lines = text
+function parseSeriesCards(text: string | undefined, locale: "zh" | "en"): SeriesCard[] {
+  const body = String(text ?? "");
+  const lines = body
     .split(/\r?\n/)
     .map((item) => item.trim())
     .filter(Boolean);
@@ -128,8 +129,8 @@ function parseSeriesCards(text: string, locale: "zh" | "en"): SeriesCard[] {
   }
 
   if (current && current.lines.length) cards.push(current);
-  if (!cards.length && text.trim()) {
-    return [{ title: locale === "en" ? "Overview" : "概述", lines: [text.trim()] }];
+  if (!cards.length && body.trim()) {
+    return [{ title: locale === "en" ? "Overview" : "概述", lines: [body.trim()] }];
   }
   return cards;
 }
@@ -286,7 +287,7 @@ export default async function ProductDetailPage({ params }: Props) {
             <section key={series.code} className="space-y-4">
               <h2 className="text-2xl text-[#f5e5c5]">{series.title[locale]}</h2>
               {(() => {
-                const parsed = parseSeriesCards(series.description[locale], locale);
+                const parsed = parseSeriesCards(series.description?.[locale], locale);
                 const cards = orderSeriesCards(parsed, locale);
                 const introTitle = locale === "en" ? "Core Introduction" : "核心介绍";
                 const faqTitles = locale === "en" ? new Set(["FAQ"]) : new Set(["FAQ", "常见问题"]);

@@ -9,7 +9,15 @@ type Props = {
 
 export function ApplicationImageCarousel({ images, alt }: Props) {
   const [index, setIndex] = useState(0);
-  const total = images.length;
+  const list = images.filter(Boolean);
+  const total = list.length;
+  if (!total) {
+    return (
+      <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
+        <div className="aspect-[3/4] w-full bg-[#1d322c]" aria-hidden />
+      </article>
+    );
+  }
   const canSlide = total > 1;
 
   const prev = () => setIndex((current) => (current - 1 + total) % total);
@@ -19,7 +27,7 @@ export function ApplicationImageCarousel({ images, alt }: Props) {
     <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
       <div className="relative">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={images[index]} alt={alt} className="aspect-[3/4] w-full object-cover" />
+        <img src={list[index]} alt={alt} className="aspect-[3/4] w-full object-cover" />
         {canSlide ? (
           <>
             <button
@@ -48,7 +56,7 @@ export function ApplicationImageCarousel({ images, alt }: Props) {
             {index + 1} / {total}
           </p>
           <div className="flex gap-2">
-            {images.map((_, dotIndex) => (
+            {list.map((_, dotIndex) => (
               <button
                 type="button"
                 key={dotIndex}

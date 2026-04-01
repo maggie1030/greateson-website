@@ -253,7 +253,7 @@ export const applications: Application[] = [
       en: "Five-star hotel lobby with water ripple sheets and custom screens.",
       zh: "五星级酒店大堂采用水波纹装饰板与定制屏风。",
     },
-    image: "/images/products/sheets/微信图片_20260324140618_436_50.jpg",
+    image: "/images/applications/hotel-decoration/微信图片_20260326095905_1013_55.png",
   },
   {
     slug: "elevator-panels",
@@ -271,7 +271,7 @@ export const applications: Application[] = [
       en: "Black titanium mirror panels used in premium office towers.",
       zh: "高端写字楼采用黑钛镜面板提升科技与高级感。",
     },
-    image: "/images/products/sheets/微信图片_20260324141448_439_50.jpg",
+    image: "/images/applications/elevator-panels/IMG_3850.PNG",
   },
   {
     slug: "luxury-retail",
@@ -289,7 +289,7 @@ export const applications: Application[] = [
       en: "Luxury cosmetics counter with champagne gold stainless cabinetry.",
       zh: "高端化妆品专柜采用香槟金不锈钢展示系统。",
     },
-    image: "/images/products/cabinets/微信图片_20260324135720_431_50.jpg",
+    image: "/images/applications/luxury-retail/IMG_3883.JPG",
   },
   {
     slug: "architectural-facade",
@@ -307,7 +307,7 @@ export const applications: Application[] = [
       en: "Landmark commercial project with gradient coated stainless facade.",
       zh: "城市地标项目采用渐变镀色不锈钢外立面。",
     },
-    image: "/images/cases/taiyuan-jinmao-mansion/微信图片_20260324153522_617_9.jpg",
+    image: "/images/applications/Wall%20cladding/IMG_3871.JPG",
   },
   {
     slug: "ceiling-panels",

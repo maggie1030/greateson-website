@@ -66,7 +66,7 @@ export default async function HomePage({ params }: Props) {
         <div className="absolute inset-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/api/site-media?file=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326142717_1044_55.jpg"
+            src="/images/site/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326142717_1044_55.jpg"
             alt={isEn ? "Greateson architectural scene" : "顺佳兴工程场景垫图"}
             className="h-full w-full object-cover blur-[0.8px]"
           />
@@ -192,7 +192,7 @@ export default async function HomePage({ params }: Props) {
 
       <section className="section">
         <p className="eyebrow">{isEn ? "FAQ for GEO" : "生成引擎常见问题"}</p>
-        <h2 className="mt-2 text-3xl">{isEn ? "High-Intent Buyer Questions" : "高意向客户核心问题"}</h2>
+        <h2 className="mt-2 text-3xl">{isEn ? "High-Intent Buyer Questions" : "客户关心问题"}</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {topFaqEntries.map((item) => (
             <article key={item.q.en} className="card p-5">
