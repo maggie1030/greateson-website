@@ -1,8 +1,10 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { readdir } from "node:fs/promises";
+import path from "node:path";
 
+import { ApplicationImageCarousel } from "@/components/application/ApplicationImageCarousel";
 import { JsonLd } from "@/components/JsonLd";
 import { caseBySlug, caseStudies, products, type Product } from "@/lib/site-data";
 import { buildMetadata } from "@/lib/seo";
@@ -31,6 +33,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
+const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".JPG", ".JPEG", ".PNG", ".WEBP", ".GIF"]);
+
+async function getCaseCarouselImages(imagePath: string): Promise<string[]> {
+  const marker = "/images/cases/";
+  const relativePath = imagePath.startsWith(marker) ? imagePath.slice(marker.length) : null;
+  if (!relativePath) return [imagePath];
+
+  const segments = relativePath.split("/").map((segment) => decodeURIComponent(segment));
+  if (segments.length < 2) return [imagePath];
+
+  const folderSegments = segments.slice(0, -1);
+  const folderPath = path.join(process.cwd(), "public", "images", "cases", ...folderSegments);
+
+  try {
+    const files = await readdir(folderPath);
+    const images = files
+      .filter((file) => IMAGE_EXTENSIONS.has(path.extname(file)))
+      .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"))
+      .map((file) => `/images/cases/${folderSegments.map((segment) => encodeURIComponent(segment)).join("/")}/${encodeURIComponent(file)}`);
+
+    return images.length ? images : [imagePath];
+  } catch {
+    return [imagePath];
+  }
+}
+
 export default async function CaseDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   if (!isLocale(locale)) notFound();
@@ -42,6 +70,7 @@ export default async function CaseDetailPage({ params }: Props) {
     .map((slugName) => products.find((item) => item.slug === slugName))
     .filter((item): item is Product => Boolean(item));
 
+  const caseImages = await getCaseCarouselImages(data.image);
   const displayLocation = data.location[locale];
   const displayKeywords = data.keywords.map((item) => item[locale]);
 
@@ -94,9 +123,7 @@ export default async function CaseDetailPage({ params }: Props) {
       <h1 className="mt-3 max-w-4xl text-4xl leading-tight md:text-5xl">{data.title[locale]}</h1>
 
       <div className="mt-8 grid items-start gap-6 md:grid-cols-[minmax(280px,0.7fr)_minmax(0,1.3fr)]">
-        <article className="card mx-auto w-full max-w-[420px] overflow-hidden">
-          <Image src={data.image} alt={data.title[locale]} width={1600} height={1000} className="aspect-[3/4] w-full object-cover" />
-        </article>
+        <ApplicationImageCarousel images={caseImages} alt={data.title[locale]} />
 
         <div className="space-y-4">
           <article className="card p-5">

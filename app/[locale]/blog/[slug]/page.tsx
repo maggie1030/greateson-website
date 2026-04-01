@@ -11,9 +11,12 @@ type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
 
+const hiddenBlogSlugs = new Set(["why-water-ripple-stainless-steel-is-everywhere-2026"]);
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!isLocale(locale)) return {};
+  if (hiddenBlogSlugs.has(slug)) return {};
   const post = await getArticleBySlug(slug, "blog");
   if (!post) return {};
 
@@ -29,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BlogDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   if (!isLocale(locale)) notFound();
+  if (hiddenBlogSlugs.has(slug)) notFound();
   const post = await getArticleBySlug(slug, "blog");
   if (!post) notFound();
 

@@ -4,6 +4,8 @@ import { sanityClient } from "./sanity-client";
 
 export type ArticleCategory = "blog" | "guide";
 
+const hiddenArticleSlugs = new Set(["why-water-ripple-stainless-steel-is-everywhere-2026"]);
+
 type RawSanityArticle = {
   slug?: { current?: string };
   category?: ArticleCategory;
@@ -171,7 +173,7 @@ export async function getArticlesByCategory(category: ArticleCategory) {
   const sanityArticles = await fetchSanityArticles();
   const sanitySlugSet = new Set(sanityArticles.map((a) => a.slug));
   const localNotInSanity = fallbackArticles.filter((a) => !sanitySlugSet.has(a.slug));
-  const merged = [...sanityArticles, ...localNotInSanity];
+  const merged = [...sanityArticles, ...localNotInSanity].filter((item) => !hiddenArticleSlugs.has(item.slug));
   return merged.filter((item) => item.category === category);
 }
 

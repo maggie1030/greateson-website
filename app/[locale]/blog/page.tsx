@@ -10,6 +10,8 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+const hiddenBlogSlugs = new Set(["why-water-ripple-stainless-steel-is-everywhere-2026"]);
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
@@ -28,7 +30,7 @@ export default async function BlogPage({ params }: Props) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const isEn = locale === "en";
-  const posts = await getArticlesByCategory("blog");
+  const posts = (await getArticlesByCategory("blog")).filter((item) => !hiddenBlogSlugs.has(item.slug));
 
   return (
     <section className="section">

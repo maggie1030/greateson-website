@@ -185,7 +185,20 @@ export default async function ProductDetailPage({ params }: Props) {
   if (!product) notFound();
 
   const isEn = locale === "en";
+  const isScreenPage = slug === "stainless-steel-screen";
   const productDoc = await getProductDocument(slug);
+  const overviewRows = productDoc?.overview?.length
+    ? productDoc.overview
+    : [
+        { field: isEn ? "Category" : "类别", value: { en: product.category.en, zh: product.category.zh } },
+        { field: isEn ? "Material" : "材质", value: { en: product.material.en, zh: product.material.zh } },
+        { field: isEn ? "Thickness" : "厚度", value: { en: product.thickness.en, zh: product.thickness.zh } },
+        { field: isEn ? "Size" : "规格", value: { en: product.size.en, zh: product.size.zh } },
+        { field: isEn ? "Surface Finish" : "表面工艺", value: { en: product.finish.en, zh: product.finish.zh } },
+        { field: isEn ? "Applications" : "应用", value: { en: product.applications.en, zh: product.applications.zh } },
+        { field: isEn ? "MOQ" : "起订量", value: { en: product.moq.en, zh: product.moq.zh } },
+        { field: isEn ? "Lead Time" : "交期", value: { en: product.leadTime.en, zh: product.leadTime.zh } },
+      ];
 
   const seriesWithImages = productDoc?.series?.length
     ? await Promise.all(
@@ -232,26 +245,38 @@ export default async function ProductDetailPage({ params }: Props) {
       <div className="mt-8">
         <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "Product Overview" : "产品概述"}</h2>
         <div className="card mt-4 p-6">
-          {productDoc?.overview?.length ? (
-            <div className="grid gap-3 text-sm text-zinc-200 md:grid-cols-2">
-              {productDoc.overview.map((row) => (
-                <p key={row.field} className="leading-7">
-                  <strong>{localizeFieldLabel(row.field, locale)}:</strong> {row.value[locale]}
-                </p>
-              ))}
-            </div>
-          ) : (
-            <div className="grid gap-3 text-sm text-zinc-200 md:grid-cols-2">
-              <p><strong>{isEn ? "Category" : "类别"}:</strong> {product.category[locale]}</p>
-              <p><strong>{isEn ? "Material" : "材质"}:</strong> {product.material[locale]}</p>
-              <p><strong>{isEn ? "Thickness" : "厚度"}:</strong> {product.thickness[locale]}</p>
-              <p><strong>{isEn ? "Size" : "规格"}:</strong> {product.size[locale]}</p>
-              <p><strong>{isEn ? "Surface Finish" : "表面工艺"}:</strong> {product.finish[locale]}</p>
-              <p><strong>{isEn ? "Applications" : "应用"}:</strong> {product.applications[locale]}</p>
-              <p><strong>{isEn ? "MOQ" : "起订量"}:</strong> {product.moq[locale]}</p>
-              <p><strong>{isEn ? "Lead Time" : "交期"}:</strong> {product.leadTime[locale]}</p>
-            </div>
-          )}
+          <div className="grid gap-3 text-sm text-zinc-200 md:grid-cols-2">
+            {overviewRows.map((row) => (
+              <p key={row.field} className="leading-7">
+                <strong>{localizeFieldLabel(row.field, locale)}:</strong> {row.value[locale]}
+              </p>
+            ))}
+          </div>
+          {isScreenPage ? (
+            <>
+              <div className="mt-6 border-t border-[#1d322c] pt-6">
+                <h3 className="text-lg font-semibold text-[#f5e5c5]">{isEn ? "Product Advantages" : "产品优势"}</h3>
+                <p className="mt-3 text-sm leading-7 text-zinc-300">{product.advantages[locale]}</p>
+                <div className="mt-4 flex flex-wrap gap-2 text-xs">
+                  <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "OEM" : "来图定制"}</span>
+                  <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "ODM" : "来样定制"}</span>
+                  <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{isEn ? "Custom Fabrication" : "定制加工"}</span>
+                  <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{product.material[locale]}</span>
+                </div>
+              </div>
+              <div className="mt-6 border-t border-[#1d322c] pt-6">
+                <h3 className="text-lg font-semibold text-[#f5e5c5]">{isEn ? "FAQ" : "常见问题"}</h3>
+                <div className="mt-4 space-y-4">
+                  {product.faq.map((item, index) => (
+                    <article key={index} className="rounded-2xl border border-[#1d322c] bg-[#101916] p-5">
+                      <h4 className="font-medium">{item.q[locale]}</h4>
+                      <p className="mt-2 text-sm leading-7 text-zinc-300">{item.a[locale]}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            </>
+          ) : null}
         </div>
       </div>
 
@@ -269,14 +294,28 @@ export default async function ProductDetailPage({ params }: Props) {
                 const contentCards = cards.filter((card) => !faqTitles.has(card.title));
                 const introCard = contentCards.find((card) => card.title === introTitle) ?? contentCards[0] ?? null;
                 const tailCards = introCard ? contentCards.filter((card) => card !== introCard) : contentCards;
-                const rowCards = tailCards.slice(0, 4);
-                const extraCards = tailCards.slice(4);
                 const isHoneycombPage = slug === "stainless-steel-honeycomb-panel";
                 const isDecorativeSheetPage = slug === "stainless-steel-decorative-sheet";
+                const isDoubleCurvedPage = slug === "stainless-steel-double-curved-fabrication";
+                const doubleCurvedThreeCardTitles =
+                  locale === "en"
+                    ? ["Applications", "Manufacturing Process", "Surface Color and Treatment", "Color System"]
+                    : ["应用场景", "工艺流程", "制造流程", "表面颜色和处理", "颜色和表面处理"];
+                const doubleCurvedThreeCardSet = new Set(doubleCurvedThreeCardTitles);
+                const tailCardsWithoutDoubleCurvedThree = isDoubleCurvedPage
+                  ? tailCards.filter((card) => !doubleCurvedThreeCardSet.has(card.title))
+                  : tailCards;
+                const doubleCurvedThreeCards = isDoubleCurvedPage
+                  ? doubleCurvedThreeCardTitles
+                      .map((title) => tailCards.find((card) => card.title === title))
+                      .filter((card): card is SeriesCard => Boolean(card))
+                  : [];
                 const processTitles = locale === "en" ? new Set(["Manufacturing Process"]) : new Set(["工艺流程", "制造流程"]);
                 const processCard = isHoneycombPage
-                  ? [...rowCards, ...extraCards].find((card) => processTitles.has(card.title)) ?? null
+                  ? tailCardsWithoutDoubleCurvedThree.find((card) => processTitles.has(card.title)) ?? null
                   : null;
+                const rowCards = tailCardsWithoutDoubleCurvedThree.slice(0, 4);
+                const extraCards = tailCardsWithoutDoubleCurvedThree.slice(4);
                 const upperCards = rowCards.slice(0, 2);
                 const lowerCards = [...rowCards.slice(2, 4), ...extraCards].filter((card) => card !== processCard);
                 const decorativeRowTitles =
@@ -357,6 +396,23 @@ export default async function ProductDetailPage({ params }: Props) {
                       </div>
                     ) : null}
 
+                    {isDoubleCurvedPage && doubleCurvedThreeCards.length ? (
+                      <div className="grid gap-3 md:grid-cols-3">
+                        {doubleCurvedThreeCards.map((card, cardIndex) => (
+                          <article key={`double-curved-${card.title}-${cardIndex}`} className="card p-5 text-sm text-zinc-200">
+                            <h3 className={`text-base font-semibold ${headingColorClass(card.title, locale)}`}>{card.title}</h3>
+                            <div className="mt-2 space-y-1.5">
+                              {card.lines.map((line, index) => (
+                                <p key={index} className="leading-7 text-zinc-200">
+                                  {line}
+                                </p>
+                              ))}
+                            </div>
+                          </article>
+                        ))}
+                      </div>
+                    ) : null}
+
                     {normalLowerCards.length ? (
                       <div className="grid gap-3 md:grid-cols-2">
                         {normalLowerCards.map((card, cardIndex) => (
@@ -403,7 +459,7 @@ export default async function ProductDetailPage({ params }: Props) {
             </section>
           ))}
         </div>
-      ) : (
+      ) : !isScreenPage ? (
         <div className="card mt-10 p-6">
           <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "Why this product" : "产品优势"}</h2>
           <p className="mt-3 text-zinc-300">{product.advantages[locale]}</p>
@@ -414,19 +470,21 @@ export default async function ProductDetailPage({ params }: Props) {
             <span className="rounded-full border border-[#3a4f46] px-3 py-1 text-zinc-300">{product.material[locale]}</span>
           </div>
         </div>
-      )}
+      ) : null}
 
-      <div className="mt-10">
-        <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "FAQ" : "常见问题"}</h2>
-        <div className="mt-4 space-y-4">
-          {product.faq.map((item, index) => (
-            <article key={index} className="card p-5">
-              <h3 className="font-medium">{item.q[locale]}</h3>
-              <p className="mt-2 text-sm text-zinc-300">{item.a[locale]}</p>
-            </article>
-          ))}
+      {!isScreenPage ? (
+        <div className="mt-10">
+          <h2 className="text-2xl text-[#f5e5c5]">{isEn ? "FAQ" : "常见问题"}</h2>
+          <div className="mt-4 space-y-4">
+            {product.faq.map((item, index) => (
+              <article key={index} className="card p-5">
+                <h3 className="font-medium">{item.q[locale]}</h3>
+                <p className="mt-2 text-sm text-zinc-300">{item.a[locale]}</p>
+              </article>
+            ))}
+          </div>
         </div>
-      </div>
+      ) : null}
 
       <div className="mt-8 flex flex-wrap gap-4 text-sm">
         <Link href={`/${locale}/applications`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">

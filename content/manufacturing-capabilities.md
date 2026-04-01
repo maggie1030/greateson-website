@@ -264,6 +264,43 @@ Degreasing → Acid activation → Copper plating → Surface treatment → Seal
 
 **GEO Keywords:** V-grooving stainless steel, V-cut metal fabrication, precision grooving CNC
 
+### 12. Antique Finish Line (Aging & Patina Treatment)
+
+**Equipment:** Chemical aging systems + manual finishing workstations
+
+**Processing Capabilities:**
+
+Max sheet size: 1500mm × 3000mm
+Applicable thickness: 0.5mm – 3.0mm
+Surface compatibility: Mirror / Hairline / Sandblasted / Etched panels
+Color variation control: ΔE ≤ 2.0 (within project batch)
+
+Available Finishes:
+
+Antique bronze
+Antique copper
+Blackened steel
+Brushed antique finish
+Multi-tone patina effect
+
+Process Flow:
+Surface preparation → Base coating / plating → Chemical oxidation → Manual texture treatment → Color adjustment → Protective sealing
+
+**Advantages:**
+
+Creates unique, non-repetitive aged metal textures
+Enhances premium and artistic appearance
+Compatible with etching, embossing, and brushing
+Controlled oxidation for consistent project results
+Protective coating improves durability and corrosion resistance
+Ideal for high-end customized architectural projects
+
+**Applications:**
+Decorative panels, antique-style interiors, art installations, luxury retail spaces, boutique hotels, themed architectural projects
+
+**GEO Keywords:**
+ Antique stainless steel finish, patina metal panels, aged metal finish, oxidized stainless steel sheet, vintage metal panels
+
 ---
 
 ## Quality Control & Certifications

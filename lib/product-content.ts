@@ -2,6 +2,7 @@ import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
 import type { Locale } from "./i18n";
+import { productSeriesImageDirMap, productSeriesSeedMap } from "./product-series-config";
 
 type Localized = { zh: string; en: string };
 
@@ -25,42 +26,7 @@ const productDocNameMap: Record<string, string[]> = {
   "stainless-steel-screen": ["stainless-steel-products.md", "stainless-steel-screen.md"],
   "stainless-steel-decorative-sheet": ["stainless-steel-decorative-sheet.md"],
   "stainless-steel-honeycomb-panel": ["stainless-steel-honeycomb-panel.md"],
-};
-
-const productFolderNameMap: Record<string, string[]> = {
-  "stainless-steel-screen": ["stainless-steel-products", "stainless-steel-screen"],
-  "stainless-steel-decorative-sheet": ["stainless-steel-decorative-sheet"],
-  "stainless-steel-honeycomb-panel": ["stainless-steel-honeycomb-panel"],
-};
-
-const productSeriesDocNameMap: Record<string, Record<string, string>> = {
-  "stainless-steel-screen": {
-    "3.1.1.1": "Stainless Steel Screen.md",
-    "3.1.1.2": "Stainless Steel Display Cabinet.md",
-    "3.1.1.3": "Stainless Steel Bar Counter.md",
-    "3.1.1.4": "Stainless Steel Sculpture.md",
-  },
-  "stainless-steel-decorative-sheet": {
-    "3.1.2.1": "Stainless Steel PVD Coating.md",
-    "3.1.2.2": "Antique Art Metal Series.md",
-    "3.1.2.3": "Metal Etching Series.md",
-    "3.1.2.4": "Embossed Series.md",
-    "3.1.2.5": "Hammered Finish Series.md",
-  },
-  "stainless-steel-honeycomb-panel": {
-    "3.1.3.1": "Flat honeycomb panel.md",
-    "3.1.3.2": "Special-shaped honeycomb panel.md",
-    "3.1.3.3": "Curved honeycomb panel.md",
-    "3.1.3.4": "Water ripple honeycomb panel.md",
-  },
-};
-
-const productSeriesImageFolderMap: Record<string, Record<string, string[]>> = {
-  "stainless-steel-honeycomb-panel": {
-    "3.1.3.2": ["Special-shaped honeycomb panel "],
-    "3.1.3.3": ["Curved honeycomb panel "],
-    "3.1.3.4": ["Water ripple honeycomb panel "],
-  },
+  "stainless-steel-double-curved-fabrication": ["stainless-steel-double-curved-fabrication.md"],
 };
 
 const manualSeriesTranslationMap: Record<
@@ -651,19 +617,139 @@ A: Hammered texture is irregular and hand-crafted in character, while water-ripp
 Q: What is the production lead time?
 A: Standard routes are usually around 7-12 days, and longer for custom combined processes.`,
   },
+  "stainless-steel-double-curved-fabrication:3.1.4.1": {
+    enFromZh: `Core Introduction
+Architectural double curved metal sculpture is a high-end metal art product built from 3D surface modeling, multi-directional curved forming, and precision welding.
+Its defining feature is a double-curved geometry with simultaneous horizontal and vertical curvature, creating fluid and visually striking forms.
+Unlike flat or single-curved products, this type of sculpture depends on 3D modeling, surface decomposition, CNC fabrication, and hand finishing, combining engineering precision with artistic expression.
+It is widely used in city landmarks, commercial complexes, luxury landscapes, and art installations.
+
+Color System
+Mirror Silver / Brushed Silver
+Titanium Gold / Champagne Gold / Rose Gold
+Black Titanium / Dark Grey
+Antique Bronze / Bronze / Red Copper
+Custom gradient electroplated finishes
+
+Process Advantages
+Complex 3D curved forms with strong landmark impact
+Natural and continuous curved surfaces
+Fully customized workflow from concept to fabrication
+High structural strength for large outdoor installations
+Can integrate with lighting systems
+High surface precision with seamless visual effect
+Strong brand and landmark expression
+
+Technical Parameters
+Material: 304 stainless steel (mainstream) / 316 stainless steel (recommended outdoors)
+Thickness: 1.5mm - 6.0mm depending on structure
+Size: Fully customizable, including modular large-scale projects
+Accuracy: Millimeter-level tolerance control
+Structure: Internal frame plus skin / fully welded structure
+Forming: CNC rolling, mold stretching, segmented welding
+
+Applications
+City landmark sculpture
+Commercial plaza installation
+Shopping mall atrium art
+Hotel entrance sculpture
+Landscape sculpture
+Exhibition installation
+Corporate identity sculpture
+
+Manufacturing Process
+Concept design
+3D modeling
+Surface decomposition
+CNC cutting
+Forming
+Segment welding
+Grinding and polishing
+Surface finishing
+Installation
+
+FAQ
+Q: What is double curved sculpture?
+A: It is a complex 3D sculpture with curvature in two directions.
+Q: Why is it more expensive?
+A: Because it requires 3D modeling, custom forming, multiple welding steps, and high-precision finishing.
+Q: Which material is recommended outdoors?
+A: 316 stainless steel is recommended for better corrosion resistance.
+Q: How large can it be made?
+A: It can be expanded to landmark scale through modular segmentation.
+Q: How is accuracy controlled?
+A: Through 3D modeling, CNC forming, and high-precision segmented welding.`,
+  },
+  "stainless-steel-double-curved-fabrication:3.1.4.2": {
+    enFromZh: `Core Introduction
+Architectural double curved ceiling is a premium metal ceiling system produced from 3D surface design, multi-directional forming, and precision assembly.
+Its core feature is continuous horizontal and vertical curvature across the ceiling surface, creating a flowing and spatially dramatic visual effect.
+Unlike flat ceilings or single-curved forms, double curved ceilings rely on 3D modeling, surface decomposition, modular fabrication, and on-site calibration.
+They are widely used in commercial atriums, hotel lobbies, exhibition halls, and premium public interiors.
+
+Color System
+Mirror Silver / Brushed Silver
+Titanium Gold / Champagne Gold / Rose Gold
+Black Titanium / Dark Grey
+Antique Bronze / Bronze
+Custom gradient finishes
+
+Process Advantages
+Complex large-space curved ceiling forms
+Continuous and fluid surface effect
+Fully customized from concept to fabrication
+Modular splicing for large projects
+Stable structure suitable for suspended ceiling systems
+Can integrate with concealed lighting
+Improves luxury and brand expression
+
+Technical Parameters
+Material: 304 stainless steel (interior standard) / 316 stainless steel (special environments)
+Thickness: 0.8mm - 3.0mm
+Panel size: Customized by surface decomposition
+Accuracy: Millimeter-level tolerance control
+Installation: Modular assembly / suspended keel system
+Forming: CNC rolling, mold pressing, segmented welding
+
+Applications
+Commercial atriums
+Hotel lobbies
+Art exhibition halls
+Brand showrooms
+Airports and rail stations
+Club interiors
+Office building lobbies
+
+Manufacturing Process
+Concept design
+3D modeling
+Surface decomposition
+Module numbering
+CNC fabrication
+Forming
+Surface finishing
+Packing and transport
+On-site installation
+Precision adjustment
+
+FAQ
+Q: What is a double curved ceiling?
+A: It is a premium ceiling system with dual-direction curvature across a 3D surface.
+Q: Why is it expensive?
+A: Because it involves modeling, decomposition, custom fabrication, and complex installation.
+Q: How is consistency maintained on large projects?
+A: Through accurate modeling, module numbering, and on-site calibration.
+Q: Can lighting be integrated?
+A: Yes, concealed light strips and point-source lighting can be integrated.
+Q: Will there be visible joints?
+A: High-precision fabrication and installation can achieve a nearly seamless appearance.`,
+  },
 };
 
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp", ".JPG", ".PNG", ".JPEG"]);
 
 function normalize(text: string) {
   return text.replace(/\s+/g, " ").trim();
-}
-
-function sanitizeFolderName(text: string) {
-  return text
-    .replace(/[（）()]/g, "")
-    .replace(/[\\/]/g, "-")
-    .trim();
 }
 
 function hasCjk(text: string) {
@@ -770,17 +856,59 @@ function applyManualSeriesTranslation(slug: string, code: string, source: Locali
 }
 
 async function getSeriesDocPath(slug: string, code: string) {
-  const fileName = productSeriesDocNameMap[slug]?.[code];
+  const fileName = productSeriesSeedMap[slug]?.find((series) => series.code === code)?.docFileName;
   if (!fileName) return null;
+  const candidatePath = path.join(process.cwd(), "content", "products", fileName);
+  return (await pathExists(candidatePath)) ? candidatePath : null;
+}
 
-  const workspaceRoot = path.resolve(process.cwd(), "..");
-  const folderCandidates = productFolderNameMap[slug] ?? [slug];
+async function enrichProductSeries(slug: string, seriesList: ProductSeries[]) {
+  return Promise.all(
+    seriesList.map(async (series) => {
+      const docPath = await getSeriesDocPath(slug, series.code);
+      if (!docPath) {
+        return {
+          ...series,
+          description: applyManualSeriesTranslation(slug, series.code, series.description),
+        };
+      }
 
-  for (const folderName of folderCandidates) {
-    const candidatePath = path.join(workspaceRoot, "products", folderName, fileName);
-    if (await pathExists(candidatePath)) return candidatePath;
-  }
-  return null;
+      const docRaw = (await readFile(docPath, "utf8")).trim();
+      if (!docRaw) {
+        return {
+          ...series,
+          description: applyManualSeriesTranslation(slug, series.code, series.description),
+        };
+      }
+
+      const extracted =
+        slug === "stainless-steel-decorative-sheet"
+          ? buildDecorativeSheetDescription(docRaw)
+          : extractLocalizedSeriesDescription(docRaw);
+      if (slug === "stainless-steel-decorative-sheet") {
+        const manual = manualSeriesTranslationMap[`${slug}:${series.code}`];
+        return {
+          ...series,
+          description: {
+            zh: extracted.zh || series.description.zh,
+            // Decorative-sheet EN must map one-to-one with zh card structure.
+            en: manual?.enFromZh?.trim() || extracted.en || series.description.en,
+          },
+        };
+      }
+
+      const merged = {
+        zh: extracted.zh || series.description.zh,
+        en: extracted.en || series.description.en,
+      };
+      const bilingual = applyManualSeriesTranslation(slug, series.code, merged);
+
+      return {
+        ...series,
+        description: bilingual,
+      };
+    }),
+  );
 }
 
 async function pathExists(filePath: string) {
@@ -845,60 +973,30 @@ function parseProductMarkdown(raw: string): ProductDocument {
 }
 
 export async function getProductDocument(slug: string): Promise<ProductDocument | null> {
-  const workspaceRoot = path.resolve(process.cwd(), "..");
   const fileCandidates = productDocNameMap[slug] ?? [`${slug}.md`];
-  const dirCandidates = [path.join(workspaceRoot, "products"), path.join(process.cwd(), "content", "products")];
+  const contentRoot = path.join(process.cwd(), "content");
+  const seedSeries = productSeriesSeedMap[slug] ?? [];
 
-  for (const dir of dirCandidates) {
-    for (const fileName of fileCandidates) {
-      const fullPath = path.join(dir, fileName);
-      if (!(await pathExists(fullPath))) continue;
-      const raw = (await readFile(fullPath, "utf8")).trim();
-      if (!raw) continue;
-      const parsed = parseProductMarkdown(raw);
+  for (const fileName of fileCandidates) {
+    const fullPath = path.join(contentRoot, fileName);
+    if (!(await pathExists(fullPath))) continue;
+    const raw = (await readFile(fullPath, "utf8")).trim();
+    if (!raw) continue;
+    const parsed = parseProductMarkdown(raw);
+    const seriesBase = seedSeries.length ? seedSeries : parsed.series;
+    const enrichedSeries = await enrichProductSeries(slug, seriesBase);
 
-      const enrichedSeries = await Promise.all(
-        parsed.series.map(async (series) => {
-          const docPath = await getSeriesDocPath(slug, series.code);
-          if (!docPath) return series;
+    return {
+      overview: parsed.overview,
+      series: enrichedSeries,
+    };
+  }
 
-          const docRaw = (await readFile(docPath, "utf8")).trim();
-          if (!docRaw) return series;
-
-          const extracted =
-            slug === "stainless-steel-decorative-sheet"
-              ? buildDecorativeSheetDescription(docRaw)
-              : extractLocalizedSeriesDescription(docRaw);
-          if (slug === "stainless-steel-decorative-sheet") {
-            const manual = manualSeriesTranslationMap[`${slug}:${series.code}`];
-            return {
-              ...series,
-              description: {
-                zh: extracted.zh || series.description.zh,
-                // Decorative-sheet EN must map one-to-one with zh card structure.
-                en: manual?.enFromZh?.trim() || extracted.en || series.description.en,
-              },
-            };
-          }
-
-          const merged = {
-            zh: extracted.zh || series.description.zh,
-            en: extracted.en || series.description.en,
-          };
-          const bilingual = applyManualSeriesTranslation(slug, series.code, merged);
-
-          return {
-            ...series,
-            description: bilingual,
-          };
-        }),
-      );
-
-      return {
-        ...parsed,
-        series: enrichedSeries,
-      };
-    }
+  if (seedSeries.length) {
+    return {
+      overview: [],
+      series: await enrichProductSeries(slug, seedSeries),
+    };
   }
 
   return null;
@@ -933,40 +1031,17 @@ export async function getProductSeriesImages(
   series: ProductSeries,
   fallbackImage: string,
 ): Promise<string[]> {
-  const workspaceRoot = path.resolve(process.cwd(), "..");
-  const picturesRoot = path.join(workspaceRoot, "pictures", "products");
-  const productFolders = productFolderNameMap[slug] ?? [slug];
+  const imageDir = productSeriesImageDirMap[slug]?.[series.code];
+  if (!imageDir) return [fallbackImage];
 
-  const mappedSeriesFolders = productSeriesImageFolderMap[slug]?.[series.code] ?? [];
+  const folderPath = path.join(process.cwd(), "public", "images", "products", imageDir);
+  if (!(await pathExists(folderPath))) return [fallbackImage];
 
-  const seriesFolderCandidates = Array.from(
-    new Set([
-      ...mappedSeriesFolders,
-      sanitizeFolderName(series.title.en),
-      sanitizeFolderName(series.title.zh),
-      sanitizeFolderName(`${series.code}-${series.title.en}`),
-      `${sanitizeFolderName(series.title.en)} `,
-      `${sanitizeFolderName(series.title.zh)} `,
-    ]),
-  ).filter(Boolean);
+  const files = await readdir(folderPath);
+  const imageFiles = files
+    .filter((name) => IMAGE_EXTENSIONS.has(path.extname(name)))
+    .sort((a, b) => a.localeCompare(b, "en"));
+  if (!imageFiles.length) return [fallbackImage];
 
-  for (const productFolder of productFolders) {
-    for (const seriesFolder of seriesFolderCandidates) {
-      const folderPath = path.join(picturesRoot, productFolder, seriesFolder);
-      if (!(await pathExists(folderPath))) continue;
-      const files = await readdir(folderPath);
-      const imageFiles = files
-        .filter((name) => IMAGE_EXTENSIONS.has(path.extname(name)))
-        .sort((a, b) => a.localeCompare(b, "en"));
-      if (!imageFiles.length) continue;
-      return imageFiles.map(
-        (file) =>
-          `/api/product-media?product=${encodeURIComponent(productFolder)}&series=${encodeURIComponent(
-            seriesFolder,
-          )}&file=${encodeURIComponent(file)}`,
-      );
-    }
-  }
-
-  return [fallbackImage];
+  return imageFiles.map((file) => `/images/products/${imageDir}/${encodeURIComponent(file)}`);
 }

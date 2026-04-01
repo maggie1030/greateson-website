@@ -146,6 +146,7 @@ const lines = [
   { en: "Laser Cutting Line", zh: "激光切割线", image: "/images/factory/Laser Cutting Line/图片10.png" },
   { en: "CNC Bending Line", zh: "数控折弯线", image: "/images/factory/Bending Line/图片13.png" },
   { en: "V-Grooving Line", zh: "开槽加工线", image: "/images/factory/V-Grooving line/图片11.png" },
+  { en: "Antique Finish Line", zh: "做旧生产线", image: "/images/factory/Antique Finish Line/50a2907980380f9d2094a3cb17de6bef.jpg" },
 ];
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -178,8 +179,8 @@ export default async function AboutPage({ params }: Props) {
         acceptedAnswer: {
           "@type": "Answer",
           text: isEn
-            ? "Greateson operates 11 integrated production lines from surface treatment to deep fabrication."
-            : "顺佳兴目前有 11 条一体化生产线，覆盖表面处理到深加工。",
+            ? "Greateson operates 12 integrated production lines from surface treatment to deep fabrication."
+            : "顺佳兴目前有 12 条一体化生产线，覆盖表面处理到深加工。",
         },
       },
       {
@@ -225,7 +226,7 @@ export default async function AboutPage({ params }: Props) {
       <section id="factory" className="pt-16">
         <p className="eyebrow">{isEn ? "Factory" : "工厂实力"}</p>
         <h2 className="mt-3 text-4xl">
-          {isEn ? "11 Integrated Production Lines" : "11 条一体化生产线"}
+          {isEn ? "12 Integrated Production Lines" : "12 条一体化生产线"}
         </h2>
         <p className="mt-5 max-w-3xl text-zinc-300">
           {isEn

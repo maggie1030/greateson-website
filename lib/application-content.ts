@@ -97,29 +97,23 @@ export async function getApplicationNarrative(
   locale: Locale,
   fallbackData: Application,
 ): Promise<Narrative> {
-  const workspaceRoot = path.resolve(process.cwd(), "..");
-  const contentDirCandidates = [
-    path.join(workspaceRoot, "applications"),
-    path.join(process.cwd(), "content", "applications"),
-  ];
+  const contentDir = path.join(process.cwd(), "content", "applications");
   const fileNames = markdownNameMap[slug] ?? [`${slug}.md`];
 
-  for (const dir of contentDirCandidates) {
-    for (const fileName of fileNames) {
-      const filePath = path.join(dir, fileName);
-      if (!(await pathExists(filePath))) continue;
-      const raw = (await readFile(filePath, "utf8")).trim();
-      if (!raw) continue;
-      const parsed = parseMarkdownTable(raw, locale);
-      if (!parsed) continue;
-      return {
-        description: parsed.description || fallbackData.description[locale],
-        typicalProducts: parsed.typicalProducts || fallbackData.typicalProducts[locale],
-        benefits: parsed.benefits || fallbackData.benefits[locale],
-        caseExample: parsed.caseExample || fallbackData.caseExample[locale],
-        faq: parsed.faq || fallbackFaq(locale),
-      };
-    }
+  for (const fileName of fileNames) {
+    const filePath = path.join(contentDir, fileName);
+    if (!(await pathExists(filePath))) continue;
+    const raw = (await readFile(filePath, "utf8")).trim();
+    if (!raw) continue;
+    const parsed = parseMarkdownTable(raw, locale);
+    if (!parsed) continue;
+    return {
+      description: parsed.description || fallbackData.description[locale],
+      typicalProducts: parsed.typicalProducts || fallbackData.typicalProducts[locale],
+      benefits: parsed.benefits || fallbackData.benefits[locale],
+      caseExample: parsed.caseExample || fallbackData.caseExample[locale],
+      faq: parsed.faq || fallbackFaq(locale),
+    };
   }
 
   return {
@@ -132,8 +126,7 @@ export async function getApplicationNarrative(
 }
 
 export async function getApplicationCarouselImages(slug: string, fallbackImage: string): Promise<string[]> {
-  const workspaceRoot = path.resolve(process.cwd(), "..");
-  const imagesRoot = path.join(workspaceRoot, "pictures", "applications");
+  const imagesRoot = path.join(process.cwd(), "public", "images", "applications");
   const folderCandidates = imageFolderNameMap[slug] ?? [slug];
 
   for (const folderName of folderCandidates) {
@@ -142,10 +135,7 @@ export async function getApplicationCarouselImages(slug: string, fallbackImage: 
     const files = await readdir(folderPath);
     const imageFiles = files.filter(isImageFile).sort((a, b) => a.localeCompare(b, "en"));
     if (!imageFiles.length) continue;
-    return imageFiles.map(
-      (fileName) =>
-        `/api/application-media?folder=${encodeURIComponent(folderName)}&file=${encodeURIComponent(fileName)}`,
-    );
+    return imageFiles.map((fileName) => `/images/applications/${encodeURIComponent(folderName)}/${encodeURIComponent(fileName)}`);
   }
 
   return [fallbackImage];
