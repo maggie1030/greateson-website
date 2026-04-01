@@ -28,9 +28,6 @@ export function Footer({ locale }: { locale: Locale }) {
           <p>{isEn ? "Factory Area" : "工厂面积"}: {company.factoryArea}</p>
           <p className="mt-2">{isEn ? "Employees" : "员工"}: {company.employees}</p>
           <p className="mt-2">{isEn ? "Markets" : "主要市场"}: {company.markets[locale]}</p>
-          <Link href={`/${locale}/contact`} className="mt-4 inline-block text-[#d9bb85]">
-            {isEn ? "Contact Sales Team" : "联系销售团队"}
-          </Link>
         </div>
       </div>
     </footer>

@@ -15,7 +15,6 @@ const links = [
   { key: "blog", href: "/blog" },
   { key: "guides", href: "/guides" },
   { key: "faq", href: "/faq" },
-  { key: "contact", href: "/contact" },
 ] as const;
 
 export function Header({ locale }: { locale: Locale }) {

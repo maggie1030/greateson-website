@@ -134,9 +134,6 @@ export default async function BlogDetailPage({ params }: Props) {
           <Link href={`/${locale}/cases`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">
             {isEn ? "View case studies" : "查看案例"}
           </Link>
-          <Link href={`/${locale}/contact`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">
-            {isEn ? "Contact us" : "联系我们"}
-          </Link>
           <Link href={`/${locale}/quote`} className="rounded-full border border-[#3a4f46] px-4 py-2 text-zinc-200 hover:border-[#d9bb85]">
             {isEn ? "Get quote" : "获取报价"}
           </Link>

@@ -223,9 +223,6 @@ export default async function HomePage({ params }: Props) {
             <Link href={`/${locale}/quote`} className="rounded-full bg-[#d9bb85] px-6 py-3 font-medium text-[#1b1610]">
               {isEn ? "Request Quote" : "获取报价"}
             </Link>
-            <Link href={`/${locale}/contact`} className="rounded-full border border-[#d9bb85] px-6 py-3 text-[#e6cf9f]">
-              {isEn ? "Contact Us" : "联系我们"}
-            </Link>
           </div>
         </div>
       </section>
