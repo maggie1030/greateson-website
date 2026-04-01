@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 
 import type { Locale } from "./i18n";
+import { siteUrl } from "./site-url";
 import { company } from "./site-data";
-
-const siteUrl = "https://greateson.com";
 
 const localeCode: Record<Locale, string> = {
   en: "en_US",

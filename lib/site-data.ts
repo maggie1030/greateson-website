@@ -1,4 +1,5 @@
 import type { Locale } from "./i18n";
+import { siteUrl } from "./site-url";
 
 type LocalizedText = Record<Locale, string>;
 
@@ -63,7 +64,7 @@ export const company = {
   phone: "+86-18928546888",
   whatsapp: "+86-18125683838",
   email: "sales@greateson.com",
-  website: "https://greateson.com",
+  website: siteUrl,
 };
 
 export const nav = {

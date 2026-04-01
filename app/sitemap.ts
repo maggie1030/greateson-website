@@ -1,9 +1,8 @@
 import type { MetadataRoute } from "next";
 
 import { getArticlesByCategory } from "@/lib/articles";
+import { siteUrl } from "@/lib/site-url";
 import { applications, caseStudies, products } from "@/lib/site-data";
-
-const base = "https://greateson.com";
 const locales = ["en", "zh"] as const;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -30,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   locales.forEach((locale) => {
     staticPaths.forEach((path) => {
       entries.push({
-        url: `${base}/${locale}${path}`,
+        url: `${siteUrl}/${locale}${path}`,
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: path === "" ? 1 : 0.8,
@@ -39,7 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     products.forEach((item) => {
       entries.push({
-        url: `${base}/${locale}/products/${item.slug}`,
+        url: `${siteUrl}/${locale}/products/${item.slug}`,
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.7,
@@ -48,7 +47,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     applications.forEach((item) => {
       entries.push({
-        url: `${base}/${locale}/applications/${item.slug}`,
+        url: `${siteUrl}/${locale}/applications/${item.slug}`,
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.7,
@@ -57,7 +56,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     caseStudies.forEach((item) => {
       entries.push({
-        url: `${base}/${locale}/cases/${item.slug}`,
+        url: `${siteUrl}/${locale}/cases/${item.slug}`,
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.7,
@@ -66,7 +65,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     blogs.forEach((item) => {
       entries.push({
-        url: `${base}/${locale}/blog/${item.slug}`,
+        url: `${siteUrl}/${locale}/blog/${item.slug}`,
         lastModified: new Date(item.publishedAt),
         changeFrequency: "monthly",
         priority: 0.7,
@@ -75,7 +74,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     guides.forEach((item) => {
       entries.push({
-        url: `${base}/${locale}/guides/${item.slug}`,
+        url: `${siteUrl}/${locale}/guides/${item.slug}`,
         lastModified: new Date(item.publishedAt),
         changeFrequency: "monthly",
         priority: 0.7,
