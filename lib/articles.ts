@@ -24,41 +24,7 @@ type RawSanityArticle = {
   faqEn?: { q?: string; a?: string }[];
 };
 
-const fallbackGuideTitles = {
-  en: [
-    "How to Select Stainless Steel Panels for Hotel Projects",
-    "Surface Finish Comparison: Mirror vs Hairline vs Etched",
-    "Honeycomb Panels vs Solid Sheet: Weight and Structure",
-    "Installation Guide for Stainless Steel Wall Cladding",
-  ],
-  zh: [
-    "酒店项目如何选择不锈钢装饰板",
-    "镜面、拉丝、蚀刻工艺对比指南",
-    "蜂窝板与实心板重量和结构对比",
-    "不锈钢墙面装饰安装指南",
-  ],
-};
-
-const fallbackGuides: BlogPost[] = fallbackGuideTitles.en.map((enTitle, index) => {
-  const zhTitle = fallbackGuideTitles.zh[index];
-  const slug = `guide-${index + 1}`;
-  return {
-    slug,
-    category: "guide",
-    title: { en: enTitle, zh: zhTitle },
-    excerpt: {
-      en: "This guide is being migrated to CMS and will be updated with full technical details.",
-      zh: "该指南正在迁移到 CMS，后续将补充完整技术细节内容。",
-    },
-    publishedAt: "2026-03-26",
-    readTime: { en: "5 min read", zh: "5 分钟阅读" },
-    keywords: { en: [enTitle], zh: [zhTitle] },
-    sections: [],
-    faq: [],
-  };
-});
-
-const fallbackArticles: BlogPost[] = [...blogPosts, ...blogArticles, ...fallbackGuides];
+const fallbackArticles: BlogPost[] = [...blogPosts, ...blogArticles];
 
 function normalizeArticle(item: RawSanityArticle): BlogPost | null {
   const slug = item.slug?.current?.trim();

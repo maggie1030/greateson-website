@@ -6,7 +6,7 @@ The company has a one-stop production equipment, industry and trade as one, with
 
 The company pass ISO 9001-2015 quality management system certification,has adopted the business philosophy of high quality,high standard and fast delivery to keep improving!
 
-Company Legal Name	公司英文法定名称	Greateson Co., Ltd.
+Company Legal Name	公司法定名称	Greateson Co., Ltd.
 Brand Name	品牌名称	Greateson
 Short Name	简称	Greateson
 Founded Year	成立年份	2008
@@ -17,12 +17,6 @@ Factory Area	工厂面积	10,000㎡
 Employees	员工人数	80+
 Main Markets	主要市场	Middle East, Europe, Southeast Asia
 Business Model	商业模式	OEM / ODM / Custom Manufacturing
-Official Website	官网域名	Greateson
 Company Email	企业邮箱	sales@greateson.com
 Phone	电话	Tel：+8618928546888
-Whatsapp	WhatsApp	+86 18125683838
-LinkedIn	公司 LinkedIn	Not registered yet / To be built
-YouTube	YouTube	Not registered yet / To be built
-Alibaba	阿里国际站	Not registered yet / To be built
-Made-in-China	MIC	Not registered yet / To be built
-Global Sources	Global Sources	Not registered yet / To be built
+Whatsapp	即时通讯	+86 18125683838

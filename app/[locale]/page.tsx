@@ -91,7 +91,7 @@ export default async function HomePage({ params }: Props) {
             <p className="mt-6 border-t border-white/25 pt-4 text-zinc-200">
               {isEn
                 ? "From decorative sheets to custom screens and honeycomb systems, Greateson delivers full-chain fabrication for hospitality, retail and landmark facade projects."
-                : "从装饰板到定制屏风与蜂窝系统，顺佳兴提供覆盖设计、加工、交付的一体化制造服务，服务酒店、零售和地标外立面项目。"}
+                : "从装饰板到定制屏风与蜂窝系统，顺佳兴提供覆盖设计、加工、交付的一站式制造服务，服务酒店、零售和地标外立面项目。"}
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link href={`/${locale}/products`} className="rounded-full bg-[#d9bb85] px-6 py-3 font-medium text-[#1b1610]">
@@ -165,7 +165,7 @@ export default async function HomePage({ params }: Props) {
         <div className="mb-8 flex items-end justify-between">
           <div>
             <p className="eyebrow">{isEn ? "Case Studies" : "工程案例"}</p>
-            <h2 className="mt-2 text-3xl">{isEn ? "Recent Delivery Highlights" : "近期交付项目精选"}</h2>
+            <h2 className="mt-2 text-3xl">{isEn ? "Recent Delivery Highlights" : "交付项目精选"}</h2>
           </div>
           <Link href={`/${locale}/cases`} className="text-sm text-[#e6cf9f]">
             {isEn ? "Learn more" : "了解更多"}
@@ -191,7 +191,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="section">
-        <p className="eyebrow">{isEn ? "FAQ for GEO" : "生成引擎常见问题"}</p>
+        <p className="eyebrow">{isEn ? "FAQ for GEO" : "常见问题"}</p>
         <h2 className="mt-2 text-3xl">{isEn ? "High-Intent Buyer Questions" : "客户关心问题"}</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {topFaqEntries.map((item) => (

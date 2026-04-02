@@ -55,7 +55,18 @@ async function readCompanyProfile() {
         value: (parts[2] ?? "").trim(),
       };
     })
-    .filter((row) => row.field && row.zhLabel && row.value && row.field !== "字段");
+    .filter((row) => row.field && row.zhLabel && row.value && row.field !== "字段")
+    .filter(
+      (row) =>
+        ![
+          "Official Website",
+          "LinkedIn",
+          "YouTube",
+          "Alibaba",
+          "Made-in-China",
+          "Global Sources",
+        ].includes(row.field),
+    );
 
   return { zhIntro, enIntro, rows };
 }
@@ -103,15 +114,27 @@ async function readWhyUsRows() {
 }
 
 function zhProfileValue(field: string, value: string) {
+  const phoneDigits = value.replace(/^Tel[：:]\s*/i, "").trim();
+  if (field === "Phone") return `电话：${phoneDigits}`;
+
   const map: Record<string, string> = {
+    "Greateson Co., Ltd.": "广东顺佳兴不锈钢有限公司",
+    Greateson: "顺佳兴",
     "Greateson Stainless Steel": "顺佳兴不锈钢",
     "Manufacturer & Trading Company": "制造商与贸易一体化企业",
     "Foshan, Guangdong, China": "中国广东佛山",
-    "Nanhai District, Foshan": "佛山市南海区",
+    "Nanhai District, Foshan": "佛山市顺德区",
     "Middle East, Europe, Southeast Asia": "中东、欧洲、东南亚",
     "OEM / ODM / Custom Manufacturing": "来图来样与定制制造",
   };
   if (map[value]) return map[value];
+  return value;
+}
+
+function enProfileValue(field: string, value: string) {
+  if (field === "Phone") {
+    return `Tel: ${value.replace(/^Tel[：:]\s*/i, "").trim()}`;
+  }
   return value;
 }
 
@@ -215,7 +238,7 @@ export default async function AboutPage({ params }: Props) {
           <ul className="mt-4 grid gap-x-10 gap-y-2 text-sm text-zinc-300 md:grid-cols-2">
             {companyProfile.rows.map((row) => (
               <li key={row.field}>
-                {isEn ? row.field : row.zhLabel}: {isEn ? row.value : zhProfileValue(row.field, row.value)}
+                {isEn ? row.field : row.zhLabel}: {isEn ? enProfileValue(row.field, row.value) : zhProfileValue(row.field, row.value)}
               </li>
             ))}
           </ul>
