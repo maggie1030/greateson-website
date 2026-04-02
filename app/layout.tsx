@@ -15,7 +15,7 @@ const body = Noto_Sans_SC({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://greateson.com"),
+  metadataBase: new URL("https://greatesonsteel.com"),
   title: {
     default: "Greateson",
     template: "%s | Greateson",
