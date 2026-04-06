@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} h-full`}>
+    <html className={`${display.variable} ${body.variable} h-full`}>
       <body className="min-h-full bg-[#0f1714] text-white antialiased">{children}</body>
     </html>
   );

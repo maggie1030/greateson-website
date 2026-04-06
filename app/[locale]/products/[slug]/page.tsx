@@ -10,7 +10,7 @@ import {
   getProductSeriesImages,
   localizeFieldLabel,
 } from "@/lib/product-content";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, productSchema, breadcrumbSchema, faqSchema } from "@/lib/seo";
 import { productBySlug, products } from "@/lib/site-data";
 
 type Props = {
@@ -210,30 +210,29 @@ export default async function ProductDetailPage({ params }: Props) {
       )
     : [];
 
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name[locale],
-    description: product.advantages[locale],
-    material: product.material[locale],
-    brand: { "@type": "Brand", name: "Greateson" },
-    manufacturer: { "@type": "Organization", name: "Greateson" },
-  };
+  // Generate structured data using SEO utilities
+  const productStructuredData = productSchema(locale, {
+    slug: product.slug,
+    name: product.name,
+    description: product.advantages,
+    material: product.material,
+    image: product.image,
+    category: product.category,
+  });
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: product.faq.map((item) => ({
-      "@type": "Question",
-      name: item.q[locale],
-      acceptedAnswer: { "@type": "Answer", text: item.a[locale] },
-    })),
-  };
+  const breadcrumbStructuredData = breadcrumbSchema(locale, [
+    { name: isEn ? "Home" : "首页", path: `/${locale}` },
+    { name: isEn ? "Products" : "产品", path: `/${locale}/products` },
+    { name: product.name[locale] },
+  ]);
+
+  const productFaqStructuredData = faqSchema(locale, product.faq);
 
   return (
     <section className="section">
-      <JsonLd data={productSchema} />
-      <JsonLd data={faqSchema} />
+      <JsonLd data={productStructuredData} />
+      <JsonLd data={breadcrumbStructuredData} />
+      <JsonLd data={productFaqStructuredData} />
       <nav className="mb-4 text-sm text-zinc-400">
         <Link href={`/${locale}`} className="hover:text-[#d9bb85]">{isEn ? "Home" : "首页"}</Link>
         <span className="px-2">/</span>

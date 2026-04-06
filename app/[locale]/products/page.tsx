@@ -17,11 +17,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     locale,
     path: "/products",
-    title: locale === "en" ? "Stainless Steel Products" : "不锈钢产品中心",
+    title: locale === "en" ? "Architectural Metal Systems" : "不锈钢产品中心",
     description:
       locale === "en"
-        ? "Explore decorative stainless steel screens, display cabinets, sheets and honeycomb panels with custom fabrication options."
+        ? "Bespoke stainless steel screens, decorative panels and honeycomb facade systems. Tailored fabrication for hospitality, retail and architectural projects."
         : "浏览不锈钢屏风、展示柜、装饰板、蜂窝板等产品，支持工程级定制制造。",
+    keywords: locale === "en" ? [
+      "architectural metal systems",
+      "bespoke stainless steel screens",
+      "decorative metal panels",
+      "honeycomb facade panels",
+      "custom metal fabrication"
+    ] : undefined,
   });
 }
 
@@ -32,8 +39,8 @@ export default async function ProductsPage({ params }: Props) {
 
   return (
     <section className="section">
-      <p className="eyebrow">{isEn ? "Products" : "产品中心"}</p>
-      <h1 className="mt-3 text-4xl">{isEn ? "Core Product Portfolio" : "核心产品矩阵"}</h1>
+      <p className="eyebrow">{isEn ? "Product Systems" : "产品中心"}</p>
+      <h1 className="mt-3 text-4xl">{isEn ? "Architectural Metal Systems" : "核心产品矩阵"}</h1>
       <div className="mt-10 grid gap-5 md:grid-cols-4">
         {products.map((item) => (
           <article key={item.slug} className="card overflow-hidden">

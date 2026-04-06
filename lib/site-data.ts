@@ -99,30 +99,30 @@ export const nav = {
 export const products: Product[] = [
   {
     slug: "stainless-steel-screen",
-    name: { en: "Stainless Steel Products", zh: "不锈钢制品" },
-    category: { en: "Engineering Decorative Product", zh: "不锈钢工程装饰制品" },
-    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
-    thickness: { en: "Customized", zh: "支持定制" },
-    size: { en: "Customized Width & Length", zh: "宽度与长度可定制" },
+    name: { en: "Architectural Metal Screens", zh: "不锈钢制品" },
+    category: { en: "Architectural Partition Systems", zh: "不锈钢工程装饰制品" },
+    material: { en: "201 / 304 / 316 Stainless Steel", zh: "201 / 304 / 316" },
+    thickness: { en: "Tailored to specification", zh: "支持定制" },
+    size: { en: "Custom dimensions available", zh: "宽度与长度可定制" },
     finish: {
-      en: "Mirror, brushed, titanium gold, rose gold, black titanium, antique copper, water ripple, etched",
+      en: "Mirror polish, brushed satin, PVD titanium, rose gold, black titanium, antique bronze, water ripple, etched patterns",
       zh: "镜面、拉丝、钛金、玫瑰金、黑钛金、仿古铜、水波纹、蚀纹",
     },
     applications: {
-      en: "Hotel lobby, luxury club, villa courtyard, office partition",
+      en: "Hotel lobbies, luxury clubs, villa courtyards, office partitions",
       zh: "酒店大堂、高端会所、别墅庭院、办公隔断",
     },
-    moq: { en: "1 piece", zh: "1件起订" },
-    leadTime: { en: "10-15 days (complex: 15-25 days)", zh: "常规10-15天（复杂15-25天）" },
+    moq: { en: "Single unit", zh: "1件起订" },
+    leadTime: { en: "10-15 days standard; 15-25 days complex geometries", zh: "常规10-15天（复杂15-25天）" },
     advantages: {
-      en: "One-stop in-house production, precision craft, easy installation, strong after-sales support",
+      en: "Vertically integrated fabrication, precision engineering, straightforward installation, ongoing technical support",
       zh: "自有工厂一条龙加工，工艺精细，安装便捷，支持售后维护",
     },
     faq: [
       {
-        q: { en: "Can I customize special-shaped screens?", zh: "能否定制异形屏风？" },
+        q: { en: "Do you accommodate bespoke geometric designs?", zh: "能否定制异形屏风？" },
         a: {
-          en: "Yes. We support custom geometry from drawings and renderings.",
+          en: "Yes. We develop custom geometries from architectural drawings and 3D renderings, ensuring design intent is maintained throughout fabrication.",
           zh: "支持。可根据图纸或效果图深化设计并定制。",
         },
       },
@@ -131,33 +131,33 @@ export const products: Product[] = [
   },
   {
     slug: "stainless-steel-decorative-sheet",
-    name: { en: "Stainless Steel Decorative Sheet", zh: "不锈钢装饰板" },
-    category: { en: "Engineering Decorative Sheet", zh: "不锈钢工程装饰板材" },
-    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
-    thickness: { en: "0.4mm-3.0mm", zh: "0.4mm-3.0mm" },
+    name: { en: "Decorative Metal Panels", zh: "不锈钢装饰板" },
+    category: { en: "Architectural Surface Systems", zh: "不锈钢工程装饰板材" },
+    material: { en: "201 / 304 / 316 Stainless Steel", zh: "201 / 304 / 316" },
+    thickness: { en: "0.4mm–3.0mm", zh: "0.4mm-3.0mm" },
     size: {
-      en: "1000/1219/1500 × 2000/2438/3000mm, custom size",
+      en: "Standard: 1000/1219/1500 × 2000/2438/3000mm; Custom dimensions available",
       zh: "1000/1219/1500 × 2000/2438/3000mm，支持定制尺寸",
     },
     finish: {
-      en: "Mirror 8K, brushed, water ripple, etched, antique, PVD colors",
+      en: "Mirror polish (8K), brushed satin, water ripple, etched patterns, antique finish, PVD architectural coatings",
       zh: "镜面8K、拉丝、水波纹、蚀纹、做旧、钛金镀色",
     },
     applications: {
-      en: "Elevator cabins, hotel walls, shopping mall ceilings, villa walls, KTV interiors",
+      en: "Elevator interiors, hospitality wall cladding, retail ceilings, residential feature walls, entertainment venues",
       zh: "电梯轿厢、酒店墙面、商场吊顶、别墅背景墙、KTV包厢",
     },
-    moq: { en: "20 sheets per color", zh: "单色20张起订" },
-    leadTime: { en: "3-7 days (color plating 5-10 days)", zh: "常规3-7天（镀色5-10天）" },
+    moq: { en: "20 sheets per finish", zh: "单色20张起订" },
+    leadTime: { en: "3-7 days standard; 5-10 days for PVD coating", zh: "常规3-7天（镀色5-10天）" },
     advantages: {
-      en: "Wide finish options, strong weather resistance, easy cleaning, large-format customization",
+      en: "Extensive surface finish library, weather-resistant, low-maintenance, large-format capability",
       zh: "工艺丰富，耐候性强，易清洁，支持大版面定制",
     },
     faq: [
       {
-        q: { en: "Can antique copper effects be achieved?", zh: "做旧板能否做仿古铜效果？" },
+        q: { en: "Are authentic antique bronze finishes available?", zh: "做旧板能否做仿古铜效果？" },
         a: {
-          en: "Yes, both manual and chemical antique effects are available.",
+          en: "Yes. We offer both hand-applied and chemically aged finishes that replicate authentic patina with dimensional depth.",
           zh: "支持，可做手工做旧或化学做旧，效果逼真。",
         },
       },
@@ -166,33 +166,33 @@ export const products: Product[] = [
   },
   {
     slug: "stainless-steel-honeycomb-panel",
-    name: { en: "Stainless Steel Honeycomb Panel", zh: "不锈钢蜂窝板" },
-    category: { en: "Engineering Decorative Sheet", zh: "不锈钢工程装饰板材" },
+    name: { en: "Honeycomb Facade Panels", zh: "不锈钢蜂窝板" },
+    category: { en: "Structural Cladding Systems", zh: "不锈钢工程装饰板材" },
     material: {
-      en: "Stainless panel + galvanized/aluminum back + aluminum honeycomb core",
+      en: "Stainless steel facing + galvanized or aluminum backing + aluminum honeycomb core",
       zh: "不锈钢面板 + 镀锌/铝背板 + 铝蜂窝芯",
     },
-    thickness: { en: "8mm-50mm", zh: "8mm-50mm" },
-    size: { en: "Max width 2m, max length 10m", zh: "最大宽度2m，最大长度10m" },
+    thickness: { en: "8mm–50mm", zh: "8mm-50mm" },
+    size: { en: "Up to 2m width × 10m length", zh: "最大宽度2m，最大长度10m" },
     finish: {
-      en: "Mirror, brushed, etched, water ripple, fluorocarbon paint, PVD colors",
+      en: "Mirror polish, brushed satin, etched patterns, water ripple, fluorocarbon coating, PVD architectural finishes",
       zh: "镜面、拉丝、蚀刻、水波纹、氟碳漆、镀钛",
     },
     applications: {
-      en: "Facade cladding, hotel lobby ceilings, airport and large public spaces",
+      en: "Building facades, hotel lobby ceilings, airports and large-scale public environments",
       zh: "建筑外墙、酒店大堂吊顶、机场与大型公共空间",
     },
-    moq: { en: "20 sheets", zh: "20张起订" },
-    leadTime: { en: "10-20 days", zh: "常规10-20天" },
+    moq: { en: "20 panels", zh: "20张起订" },
+    leadTime: { en: "10-20 days depending on specification", zh: "常规10-20天" },
     advantages: {
-      en: "Lightweight with high strength, thermal and acoustic performance, anti-deformation",
+      en: "High strength-to-weight ratio, thermal and acoustic insulation, dimensional stability under load",
       zh: "轻质高强，隔音隔热，抗变形能力强",
     },
     faq: [
       {
-        q: { en: "Can honeycomb panels be used outdoors?", zh: "蜂窝板能否用于外墙？" },
+        q: { en: "Are these panels suitable for exterior facade applications?", zh: "蜂窝板能否用于外墙？" },
         a: {
-          en: "Yes. It supports exterior use with proper fireproof and insulation layers.",
+          en: "Yes. When specified with appropriate fire-rated and thermal insulation layers, our honeycomb panels meet requirements for exterior building envelopes.",
           zh: "支持，可搭配防火保温层用于户外工程。",
         },
       },
@@ -201,30 +201,30 @@ export const products: Product[] = [
   },
   {
     slug: "stainless-steel-double-curved-fabrication",
-    name: { en: "Stainless Steel Double Curved Fabrication", zh: "不锈钢双曲异形" },
-    category: { en: "Engineering Custom Fabrication", zh: "不锈钢工程定制制品" },
-    material: { en: "201 / 304 / 316", zh: "201 / 304 / 316" },
-    thickness: { en: "0.8mm-6.0mm", zh: "0.8mm-6.0mm" },
-    size: { en: "Fully customizable", zh: "支持全尺寸定制" },
+    name: { en: "Complex Curved Metalwork", zh: "不锈钢双曲异形" },
+    category: { en: "Bespoke Architectural Fabrication", zh: "不锈钢工程定制制品" },
+    material: { en: "201 / 304 / 316 Stainless Steel", zh: "201 / 304 / 316" },
+    thickness: { en: "0.8mm–6.0mm", zh: "0.8mm-6.0mm" },
+    size: { en: "Fully customizable to architectural specifications", zh: "支持全尺寸定制" },
     finish: {
-      en: "Mirror, brushed, hairline, sandblasted, PVD coating",
+      en: "Mirror polish, brushed satin, hairline texture, sandblasted, architectural PVD coatings",
       zh: "镜面、拉丝、发丝纹、喷砂、PVD 镀色",
     },
     applications: {
-      en: "Architectural facades, art installations, luxury interiors, landmark projects",
+      en: "Architectural facades, sculptural installations, luxury interior volumes, signature developments",
       zh: "建筑外立面、艺术装置、奢华室内空间、地标项目",
     },
-    moq: { en: "1 project", zh: "1个项目起" },
-    leadTime: { en: "15-35 days", zh: "常规15-35天" },
+    moq: { en: "Project-based", zh: "1个项目起" },
+    leadTime: { en: "15-35 days depending on complexity", zh: "常规15-35天" },
     advantages: {
-      en: "Complex double-curved forming, premium surface quality, high customization for landmark projects",
+      en: "Advanced double-curved forming capability, premium surface execution, tailored for signature architectural projects",
       zh: "支持复杂双曲面成型，表面质感高级，可满足地标级项目定制需求",
     },
     faq: [
       {
-        q: { en: "Can double curved stainless steel be fully customized?", zh: "双曲异形不锈钢可以完全定制吗？" },
+        q: { en: "Is full customization available for complex curved geometries?", zh: "双曲异形不锈钢可以完全定制吗？" },
         a: {
-          en: "Yes. Shape, size, structure and surface finish can all be customized from drawings and models.",
+          en: "Yes. Geometry, dimensions, structural requirements and surface treatments are all developed from architectural drawings and 3D models to ensure design intent is realized.",
           zh: "可以。造型、尺寸、结构和表面工艺都可根据图纸与模型进行定制。",
         },
       },
@@ -236,21 +236,21 @@ export const products: Product[] = [
 export const applications: Application[] = [
   {
     slug: "hotel-decoration",
-    name: { en: "Hotel Decoration", zh: "酒店装饰" },
+    name: { en: "Hospitality Interiors", zh: "酒店装饰" },
     description: {
-      en: "For hotel lobbies, guest rooms, corridors and feature walls with premium visual impact.",
+      en: "Architectural metal solutions for hotel lobbies, guest rooms, circulation corridors and signature feature walls.",
       zh: "用于高端酒店大堂、客房、走廊与背景墙，打造奢华现代视觉效果。",
     },
     benefits: {
-      en: "Corrosion-resistant, easy to clean, long lifecycle, customizable for design language.",
+      en: "Corrosion-resistant, low-maintenance, extended lifecycle, fully adaptable to design specifications.",
       zh: "耐腐蚀、易清洁、寿命长，可按设计风格定制。",
     },
     typicalProducts: {
-      en: "Screens, decorative sheets, honeycomb panels",
+      en: "Architectural screens, wall panels, ceiling systems",
       zh: "不锈钢屏风、装饰板、蜂窝板",
     },
     caseExample: {
-      en: "Five-star hotel lobby with water ripple sheets and custom screens.",
+      en: "Five-star property featuring water ripple panels and bespoke screen installations in main lobby.",
       zh: "五星级酒店大堂采用水波纹装饰板与定制屏风。",
     },
     image: "/images/applications/hotel-decoration/微信图片_20260326095905_1013_55.png",
@@ -422,7 +422,7 @@ export const applications: Application[] = [
 export const caseStudies: CaseStudy[] = [
   {
     slug: "shanghai-dingda-commercial-kitchen",
-    title: { en: "Shanghai Dingda Commercial Kitchen Project", zh: "上海鼎达商用厨具" },
+    title: { en: "Commercial Kitchen Stainless Steel System — Shanghai", zh: "上海鼎达商用厨具不锈钢工程" },
     location: { en: "Shanghai, China", zh: "中国 上海" },
     year: "2025",
     summary: {
@@ -625,7 +625,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "tokyo-hermes-storefront",
-    title: { en: "Tokyo Hermes Storefront Metal Screen", zh: "东京爱马仕专卖店" },
+    title: { en: "Luxury Retail Facade Metalwork — Tokyo", zh: "东京奢侈品门店金属屏风工程" },
     location: { en: "Tokyo, Japan", zh: "日本 东京" },
     year: "2025",
     summary: {
@@ -657,11 +657,11 @@ export const caseStudies: CaseStudy[] = [
 export const faqEntries = [
   {
     q: {
-      en: "What is decorative stainless steel sheet?",
+      en: "What are decorative stainless steel panels used for?",
       zh: "什么是不锈钢装饰板？",
     },
     a: {
-      en: "Decorative stainless steel sheet is a type of stainless steel material designed for aesthetic and architectural applications. It is processed with surface finishes such as mirror, brushed, embossed, etched, or colored coatings to enhance visual appeal. These sheets are widely used in interior and exterior design, including hotels, elevators, wall cladding, and retail spaces, due to their durability, corrosion resistance, and modern appearance.",
+      en: "Decorative stainless steel panels are architectural-grade metal surfaces engineered for aesthetic impact and long-term performance. Available finishes include mirror polish, brushed satin, embossed textures, etched patterns, and PVD architectural coatings. Typical applications span elevator interiors, hotel wall cladding, retail ceilings, and feature walls—chosen for durability, corrosion resistance, and design versatility.",
       zh: "不锈钢装饰板是一种用于美观和建筑应用的不锈钢材料。它通过镜面、拉丝、压纹、蚀刻或彩色镀层等表面工艺处理，以提升视觉效果。由于具备耐用性、耐腐蚀性和现代外观，这类板材广泛用于室内外设计场景，包括酒店、电梯、墙面包覆和零售空间。",
     },
   },
@@ -753,9 +753,9 @@ export const faqEntries = [
     },
   },
   {
-    q: { en: "What is the MOQ for stainless steel sheets?", zh: "不锈钢板最小起订量（MOQ）是多少？" },
+    q: { en: "What are your minimum order quantities?", zh: "不锈钢板最小起订量（MOQ）是多少？" },
     a: {
-      en: "MOQ (Minimum Order Quantity) varies by manufacturer and product type.\nStainless Steel Decorative Sheet : 20 Pieces\nStainless Steel Honeycomb Panel  ：20 Pieces\nStainless Steel Products： 1 Piece (Support Small-batch Customization)",
+      en: "Minimum quantities vary by product complexity. Decorative panels and honeycomb systems typically require 20 units per finish. Custom architectural screens and fabricated elements can be ordered individually, accommodating projects of all scales from single installations to large developments.",
       zh: "MOQ（最小起订量）会因制造商和产品类型而不同。\n不锈钢装饰板：20 件\n不锈钢蜂窝板：20 件\n不锈钢制品：1 件（支持小批量定制）",
     },
   },

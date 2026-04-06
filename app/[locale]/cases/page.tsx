@@ -17,11 +17,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     locale,
     path: "/cases",
-    title: locale === "en" ? "Case Studies" : "工程案例",
+    title: locale === "en" ? "Delivered Projects" : "工程案例",
     description:
       locale === "en"
-        ? "Read project case studies from Cambodia, Taiyuan, Beijing and Hefei with challenge, solution and technical outcomes."
-        : "查看柬埔寨、太原、北京、合肥等项目案例，包含挑战、方案与技术成果。",
+        ? "Portfolio of architectural metalwork projects across hospitality, retail and landmark developments. See specifications, challenges and outcomes."
+        : "查看酒店、零售、地标等项目案例，包含技术规格、挑战与成果。",
+    keywords: locale === "en" ? [
+      "architectural metalwork portfolio",
+      "hotel metal installation projects",
+      "stainless steel facade case studies"
+    ] : undefined,
   });
 }
 
@@ -32,8 +37,8 @@ export default async function CasesPage({ params }: Props) {
 
   return (
     <section className="section">
-      <p className="eyebrow">{isEn ? "Case Studies" : "工程案例"}</p>
-      <h1 className="mt-3 text-4xl">{isEn ? "Delivered Landmark Projects" : "已交付地标项目"}</h1>
+      <p className="eyebrow">{isEn ? "Project Portfolio" : "工程案例"}</p>
+      <h1 className="mt-3 text-4xl">{isEn ? "Delivered Architectural Metalwork" : "已交付地标项目"}</h1>
 
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
         {caseStudies.map((item) => (
@@ -46,7 +51,7 @@ export default async function CasesPage({ params }: Props) {
               </p>
               <p className="mt-3 text-sm text-zinc-300">{item.summary[locale]}</p>
               <Link href={`/${locale}/cases/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">
-                {isEn ? "Read full case" : "查看完整案例"}
+                {isEn ? "View Project Details" : "查看完整案例"}
               </Link>
             </div>
           </article>

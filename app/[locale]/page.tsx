@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { isLocale } from "@/lib/i18n";
 import { applications, caseStudies, faqEntries, products } from "@/lib/site-data";
-import { buildMetadata, organizationSchema } from "@/lib/seo";
+import { buildMetadata, organizationSchema, websiteSchema, breadcrumbSchema } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -21,16 +21,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: "/",
     title:
       locale === "en"
-        ? "Greateson | Premium Decorative Metal Solutions"
+        ? "Architectural Stainless Steel Solutions"
         : "顺佳兴 | 高端金属装饰解决方案",
     description:
       locale === "en"
-        ? "Greateson is a stainless steel screen manufacturer and decorative panel factory in China, delivering custom fabrication for hotels, facades, retail and commercial interiors."
+        ? "Bespoke stainless steel screens, architectural panels & honeycomb facade systems crafted since 2008. Tailored solutions for hospitality, luxury retail & landmark projects."
         : "顺佳兴专注不锈钢屏风、装饰板、蜂窝板定制制造，服务酒店、外立面、零售与商业空间项目。",
-    keywords: [
-      "stainless steel decorative panels",
-      "stainless steel screen manufacturer",
-      "custom metal fabrication China",
+    keywords: locale === "en" ? [
+      "architectural stainless steel",
+      "bespoke metal screens",
+      "hotel metalwork solutions",
+      "luxury retail metal fabrication",
+      "stainless steel facade systems"
+    ] : [
+      "不锈钢装饰",
+      "金属屏风定制",
+      "不锈钢蜂窝板"
     ],
   });
 }
@@ -45,7 +51,7 @@ export default async function HomePage({ params }: Props) {
   const featuredCases = caseStudies.slice(0, 4);
   const topFaqEntries = faqEntries.slice(0, 5);
 
-  const homepageFaqSchema = {
+  const homepageFaqStructuredData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: topFaqEntries.map((item) => ({
@@ -58,10 +64,16 @@ export default async function HomePage({ params }: Props) {
     })),
   };
 
+  const breadcrumbStructuredData = breadcrumbSchema(locale, [
+    { name: isEn ? "Home" : "首页" },
+  ]);
+
   return (
     <>
+      <JsonLd data={websiteSchema(locale)} />
       <JsonLd data={organizationSchema(locale)} />
-      <JsonLd data={homepageFaqSchema} />
+      <JsonLd data={breadcrumbStructuredData} />
+      <JsonLd data={homepageFaqStructuredData} />
       <section className="relative w-full min-h-[calc(100svh-72px)] overflow-hidden">
         <div className="absolute inset-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -78,8 +90,8 @@ export default async function HomePage({ params }: Props) {
             <h1 className="mt-5 text-4xl leading-[1.15] text-[#f6f2e9] md:text-7xl">
               {isEn ? (
                 <>
-                  <span className="block">Architecture & Interior Spaces</span>
-                  <span className="block">Stainless Steel Solutions</span>
+                  <span className="block">Architectural Metal Solutions</span>
+                  <span className="block">Crafted for Landmark Projects</span>
                 </>
               ) : (
                 <>
@@ -90,15 +102,15 @@ export default async function HomePage({ params }: Props) {
             </h1>
             <p className="mt-6 border-t border-white/25 pt-4 text-zinc-200">
               {isEn
-                ? "From decorative sheets to custom screens and honeycomb systems, Greateson delivers full-chain fabrication for hospitality, retail and landmark facade projects."
+                ? "Bespoke fabrication of decorative panels, architectural screens and honeycomb facade systems. Trusted by hospitality designers, luxury retail brands and landmark developments since 2008."
                 : "从装饰板到定制屏风与蜂窝系统，顺佳兴提供覆盖设计、加工、交付的一站式制造服务，服务酒店、零售和地标外立面项目。"}
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link href={`/${locale}/products`} className="rounded-full bg-[#d9bb85] px-6 py-3 font-medium text-[#1b1610]">
-                {isEn ? "Explore Products" : "浏览产品"}
+                {isEn ? "Explore Systems" : "浏览产品"}
               </Link>
               <Link href={`/${locale}/cases`} className="rounded-full border border-[#d9bb85] px-6 py-3 text-[#e9d4a9]">
-                {isEn ? "View Case Studies" : "查看案例"}
+                {isEn ? "View Delivered Projects" : "查看案例"}
               </Link>
             </div>
           </div>
@@ -108,11 +120,11 @@ export default async function HomePage({ params }: Props) {
       <section className="section">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <p className="eyebrow">{isEn ? "Products" : "产品中心"}</p>
-            <h2 className="mt-2 text-3xl">{isEn ? "Core Product Systems" : "核心产品体系"}</h2>
+            <p className="eyebrow">{isEn ? "Product Systems" : "产品中心"}</p>
+            <h2 className="mt-2 text-3xl">{isEn ? "Architectural Metal Systems" : "核心产品体系"}</h2>
           </div>
           <Link href={`/${locale}/products`} className="text-sm text-[#e6cf9f]">
-            {isEn ? "All products" : "全部产品"}
+            {isEn ? "View All Systems" : "全部产品"}
           </Link>
         </div>
         <div className="grid gap-4 md:grid-cols-4">
@@ -130,7 +142,7 @@ export default async function HomePage({ params }: Props) {
                 <h3 className="text-xl text-[#f5e5c5]">{item.name[locale]}</h3>
                 <p className="mt-2 text-sm text-zinc-300">{item.advantages[locale]}</p>
                 <Link href={`/${locale}/products/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">
-                  {isEn ? "Learn more" : "查看详情"}
+                  {isEn ? "See Specifications" : "查看详情"}
                 </Link>
               </div>
             </article>
@@ -141,11 +153,11 @@ export default async function HomePage({ params }: Props) {
       <section className="section">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <p className="eyebrow">{isEn ? "Applications" : "应用场景"}</p>
+            <p className="eyebrow">{isEn ? "Project Applications" : "应用场景"}</p>
             <h2 className="mt-2 text-3xl">{isEn ? "Built for Real Project Contexts" : "面向真实项目场景"}</h2>
           </div>
           <Link href={`/${locale}/applications`} className="text-sm text-[#e6cf9f]">
-            {isEn ? "Learn more" : "了解更多"}
+            {isEn ? "See Application Guides" : "了解更多"}
           </Link>
         </div>
         <div className="grid gap-4 md:grid-cols-4">
@@ -164,11 +176,11 @@ export default async function HomePage({ params }: Props) {
       <section className="section">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <p className="eyebrow">{isEn ? "Case Studies" : "工程案例"}</p>
-            <h2 className="mt-2 text-3xl">{isEn ? "Recent Delivery Highlights" : "交付项目精选"}</h2>
+            <p className="eyebrow">{isEn ? "Delivered Projects" : "工程案例"}</p>
+            <h2 className="mt-2 text-3xl">{isEn ? "Recent Project Deliveries" : "交付项目精选"}</h2>
           </div>
           <Link href={`/${locale}/cases`} className="text-sm text-[#e6cf9f]">
-            {isEn ? "Learn more" : "了解更多"}
+            {isEn ? "View Portfolio" : "了解更多"}
           </Link>
         </div>
         <div className="grid gap-4 md:grid-cols-4">
@@ -182,7 +194,7 @@ export default async function HomePage({ params }: Props) {
                 </p>
                 <p className="mt-3 text-sm text-zinc-300">{item.summary[locale]}</p>
                 <Link href={`/${locale}/cases/${item.slug}`} className="mt-4 inline-block text-sm text-[#d9bb85]">
-                  {isEn ? "Read case" : "查看案例"}
+                  {isEn ? "View Project Details" : "查看案例"}
                 </Link>
               </div>
             </article>
@@ -191,8 +203,8 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="section">
-        <p className="eyebrow">{isEn ? "FAQ for GEO" : "常见问题"}</p>
-        <h2 className="mt-2 text-3xl">{isEn ? "High-Intent Buyer Questions" : "客户关心问题"}</h2>
+        <p className="eyebrow">{isEn ? "Common Questions" : "常见问题"}</p>
+        <h2 className="mt-2 text-3xl">{isEn ? "Questions from Project Specifiers" : "客户关心问题"}</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {topFaqEntries.map((item) => (
             <article key={item.q.en} className="card p-5">
@@ -202,26 +214,26 @@ export default async function HomePage({ params }: Props) {
           ))}
         </div>
         <Link href={`/${locale}/faq`} className="mt-5 inline-block text-sm text-[#d9bb85]">
-          {isEn ? "View all FAQ" : "查看全部常见问题"}
+          {isEn ? "Browse All Q&A" : "查看全部常见问题"}
         </Link>
       </section>
 
       <section className="section pb-24">
         <div className="card grid items-center gap-6 p-8 md:grid-cols-2">
           <div>
-            <p className="eyebrow">{isEn ? "Start a Project" : "项目合作"}</p>
+            <p className="eyebrow">{isEn ? "Start Your Project" : "项目合作"}</p>
             <h2 className="mt-2 text-3xl">
-              {isEn ? "Need a custom stainless steel solution?" : "需要定制不锈钢工程方案？"}
+              {isEn ? "Planning a metalwork project?" : "需要定制不锈钢工程方案？"}
             </h2>
             <p className="mt-3 text-zinc-300">
               {isEn
-                ? "Share your drawings, timeline and target finish. Our engineering team will provide a production-ready quotation."
+                ? "Share specifications, timelines and finish requirements. Our engineering team will advise on materials, fabrication methods and deliver a production-ready estimate."
                 : "提交图纸、交期和目标工艺，我们的工程团队将给出可执行报价方案。"}
             </p>
           </div>
           <div className="flex gap-4 md:justify-end">
             <Link href={`/${locale}/quote`} className="rounded-full bg-[#d9bb85] px-6 py-3 font-medium text-[#1b1610]">
-              {isEn ? "Request Quote" : "获取报价"}
+              {isEn ? "Request Project Estimate" : "获取报价"}
             </Link>
           </div>
         </div>
