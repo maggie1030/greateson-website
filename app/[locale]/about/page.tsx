@@ -158,12 +158,12 @@ function zhWhyUsContent(key: string, fallback: string) {
 
 const lines = [
   { en: "PVD Vacuum Coating Line", zh: "真空镀膜线", image: "/images/factory/pvd-coating-line/9e9f99a7d09ef39c746223331d9c9c66.jpg" },
-  { en: "Copper Electroplating Line", zh: "镀铜线", image: "/images/factory/electroplating-line/图片2.png" },
-  { en: "Chemical Etching Line", zh: "化学蚀刻线", image: "/images/factory/etching-line/图片5.png" },
-  { en: "Embossing Line", zh: "压花线", image: "/images/factory/embossing-line/图片6.png" },
-  { en: "Sandblasting Line", zh: "喷砂线", image: "/images/factory/sandblasting-line/图片8.png" },
-  { en: "Hairline Brushing Line", zh: "拉丝线", image: "/images/factory/hairline-line/图片7.png" },
-  { en: "Anti-fingerprint Coating Line", zh: "抗指纹涂层线", image: "/images/factory/anti-fingerprint-line/图片9.png" },
+  { en: "Copper Electroplating Line", zh: "镀铜线", image: "/images/factory/electroplating-line/图片2.jpg" },
+  { en: "Chemical Etching Line", zh: "化学蚀刻线", image: "/images/factory/etching-line/图片5.jpg" },
+  { en: "Embossing Line", zh: "压花线", image: "/images/factory/embossing-line/图片6.jpg" },
+  { en: "Sandblasting Line", zh: "喷砂线", image: "/images/factory/sandblasting-line/图片8.jpg" },
+  { en: "Hairline Brushing Line", zh: "拉丝线", image: "/images/factory/hairline-line/图片7.jpg" },
+  { en: "Anti-fingerprint Coating Line", zh: "抗指纹涂层线", image: "/images/factory/anti-fingerprint-line/图片9.jpg" },
   { en: "Honeycomb Panel Line", zh: "蜂窝板生产线", image: "/images/factory/Honeycomb Panel Production Line /图片12.png" },
   { en: "Laser Cutting Line", zh: "激光切割线", image: "/images/factory/Laser Cutting Line/图片10.png" },
   { en: "CNC Bending Line", zh: "数控折弯线", image: "/images/factory/Bending Line/图片13.png" },
