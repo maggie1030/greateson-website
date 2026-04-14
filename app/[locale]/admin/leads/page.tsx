@@ -37,6 +37,36 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
+async function fetchLeadsWithRetry(supabase: ReturnType<typeof getSupabaseServiceClient>, retries = 2) {
+  const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
+  let lastError: { message: string } | null = null;
+
+  for (let i = 0; i <= retries; i++) {
+    try {
+      const { data, error } = await supabase!
+        .from("leads")
+        .select(
+          "id,created_at,company_name,contact_person,email,phone,wechat_id,project_details,source_page,locale,status,wechat_status",
+        )
+        .order("created_at", { ascending: false })
+        .limit(200);
+
+      if (!error) {
+        return { data: (data ?? []) as LeadRow[], error: null };
+      }
+      lastError = error;
+    } catch (err: any) {
+      lastError = { message: err?.message ?? "fetch failed" };
+    }
+
+    if (i < retries) {
+      await delay(1000 * (i + 1));
+    }
+  }
+
+  return { data: [] as LeadRow[], error: lastError };
+}
+
 export default async function AdminLeadsPage({ params }: Props) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
@@ -57,25 +87,23 @@ export default async function AdminLeadsPage({ params }: Props) {
     );
   }
 
-  const { data, error } = await supabase
-    .from("leads")
-    .select(
-      "id,created_at,company_name,contact_person,email,phone,wechat_id,project_details,source_page,locale,status,wechat_status",
-    )
-    .order("created_at", { ascending: false })
-    .limit(200);
+  const { data: leads, error } = await fetchLeadsWithRetry(supabase);
 
   if (error) {
     return (
       <section className="section">
         <p className="eyebrow">{isEn ? "Admin" : "后台"}</p>
         <h1 className="mt-3 text-4xl">{isEn ? "Lead Management" : "询盘管理"}</h1>
-        <article className="card mt-8 p-6 text-rose-300">{error.message}</article>
+        <article className="card mt-8 p-6 text-rose-300">
+          {error.message.includes("fetch failed")
+            ? isEn
+              ? "Connection to database timed out. Please refresh the page to retry."
+              : "数据库连接超时，请刷新页面重试。"
+            : error.message}
+        </article>
       </section>
     );
   }
-
-  const leads = (data ?? []) as LeadRow[];
 
   return (
     <section className="section">
