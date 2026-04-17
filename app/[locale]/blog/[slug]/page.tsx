@@ -104,6 +104,20 @@ export default async function BlogDetailPage({ params }: Props) {
                 </p>
               ))}
             </div>
+            {section.images && section.images.length > 0 && (
+              <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {section.images.map((img) => (
+                  <div key={img.src} className="overflow-hidden rounded-xl border border-[#2d4039]">
+                    <img
+                      src={img.src}
+                      alt={img.alt[locale]}
+                      className="h-auto w-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
           </article>
         ))}
       </div>
