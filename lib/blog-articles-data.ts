@@ -858,4 +858,368 @@ export const blogArticles: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "what-is-stainless-steel-decorative-panel",
+    category: "blog",
+    title: {
+      zh: "什么是不锈钢装饰板？一篇读懂不锈钢装饰板的材质、工艺与应用",
+      en: "What Is a Stainless Steel Decorative Panel? A Complete Guide to Materials, Processes, and Applications",
+    },
+    excerpt: {
+      zh: "不锈钢装饰板是以304、316或201奥氏体不锈钢为基材，通过PVD镀色、镜面抛光、拉丝、压花、蚀刻或热转印等表面工艺处理，兼具工程耐久性与装饰美观性的建筑金属材料。本文将带您系统了解不锈钢的诞生历程、耐腐蚀原理、牌号选择、六大表面工艺、厚度标准及未来趋势。",
+      en: "Stainless steel decorative panels are architectural metal materials made from 304, 316, or 201 austenitic stainless steel substrates, finished through PVD coating, mirror polishing, hairline brushing, embossing, etching, or heat transfer printing. This article provides a systematic guide to the history, corrosion resistance principles, grade selection, six major surface processes, thickness standards, and future trends.",
+    },
+    publishedAt: "2026-04-17",
+    readTime: { zh: "12 分钟", en: "12 min read" },
+    keywords: {
+      zh: [
+        "不锈钢装饰板",
+        "304不锈钢装饰板",
+        "316不锈钢",
+        "201不锈钢",
+        "PVD镀色不锈钢",
+        "不锈钢蚀刻工艺",
+        "不锈钢压花板",
+        "不锈钢热转印",
+        "不锈钢仿古做旧",
+        "不锈钢装饰板厚度",
+        "不锈钢牌号选择",
+        "建筑装饰金属材料",
+      ],
+      en: [
+        "stainless steel decorative panel",
+        "304 stainless steel decorative sheet",
+        "316 stainless steel",
+        "201 stainless steel",
+        "PVD coated stainless steel",
+        "stainless steel etching",
+        "embossed stainless steel",
+        "stainless steel heat transfer",
+        "antique finish stainless steel",
+        "stainless steel panel thickness",
+        "stainless steel grade selection",
+        "architectural metal decoration",
+      ],
+    },
+    sections: [
+      {
+        heading: {
+          zh: "一、不锈钢的诞生：一块\"废料\"改变世界",
+          en: "1. The Birth of Stainless Steel: How a 'Scrap' Discovery Changed the World",
+        },
+        paragraphs: [
+          {
+            zh: "理解不锈钢装饰板，先要理解不锈钢本身。1912年至1914年间，英国冶金学家亨利·布雷尔利（Harry Brearley）受军方委托研制耐磨枪膛合金。他测试了大量铬钢配方，因耐磨效果不佳，统统扔进废料堆。几个月后，助手发现废料堆里有一块钢锃光瓦亮、丝毫未锈——那正是含铬量达10.5%以上的合金。1916年，不锈钢餐具正式问世，这个'捡漏'发现由此改写了人类材料史。",
+            en: "To understand stainless steel decorative panels, one must first understand stainless steel itself. Between 1912 and 1914, British metallurgist Harry Brearley was commissioned by the military to develop a wear-resistant gun-barrel alloy. After testing numerous chromium steel formulations with poor wear resistance, he discarded them all in a scrap pile. Months later, an assistant noticed one piece remained shiny and completely rust-free — an alloy containing more than 10.5% chromium. In 1916, stainless steel tableware was officially introduced, and this accidental discovery rewrote the history of human materials.",
+          },
+          {
+            zh: "中国的不锈钢工业起步于1952年，太钢炼出第一炉不锈钢。此后发展一日千里：2002年，中国不锈钢表观消费量超越美国；2006年，产量跃居全球第一。如今，中国不仅是不锈钢制造大国，更在PVD镀色、仿古做旧、纳米涂层等装饰工艺领域成为全球创新中心。",
+            en: "China's stainless steel industry began in 1952 when Taiyuan Iron & Steel produced the nation's first batch. Growth accelerated rapidly: in 2002, China's apparent stainless steel consumption surpassed that of the United States, and by 2006, production ranked first globally. Today, China is not only a manufacturing powerhouse but also a global innovation center for decorative processes such as PVD coating, antique finishing, and nano-coating.",
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "二、为什么不锈钢\"不锈\"？硬核材料科学解读",
+          en: "2. Why Is Stainless Steel 'Stainless'? A Materials Science Perspective",
+        },
+        paragraphs: [
+          {
+            zh: "不锈钢的耐腐蚀能力，来自其内部元素的精密配合。铬（Cr）是核心保护机制：铬含量必须达到10.5%以上。铬与空气中氧气反应，在钢材表面形成一层厚度仅约1–5纳米的致密氧化铬钝化膜。这层膜肉眼不可见，却能有效阻隔氧气和水分入侵。更重要的是：即便表面受划伤，钝化膜能在有氧环境中自动修复，持续提供保护。",
+            en: "The corrosion resistance of stainless steel comes from the precise interplay of its internal elements. Chromium (Cr) is the core protective mechanism: the chromium content must reach at least 10.5%. Chromium reacts with oxygen in the air to form a dense chromium oxide passive film only about 1–5 nanometers thick on the steel surface. This film is invisible to the naked eye yet effectively blocks oxygen and moisture intrusion. More importantly, even if the surface is scratched, the passive film can self-repair in an oxygen-containing environment, providing continuous protection.",
+          },
+          {
+            zh: "镍（Ni）的加入不仅提升耐腐蚀性能，还赋予钢材更好的韧性与冷加工性能（折弯、冲压时不易断裂），这对装饰板的复杂成型工艺至关重要。钼（Mo）则是沿海建筑的救星：316不锈钢额外添加约2%的钼元素，能有效抵御海风中的氯离子腐蚀，是滨海建筑和游泳池区域的指定材料。",
+            en: "The addition of nickel (Ni) not only enhances corrosion resistance but also gives the steel better toughness and cold-working performance (less prone to cracking during bending and stamping), which is crucial for the complex forming processes used in decorative panels. Molybdenum (Mo) is the savior of coastal architecture: 316 stainless steel contains approximately 2% additional molybdenum, which effectively resists chloride ion corrosion from sea breezes, making it the designated material for coastal buildings and swimming pool areas.",
+          },
+          {
+            zh: "避坑提醒：不锈钢并非'绝对不锈'。若使用含强氯的漂白剂或强酸清洗液，哪怕是304牌号也会出现锈斑。这不是材料质量问题，而是化学反应导致钝化膜被破坏。",
+            en: "Important note: stainless steel is not 'absolutely stainless.' If strong chlorine-based bleach or strong acid cleaning agents are used, even 304-grade steel can develop rust spots. This is not a material quality issue but rather a chemical reaction that destroys the passive film.",
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "三、201、304、316——到底如何选？",
+          en: "3. 201, 304, or 316 — How Do You Choose?",
+        },
+        paragraphs: [
+          {
+            zh: "这是建筑采购和室内设计师最常遇到的问题。201不锈钢含镍量3.5%–5.5%，成本最低，耐腐蚀性一般，适合室内干燥空间、预算型项目。J1含铜量较高，能做深拉伸成型，适合复杂异形件；J2/J3是市场走量最大的型号，J2硬度高适合折弯简单件，J3含镍稍多、表现更均衡；J5硬度极高但脆，适合管材，不适合复杂装饰件。",
+            en: "This is the most common question faced by architectural buyers and interior designers. 201 stainless steel contains 3.5%–5.5% nickel, offers the lowest cost, and has moderate corrosion resistance, making it suitable for dry indoor spaces and budget projects. J1 has a higher copper content, enabling deep drawing for complex irregular parts. J2/J3 are the most widely used variants: J2 is harder and suitable for simple bending, while J3 contains slightly more nickel and offers more balanced performance. J5 is extremely hard but brittle, suitable for tubing but not for complex decorative parts.",
+          },
+          {
+            zh: "在建筑装饰领域，304是'定海神针'。它能抵御大部分日常酸碱腐蚀，适合厨房、浴室、室内墙面，以及一般气候条件下的户外招牌与幕墙。何时升级316？项目位于距海岸500米以内、游泳池区域或工业污染环境时，不建议省钱，直接使用316L牌号。",
+            en: "In the architectural decoration field, 304 is the 'anchor stone.' It resists most daily acid and alkali corrosion, making it suitable for kitchens, bathrooms, interior walls, and outdoor signage and curtain walls under normal climatic conditions. When should you upgrade to 316? For projects within 500 meters of the coast, swimming pool areas, or industrially polluted environments, do not cut costs — use 316L directly.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/grade-comparison-table.png",
+            alt: {
+              zh: "201、304、316不锈钢牌号对比表",
+              en: "Comparison table of 201, 304, and 316 stainless steel grades",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "四、表面工艺全解析：PVD 镀色——不褪色的金属膜",
+          en: "4. Surface Processes Explained: PVD Coating — Fade-Resistant Metallic Film",
+        },
+        paragraphs: [
+          {
+            zh: "PVD（物理气相沉积）是目前建筑装饰领域应用最广的技术。在高真空环境下，利用电弧将金属离子撞击沉积到板材表面，形成厚度0.1–0.5μm、硬度HV 1500–3000的无机陶瓷涂层。主流颜色包括黑钛（高级黑）、香槟金（轻奢）、玫瑰金（优雅）、古铜色（复古）、枪灰色（工业风）。",
+            en: "PVD (Physical Vapor Deposition) is currently the most widely used technology in architectural decoration. In a high-vacuum environment, metal ions are deposited onto the sheet surface using electric arcs, forming an inorganic ceramic coating 0.1–0.5 μm thick with a hardness of HV 1500–3000. Mainstream colors include black titanium (premium black), champagne gold (light luxury), rose gold (elegant), antique bronze (vintage), and gunmetal gray (industrial style).",
+          },
+          {
+            zh: "立式炉与卧式炉有明显区别：卧式炉金属质感更强，色调更鲜艳，但成本高，单板长度通常限制在4米内；立式炉可加工长达10米的巨型板材，效率高，适合地标建筑大面积外立面项目。PVD涂层耐紫外线、耐盐雾、耐酸碱，色彩稳定性远优于有机涂层，是户外长期应用的首选工艺。",
+            en: "Horizontal and vertical furnaces have distinct differences: horizontal furnaces produce stronger metallic textures and more vivid colors but at higher costs, with single-sheet lengths typically limited to 4 meters. Vertical furnaces can process giant sheets up to 10 meters long with higher efficiency, making them ideal for large-scale facade projects in landmark buildings. PVD coatings are UV-resistant, salt-spray resistant, and acid-alkali resistant, with far superior color stability compared to organic coatings, making them the preferred process for long-term outdoor applications.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/pvd-color-swatch.png",
+            alt: {
+              zh: "PVD镀色不锈钢色板展示",
+              en: "PVD coated stainless steel color swatches",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "五、纳米色油——色彩表达的自由度",
+          en: "5. Nano Color Oil — Freedom of Color Expression",
+        },
+        paragraphs: [
+          {
+            zh: "通过在不锈钢表面喷涂带颜色的纳米保护膜，可实现潘通（Pantone）标准的精准配色，并自带防指纹效果。这种工艺特别适合品牌色要求严格的奢侈品门店、需要大量配色选项的定制项目。",
+            en: "By spraying a colored nano-protective film onto the stainless steel surface, precise Pantone-standard color matching can be achieved, along with an anti-fingerprint effect. This process is especially suitable for luxury retail stores with strict brand-color requirements and custom projects needing a wide range of color options.",
+          },
+          {
+            zh: "需要注意的是：厚板（1.2mm以上）折边时，若工艺控制不当，纳米膜层可能出现'泛白'现象，需提前与工厂确认折边工艺方案。",
+            en: "It is important to note that when bending thick sheets (over 1.2 mm), improper process control can cause a 'whitening' effect in the nano film layer. It is advisable to confirm the bending process plan with the factory in advance.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/nano-color-swatch.png",
+            alt: {
+              zh: "纳米色油不锈钢色板展示",
+              en: "Nano color oil stainless steel color swatches",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "六、仿古做旧——时间感的艺术复刻",
+          en: "6. Antique Distressed Finish — Artistic Reproduction of Time",
+        },
+        paragraphs: [
+          {
+            zh: "通过水镀铜工艺在表面先铺一层真铜，再进行人工擦色、打磨，呈现古铜、青铜或锈蚀金属的历史质感。刮开表面可见真铜层，比纳米色油更厚重、更有历史感。",
+            en: "Through a water-based copper plating process, a layer of real copper is first applied to the surface, followed by manual rubbing and polishing to create a historical texture of antique bronze, bronze patina, or rusted metal. Scratching the surface reveals the real copper layer, which is heavier and more historically evocative than nano color oil finishes.",
+          },
+          {
+            zh: "因人工做旧工艺的特殊性，每张板的纹理必然存在差异。大面积拼接施工时，务必同批次一次性下单，避免批次间色差。",
+            en: "Due to the special nature of the manual distressing process, the texture of each sheet will inevitably differ. For large-area splicing construction, it is essential to place a single order for the entire required quantity in one batch to avoid color differences between batches.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/antique-finish-swatch.png",
+            alt: {
+              zh: "仿古做旧不锈钢色板展示",
+              en: "Antique distressed stainless steel color swatches",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "七、蚀刻工艺——在金属上'作画'",
+          en: "7. Etching Process — 'Painting' on Metal",
+        },
+        paragraphs: [
+          {
+            zh: "化学蚀刻通过腐蚀液将图案刻入金属表面，形成哑光与光亮的层次对比效果。丝印蚀刻成本低、速度快，适合100张以上批量订单；感光蚀刻精度极高，可还原细腻复杂线条，适合高端艺术定制。选材建议：大面积蚀刻优先选用304，201材质杂质较多，蚀刻后容易出现黑斑或水印瑕疵。",
+            en: "Chemical etching uses corrosive solutions to carve patterns into the metal surface, creating layered contrast effects between matte and glossy areas. Screen-printed etching is low-cost and fast, suitable for batch orders of 100 sheets or more. Photo-etching offers extremely high precision and can reproduce delicate, complex lines, making it ideal for high-end artistic customization. Material selection tip: for large-area etching, 304 is preferred. 201 material contains more impurities and is prone to black spots or water-mark defects after etching.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/etched-pattern-swatch.png",
+            alt: {
+              zh: "不锈钢蚀刻图案展示",
+              en: "Stainless steel etched pattern samples",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "八、压花工艺——立体空间感的制造者",
+          en: "8. Embossing — Creator of Three-Dimensional Spatial Feel",
+        },
+        paragraphs: [
+          {
+            zh: "通过压力模具在板面形成浮雕纹路，水波纹是目前最受市场欢迎的压花图案之一，配合吊顶灯光可制造如梦似幻的光影倒影效果。厚度建议：水波纹天花吊顶选用1.0mm以上厚度，避免因板材受力不均导致大面积安装后出现折痕或起伏感。",
+            en: "Embossing uses pressure dies to create relief patterns on the sheet surface. Water ripple is currently one of the most popular embossed patterns, and when combined with ceiling lighting, it can create dreamy, illusory light-and-shadow reflection effects. Thickness recommendation: for water-ripple ceiling installations, use sheets of 1.0 mm or thicker to avoid creases or undulations caused by uneven stress over large-area installations.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/embossed-texture-swatch.png",
+            alt: {
+              zh: "不锈钢压花纹理展示：水波纹、小米粒等",
+              en: "Stainless steel embossed texture samples including water ripple and grain patterns",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "九、热转印——金属界的'仿材大师'",
+          en: "9. Heat Transfer Printing — The 'Imitation Master' of Metals",
+        },
+        paragraphs: [
+          {
+            zh: "热转印工艺可将木纹、大理石纹精准转印到不锈钢表面。具备0甲醛、防火、防潮特性，是卫浴空间实现'木纹墙板'效果的理想解决方案。",
+            en: "Heat transfer printing can accurately transfer wood grain and marble patterns onto stainless steel surfaces. With zero formaldehyde, fire resistance, and moisture resistance, it is an ideal solution for achieving a 'wood panel wall' effect in bathroom spaces.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/wood-grain-transfer-swatch.png",
+            alt: {
+              zh: "热转印木纹不锈钢色板展示",
+              en: "Wood grain heat transfer stainless steel swatches",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "十、厚度选择的行业金标准",
+          en: "10. The Industry Gold Standard for Thickness Selection",
+        },
+        paragraphs: [
+          {
+            zh: "施工方为省成本选薄板，最终呈现'波浪效应'，是建筑装饰项目中最常见的返工原因之一。选择合适的厚度至关重要：室内墙面装饰推荐1.0mm–2.0mm，大幅背景墙勿用0.8mm以下；吊顶天花（有木基层）推荐0.8mm–1.5mm，龙骨间距不超过400mm；吊顶天花（钢构无木基层）建议0.95mm以上或蜂窝复合板。",
+            en: "Contractors choosing thinner sheets to save costs often end up with a 'wave effect,' which is one of the most common reasons for rework in architectural decoration projects. Selecting the right thickness is crucial: interior wall decoration is recommended at 1.0–2.0 mm, and large background walls should avoid anything below 0.8 mm. For ceiling installations with wooden substructures, 0.8–1.5 mm is recommended with龙骨spacing not exceeding 400 mm. For steel-frame ceilings without wooden substructures, 0.95 mm or honeycomb composite panels are advised.",
+          },
+          {
+            zh: "电梯轿厢内壁推荐0.7mm–1.2mm，需抗频繁冲击，勿用过薄材料。建筑外立面建议1.5mm以上或蜂窝复合板，需承受风荷载，蜂窝复合可减重60%–70%。线条与踢脚线推荐0.5mm–1.0mm，主要考验折边工艺，厚度要求相对宽松。",
+            en: "Elevator car interiors are recommended at 0.7–1.2 mm, requiring resistance to frequent impacts — do not use overly thin materials. Building facades should use 1.5 mm or honeycomb composite panels to withstand wind loads, with honeycomb composites reducing weight by 60%–70%. Trim and skirting lines are recommended at 0.5–1.0 mm, where the main challenge is the bending process, so thickness requirements are relatively relaxed.",
+          },
+          {
+            zh: "关于超大版面：单板超过1.5m × 3m时，建议选用不锈钢蜂窝复合板方案。不锈钢面板保留视觉质感，铝蜂窝芯大幅减轻重量，有效控制热膨胀形变，是地标建筑大面积外立面的成熟解决方案。",
+            en: "Regarding oversized panels: when a single sheet exceeds 1.5 m × 3 m, stainless steel honeycomb composite panels are recommended. The stainless steel face retains visual texture, while the aluminum honeycomb core significantly reduces weight and effectively controls thermal expansion deformation, making it a mature solution for large-scale facades in landmark buildings.",
+          },
+        ],
+        images: [
+          {
+            src: "/images/blog/thickness-guide-table.png",
+            alt: {
+              zh: "不锈钢装饰板厚度选择参考表",
+              en: "Stainless steel decorative panel thickness selection reference table",
+            },
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "十一、选购避坑与清洁禁忌",
+          en: "11. Buying Tips and Cleaning Taboos",
+        },
+        paragraphs: [
+          {
+            zh: "关于掉色风险：水镀黑钛在室外长期暴晒后存在变色风险，尤其是304镜面基板做水镀黑钛的风险较高。户外项目务必指定PVD电镀工艺，而非水镀工艺。关于折边爆边：硬度过高的纳米色油（如8H硬度）或色金含量过重的涂层，折边时存在漆面开裂风险。下单前应与工厂确认折边工艺兼容性。",
+            en: "Color fading risks: water-plated black titanium carries a risk of color change after long-term outdoor exposure, especially when applied to 304 mirror-finish substrates. For outdoor projects, be sure to specify PVD electroplating rather than water plating. Edge cracking: nano color oils with excessive hardness (such as 8H) or coatings with excessive color-gold content may crack at the bend. Confirm bending process compatibility with the factory before placing an order.",
+          },
+          {
+            zh: "关于色差管理：不锈钢镀色受炉温、湿度、药水浓度影响，同一台炉子不同批次的成品颜色偏差可达5%–10%。大面积施工前，务必一次性按足量下单，避免分批采购带来的明显色差拼接问题。",
+            en: "Color difference management: stainless steel plating colors are affected by furnace temperature, humidity, and chemical concentration. Color deviation between different batches from the same furnace can reach 5%–10%. Before large-area installation, always place a single order for the full required quantity to avoid obvious color-mismatch issues from batch purchasing.",
+          },
+          {
+            zh: "清洁禁忌：切勿使用钢丝球（会划伤表面，破坏钝化膜）；避免使用强酸清洗液或含氯漂白剂。日常维护只需用软布沾清水或中性清洁剂擦拭即可。",
+            en: "Cleaning taboos: never use steel wool (it scratches the surface and destroys the passive film). Avoid strong acid cleaners or chlorine-based bleach. Daily maintenance only requires wiping with a soft cloth dampened with clean water or a neutral detergent.",
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "十二、不锈钢装饰板的未来趋势",
+          en: "12. Future Trends in Stainless Steel Decorative Panels",
+        },
+        paragraphs: [
+          {
+            zh: "材料科学的进步正推动不锈钢装饰板从'好看'向'好用'全面进化。超级防指纹技术不再局限于哑光面，高光镜面也能实现手触无痕，极大降低维护频率。复合材料系统（不锈钢与铝蜂窝、阻燃芯板的复合方案）同时解决了平整度、轻量化与安装效率问题，成为大型工程项目的首选形式。",
+            en: "Advances in materials science are driving stainless steel decorative panels to evolve comprehensively from 'good-looking' to 'highly functional.' Super anti-fingerprint technology is no longer limited to matte surfaces; high-gloss mirror finishes can also achieve touch-free cleanliness, greatly reducing maintenance frequency. Composite material systems (combining stainless steel with aluminum honeycomb or fire-retardant cores) simultaneously solve flatness, lightweighting, and installation efficiency issues, becoming the preferred choice for large-scale projects.",
+          },
+          {
+            zh: "抗菌不锈钢在材料配方中引入铜离子，实现表面长效抑菌，在医疗空间、高端酒店餐饮区和公共卫生设施中具有广阔前景。双曲异形定制随着数字化建模与CNC加工技术的普及，不锈钢可支持复杂双曲面成型，满足地标建筑对非线性造型的极致追求。",
+            en: "Antibacterial stainless steel introduces copper ions into the material formulation to achieve long-term surface bacteriostasis, offering broad prospects in medical spaces, high-end hotel dining areas, and public health facilities. Complex curved customization: with the widespread adoption of digital modeling and CNC machining, stainless steel can support complex double-curved forming, satisfying landmark buildings' pursuit of extreme non-linear shapes.",
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "十三、总结",
+          en: "13. Summary",
+        },
+        paragraphs: [
+          {
+            zh: "不锈钢装饰板早已从工业'辅材'跃升为建筑设计的'主角'。它比石材轻盈、比木材耐久、比玻璃更具力量感。选材的关键逻辑只有三条：选对牌号（201/304/316），选对工艺（PVD/蚀刻/压花），控好厚度与基层。三者匹配，才能真正发挥这种材料的全部价值。顺佳兴（Greateson Steel）是专注建筑与商业空间的高端不锈钢装饰解决方案制造商，2008年创立于中国广东佛山，拥有10,000㎡自有工厂与80余名专业团队，提供201/304/316全牌号装饰板定制加工，涵盖PVD镀色、拉丝、压花、蚀刻、热转印及不锈钢蜂窝复合板全系工艺，服务酒店、外立面、电梯及奢侈品零售等高端场景，主要出口中东、欧洲及东南亚市场。",
+            en: "Stainless steel decorative panels have long evolved from industrial 'auxiliary materials' to 'protagonists' in architectural design. They are lighter than stone, more durable than wood, and more powerful in presence than glass. The key logic for material selection boils down to three points: choose the right grade (201/304/316), choose the right process (PVD/etching/embossing), and control thickness and substrate properly. Only when these three elements match can the full value of this material be realized. Greateson Steel is a premium stainless steel decorative solutions manufacturer focused on architecture and commercial spaces. Founded in 2008 in Foshan, Guangdong, China, it operates a 10,000 m² factory with over 80 professionals, offering full-range custom processing of 201/304/316 decorative panels covering PVD coating, hairline brushing, embossing, etching, heat transfer printing, and stainless steel honeycomb composite panels, serving high-end scenarios such as hotels, facades, elevators, and luxury retail, primarily exporting to the Middle East, Europe, and Southeast Asia.",
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: {
+          zh: "不锈钢装饰板和普通不锈钢板有什么区别？",
+          en: "What is the difference between a stainless steel decorative panel and an ordinary stainless steel sheet?",
+        },
+        a: {
+          zh: "普通不锈钢板以结构或工业用途为主，表面未经装饰处理；不锈钢装饰板在基材基础上叠加了一道或多道表面处理工艺，以视觉美观性和装饰效果为核心设计目标。",
+          en: "Ordinary stainless steel sheets are primarily used for structural or industrial purposes with untreated surfaces. Stainless steel decorative panels add one or more surface finishing processes to the substrate, with visual aesthetics and decorative effect as the core design goals.",
+        },
+      },
+      {
+        q: {
+          zh: "室内和户外用哪个牌号？",
+          en: "Which grade should be used indoors and outdoors?",
+        },
+        a: {
+          zh: "室内干燥场景201/304均可；一般户外场景选304；滨海、游泳池或工业环境选316L。",
+          en: "For dry indoor environments, either 201 or 304 is suitable. For general outdoor scenarios, choose 304. For coastal, swimming pool, or industrial environments, choose 316L.",
+        },
+      },
+      {
+        q: {
+          zh: "不锈钢装饰板可以定制图案和颜色吗？",
+          en: "Can stainless steel decorative panels be customized with patterns and colors?",
+        },
+        a: {
+          zh: "可以。通过激光蚀刻、化学蚀刻可定制任意图案；PVD工艺可精准还原品牌Pantone色；热转印可模拟木纹、石纹等自然材质效果。",
+          en: "Yes. Any pattern can be customized through laser etching or chemical etching. PVD processes can accurately reproduce brand Pantone colors. Heat transfer printing can simulate natural material effects such as wood grain and stone texture.",
+        },
+      },
+      {
+        q: {
+          zh: "大面积外立面用纯板还是蜂窝复合板？",
+          en: "For large-area facades, should solid panels or honeycomb composite panels be used?",
+        },
+        a: {
+          zh: "超大版面（超过1.5m × 3m）或结构荷载敏感的外立面，优先选用不锈钢蜂窝复合板；中小版面室内装饰选纯板更经济灵活。",
+          en: "For oversized panels (exceeding 1.5 m × 3 m) or facades sensitive to structural loads, stainless steel honeycomb composite panels are preferred. For small-to-medium interior decoration, solid panels are more economical and flexible.",
+        },
+      },
+    ],
+  },
 ];

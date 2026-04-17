@@ -15,6 +15,7 @@ export type BlogPost = {
   sections: {
     heading: LocalizedText;
     paragraphs: LocalizedText[];
+    images?: { src: string; alt: LocalizedText }[];
   }[];
   faq: {
     q: LocalizedText;
