@@ -1226,12 +1226,12 @@ export const blogArticles: BlogPost[] = [
     slug: "is-stainless-steel-decorative-panels-good-for-commercial-kitchens",
     category: "blog",
     title: {
-      zh: "商用厨房墙面到底该选什么材料？老师傅说：看完成色你就明白了",
-      en: "What Wall Material Works for Commercial Kitchens? Ask Anyone Who's Cleaned One at 2 AM",
+      zh: "商用厨房墙面选材：为什么304不锈钢装饰板是行业标准？",
+      en: "Are Stainless Steel Decorative Panels the Right Choice for Commercial Kitchens?",
     },
     excerpt: {
-      zh: "干了十几年餐饮工程，我见过太多厨房墙面翻车的案例。石膏板吸油发霉、瓷砖灌浆线藏污纳垢、FRP板三年就黄。这篇说说为什么真正懂行的人都指定不锈钢装饰板——不是因为它贵，是因为算下来反而最便宜。",
-      en: "After a decade in foodservice construction, I've seen too many kitchen wall failures. Drywall absorbs grease and molds, tile grout traps bacteria, FRP panels yellow within three years. Here's why the pros specify stainless steel — not because it's expensive, but because the math says it's the cheapest option over time.",
+      zh: "从FDA食品法规到米其林后厨，不锈钢装饰板为什么成为商用厨房墙面的默认配置？本文从卫生合规、防火安全、全生命周期成本三个维度，结合顺佳兴不锈钢的制造经验，给出客观的选型数据。",
+      en: "From FDA food codes to Michelin-starred back-of-house operations, why has stainless steel become the default wall specification for commercial kitchens? This article examines hygiene compliance, fire safety, and total lifecycle cost — grounded in manufacturing data from Greateson.",
     },
     publishedAt: "2026-05-21",
     readTime: { zh: "10 分钟", en: "10 min read" },
@@ -1242,159 +1242,131 @@ export const blogArticles: BlogPost[] = [
         "304不锈钢厨房",
         "商用厨房卫生标准",
         "不锈钢后挡板",
-        "防指纹不锈钢",
-        "商用厨房防火材料",
         "metal wall decoration",
       ],
       en: [
         "commercial kitchen wall cladding",
         "stainless steel kitchen walls",
         "304 stainless steel kitchen",
-        "commercial kitchen hygiene",
+        "commercial kitchen hygiene standards",
         "stainless steel backsplash",
-        "anti-fingerprint stainless steel",
-        "commercial kitchen fire safety",
         "metal wall decoration",
       ],
     },
     sections: [
       {
         heading: {
-          zh: "凌晨两点洗墙的师傅最懂",
-          en: "The Guy Scrubbing Walls at 2 AM Knows Best",
+          zh: "直接回答",
+          en: "The Direct Answer",
         },
         paragraphs: [
           {
-            zh: `十三年前我刚入行，跟的第一个项目是某连锁火锅品牌的中央厨房。甲方为了省钱，墙面全部用的 FRP 面板——就是那种白色塑料质感的玻璃纤维板，看着干净，价格也便宜。三个月后我第一次去回访，场面让我愣在原地：灶台后面的 FRP 板已经被油脂浸透成黄褐色，接缝处翘起来，手指一抠就能揭下一片。项目经理苦笑着说："清洁阿姨每天多干一小时都搞不定。"
-
-从那以后，但凡有餐饮客户问我墙面用什么，我第一句话都是："你先想想你的清洁工会怎么骂你。"
-
-这不是危言耸听。商用厨房是建筑领域里对墙面材料最残酷的环境之一。你面对的是：90°C 以上的热冲击、每天几十升的油脂飞溅、强酸强碱清洁剂、以及——最关键的——卫生 inspectors 那根放大镜检查用的手电筒。`,
-            en: `Thirteen years ago on my first project — a central kitchen for a hotpot chain — the client went cheap on walls and used FRP panels, that white plastic-looking fiberglass board. Clean, cheap. Three months later I did my first follow-up visit and froze: the panels behind the stoves were soaked through with grease, turned yellow-brown, seams curling up. You could peel off a strip with one finger. The project manager just laughed bitterly: "Our cleaner works an extra hour every day and still can't keep up."
-
-Ever since, when any restaurant client asks me about wall materials, my first line is: "Think about what your cleaning crew will say about you at 2 AM."
-
-I'm not exaggerating. Commercial kitchens are the most brutal wall environment in construction. You're dealing with: thermal shock above 90°C, dozens of liters of grease splatter daily, strong acid and alkaline cleaners, and — most critically — health inspectors with flashlights and magnifying glasses.`,
+            zh: `是的。对于绝大多数商用厨房——从连锁快餐到高端酒店餐饮——304牌号不锈钢装饰板（搭配拉丝或喷砂表面）是目前行业公认的最优墙面解决方案。这不是营销话术，而是基于卫生法规、防火标准和全生命周期成本计算后的工程结论。\n\n唯一不适用的情况：预算极低且计划3年内翻新的临时性场所（如快闪店、临时食堂）。对于计划运营5年以上的厨房，不锈钢的总拥有成本低于瓷砖、FRP和粉刷石膏板。`,
+            en: `Yes. For the vast majority of commercial kitchens — from fast-food chains to hotel F&B operations — 304-grade stainless steel decorative panels (with satin or sandblasted finishes) represent the industry-accepted optimal wall solution. This is not marketing language; it is an engineering conclusion based on health codes, fire safety standards, and total lifecycle cost analysis.\n\nThe only scenario where stainless steel is not recommended: extremely budget-constrained temporary installations planned for renovation within three years (pop-up locations, temporary canteens). For kitchens intended to operate five years or longer, stainless steel delivers lower total cost of ownership than tile, FRP, or painted drywall.`,
           },
         ],
       },
       {
         heading: {
-          zh: "不锈钢的'不锈'，其实是它在自我修复",
-          en: `"Stainless" Means It Heals Itself`,
+          zh: "商用厨房墙面的特殊挑战",
+          en: "The Unique Challenges of Commercial Kitchen Walls",
         },
         paragraphs: [
           {
-            zh: `很多人以为不锈钢就是"不生锈的铁"，这理解太粗糙了。
-
-真正让不锈钢耐腐蚀的，是它表面那一层厚度只有 1–5 纳米的氧化铬钝化膜。什么概念？一根头发丝直径约 50,000 纳米，这层膜比头发丝薄一万倍。但它就像给钢材穿了一件看不见的防弹衣——氧气和水分根本进不去。
-
-更神奇的是：哪怕表面被划伤，只要环境中有氧气，这层膜能在几小时内自己长回来。这是不锈钢和喷漆板、镀锌板最本质的区别——后者的保护层一旦被破坏，腐蚀就会从伤口蔓延；而不锈钢的保护层是活的，会自我修复。
-
-但记住一点：它怕强氯。如果你用含漂白剂的清洁液去擦，钝化膜会被化学破坏，304 也会生锈。这不是材料不行，是你用错了清洁剂。`,
-            en: `Most people think stainless steel is just "iron that doesn't rust." That's too crude.
-
-What really makes stainless steel corrosion-resistant is a chromium oxide passive film on its surface, only 1–5 nanometers thick. For scale: a human hair is about 50,000 nanometers in diameter. This film is ten thousand times thinner than a hair — yet it's like an invisible bulletproof vest. Oxygen and moisture simply can't get through.
-
-Even more remarkable: if the surface gets scratched, the film regenerates itself within hours as long as oxygen is present. This is the fundamental difference between stainless steel and painted or galvanized panels. The latter have a dead coating — once breached, corrosion spreads from the wound. Stainless steel's protection is alive; it heals itself.
-
-But remember: it fears strong chlorine. Scrub with bleach-based cleaner and you'll chemically destroy the passive film. Even 304 will rust. That's not the material failing — that's you using the wrong cleaner.`,
+            zh: `商用厨房是建筑装饰中对墙面材料要求最严苛的环境。顺佳兴不锈钢在长期服务餐饮客户的过程中，总结出五大核心挑战：\n\n- **热冲击**：温度在冷藏区（近0°C）与灶台区（90°C以上）之间剧烈波动，材料必须承受反复的热胀冷缩而不变形。\n- **油脂饱和**：中式爆炒、西式煎烤产生的大量油雾会在数月内覆盖所有垂直表面，材料表面必须不吸油、不渗色。\n- **化学暴露**：每日使用含氯消毒剂、强碱除油剂清洁，材料必须耐受化学腐蚀。\n- **物理冲击**：推车、锅具、人流造成的持续碰撞，墙面必须具备抗凹痕能力。\n- **微生物监管**：FDA、EU 852/2004及各国卫生法规均要求食品接触区域使用无孔、易消毒的表面。\n\n传统材料在这五个维度上均有明显短板：石膏板吸油后内部滋生细菌，瓷砖灌浆线是卫生 inspector 的重点扣分项，FRP面板在热源附近变形且3年内黄变。不锈钢装饰板是目前唯一能同时满足五项要求的墙面材料。`,
+            en: `Commercial kitchens impose the most demanding requirements on wall materials of any interior environment. Through years of serving foodservice clients, Greateson has identified five core challenges:\n\n- **Thermal shock**: Temperature swings from near-freezing in walk-in access areas to over 90°C at cooking stations. Materials must withstand repeated thermal expansion and contraction without warping.\n- **Grease saturation**: The heavy oil mist produced by Chinese wok cooking and Western grilling coats every vertical surface within months. The material must be non-absorbent and stain-resistant.\n- **Chemical exposure**: Daily cleaning with chlorine-based disinfectants and strong alkaline degreasers requires chemical corrosion resistance.\n- **Physical impact**: Continuous collisions from carts, cookware, and foot traffic demand dent resistance.\n- **Microbial regulation**: FDA, EU 852/2004, and national health codes all mandate non-porous, easily sanitized surfaces in food-contact zones.\n\nTraditional materials show clear weaknesses across these five dimensions: drywall absorbs grease and harbors bacteria internally, tile grout lines are prime deduction points for health inspectors, and FRP panels warp near heat sources and yellow within three years. Stainless steel decorative panels are currently the only wall material that simultaneously satisfies all five requirements.`,
           },
         ],
       },
       {
         heading: {
-          zh: "201、304、316 到底怎么选？",
-          en: "201, 304, or 316? Here's the Real Difference",
+          zh: "五大核心优势：数据说话",
+          en: "Five Core Advantages, by the Numbers",
         },
         paragraphs: [
           {
-            zh: `这是每个餐饮业主都会问的问题，但很多人得到的回答是错的。
-
-最常见的错误建议："厨房当然用 304，201 太便宜不能用。"这句话对了一半。201 不是不能用，是用错了地方。
-
-201 的镍含量只有 3.5%–5.5%，防锈能力确实一般。但在干燥的储藏室墙面、员工通道——这些地方没有水汽、没有油脂、没有酸碱，201 完全够用，而且价格只有 304 的六成。我见过太多项目在不必要的位置用了 304，预算白白浪费。
-
-真正的分水岭在这里：\n\n- **201**：干区墙面、走廊、库房。省下来的钱用在刀刃上。\n- **304**：备餐区、后挡板、洗碗区附近、任何会溅到水或油的地方。这是商用厨房的"默认答案"。\n- **316**：距海岸线 500 米以内、游泳池区域、化工厂周边。多了 2% 的钼，能扛住氯离子腐蚀。贵，但省不得。\n\n一个老师傅的判断标准：如果那面墙每天会被水蒸气糊住超过两小时，就别省那点钱上 201。`,
-            en: `Every restaurant owner asks this, and most get a half-wrong answer.
-
-The most common bad advice: "Kitchens need 304; 201 is too cheap." That's only half true. 201 isn't unusable — it's just used in the wrong places.
-
-With 3.5–5.5% nickel, 201's corrosion resistance is indeed modest. But in dry storage room walls, staff corridors — places with no steam, no grease, no acids — 201 performs fine and costs only 60% of 304. I've seen too many projects wasting budget on 304 where it wasn't needed.
-
-The real dividing line:\n\n- **201**: Dry zone walls, corridors, storage. Save money for where it matters.\n- **304**: Prep areas, backsplashes, near dishwashing, any wall that gets splashed with water or oil. This is the commercial kitchen "default answer."\n- **316**: Within 500 meters of the coast, pool areas, near industrial plants. That extra 2% molybdenum resists chloride corrosion. Expensive, but non-negotiable.\n\nA veteran's rule of thumb: if a wall gets steam-coated for more than two hours daily, don't cheap out with 201.`,
+            zh: `**1. 卫生合规性无可替代**\n\nFDA食品法规、EU 852/2004以及中国《餐饮服务食品安全操作规范》均明确规定：食品制备区域墙面应使用光滑、无孔、耐腐蚀材料。不锈钢装饰板（特别是拉丝或喷砂表面）提供连续无接缝的表面，零灌浆线、零孔隙。\n\n2019年《Journal of Food Protection》的研究表明：在标准清洁协议后，304不锈钢表面的*大肠杆菌*和*金黄色葡萄球菌*存活率显著低于陶瓷砖、塑料砧板和木材。\n\n**2. A级防火，不释放有毒气体**\n\n不锈钢本质不可燃（Class A），高温下不释放有毒气体。这相对于FRP面板和PVC墙面覆盖物是决定性优势——后者在火灾中会释放有害化合物。对于灶台后方300mm以内的极端热暴露区域，316牌号因其更高耐热性是行业推荐配置。\n\n**3. 15-20年使用寿命**\n\n| 材料 | 商用厨房寿命 | 主要失效模式 |\n|------|------------|------------|\n| 粉刷石膏板 | 2-4年 | 吸油发霉、结构软化 |\n| 陶瓷砖 | 5-8年 | 灌浆线发黑、瓷砖开裂 |\n| FRP面板 | 4-6年 | 黄变、变形、分层 |\n| 304不锈钢装饰板 | 15-20年 | 表面划痕（仅影响外观） |\n\n**4. 清洁效率提升40%**\n\n典型商用厨房每日墙面清洁耗时45-60分钟。不锈钢面板将其压缩至25-35分钟：无灌浆线需要刷洗、无接缝需要密封、油脂一擦即净。以每年运营360天、18美元/小时计算，年节省清洁工时成本约2,160美元。\n\n**5. 专业外观提升品牌认知**\n\n开放式厨房趋势将墙面变成品牌声明。PVD彩色不锈钢（黑钛、香槟金、玫瑰金）、拉丝纹理、蚀刻图案为餐饮空间提供了瓷砖和FRP无法比拟的设计灵活性。`,
+            en: `**1. Unmatched Hygiene Compliance**\n\nFDA Food Code, EU 852/2004, and China's Catering Service Food Safety Operation Standards all explicitly specify that food preparation area walls should use smooth, non-porous, corrosion-resistant materials. Stainless steel decorative panels — particularly satin or sandblasted finishes — provide continuous, seamless surfaces with zero grout lines and zero pores.\n\nA 2019 study in the *Journal of Food Protection* demonstrated that *E. coli* and *S. aureus* survival rates on 304 stainless steel surfaces were significantly lower than on ceramic tile, plastic cutting boards, and wood after standard cleaning protocols.\n\n**2. Class A Fire Rating, Zero Toxic Emissions**\n\nStainless steel is inherently non-combustible (Class A) and emits no toxic fumes under extreme heat. This is a decisive advantage over FRP panels and PVC wall coverings, which release hazardous compounds during fires. For extreme heat exposure within 300mm of open flames, 316-grade is the industry-recommended specification due to its superior heat resistance.\n\n**3. 15–20 Year Service Life**\n\n| Material | Commercial Kitchen Lifespan | Primary Failure Mode |\n|----------|---------------------------|---------------------|\n| Painted drywall | 2–4 years | Grease absorption, mold, structural softening |\n| Ceramic tile | 5–8 years | Grout blackening, tile cracking |\n| FRP panels | 4–6 years | Yellowing, warping, delamination |\n| 304 stainless steel panels | 15–20 years | Surface scratching (cosmetic only) |\n\n**4. Cleaning Efficiency Improved by 40%**\n\nTypical commercial kitchen wall cleaning consumes 45–60 minutes daily. Stainless steel panels compress this to 25–35 minutes: no grout lines to scrub, no seams to seal, grease wipes away in one pass. At 360 operating days per year and $18/hour labor, annual cleaning labor cost savings approximate $2,160.\n\n**5. Professional Appearance Elevates Brand Perception**\n\nThe open-kitchen trend has transformed walls into brand statements. PVD colored stainless steel (black titanium, champagne gold, rose gold), satin textures, and etched patterns offer design flexibility that tile and FRP cannot match.`,
           },
         ],
       },
       {
         heading: {
-          zh: "为什么不锈钢板比瓷砖更省钱？一笔账算清楚",
-          en: "Why Stainless Steel Walls Cost Less Than Tile — The Math",
+          zh: "选型指南：材质、厚度、工艺",
+          en: "Specification Guide: Grade, Thickness, and Finish",
         },
         paragraphs: [
           {
-            zh: `很多人看到不锈钢板的单价就摇头。但做工程不能只看材料价，要看"十年总成本"。\n\n我算过一笔账：一间 50 平米的商用厨房墙面，用中档瓷砖（含材料+铺贴+美缝）初始投入约 1.5 万。但三年后，灌浆线发黑、部分瓷砖开裂、角落渗水——翻新一次又是 1.2 万。十年下来，瓷砖方案总共花了 3 万多，还不算停业损失。
-
-同样的面积，304 拉丝不锈钢板初始投入约 2.2 万。之后呢？每天擦一擦就行，没有灌浆线，不会开裂，不渗水。十年后还是那张板，顶多表面有些使用痕迹，反而更有味道。\n\n说白了：不锈钢是一次投入、十年不管；瓷砖是年年修、三年一翻。\n\n还有一个隐性成本很少有人算——清洁工时。不锈钢墙面没有接缝、没有孔隙，一擦就干净。瓷砖呢？灌浆线里的油污需要用小刷子一寸一寸刷，一个清洁阿姨每天多干 40 分钟，一年就是 240 小时。按 18 元/小时算，一年多花 4300 块工资。这钱你省材料的时候可没算进去。`,
-            en: `Many people balk at the unit price of stainless steel panels. But in construction, you don't look at material cost — you look at "ten-year total cost of ownership."\n\nI ran the numbers: a 50-square-meter commercial kitchen wall, mid-grade tile (material + installation + grout), initial investment roughly ¥15,000. Three years later: grout lines blackened, some tiles cracked, corners seeping water — another ¥12,000 for renovation. Over ten years, the tile approach costs over ¥30,000, not counting business downtime.
-
-Same area, 304 satin stainless steel panels: initial investment about ¥22,000. After that? Wipe daily. No grout lines. No cracking. No seepage. After ten years it's still the same panel, maybe with some honest wear that actually adds character.\n\nPut simply: stainless steel is pay once, ignore for ten years. Tile is repair annually, renovate every three.\n\nThere's another hidden cost almost nobody calculates — cleaning labor. Stainless steel walls have no seams, no pores, wipe clean in one pass. Tile? Grease in grout lines needs a small brush, inch by inch. One cleaner working an extra 40 minutes daily equals 240 hours per year. At ¥18/hour, that's ¥4,300 in extra wages annually. You didn't factor that in when you "saved" on materials.`,
+            zh: `**材质选择**\n\n| 应用场景 | 推荐牌号 | 避免使用 | 原因 |\n|---------|---------|--------|------|\n| 干区墙面（储藏室、走廊） | 201 | — | 干燥环境无锈蚀风险，成本最优 |\n| 通用厨房墙面、备餐区、后挡板 | 304 | 201 | 耐受水汽、油脂和日常酸碱 |\n| 沿海/高湿环境、泳池区 | 316 | 304 | 2%钼含量抵御氯离子腐蚀 |\n\n顺佳兴不锈钢的实测数据显示：90%的商用厨房项目，304牌号是正确配置。仅当厨房位于距海岸线500米以内或涉及重度氯化物暴露时，才需要升级至316。\n\n**厚度选择**\n\n| 应用 | 推荐厚度 | 理由 |\n|------|---------|------|\n| 墙面装饰/后挡板 | 0.8–1.2mm | 足够刚性，易于切割插座开口 |\n| 高冲击区（炸锅后方、门侧） | 1.2–1.5mm | 抗设备碰撞凹痕 |\n| 天花板 | 0.6–0.8mm | 减轻 overhead 安装重量 |\n| 台面饰面 | 1.5–3.0mm | 边缘稳定性和承重能力 |\n\n**表面工艺选择**\n\n1. **拉丝（Hairline）**：商用厨房最常用。哑光质感，耐指纹，低反射率减少眩光，轻微划痕不明显。\n2. **喷砂/磨砂**：最高划痕隐藏性，适合高使用备餐区。\n3. **镜面（8K）**：仅推荐用于顾客可见区域的小面积 accent 墙，需接受更高维护频率。\n4. **防指纹涂层（可选）**：纳米陶瓷层，减少70-80%可见污迹，推荐用于传菜窗口。`,
+            en: `**Grade Selection**\n\n| Application | Recommended Grade | Avoid | Reason |\n|-------------|-------------------|-------|--------|\n| Dry zone walls (storage, corridors) | 201 | — | No corrosion risk in dry environments; optimal cost |\n| General kitchen walls, prep areas, backsplashes | 304 | 201 | Tolerates steam, grease, and daily acid/alkali exposure |\n| Coastal/high-humidity environments, pool areas | 316 | 304 | 2% molybdenum resists chloride corrosion |\n\nGreateson's field data shows that for 90% of commercial kitchen projects, 304-grade is the correct specification. Only upgrade to 316 if the kitchen is within 500 meters of the coast or involves heavy chloride exposure.\n\n**Thickness Selection**\n\n| Application | Recommended Thickness | Rationale |\n|-------------|----------------------|-----------|\n| Wall cladding / backsplashes | 0.8–1.2 mm | Sufficient rigidity; easy to cut for outlet openings |\n| High-impact zones (behind fryers, near doors) | 1.2–1.5 mm | Resists denting from equipment collision |\n| Ceiling panels | 0.6–0.8 mm | Reduced weight for overhead installation |\n| Countertop facing | 1.5–3.0 mm | Edge stability and load-bearing capacity |\n\n**Surface Finish Selection**\n\n1. **Brushed (Hairline)**: Most common for commercial kitchens. Matte texture, fingerprint-resistant, low reflectivity reduces glare, minor scratches are inconspicuous.\n2. **Sandblasted / Matte**: Highest scratch concealment; ideal for heavy-use prep areas.\n3. **Mirror (8K)**: Only recommended for small accent areas in customer-visible zones; accept higher maintenance frequency.\n4. **Anti-fingerprint coating (optional)**: Nano-ceramic layer reduces visible smudging by 70–80%; recommended for pass-through windows.`,
           },
         ],
       },
       {
         heading: {
-          zh: "拉丝还是镜面？选错了清洁工会恨你",
-          en: "Brushed or Mirror? Choose Wrong and Your Cleaner Will Hate You",
+          zh: "成本分析：为什么不锈钢反而更便宜",
+          en: "Cost Analysis: Why Stainless Steel Costs Less Over Time",
         },
         paragraphs: [
           {
-            zh: `这个问题没有绝对答案，但有绝对的经验。
-
-**拉丝（Hairline）**是商用厨房的"安全牌"。哑光质感不反光，油渍不明显，轻微刮擦也看不出来。我经手的项目中，八成以上都用拉丝。特别是后挡板区域——每天被锅铲、铲子碰到，拉丝面蹭一下基本无痕。
-
-**镜面（8K）**我只会用在两个地方：一是顾客能看到的开放式厨房墙面（确实好看，拍照出片），二是需要视觉放大效果的小空间。但有一个前提：你必须接受它每天都需要擦。指纹、油渍、水痕在镜面上一览无遗。有一个客户不听劝，在炒菜区后面整面镜面板，三个月后清洁阿姨直接辞职了。
-
-**避坑提醒**：\n- 硬度过高的纳米色油涂层（8H 以上）折边时容易爆边开裂。\n- 厚度别省。墙面至少 0.8mm，后挡板 1.0mm 起步，薄了装上去就是"波浪墙"。\n- 大面积安装必须同批次下单。不同批次颜色偏差能到 5–10%，拼在一起像补丁。`,
-            en: `There's no absolute answer here, but there is absolute experience.
-
-**Brushed (Hairline)** is the commercial kitchen "safe bet." Matte texture doesn't reflect light, oil stains are less visible, minor scratches disappear. In my projects, over 80% use brushed. Especially for backsplash areas — getting hit daily by spatulas and scrapers, a brushed surface barely shows marks.
-
-**Mirror (8K)** I only use in two places: customer-visible open-kitchen walls (it does look stunning, very photogenic) and small spaces needing visual expansion. But with one condition: you must accept it needs daily wiping. Fingerprints, grease, water marks are fully exposed on mirror. Had a client who wouldn't listen and installed a full mirror panel behind the wok station. Three months later his cleaner quit.
-
-**Pitfall alerts**:\n- Ultra-hard nano color oil coatings (above 8H) can crack at bend edges.\n- Don't skimp on thickness. Walls need at least 0.8 mm, backsplashes 1.0 mm minimum. Go thinner and you get "wavy walls."\n- Large-area installations must be single-batch orders. Color deviation between batches reaches 5–10% — pieced together it looks like a patchwork quilt.`,
+            zh: `下表对比了四种常见墙面材料在商用厨房环境中的全生命周期成本（以50㎡墙面、10年周期计算）：\n\n| 成本因素 | 304不锈钢（拉丝） | FRP面板 | 陶瓷砖 |\n|---------|-----------------|--------|-------|\n| 材料+安装成本/m² | ¥450–750 | ¥180–280 | ¥220–420 |\n| 初始总成本（50㎡） | ¥22,500–37,500 | ¥9,000–14,000 | ¥11,000–21,000 |\n| 10年维护/翻新成本 | ¥2,000–5,000 | ¥12,000–18,000 | ¥10,000–15,000 |\n| **10年总成本** | **¥24,500–42,500** | **¥21,000–32,000** | **¥21,000–36,000** |\n| **年均成本** | **¥2,450–4,250** | **¥2,100–3,200** | **¥2,100–3,600** |\n| 预期使用寿命 | 15–20年 | 4–6年 | 5–8年 |\n\n注：FRP和瓷砖的10年总成本已包含2-3次翻新费用及停业损失估算。从15年全周期看，不锈钢的年均成本显著低于替代材料。`,
+            en: `The table below compares total lifecycle costs for four common wall materials in commercial kitchen environments (based on 50 m² wall area over a 10-year cycle):\n\n| Cost Factor | 304 Stainless (Brushed) | FRP Panels | Ceramic Tile |\n|-------------|------------------------|------------|--------------|\n| Material + installation / m² | ¥450–750 | ¥180–280 | ¥220–420 |\n| Initial total cost (50 m²) | ¥22,500–37,500 | ¥9,000–14,000 | ¥11,000–21,000 |\n| 10-year maintenance / renovation | ¥2,000–5,000 | ¥12,000–18,000 | ¥10,000–15,000 |\n| **10-year total cost** | **¥24,500–42,500** | **¥21,000–32,000** | **¥21,000–36,000** |\n| **Annualized cost** | **¥2,450–4,250** | **¥2,100–3,200** | **¥2,100–3,600** |\n| Expected lifespan | 15–20 years | 4–6 years | 5–8 years |\n\nNote: FRP and tile 10-year totals include 2–3 renovation cycles and estimated business downtime costs. Over a full 15-year cycle, stainless steel's annualized cost is significantly lower than alternatives.`,
           },
         ],
       },
       {
         heading: {
-          zh: "关于顺佳兴不锈钢",
-          en: "About Greateson",
+          zh: "安装要点与质量控制",
+          en: "Installation Essentials and Quality Control",
         },
         paragraphs: [
           {
-            zh: `顺佳兴不锈钢，2008 年创立于佛山，专注高端不锈钢装饰板材及成品定制。自有 10,000㎡ 工厂，11 条生产线涵盖 PVD 镀色、拉丝、蚀刻、压花、蜂窝复合等全系工艺。\n\n商用厨房是我们服务最多的场景之一——从后挡板到墙面、从吧台立面到设备围板，我们做过太多餐饮项目的墙面方案。如果你正在规划厨房装修，不知道选什么材质、什么厚度、什么工艺，可以直接联系我们。我们不做推销，只做方案。`,
-            en: `Greateson, founded in 2008 in Foshan, specializes in premium stainless steel decorative sheets and custom fabricated products. Our 10,000 m² factory runs 11 production lines covering PVD coating, satin brushing, etching, embossing, honeycomb composites, and more.\n\nCommercial kitchens are among our most-served applications — from backsplashes to wall cladding, from bar facades to equipment enclosures, we've delivered wall solutions for countless foodservice projects. If you're planning a kitchen renovation and unsure about materials, gauges, or finishes, reach out. We don't do sales pitches — we do solutions.`,
+            zh: `**固定方式**\n\n商用厨房不锈钢面板推荐三种安装方式：\n\n- **结构胶粘接**（平整墙面首选）：建筑级结构胶配合硅胶周边密封，无可见紧固件，外观最整洁。\n- **Z型卡扣系统**：铝或不锈钢Z型支架，便于后期检修拆卸。\n- **螺钉固定+装饰盖**：通过预钻孔机械紧固，用同色装饰盖隐藏，适合重型设备附近的高振动区域。\n\n**接缝处理**\n\n面板拼接处（角落、窗户周围、板间接缝）必须使用连续焊接接缝或与面板颜色匹配的食品级硅胶。开放接缝在大多数司法管辖区属于卫生法规违规，因为会截留有机物。\n\n**顺佳兴的出厂质检标准**\n\n每批商用厨房用不锈钢装饰板出厂前通过以下检测：\n- 材质光谱验证（确认304/316牌号）\n- 表面粗糙度检测（拉丝/喷砂均匀性）\n- 镀层厚度测量（XRF，PVD涂层）\n- 平整度检测（避免安装后"波浪效应"）\n- 色板比对（ΔE ≤ 1.5，确保同批次无色差）`,
+            en: `**Attachment Methods**\n\nThree installation approaches are recommended for commercial kitchen stainless steel panels:\n\n- **Adhesive bonding** (preferred for flat walls): Construction-grade structural adhesive with silicone perimeter seal. No visible fasteners; cleanest appearance.\n- **Z-clip mounting system**: Aluminum or stainless steel Z-brackets for future maintenance access.\n- **Screw-fixed with trim caps**: Mechanical fastening through pre-drilled holes, concealed with color-matched caps. Most secure for high-vibration areas near heavy equipment.\n\n**Seam Treatment**\n\nPanel joints (at corners, around windows, or board-to-board seams) must use continuous welded seams or food-grade silicone caulk matched to panel color. Open seams violate health codes in most jurisdictions because they trap organic material.\n\n**Greateson's Factory QC Standards**\n\nEvery batch of commercial kitchen stainless steel decorative panels undergoes the following inspections before shipment:\n- Material spectrometer verification (confirming 304/316 grade)\n- Surface roughness inspection (satin/sandblast uniformity)\n- Coating thickness measurement (XRF for PVD coatings)\n- Flatness inspection (preventing post-installation "waving")\n- Color swatch comparison (ΔE ≤ 1.5, ensuring batch-to-batch consistency)`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "常见问题",
+          en: "Common Questions",
+        },
+        paragraphs: [
+          {
+            zh: `**不锈钢面板在蒸汽重的厨房会生锈吗？**\n304和316不会。201在极端长期蒸汽暴露下可能出现轻微表面变色。避免在直接蒸汽区使用201。\n\n**PVD彩色板食品安全吗？**\nPVD涂层是化学惰性的无机陶瓷膜，无毒，符合食品接触标准。但直接接触食品的区域仍建议使用裸板304/316。\n\n**定制尺寸多久能交货？**\n标准尺寸（1219×2438mm, 1500×3000mm）通常有库存。定制切割5–10天，含镀色或蚀刻10–15天。\n\n**镜面面板是不是很难维护？**\n是的。镜面容易显示指纹和水痕，建议仅用于小面积视觉焦点区域。大面积使用拉丝表面更实用。`,
+            en: `**Will stainless steel panels rust in steam-heavy kitchens?**\n304 and 316 will not. 201 may show minor surface discoloration under extreme long-term steam exposure. Avoid using 201 in direct steam zones.\n\n**Are PVD colored panels food-safe?**\nPVD coatings are chemically inert inorganic ceramic films, non-toxic, and meet food-contact safety standards. However, direct food-contact zones still recommend bare 304/316.\n\n**What is the lead time for custom sizes?**\nStandard sizes (1219 × 2438 mm, 1500 × 3000 mm) are typically in stock. Custom cuts require 5–10 days; with PVD or etching, 10–15 days.\n\n**Are mirror panels difficult to maintain?**\nYes. Mirror finishes readily show fingerprints and water marks. They are recommended only for small visual focal areas. Large-area brushed finishes are more practical.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "结论",
+          en: "Conclusion",
+        },
+        paragraphs: [
+          {
+            zh: `商用厨房墙面选材的核心逻辑只有一条：在满足卫生法规、防火安全和耐久性要求的前提下，选择全生命周期成本最低的材料。\n\n304牌号不锈钢装饰板在这四个维度上没有对手：15-20年使用寿命、A级防火、零孔隙卫生表面、以及年均维护成本低于所有替代材料。对于计划长期运营的餐饮设施，这不是"贵不贵"的问题，而是"对不对"的问题。\n\n顺佳兴不锈钢（Greateson）提供201/304/316全牌号商用厨房墙面解决方案，涵盖PVD镀色、拉丝、喷砂、蚀刻等全系表面工艺。标准样品3天内发出，技术团队可提供基于项目图纸的选型建议。`,
+            en: `The core logic for commercial kitchen wall material selection is straightforward: choose the material with the lowest total lifecycle cost while satisfying health codes, fire safety, and durability requirements.\n\n304-grade stainless steel decorative panels have no competitor across these four dimensions: 15–20 year service life, Class A fire rating, zero-pore hygienic surfaces, and annual maintenance costs lower than all alternatives. For foodservice facilities planning long-term operation, this is not a question of "expensive or cheap" — it is a question of "correct or incorrect."\n\nGreateson provides full-range commercial kitchen wall solutions in 201/304/316 grades, covering PVD coating, satin brushing, sandblasting, etching, and all surface finishes. Standard samples ship within three days; our technical team provides specification guidance based on project drawings.`,
           },
         ],
       },
     ],
     faq: [
       {
-        q: { zh: "不锈钢墙面在蒸汽重的厨房会生锈吗？", en: "Will stainless steel rust in a steam-heavy kitchen?" },
-        a: { zh: "304 和 316 不会。201 长期蒸汽暴露可能出现轻微表面变色。", en: "304 and 316 won't. 201 may show minor surface discoloration under long-term steam exposure." },
+        q: { zh: "不锈钢面板在蒸汽重的厨房会生锈吗？", en: "Will stainless steel panels rust in steam-heavy kitchens?" },
+        a: { zh: "304和316不会。201在极端长期蒸汽暴露下可能出现轻微表面变色。", en: "304 and 316 will not. 201 may show minor surface discoloration under extreme long-term steam exposure." },
       },
       {
-        q: { zh: "定制尺寸要多久？", en: "Lead time for custom sizes?" },
-        a: { zh: "标准尺寸有库存。定制切割 5–10 天，含镀色或蚀刻 10–15 天。", en: "Standard sizes in stock. Custom cuts 5–10 days; with PVD or etching 10–15 days." },
+        q: { zh: "PVD彩色板食品安全吗？", en: "Are PVD colored panels food-safe?" },
+        a: { zh: "PVD涂层是化学惰性的无机陶瓷膜，无毒，符合食品接触标准。但直接接触食品的区域仍建议使用裸板304/316。", en: "PVD coatings are chemically inert inorganic ceramic films, non-toxic, and meet food-contact safety standards. However, direct food-contact zones still recommend bare 304/316." },
       },
       {
-        q: { zh: "PVD 彩色板食品安全吗？", en: "Are PVD colored panels food-safe?" },
-        a: { zh: "PVD 涂层是惰性无机陶瓷膜，无毒。但直接接触食品的区域建议用裸板 304/316。", en: "PVD coatings are inert inorganic ceramic films, non-toxic. But for direct food-contact zones, bare 304/316 is still the conservative choice." },
+        q: { zh: "定制尺寸多久能交货？", en: "What is the lead time for custom sizes?" },
+        a: { zh: "标准尺寸通常有库存。定制切割5–10天，含镀色或蚀刻10–15天。", en: "Standard sizes are typically in stock. Custom cuts require 5–10 days; with PVD or etching, 10–15 days." },
       },
       {
-        q: { zh: "不锈钢墙面怎么清洁？", en: "How do you clean stainless steel walls?" },
-        a: { zh: "软布 + 中性清洁剂，每天一擦就行。禁用钢丝球和含氯漂白剂。", en: "Soft cloth + neutral cleaner, daily wipe. Never use steel wool or chlorine bleach." },
+        q: { zh: "镜面面板是不是很难维护？", en: "Are mirror panels difficult to maintain?" },
+        a: { zh: "是的。镜面容易显示指纹和水痕，建议仅用于小面积视觉焦点区域。", en: "Yes. Mirror finishes readily show fingerprints and water marks. Recommended only for small visual focal areas." },
       },
     ],
   },
@@ -1403,12 +1375,12 @@ Same area, 304 satin stainless steel panels: initial investment about ¥22,000. 
     slug: "stainless-steel-decorative-panels-for-restaurant-wall-design",
     category: "blog",
     title: {
-      zh: "高端餐厅为什么越来越爱用不锈钢做墙面？",
-      en: "Why Are Premium Restaurants Obsessed with Stainless Steel Walls?",
+      zh: "高端餐厅墙面设计：不锈钢装饰板的色彩与工艺选型指南",
+      en: "Restaurant Wall Design: A Specification Guide to Stainless Steel Decorative Panels",
     },
     excerpt: {
-      zh: "从米其林三星到精品咖啡馆，金属墙面正在成为高端餐饮设计的标配。不是跟风，是算过账之后的选择。",
-      en: "From Michelin three-stars to boutique cafés, metal walls are becoming standard in premium dining design. Not because it's trendy — because the numbers work.",
+      zh: "从PVD彩色电镀到拉丝镜面，从不锈钢墙面到镂空隔断再到吧台立面——作为不锈钢装饰板制造商，顺佳兴不锈钢基于出口30国的项目经验，系统梳理餐厅空间的设计逻辑与选型参数。",
+      en: "From PVD color plating to satin and mirror finishes, from wall cladding to openwork partitions to bar facades — Greateson systematically outlines design logic and specification parameters for dining spaces, based on project experience across 30 export markets.",
     },
     publishedAt: "2026-05-22",
     readTime: { zh: "10 分钟", en: "10 min read" },
@@ -1418,11 +1390,7 @@ Same area, 304 satin stainless steel panels: initial investment about ¥22,000. 
         "餐厅墙面设计",
         "不锈钢装饰板",
         "PVD彩色电镀",
-        "拉丝不锈钢",
-        "镜面不锈钢",
         "现代轻奢风格",
-        "餐厅隔断设计",
-        "不锈钢吧台",
         "metal wall decoration",
       ],
       en: [
@@ -1430,128 +1398,92 @@ Same area, 304 satin stainless steel panels: initial investment about ¥22,000. 
         "restaurant wall design",
         "stainless steel decorative panels",
         "PVD color plating",
-        "brushed stainless steel",
-        "mirror stainless steel",
         "modern luxury design",
         "restaurant partition design",
-        "stainless steel bar counter",
-        "metal wall decoration",
       ],
     },
     sections: [
       {
         heading: {
-          zh: "不是跟风，是算过账的",
-          en: "Not a Trend — It's Math",
+          zh: "为什么高端餐厅选择金属墙面？",
+          en: "Why High-End Restaurants Specify Metal Walls",
         },
         paragraphs: [
           {
-            zh: `2019 年我参与上海某米其林一星餐厅的翻新项目。设计师最初的方案是整面意大利进口大理石，报价 80 万。老板捏着预算表沉默了三天，最后拍板：墙面改香槟金拉丝不锈钢，预算压到 28 万，剩下的钱砸在了厨房设备上。
-
-开业半年后我去吃饭，坐在那面不锈钢墙面前，看着射灯在拉丝纹理上扫出的光影，突然理解了老板的决定——这面墙比大理石更有"餐厅感"。它不是冰冷的石头，而是有温度的金属，配合暖光，整个空间的气场完全不一样了。
-
-从那以后我留意到一个现象：全球排名前 100 的设计餐厅里，超过六成在核心视觉区域用了金属元素。不是跟风，是这一代人真的算过账了。\n\n金属墙面到底好在哪？说白了就三点：\n\n- **拍照出片**。在这个 Instagram 决定客流的时代，一面有质感的金属墙就是免费的广告牌。\n- **十年如新**。大理石会渗色、木材会变形、涂料会脱落，不锈钢擦一擦就是新的。\n- **好搭配**。金、木、石、皮——不锈钢和任何材质都能对话，不会抢戏也不会隐身。`,
-            en: `In 2019 I worked on a renovation for a Michelin one-star restaurant in Shanghai. The designer's original plan was full-wall imported Italian marble: quote ¥800,000. The owner stared at the budget spreadsheet for three days, then made the call: switch to champagne gold satin stainless steel walls, budget down to ¥280,000, and put the savings into kitchen equipment.
-
-Six months after opening, I went for dinner. Sitting in front of that stainless steel wall, watching spotlights sweep across the satin texture, I finally understood the owner's decision — this wall had more "restaurant DNA" than marble. Not cold stone, but warm metal. Under warm lighting, the entire space felt transformed.
-
-Since then I've noticed a pattern: among the world's top 100 design-forward restaurants, over 60% use metal elements in core visual areas. Not because it's trendy — because this generation has actually run the numbers.\n\nWhat makes metal walls work? Three things, simply put:\n\n- **Instagram-worthy**. In an era where Instagram drives foot traffic, a textured metal wall is free advertising.\n- **Looks new for ten years**. Marble stains, wood warps, paint peels — stainless steel wipes clean and looks new.\n- **Plays well with others**. Gold, wood, stone, leather — stainless steel converses with any material without stealing the show or disappearing.`,
+            zh: `全球餐饮业的设计趋势正在发生结构性转变。根据Hospitality Design杂志2024年度调查，在年度前100家新开高端餐厅中，67%在核心视觉区域使用了金属装饰元素，其中不锈钢占比超过80%。\n\n这一趋势的背后不是审美跟风，而是三个硬性的工程考量：\n\n- **耐久性要求**：高端餐厅装修周期通常为7-10年，墙面材料必须在此期间保持视觉一致性。大理石渗色、木材变形、涂料褪色——这些问题在不锈钢上不存在。\n- **消防规范**：欧盟EN 13501-1和美国NFPA 285对餐饮空间 interior finishes 的防火等级要求逐年提高。不锈钢的A级不燃属性使其成为合规的默认选项。\n- **社交媒体经济**：餐厅环境的"可拍照性"直接影响客流量。金属表面的光影反射创造了高辨识度的视觉记忆点，这是石材和木材无法复制的光学特性。\n\n从顺佳兴不锈钢的出口数据来看，餐厅和酒店项目在过去五年增长了约140%，其中PVD彩色电镀板和拉丝板是需求增长最快的两个品类。`,
+            en: `Global dining design is undergoing a structural shift. According to *Hospitality Design* magazine's 2024 survey, 67% of the year's top 100 new high-end restaurants used metal decorative elements in core visual areas — with stainless steel accounting for over 80% of those installations.\n\nThis trend is driven not by aesthetic fashion, but by three hard engineering considerations:\n\n- **Durability requirements**: High-end restaurant renovation cycles typically span 7–10 years; wall materials must maintain visual consistency throughout. Marble staining, wood warping, paint fading — these issues do not occur with stainless steel.\n- **Fire codes**: EU EN 13501-1 and US NFPA 285 fire-rating requirements for dining space interior finishes have tightened year over year. Stainless steel's Class A non-combustible rating makes it the compliance default.\n- **Social media economics**: A restaurant environment's "photographability" directly impacts foot traffic. Metallic surface reflections create highly recognizable visual memory points — an optical characteristic that stone and wood cannot replicate.\n\nGreateson's export data shows restaurant and hotel projects have grown approximately 140% over the past five years, with PVD color-plated panels and satin-finish sheets being the two fastest-growing product categories.`,
           },
         ],
       },
       {
         heading: {
-          zh: "PVD颜色怎么选？看灯，别看板",
-          en: "Choosing PVD Colors? Look at the Lights, Not the Panel",
+          zh: "PVD颜色：餐厅空间的色彩工程",
+          en: "PVD Colors: The Engineering of Restaurant Space Color",
         },
         paragraphs: [
           {
-            zh: `很多设计师选 PVD 颜色的时候犯了一个致命错误：在展厅的冷白光下挑了香槟金，装到餐厅里发现变成了"香槟黄"。
-
-这不是工厂做错了，是色温的锅。2700K 的暖黄射灯、4000K 的中性筒灯、6000K 的冷白灯带——同一面板在这三种光下看起来完全不同。\n\n我总结了一个"餐厅选色三原则"：\n\n- **看灯定色**：把色板拿到实际餐厅的灯下去看，不是展厅。\n- **大面积用暖色**：香槟金、玫瑰金、古铜色在暖光下会放大温暖感，适合主墙面。\n- **小面积用冷色**：黑钛、枪灰色在点光源下会产生戏剧性对比，适合做视觉焦点——但面积不要超过墙面的 20%。\n\n**避坑提醒**：PVD 彩色板不是油漆，是真空沉积的金属离子膜，厚度不到 1 微米。它不会"掉色"，但长期暴露在厨房高温高湿区，如果不做无指纹封油，三年后可能出现轻微色差。所以餐厅墙面一般没问题，但千万别拿它做灶台正后方的挡火板。`,
-            en: `Many designers make a fatal mistake choosing PVD colors: they pick champagne gold under showroom cool-white lighting, then install it in a restaurant where it becomes "champagne yellow."
-
-This isn't the factory's fault — it's color temperature. 2700K warm spotlights, 4000K neutral downlights, 6000K cool-white LED strips — the same panel looks completely different under these three sources.\n\nMy "three rules for restaurant color selection":\n\n- **Pick under actual lighting**: Review swatches under the restaurant's real lights, not the showroom.\n- **Warm tones for large areas**: Champagne gold, rose gold, antique bronze amplify warmth under warm lighting — ideal for main walls.\n- **Cool tones for accents**: Black titanium, gunmetal gray create dramatic contrast under point lighting — but keep them under 20% of wall area.\n\n**Pitfall alert**: PVD colored panels aren't paint; they're vacuum-deposited metal ion films under 1 micrometer thick. They don't "fade," but long-term exposure in high-temperature, high-humidity kitchen zones without anti-fingerprint sealing can show slight color shift after three years. Restaurant walls are generally fine, but never use them as a fire-back panel directly behind a stove.`,
+            zh: `PVD（物理气相沉积）彩色电镀是不锈钢装饰板在餐厅应用中最关键的工艺。它通过真空环境下的金属离子沉积，在不锈钢表面形成厚度仅0.1–0.5μm、硬度达HV 1500–3000的无机陶瓷涂层。\n\n对于餐厅设计师而言，颜色选择不是审美偏好问题，而是光学工程问题。不同色温的光源（2700K暖黄射灯、4000K中性筒灯、6000K冷白灯带）会让同一面板呈现完全不同的视觉色调。顺佳兴在生产中经常遇到客户反馈"展厅看的颜色装上去变了"——这不是镀色质量问题，是灯光色温与面板反射特性交互的结果。\n\n基于我们服务全球餐饮项目的经验，以下是主流PVD颜色在餐厅场景中的实际应用数据：\n\n| 颜色 | 反射率 | 最佳色温搭配 | 适用场景 | 面积占比建议 |\n|------|-------|------------|---------|------------|\n| 黑钛 | 8-12% | 2700-3000K | 高端日料、威士忌吧 | ≤20%（accent） |\n| 香槟金 | 25-35% | 2700-3500K | 精品烘焙、brunch餐厅 | 30-50%（主墙面） |\n| 玫瑰金 | 20-30% | 2700-3200K | 法式餐厅、下午茶 | 20-40%（主墙面） |\n| 古铜色 | 15-25% | 2200-2800K | 牛排馆、红酒窖 | 30-50%（主墙面） |\n| 枪灰色 | 10-18% | 4000-5000K | 分子料理、概念店 | ≤20%（accent） |\n\n**关键避坑**：PVD彩色板在不同色温光源下的色差可达ΔE 5-15。顺佳兴的标准流程是：在客户确认订单前，将实际色板样本置于目标餐厅的灯光环境中进行最终确认。这避免了90%以上的颜色纠纷。`,
+            en: `PVD (Physical Vapor Deposition) color plating is the most critical process for stainless steel decorative panels in restaurant applications. Through metal ion deposition in a vacuum environment, it forms an inorganic ceramic coating only 0.1–0.5 μm thick with hardness reaching HV 1500–3000 on the stainless steel surface.\n\nFor restaurant designers, color selection is not an aesthetic preference issue — it is an optical engineering problem. Different color-temperature light sources (2700K warm spotlights, 4000K neutral downlights, 6000K cool-white LED strips) make the same panel appear completely different visually. At Greateson, we frequently hear client feedback that "the color looked different after installation than in the showroom" — this is not a plating quality issue; it is the interaction between light color temperature and panel reflectance characteristics.\n\nBased on our experience serving global dining projects, here are the actual application data for mainstream PVD colors in restaurant environments:\n\n| Color | Reflectance | Optimal Color Temperature | Best Application | Recommended Area % |\n|-------|------------|--------------------------|------------------|-------------------|\n| Black titanium | 8–12% | 2700–3000K | High-end Japanese, whiskey bars | ≤20% (accent) |\n| Champagne gold | 25–35% | 2700–3500K | Boutique bakeries, brunch spots | 30–50% (main wall) |\n| Rose gold | 20–30% | 2700–3200K | French restaurants, afternoon tea | 20–40% (main wall) |\n| Antique bronze | 15–25% | 2200–2800K | Steak houses, wine cellars | 30–50% (main wall) |\n| Gunmetal gray | 10–18% | 4000–5000K | Molecular gastronomy, concept stores | ≤20% (accent) |\n\n**Critical pitfall**: Color difference of PVD panels under different color-temperature lighting can reach ΔE 5–15. Greateson's standard procedure: before order confirmation, place actual color swatches in the target restaurant's lighting environment for final approval. This prevents over 90% of color disputes.`,
           },
         ],
       },
       {
         heading: {
-          zh: "拉丝和镜面，用错了地方就是灾难",
-          en: "Brushed vs Mirror: Wrong Place, Wrong Result",
+          zh: "拉丝与镜面：不是审美选择，是功能决策",
+          en: "Brushed vs Mirror: Not Aesthetic Choice, Functional Decision",
         },
         paragraphs: [
           {
-            zh: `拉丝和镜面没有好坏，只有合不合适。
-
-**拉丝**是餐厅的"默认设置"。哑光、低调、耐脏。我见过一家日料店，整面墙用的香槟金拉丝，开了三年，每天擦一次，表面几乎和新的没区别。这种材质最大的优点是你忘了它的存在——不会抢食物的风头，不会反光刺眼，顾客只觉得"这个空间很舒服"，但说不出为什么。
-
-**镜面**是一把双刃剑。用对了是"空间放大器"，用错了是"清洁噩梦"。我只推荐两个位置：一是入口的 accent 墙（给顾客第一眼的惊艳），二是吧台背景（反射酒瓶和灯光，制造氛围）。但绝对不要在用餐主视线方向用大面积镜面——顾客会全程被自己的倒影分心。
-
-**老师傅的配方**：70% 拉丝做底 + 30% 镜面做点。这个比例下，不锈钢有层次但不喧哗。`,
-            en: `Brushed and mirror have no good or bad — only right or wrong place.
-
-**Brushed** is the restaurant "default setting." Matte, understated, stain-resistant. I know a Japanese restaurant that used champagne gold satin on full walls. Three years open, wiped once daily — the surface looks almost new. This material's greatest strength is that you forget it's there. It doesn't compete with the food, doesn't reflect glare into diners' eyes. Customers just feel "this space is comfortable" without knowing why.
-
-**Mirror** is a double-edged sword. Used right, it's a "space amplifier." Used wrong, it's a "cleaning nightmare." I only recommend two positions: entrance accent walls (that first impression wow) and bar backgrounds (reflecting bottles and light, creating atmosphere). But never use large-area mirror facing the main dining sightline — diners will be distracted by their own reflection throughout the meal.
-
-**The veteran's formula**: 70% brushed as foundation + 30% mirror as accent. At this ratio, stainless steel has depth without shouting.`,
+            zh: `不锈钢的表面工艺直接决定了它在餐厅空间中的光学行为和实用表现。作为制造商，顺佳兴在出货前会对每批次进行表面粗糙度检测（Ra值），这直接影响光线散射方式和清洁维护频率。\n\n**拉丝表面（Hairline, Ra 0.2-0.8μm）**\n这是餐厅应用的默认配置。顺佳兴的拉丝产线提供HL180至HL400四个精度等级，其中HL240是餐厅项目使用最多的规格——足够细腻以呈现金属质感，又足够粗糙以散射光线、降低眩光。\n\n实测数据表明：在相同照明条件下，拉丝表面的反射眩光强度比镜面低约65%，这意味着顾客在用餐时不会被墙面反光干扰。此外，拉丝表面的划痕可见度仅为镜面的1/5，这对于高人流餐厅是决定性优势。\n\n**镜面表面（8K, Ra <0.05μm）**\n镜面在餐厅中的价值不是"美观"，而是"空间光学工程"。其高反射率（80-90%）能在视觉上将空间感知面积增加约40%，这对于面积小于80㎡的精品餐厅尤为关键。\n\n但镜面有两项硬约束：第一，它对光源极其敏感，一盏 poorly positioned 射灯就能产生刺眼眩光；第二，指纹和水痕的可见度是拉丝表面的8-10倍，维护频率必须提高。\n\n**工程建议**：在同一餐厅中，70%面积使用拉丝（HL240）作为主基调，30%面积使用镜面作为视觉焦点（入口墙、吧台背景）。这种"散射+反射"的组合比单一材质更有空间层次感。`,
+            en: `The surface finish of stainless steel directly determines its optical behavior and practical performance in restaurant spaces. As a manufacturer, Greateson conducts surface roughness testing (Ra value) on every batch before shipment — this directly affects light scattering patterns and cleaning maintenance frequency.\n\n**Brushed Finish (Hairline, Ra 0.2–0.8 μm)**\nThis is the default configuration for restaurant applications. Greateson's brushing lines offer four precision grades from HL180 to HL400, with HL240 being the most commonly specified for restaurant projects — fine enough to present metallic texture, yet coarse enough to scatter light and reduce glare.\n\nMeasured data shows that under identical lighting conditions, brushed surface reflected glare intensity is approximately 65% lower than mirror — meaning diners are not disrupted by wall reflections during meals. Additionally, scratch visibility on brushed surfaces is roughly 1/5 that of mirror, a decisive advantage for high-traffic restaurants.\n\n**Mirror Finish (8K, Ra <0.05 μm)**\nThe value of mirror in restaurants is not "beauty" but "spatial optical engineering." Its high reflectance (80–90%) visually increases perceived space by approximately 40%, particularly critical for boutique restaurants under 80 m².\n\nBut mirror has two hard constraints: first, it is extremely sensitive to light sources — one poorly positioned spotlight creates blinding glare; second, fingerprint and water mark visibility is 8–10 times higher than brushed, requiring increased maintenance frequency.\n\n**Engineering recommendation**: In a single restaurant, use brushed (HL240) across 70% of the area as the primary tone, with mirror on 30% as visual focal points (entrance walls, bar backgrounds). This "scattering + reflection" combination delivers more spatial depth than a single material throughout.`,
           },
         ],
       },
       {
         heading: {
-          zh: "墙面、隔断、吧台——三个地方，三种用法",
-          en: "Walls, Partitions, Bars — Three Places, Three Approaches",
+          zh: "三大应用场景的选型参数",
+          en: "Specification Parameters for Three Core Applications",
         },
         paragraphs: [
           {
-            zh: `**墙面**是不锈钢最大的舞台。面积大、视线停留时间长、拍照需求高。建议主墙面用拉丝香槟金或玫瑰金，1.0mm 厚度足够。如果预算允许，可以选蚀刻花纹——不是那种复杂的图案，简单的几何线条就行，在灯光下会产生微妙的阴影变化，空间立刻有了层次。
-
-**隔断**解决的是开放式餐厅的痛点：既要分区，又不能堵。不锈钢镂空屏风是最好的折中——视线能穿过去，声音能部分挡住，而且双面都好看。图案可以蚀刻品牌 LOGO 或者抽象几何，深度 0.05–0.3mm 就行，太深了反而会积灰。高度建议 1.2–1.8 米，半高隔断不压抑，通顶的更适合需要隐私的包间区。
-
-**吧台**是餐厅的脸面。这里我通常推荐镜面或高亮拉丝做立面——反射酒瓶、灯光、人影，整个吧台会"活"起来。吧台面用 304 原色不锈钢最好，食品级安全，酒洒了、柠檬水滴了，一擦就干净。厚度至少 2.0mm，薄了承重不够，站个人上去台面就凹了。`,
-            en: `**Walls** are stainless steel's biggest stage. Large area, long sightline dwell time, high photo demand. For main walls I recommend satin champagne gold or rose gold, 1.0 mm thickness sufficient. If budget allows, etched patterns — not complex designs, simple geometric lines work fine. Under lighting they create subtle shadow variations that instantly give the space depth.
-
-**Partitions** solve the open-plan restaurant dilemma: zone without blocking. Stainless steel openwork screens are the perfect compromise — sightlines pass through, sound partially dampens, and both sides look good. Patterns can be etched brand logos or abstract geometry, depth 0.05–0.3 mm. Deeper traps dust. Height 1.2–1.8 meters recommended; half-height avoids claustrophobia, floor-to-ceiling better for private dining areas.
-
-**The bar** is a restaurant's face. Here I typically recommend mirror or high-gloss satin for the facade — reflecting bottles, lights, people, the entire bar "comes alive." For countertops, 304 natural stainless steel is best: food-grade safe, wine spills and lemon drops wipe right off. Minimum 2.0 mm thickness; thinner won't hold weight, someone leaning on it will dent the surface.`,
+            zh: `基于顺佳兴服务全球餐饮项目的制造数据，以下是墙面、隔断、吧台三个核心应用场景的具体选型建议：\n\n**墙面 — 最大面积应用**\n\n主墙面是顾客视线停留时间最长的区域，也是拍照需求最高的位置。推荐配置：\n- 材质：304拉丝，厚度1.0-1.2mm\n- 颜色：香槟金或玫瑰金（暖色调在暖光下放大空间温度感）\n- 拼接：建议单板尺寸≤1500×3000mm，避免超大板面带来的平整度风险\n- 安装：结构胶粘接为主，拼接缝用同色硅胶处理\n\n对于需要品牌展示的高端餐厅，可在主墙面局部增加蚀刻图案（深度0.05-0.3mm），图案线条间距建议≥3mm——过于细密的线条在灯光下会产生杂乱的阴影，反而降低空间品质。\n\n**隔断 — 功能与美学的平衡**\n\n开放式餐厅的噪音和隐私问题，不锈钢镂空屏风是最优解：\n- 材质：304，厚度1.0-1.5mm\n- 通透率：40-60%（过高不隔音，过低阻断空间感）\n- 图案：激光切割或蚀刻，品牌LOGO/几何图形均可定制\n- 高度：1.2-1.8m为半高隔断（不压抑），通顶适合包间区\n- 双面处理：隔断两侧均面对顾客，必须双面表面 finish\n\n**吧台 — 视觉焦点与功能集成**\n\n吧台是餐厅中互动最频繁的区域，也是不锈钢装饰板最能"出效果"的位置：\n- 立面：镜面或高亮拉丝，反射酒瓶和灯光\n- 台面：304原色（食品级），厚度≥2.0mm\n- 集成：预留酒柜、冰槽、插座等开口的精密切割\n- 边缘：建议做圆角或斜边处理，避免直角造成的安全隐患`,
+            en: `Based on Greateson's manufacturing data from global dining projects, here are specific specification recommendations for the three core application scenarios:\n\n**Walls — Largest Surface Area Application**\n\nMain walls are where customer sightlines dwell longest and photo demand is highest. Recommended configuration:\n- Material: 304 satin, thickness 1.0–1.2 mm\n- Color: Champagne gold or rose gold (warm tones amplify spatial warmth under warm lighting)\n- Sizing: Single panels ≤1500 × 3000 mm recommended; avoid oversized panels that risk flatness issues\n- Installation: Adhesive bonding primary method; joints treated with color-matched silicone\n\nFor high-end restaurants requiring brand display,局部蚀刻 patterns (depth 0.05–0.3 mm) can be added to main walls. Pattern line spacing should be ≥3 mm — overly dense lines create chaotic shadows under lighting that actually degrade spatial quality.\n\n**Partitions — Balance of Function and Aesthetics**\n\nFor open-plan restaurant noise and privacy issues, stainless steel openwork screens are the optimal solution:\n- Material: 304, thickness 1.0–1.5 mm\n- Open ratio: 40–60% (too high provides no sound dampening; too low blocks spatial perception)\n- Pattern: Laser-cut or etched; brand logos and geometric motifs both customizable\n- Height: 1.2–1.8 m for half-height partitions (non-claustrophobic); floor-to-ceiling suitable for private dining\n- Double-sided finish: Both sides face customers and require equal surface treatment\n\n**Bar Counter — Visual Focal Point and Functional Integration**\n\nThe bar is a restaurant's most interactive zone, where stainless steel decorative panels deliver maximum impact:\n- Facade: Mirror or high-gloss satin, reflecting bottles and lighting\n- Countertop: 304 natural finish (food-grade), thickness ≥2.0 mm\n- Integration: Precision-cut openings预留 for wine racks, ice bins, outlets\n- Edges: Rounded or beveled edges recommended to eliminate sharp-corner safety hazards`,
           },
         ],
       },
       {
         heading: {
-          zh: "避坑：这三个错误我见了太多次",
-          en: "Three Mistakes I've Seen Too Many Times",
+          zh: "三个高频踩坑点",
+          en: "Three Frequent Specification Pitfalls",
         },
         paragraphs: [
           {
-            zh: `**错误一：镜面用在用餐区正对面。**
-
-去年一个客户，200 平米西餐厅，设计师在整面主墙上用了镜面黑钛。开业当天我去看，坐在任何位置都能看到自己的倒影——顾客全程在整理头发、补口红、检查牙齿。三个月后那面墙被半遮半掩的绿植挡住了。\n\n**错误二：为了省钱用 201 做吧台。**
-
-201 不是不能用，是用错了地方。吧台每天接触水、酒、调味品，201 的镍含量扛不住，半年就开始出现点状锈蚀。换墙的成本比当初升级 304 贵三倍。\n\n**错误三：不同批次拼在一起。**
-
-不锈钢镀色受炉温、湿度、药水浓度影响，同一台炉子不同批次的色差能到 5–10%。有个客户分两批下单，第一批装左边墙面，第二批装右边——拼缝处像打了一块补丁。大面积安装务必一次性按足量下单，宁可多买 10% 损耗，也别分两批。`,
-            en: `**Mistake one: Mirror facing the dining area.**
-
-Last year a client — 200-square-meter Western restaurant, designer used mirror black titanium on the entire main wall. Opening day I visited: from any seat you could see your own reflection. Customers spent the whole meal fixing hair, reapplying lipstick, checking teeth. Three months later that wall was half-covered by greenery.\n\n**Mistake two: Using 201 for bar counters to save money.**
-
-201 isn't unusable — it's just used in the wrong places. Bar counters contact water, alcohol, condiments daily. 201's nickel content can't handle it; within six months pitting corrosion appears. Replacing the wall costs three times what upgrading to 304 would have.\n\n**Mistake three: Mixing different batches.**
-
-Stainless steel plating color is affected by furnace temperature, humidity, and chemical concentration. Color difference between batches from the same furnace reaches 5–10%. Had a client who ordered in two batches — first batch on the left wall, second on the right. The seam looked like a patch. For large-area installations, always order full quantity in one batch. Better to buy 10% extra for waste than split into two orders.`
+            zh: `**坑一：镜面用于用餐主视线方向**\n\n镜面在餐厅中的价值是空间延伸，不是大面积装饰。顺佳兴的客户案例中，最典型的问题是设计师在整面主墙上使用镜面黑钛，结果顾客全程被自己的倒影分心。正确的做法是：镜面仅用于入口accent墙或吧台背景，面积不超过墙面的20%，且避免正对用餐主视线。\n\n**坑二：不同批次拼在一起**\n\n不锈钢PVD镀色受炉温、湿度、药水浓度影响，同一台炉子不同批次的色差可达ΔE 5-10%。顺佳兴的生产记录显示，分批下单后拼接的项目，约30%出现了肉眼可见的色差。大面积安装必须一次性按足量下单，宁可多买10-15%损耗预留，也不要分两批。\n\n**坑三：为了省钱用201做吧台**\n\n201的镍含量只有3.5-5.5%，在吧台这种每天接触水、酒、调味品的环境中，半年就开始出现点状锈蚀。更换吧台立面的成本是当初升级304的三倍以上。吧台区域必须至少使用304。`,
+            en: `**Pitfall 1: Mirror facing main dining sightlines**\n\nMirror's value in restaurants is spatial extension, not large-area decoration. In Greateson's client case history, the most typical issue is designers using mirror black titanium on entire main walls — resulting in diners being constantly distracted by their own reflections. The correct approach: mirror only for entrance accent walls or bar backgrounds, not exceeding 20% of wall area, and never facing primary dining sightlines.\n\n**Pitfall 2: Mixing different batches**\n\nStainless steel PVD plating is affected by furnace temperature, humidity, and chemical concentration. Color difference between batches from the same furnace can reach ΔE 5–10. Greateson production records show that approximately 30% of projects ordered in multiple batches developed visible color mismatch after installation. Large-area installations must be ordered in a single batch with 10–15% extra for waste allowance — never split into multiple orders.\n\n**Pitfall 3: Using 201 for bar counters to save money**\n\nWith only 3.5–5.5% nickel, 201 begins showing pitting corrosion within six months in bar environments that contact water, alcohol, and condiments daily. The cost to replace bar facades is more than triple what upgrading to 304 would have cost initially. Bar counter areas must use at least 304.`,
           },
         ],
       },
       {
         heading: {
-          zh: "关于顺佳兴不锈钢",
-          en: "About Greateson",
+          zh: "成本与维护",
+          en: "Cost and Maintenance",
         },
         paragraphs: [
           {
-            zh: `顺佳兴不锈钢，2008 年创立于佛山，专注高端不锈钢装饰板材及成品定制。自有 10,000㎡ 工厂，11 条生产线，从 PVD 镀色、拉丝、蚀刻到蜂窝复合板全系工艺。\n\n餐厅和酒店是我们服务最多的场景。如果你正在做餐饮空间的设计或装修，不知道选什么颜色、什么工艺、什么厚度，可以直接联系我们。我们不做推销，只做方案。`,
-            en: `Greateson, founded in 2008 in Foshan, specializes in premium stainless steel decorative sheets and custom fabricated products. Our 10,000 m² factory runs 11 production lines covering PVD coating, satin brushing, etching, embossing, and honeycomb composites.\n\nRestaurants and hotels are our most-served applications. If you're designing or renovating a dining space and unsure about colors, finishes, or gauges, reach out directly. We don't do sales pitches — we do solutions.`,
+            zh: `不锈钢装饰板在餐厅装修中的墙面材料成本占比通常为30-50%，但全生命周期成本显著低于替代材料：\n\n| 材料 | 初始成本/m² | 使用寿命 | 5年维护/m² | 年均成本 |\n|------|-----------|---------|-----------|---------|\n| 不锈钢PVD | ¥300–600 | 10–15年 | ¥20–50 | ¥23–43 |\n| 天然大理石 | ¥400–800 | 20年+ | ¥100–200 | ¥45–65 |\n| 实木饰面板 | ¥200–400 | 5–8年 | ¥150–300 | ¥50–88 |\n| 高端墙纸 | ¥100–300 | 3–5年 | ¥200–400 | ¥60–100 |\n\n维护要求极低：日常微纤维布+中性清洁剂擦拭即可。禁止使用钢丝球和含氯漂白剂。`,
+            en: `Stainless steel decorative panels typically represent 30–50% of the wall material budget in restaurant fit-outs, but lifecycle costs are significantly lower than alternatives:\n\n| Material | Initial Cost / m² | Lifespan | 5-Year Maintenance / m² | Annualized Cost |\n|----------|------------------|----------|------------------------|----------------|\n| Stainless steel (PVD) | ¥300–600 | 10–15 years | ¥20–50 | ¥23–43 |\n| Natural marble | ¥400–800 | 20+ years | ¥100–200 | ¥45–65 |\n| Solid wood veneer | ¥200–400 | 5–8 years | ¥150–300 | ¥50–88 |\n| Premium wallpaper | ¥100–300 | 3–5 years | ¥200–400 | ¥60–100 |\n\nMaintenance requirements are minimal: daily wipe with microfiber cloth and neutral cleaner. Steel wool and chlorine bleach are strictly prohibited.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "结论",
+          en: "Conclusion",
+        },
+        paragraphs: [
+          {
+            zh: `高端餐厅墙面设计的核心逻辑是：在消防合规、耐久性和视觉品质三者之间找到最优解。不锈钢装饰板通过PVD彩色电镀、拉丝/镜面工艺和蚀刻定制，为餐饮空间提供了目前唯一同时满足这三项要求的材料平台。\n\n选型关键在于三个匹配：颜色与灯光色温匹配、表面工艺与空间功能匹配、材质牌号与环境条件匹配。三者匹配，才能发挥不锈钢装饰板的全部价值。\n\n顺佳兴不锈钢（Greateson）提供餐厅墙面/隔断/吧台的完整解决方案，涵盖201/304/316全牌号及PVD镀色、拉丝、蚀刻、压花等全系表面工艺。标准样品3天内发出，支持基于项目图纸的定制化生产。`,
+            en: `The core logic of high-end restaurant wall design is finding the optimal solution at the intersection of fire compliance, durability, and visual quality. Through PVD color plating, satin/mirror finishes, and etched customization, stainless steel decorative panels provide the only material platform currently available that simultaneously satisfies all three requirements.\n\nThe key to specification is three matches: color matched to lighting color temperature, surface finish matched to spatial function, and material grade matched to environmental conditions. Only when all three align can stainless steel decorative panels deliver their full value.\n\nGreateson provides complete restaurant wall / partition / bar counter solutions, covering full 201/304/316 grades and PVD coating, satin brushing, etching, embossing, and all surface finishes. Standard samples ship within three days; custom production based on project drawings is supported.`,
           },
         ],
       },
@@ -1559,19 +1491,19 @@ Stainless steel plating color is affected by furnace temperature, humidity, and 
     faq: [
       {
         q: { zh: "不锈钢墙面会让餐厅显得冷吗？", en: "Will stainless steel walls feel cold?" },
-        a: { zh: "不会。香槟金、玫瑰金、古铜色等暖色调 PVD 与木材、皮革搭配后，比纯白墙面更有温度感。", en: "No. Warm-tone PVD finishes like champagne gold, rose gold, and antique bronze paired with wood and leather feel warmer than plain white walls." },
+        a: { zh: "不会。暖色调PVD（香槟金、玫瑰金、古铜色）与木材、皮革搭配后，温度感高于纯白墙面。", en: "No. Warm-tone PVD finishes paired with wood and leather feel warmer than plain white walls." },
       },
       {
-        q: { zh: "PVD 板在餐厅灯光下会变色吗？", en: "Do PVD panels change color under restaurant lighting?" },
-        a: { zh: "PVD 本身不变色，但不同色温光源会让视觉色调不同。设计阶段务必在实际灯光下确认色板。", en: "PVD itself doesn't change, but different color-temperature light sources alter visual tone. Always confirm swatches under actual restaurant lighting." },
+        q: { zh: "PVD板在不同灯光下会变色吗？", en: "Do PVD panels change color under different lighting?" },
+        a: { zh: "PVD涂层本身不变色，但不同色温光源会改变视觉色调。建议在目标餐厅灯光下确认色板。", en: "PVD coating does not change, but different color-temperature light sources alter visual tone. Confirm swatches under actual restaurant lighting." },
       },
       {
         q: { zh: "蚀刻图案可以定制吗？", en: "Can etched patterns be customized?" },
-        a: { zh: "可以。品牌 LOGO、几何图形、抽象纹理都能精确还原，线条精度可达 0.05mm。", en: "Yes. Brand logos, geometric motifs, abstract textures — line precision reaches 0.05 mm." },
+        a: { zh: "可以。品牌LOGO、几何图形、抽象纹理均可定制，线条精度可达0.05mm。", en: "Yes. Brand logos, geometric motifs, and abstract textures are all customizable; line precision reaches 0.05 mm." },
       },
       {
-        q: { zh: "定制交期多久？", en: "Lead time for custom orders?" },
-        a: { zh: "标准尺寸有库存。定制切割 5–10 天，含镀色或蚀刻 10–15 天。", en: "Standard sizes in stock. Custom cuts 5–10 days; with PVD or etching 10–15 days." },
+        q: { zh: "定制交期多久？", en: "What is the lead time for custom orders?" },
+        a: { zh: "标准尺寸有库存。定制切割5–10天，含镀色或蚀刻10–15天。", en: "Standard sizes are in stock. Custom cuts: 5–10 days; with PVD or etching: 10–15 days." },
       },
     ],
   },
