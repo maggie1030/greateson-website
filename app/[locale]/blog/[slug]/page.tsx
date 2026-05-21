@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { marked } from "marked";
 
 import { JsonLd } from "@/components/JsonLd";
 import { getArticleBySlug } from "@/lib/articles";
@@ -97,11 +98,31 @@ export default async function BlogDetailPage({ params }: Props) {
         {post.sections.map((section) => (
           <article key={section.heading[locale]} className="card p-6">
             <h2 className="text-2xl text-[#f5e5c5]">{section.heading[locale]}</h2>
-            <div className="mt-3 space-y-3">
-              {section.paragraphs.map((text) => (
-                <p key={text[locale]} className="text-sm leading-7 text-zinc-300">
-                  {text[locale]}
-                </p>
+            <div className="mt-4 space-y-4">
+              {section.paragraphs.map((text, i) => (
+                <div
+                  key={i}
+                  className="markdown-body text-sm leading-7 text-zinc-300
+                    [&_p]:mb-4 [&_p]:last:mb-0
+                    [&_ul]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-2 [&_ul]:last:mb-0
+                    [&_ol]:mb-4 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:space-y-2 [&_ol]:last:mb-0
+                    [&_li]:text-zinc-300 [&_li>strong]:font-semibold [&_li>strong]:text-zinc-100
+                    [&_strong]:font-semibold [&_strong]:text-zinc-100
+                    [&_em]:italic [&_em]:text-zinc-200
+                    [&_table]:w-full [&_table]:text-left [&_table]:text-xs [&_table]:mb-4
+                    [&_thead]:bg-[#1a2a24]
+                    [&_th]:border [&_th]:border-[#3a4f46] [&_th]:px-3 [&_th]:py-2 [&_th]:font-semibold [&_th]:text-[#f5e5c5] [&_th]:whitespace-nowrap
+                    [&_td]:border [&_td]:border-[#3a4f46] [&_td]:px-3 [&_td]:py-2 [&_td]:text-zinc-300
+                    [&_tr:nth-child(even)]:bg-[#15201c]
+                    [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:text-[#f5e5c5] [&_h3]:mt-5 [&_h3]:mb-2
+                    [&_h4]:text-base [&_h4]:font-semibold [&_h4]:text-[#f5e5c5] [&_h4]:mt-4 [&_h4]:mb-2
+                    [&_blockquote]:border-l-2 [&_blockquote]:border-[#d9bb85] [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-zinc-400 [&_blockquote]:my-4
+                    [&_a]:text-[#d9bb85] [&_a]:underline [&_a:hover]:no-underline
+                    [&_code]:rounded [&_code]:bg-[#1a2a24] [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:text-xs [&_code]:font-mono [&_code]:text-[#d9bb85]"
+                  dangerouslySetInnerHTML={{
+                    __html: marked.parse(text[locale], { gfm: true }) as string,
+                  }}
+                />
               ))}
             </div>
             {section.images && section.images.length > 0 && (
