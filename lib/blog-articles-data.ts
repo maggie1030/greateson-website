@@ -1466,4 +1466,218 @@ export const blogArticles: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "stainless-steel-decorative-panels-for-restaurant-wall-design",
+    category: "blog",
+    title: {
+      zh: "高端餐厅墙面设计新趋势：不锈钢装饰板如何打造现代轻奢空间",
+      en: "Stainless Steel Decorative Panels for Restaurant Wall Design",
+    },
+    excerpt: {
+      zh: "从米其林星级餐厅到精品咖啡馆，不锈钢装饰板正在成为高端餐饮空间墙面设计的核心材料。本文深入解析PVD彩色电镀、拉丝与镜面工艺在餐厅场景中的应用，揭秘墙面、隔断、吧台三大核心区域的设计逻辑与选型策略。",
+      en: "From Michelin-starred restaurants to boutique cafés, stainless steel decorative panels are becoming the core material for high-end dining wall design. This article explores PVD color plating, brushed and mirror finishes in restaurant contexts, revealing the design logic and selection strategy for walls, partitions, and bar counters.",
+    },
+    publishedAt: "2026-05-22",
+    readTime: { zh: "11 分钟阅读", en: "11 min read" },
+    keywords: {
+      zh: [
+        "金属墙面装饰",
+        "餐厅墙面设计",
+        "不锈钢装饰板",
+        "PVD彩色电镀",
+        "拉丝不锈钢",
+        "镜面不锈钢",
+        "现代轻奢风格",
+        "餐厅隔断设计",
+        "不锈钢吧台",
+        "餐饮空间设计",
+      ],
+      en: [
+        "metal wall decoration",
+        "restaurant wall design",
+        "stainless steel decorative panels",
+        "PVD color plating",
+        "brushed stainless steel",
+        "mirror stainless steel",
+        "modern luxury design",
+        "restaurant partition design",
+        "stainless steel bar counter",
+        "dining space design",
+      ],
+    },
+    sections: [
+      {
+        heading: {
+          zh: "一句话结论",
+          en: "The Short Answer",
+        },
+        paragraphs: [
+          {
+            zh: `是的——不锈钢装饰板已经成为高端餐厅墙面设计的首选材料。通过PVD彩色电镀、拉丝或镜面等表面工艺，不锈钢能够在同一空间中同时实现工业力量感与精致轻奢感，是打造现代餐饮空间视觉记忆点的最有效手段。无论是大面积墙面装饰、功能隔断还是吧台立面，正确选型（304牌号、0.8-1.5mm厚度、匹配灯光设计的不锈钢装饰板）都能在提升品牌调性的同时，满足餐饮业严苛的防火、防潮和易清洁要求。`,
+            en: `Yes — stainless steel decorative panels have become the material of choice for high-end restaurant wall design. Through surface treatments such as PVD color plating, brushed, or mirror finishes, stainless steel can simultaneously deliver industrial strength and refined luxury within the same space, making it the most effective way to create visual memory points in modern dining environments. Whether for large wall surfaces, functional partitions, or bar facades, correct specification (304-grade, 0.8–1.5mm thickness, lighting-matched stainless steel panels) elevates brand positioning while meeting the stringent fire resistance, moisture protection, and easy-clean requirements of the foodservice industry.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "为什么高端餐厅纷纷选择金属装饰？",
+          en: "Why Leading Restaurants Are Turning to Metal",
+        },
+        paragraphs: [
+          {
+            zh: `高端餐饮空间的设计正在经历一场"材质革命"。过去五年，全球排名前100的设计餐厅中，超过60%在核心视觉区域使用了金属装饰元素。这背后的驱动力不仅是审美趋势，更是功能需求的必然选择：\n\n- **社交媒体的视觉需求**：Instagrammable的餐厅环境直接影响客流量。金属表面的光影反射能够创造出极具辨识度的拍照背景。\n- **开放式厨房趋势**：厨房与用餐区的界限越来越模糊，墙面材料必须在顾客视线范围内保持精致。\n- **耐久性要求**：高端餐厅的装修周期通常为5-7年，墙面材料必须经受住高湿、高温和每日清洁的考验。\n- **品牌差异化**：在同质化严重的餐饮市场中，独特的材质语言是最直接的品牌识别方式。\n\n不锈钢装饰板完美回应了这四大需求。它既不像石材那样厚重沉闷，也不像涂料那样廉价易损——它在"高级感"和"实用性"之间找到了最佳平衡点。`,
+            en: `High-end dining spaces are undergoing a "material revolution." Over the past five years, more than 60% of the world's top 100 design-forward restaurants have used metal decorative elements in their core visual areas. The driving force behind this is not only aesthetic trends but also functional necessity:\n\n- **Social media visual demands**: Instagrammable restaurant environments directly influence foot traffic. Metallic surface reflections create highly recognizable photo backdrops.\n- **Open-kitchen trends**: The boundary between kitchen and dining areas is blurring, requiring wall materials that remain refined within the customer's sightline.\n- **Durability requirements**: High-end restaurant renovation cycles typically span 5–7 years; wall materials must withstand humidity, heat, and daily cleaning.\n- **Brand differentiation**: In a market saturated with homogeneity, unique material language is the most direct form of brand identification.\n\nStainless steel decorative panels perfectly address all four needs. Unlike stone, it is not heavy or dull; unlike paint, it is neither cheap nor fragile — it finds the optimal balance between "premium feel" and "practical utility."`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "PVD颜色：为餐厅空间注入情绪",
+          en: "PVD Colors: Injecting Emotion into Dining Spaces",
+        },
+        paragraphs: [
+          {
+            zh: `PVD（物理气相沉积）彩色电镀是不锈钢装饰板在餐厅设计中最重要的赋能技术。它能在保留金属原生质感的前提下，赋予板材极度奢华的色彩表现。对于餐厅设计师来说，颜色选择直接影响顾客的情绪和用餐体验：\n\n| 颜色 | 空间情绪 | 最佳应用场景 | 搭配建议 |\n|------|---------|------------|---------|\n| **黑钛** | 神秘、克制、高级 | 高端日料、威士忌吧、私人会所 | 搭配暖色点光源，避免大面积冷白光 |\n| **香槟金** | 温暖、轻奢、亲和 | 精品烘焙、brunch餐厅、甜品店 | 搭配原木和皮革软装 |\n| **玫瑰金** | 浪漫、精致、女性化 | 法式餐厅、网红下午茶、婚庆宴会厅 | 搭配大理石和丝绒 |\n| **古铜色** | 复古、厚重、故事感 | 牛排馆、红酒窖、工业风餐吧 | 搭配裸露砖墙和皮质沙发 |\n| **枪灰色** | 冷峻、现代、科技感 | 分子料理、未来主题餐厅、概念店 | 搭配LED灯带和玻璃元素 |\n\n**避坑提示**：餐厅灯光环境复杂（射灯、吊灯、氛围灯混合），PVD板在不同色温光源下会呈现色差。建议在设计阶段将PVD色板样本放入实际灯光环境中确认，避免安装后出现"晚上是金色、白天变黄色"的尴尬。`,
+            en: `PVD (Physical Vapor Deposition) color plating is the most important enabling technology for stainless steel decorative panels in restaurant design. It imparts intensely luxurious color expression while preserving the original metallic texture. For restaurant designers, color choice directly influences customer mood and dining experience:\n\n| Color | Spatial Emotion | Best Application | Pairing Advice |\n|-------|----------------|------------------|----------------|\n| **Black titanium** | Mysterious, restrained, premium | High-end Japanese, whiskey bars, private clubs | Pair with warm accent lighting; avoid large-area cool white |\n| **Champagne gold** | Warm, light-luxury, approachable | Boutique bakeries, brunch spots, dessert cafés | Pair with natural wood and leather accents |\n| **Rose gold** | Romantic, refined, feminine | French restaurants, afternoon tea venues, wedding halls | Pair with marble and velvet |\n| **Antique bronze** | Vintage, substantial, storied | Steak houses, wine cellars, industrial-chic gastropubs | Pair with exposed brick and leather sofas |\n| **Gunmetal gray** | Cool, modern, tech-forward | Molecular gastronomy, futuristic concepts, flagship stores | Pair with LED strips and glass elements |\n\n**Pitfall alert**: Restaurant lighting is complex (spotlights, pendants, ambient sources mixed), and PVD panels can show color shifts under different color temperatures. Always review PVD swatches under actual restaurant lighting during the design phase to avoid the embarrassment of "gold at night, yellow during the day."`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "拉丝 vs 镜面：质感的选择逻辑",
+          en: "Brushed vs Mirror: The Texture Decision",
+        },
+        paragraphs: [
+          {
+            zh: `不锈钢的表面工艺决定了它在餐厅空间中的视觉性格和实用表现。拉丝（Hairline）和镜面（8K）是最常用的两种选择，但适用场景截然不同：\n\n**拉丝表面 — 餐厅的"安全牌"**\n- 哑光质感，不抢食物和灯光的风头\n- 耐指纹、耐轻微刮擦，在高人流餐厅中更实用\n- 光线反射柔和，不造成眩光干扰用餐\n- 适合大面积墙面、长条形隔断\n\n**镜面表面 — 餐厅的"视觉放大器"**\n- 高度反光，能在视觉上双倍延伸空间\n- 适合面积较小的精品餐厅，创造空间纵深感\n- 对灯光极其敏感，一盏射灯就能制造戏剧性效果\n- 需要更频繁的清洁维护，指纹和水渍明显\n\n**混合策略**（设计师常用）：\n在同一餐厅中，70%面积使用拉丝作为主基调，30%面积使用镜面作为视觉焦点（如入口墙面、吧台背景）。这种"哑+亮"的对比比单一材质更有层次感。`,
+            en: `The surface finish of stainless steel determines its visual character and practical performance in restaurant spaces. Brushed (hairline) and mirror (8K) are the two most common choices, but they suit very different scenarios:\n\n**Brushed Finish — The "Safe Bet" for Restaurants**\n- Matte texture that does not compete with food or lighting\n- Fingerprint-resistant and scratch-tolerant, more practical in high-traffic venues\n- Soft light reflection without glare that disrupts dining\n- Ideal for large wall surfaces and long partition runs\n\n**Mirror Finish — The "Visual Amplifier" for Restaurants**\n- Highly reflective, visually doubling space perception\n- Ideal for smaller boutique restaurants, creating spatial depth\n- Extremely sensitive to lighting; a single spotlight can create dramatic effects\n- Requires more frequent cleaning; fingerprints and water marks are visible\n\n**Hybrid Strategy** (commonly used by designers):\nUse brushed finish across 70% of the area as the primary tone, with mirror finish on 30% as visual focal points (entrance walls, bar backgrounds). This "matte + shine" contrast delivers more depth than a single material throughout.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "现代轻奢：不锈钢的设计语言",
+          en: "Modern Luxury: The Design Language of Stainless Steel",
+        },
+        paragraphs: [
+          {
+            zh: `"现代轻奢"（Modern Luxury）是当下高端餐饮最主流的设计方向——它追求的不是金碧辉煌的堆砌，而是材质本身的品质感和克制的精致。不锈钢装饰板恰好是这种设计哲学的完美载体：\n\n- **克制的金色**：香槟金拉丝不是纯金那种暴发户式的耀眼，而是像被时间柔化过的温暖金属光\n- **几何线条**：不锈钢板材的精确边缘和无缝拼接，赋予空间一种工业级的精确美感\n- **与天然材质的对话**：不锈钢与原木、皮革、大理石的搭配，形成"冷与暖""硬与软"的张力\n- **低调的奢华**：不依赖繁复的雕花或多余的装饰，仅靠材质本身的质感说话\n\n一个典型的现代轻奢餐厅配方：墙面使用香槟金拉丝不锈钢（占比40%）+ 原木饰面板（占比35%）+ 黑色金属框架（占比15%）+ 大理石台面（占比10%）。这种比例下，不锈钢是视觉主导但不喧宾夺主。`,
+            en: `"Modern luxury" is the dominant design direction in high-end dining today — it pursues not ostentatious glitter but the inherent quality of materials and restrained refinement. Stainless steel decorative panels are the perfect vehicle for this design philosophy:\n\n- **Restrained gold**: Champagne gold satin is not the nouveau-riche dazzle of pure gold, but a warm metallic glow softened by time\n- **Geometric precision**: The exact edges and seamless joints of stainless steel sheets give spaces an industrial-grade aesthetic precision\n- **Dialogue with natural materials**: Pairing stainless steel with wood, leather, and marble creates tension between "cold and warm," "hard and soft"\n- **Understated opulence**: Relying not on elaborate carving or superfluous ornament, but on the material's own texture to speak\n\nA typical modern luxury restaurant formula: champagne gold satin stainless steel walls (40%) + natural wood panels (35%) + black metal framing (15%) + marble countertops (10%). At this ratio, stainless steel leads visually without overwhelming the space.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "三大核心应用场景",
+          en: "Three Core Application Scenarios",
+        },
+        paragraphs: [
+          {
+            zh: `**1. 墙面 — 餐厅的第一视觉名片**\n\n餐厅墙面是不锈钢装饰板最大的应用场景。与家庭装修不同，餐厅墙面需要同时满足：\n- 顾客视线长时间停留（等待上菜时自然会看向墙面）\n- 拍照打卡需求（直接影响社交媒体传播）\n- 清洁维护便捷（油烟、酒水溅洒是常态）\n\n推荐方案：\n- 主墙面：拉丝香槟金或拉丝玫瑰金，大面积铺贴，营造温暖氛围\n-  accent 墙：镜面黑钛，小面积使用，制造视觉焦点\n- 厚度：1.0mm–1.2mm，足够平整且易于安装\n\n**2. 隔断 — 分区不隔绝**\n\n开放式餐厅的痛点是噪音和隐私。不锈钢镂空隔断（蚀刻花纹或激光切割图案）是完美的解决方案：\n- 视线可穿透（不阻断空间感）\n- 声音可部分阻挡（降低噪音传播）\n- 图案可定制（品牌LOGO、几何图形、抽象纹理）\n- 双面美观（隔断两侧都面对顾客，必须双面处理）\n\n推荐方案：\n- 蚀刻不锈钢屏风，图案深度 0.05–0.3mm\n- 配合底部灯槽，夜间形成透光剪影效果\n- 高度：建议 1.2m–1.8m（半高隔断不压抑）或通顶（全高隔断更私密）\n\n**3. 吧台 — 空间的情绪中心**\n\n吧台是餐厅中互动最频繁的区域，也是不锈钢装饰板最能"出效果"的位置：\n- 顾客近距离接触（材质质感被直接感知）\n- 灯光聚焦（射灯、吊灯都指向吧台）\n- 功能复杂（需要整合酒柜、冰槽、插座等）\n\n推荐方案：\n- 吧台立面：镜面或高亮拉丝，反射酒瓶和灯光\n- 吧台台面：304不锈钢原色（食品级，可直接接触食材）或覆铜做旧\n- 厚度：立面 1.0–1.5mm，台面 2.0–3.0mm（承重和抗凹）`,
+            en: `**1. Walls — The Restaurant's First Visual Business Card**\n\nRestaurant walls are the largest application scenario for stainless steel decorative panels. Unlike residential interiors, restaurant walls must simultaneously satisfy:\n- Long-duration customer sightlines (guests naturally look at walls while waiting for food)\n- Photo-worthiness (directly influencing social media sharing)\n- Easy cleaning and maintenance (grease and drink spills are routine)\n\nRecommended approach:\n- Main wall: satin champagne gold or satin rose gold, large-area installation for a warm atmosphere\n- Accent wall: mirror black titanium, small-area use to create a visual focal point\n- Thickness: 1.0–1.2 mm, sufficiently flat and easy to install\n\n**2. Partitions — Zoning Without Isolation**\n\nThe pain point of open-plan restaurants is noise and privacy. Stainless steel openwork partitions (etched patterns or laser-cut designs) are the perfect solution:\n- Sightlines remain open (space is not visually blocked)\n- Sound is partially dampened (reducing noise propagation)\n- Patterns are customizable (brand logos, geometric motifs, abstract textures)\n- Double-sided beauty (both sides face customers and must be equally finished)\n\nRecommended approach:\n- Etched stainless steel screens, pattern depth 0.05–0.3 mm\n- Paired with base lighting channels for translucent silhouette effects at night\n- Height: 1.2–1.8 m recommended (half-height partitions avoid claustrophobia) or floor-to-ceiling (full-height for more privacy)\n\n**3. Bar Counter — The Emotional Center of the Space**\n\nThe bar counter is the most interactive zone in a restaurant, and where stainless steel decorative panels deliver maximum impact:\n- Close customer contact (material texture is directly perceived)\n- Focused lighting (spotlights and pendants all point toward the bar)\n- Complex functionality (requires integration with wine racks, ice bins, outlets, etc.)\n\nRecommended approach:\n- Bar facade: mirror or high-gloss satin, reflecting bottles and lighting\n- Bar countertop: 304 stainless steel natural finish (food-grade, direct food contact safe) or copper-plated antique\n- Thickness: facade 1.0–1.5 mm, countertop 2.0–3.0 mm (load-bearing and dent-resistant)`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "选型与避坑指南",
+          en: "Specification Guide and Pitfall Avoidance",
+        },
+        paragraphs: [
+          {
+            zh: `**材质选择**：\n\n| 应用场景 | 推荐牌号 | 不推荐 | 原因 |\n|---------|---------|--------|------|\n| 室内干燥墙面 | 201 | — | 成本最优，干燥环境不生锈 |\n| 吧台/厨房相邻墙面 | 304 | 201 | 水汽和调味品腐蚀，201扛不住 |\n| 沿海/高湿餐厅 | 316 | 304 | 氯离子腐蚀严重，304 3年必锈 |\n\n**厚度选择**：\n- 墙面装饰：0.8–1.2mm（足够平整，易于切割造型）\n- 隔断/屏风：1.0–1.5mm（需要一定刚性保持平整）\n- 吧台立面：1.0–1.5mm\n- 吧台台面：2.0–3.0mm（承重+抗凹）\n\n**常见误区**：\n- **误区1**：镜面不锈钢越亮越好。真相：过亮的镜面在射灯下会产生刺眼眩光，影响用餐体验。餐厅用镜面建议选"半镜面"或"亚光镜面"。\n- **误区2**：PVD彩色板不会掉色。真相：PVD在室内正常环境5-10年稳定，但在厨房高温高湿区域，如果不做无指纹封油保护，3年后可能出现轻微色差。\n- **误区3**：隔断图案越复杂越好。真相：过于细密的蚀刻图案在灯光下会形成杂乱的阴影，反而降低空间品质。图案线条间距建议不小于3mm。`,
+            en: `**Material Selection**:\n\n| Application | Recommended Grade | Not Recommended | Reason |\n|-------------|-------------------|-----------------|--------|\n| Indoor dry walls | 201 | — | Most cost-effective; no rust in dry environments |\n| Bar / kitchen-adjacent walls | 304 | 201 | Moisture and condiment corrosion; 201 cannot withstand |\n| Coastal / high-humidity restaurants | 316 | 304 | Severe chloride corrosion; 304 will rust within 3 years |\n\n**Thickness Selection**:\n- Wall decoration: 0.8–1.2 mm (sufficiently flat, easy to cut and shape)\n- Partitions / screens: 1.0–1.5 mm (requires rigidity to stay flat)\n- Bar facade: 1.0–1.5 mm\n- Bar countertop: 2.0–3.0 mm (load-bearing + dent-resistant)\n\n**Common Pitfalls**:\n- **Myth 1**: The brighter the mirror finish, the better. Reality: Overly bright mirror surfaces create glaring reflections under spotlights, disrupting the dining experience. For restaurants, choose "semi-mirror" or "matte mirror" finishes.\n- **Myth 2**: PVD colored panels never fade. Reality: PVD is stable for 5–10 years in normal indoor environments, but in high-temperature, high-humidity kitchen zones without anti-fingerprint oil sealing, slight color shifts can appear after 3 years.\n- **Myth 3**: The more complex the partition pattern, the better. Reality: Overly dense etched patterns create chaotic shadows under lighting, actually degrading spatial quality. Pattern line spacing should be no less than 3 mm.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "成本与维护参考",
+          en: "Cost and Maintenance Reference",
+        },
+        paragraphs: [
+          {
+            zh: `不锈钢装饰板在餐厅装修中的成本占比通常为墙面材料总预算的 30–50%，但生命周期成本远低于墙纸、木饰面或石材：\n\n| 材料 | 初始成本/m² | 使用寿命 | 5年维护成本/m² | 综合成本/年 |\n|------|-----------|---------|--------------|-----------|\n| 不锈钢装饰板（PVD） | ¥300–600 | 10–15年 | ¥20–50 | ¥23–43 |\n| 天然大理石 | ¥400–800 | 20年+ | ¥100–200（晶面护理） | ¥45–65 |\n| 实木饰面板 | ¥200–400 | 5–8年 | ¥150–300（翻新/更换） | ¥50–88 |\n| 高端墙纸 | ¥100–300 | 3–5年 | ¥200–400（更换） | ¥60–100 |\n\n维护极其简单：\n- 日常：微纤维布 + 中性清洁剂擦拭\n- 每周：检查拼接缝是否有松动\n- 每季度：用不锈钢专用护理油擦拭镜面/拉丝表面，恢复光泽\n- 绝对避免：钢丝球、强酸清洁剂、含氯漂白剂`,
+            en: `Stainless steel decorative panels typically represent 30–50% of the total wall material budget in restaurant fit-outs, but lifecycle costs are far lower than wallpaper, wood veneer, or stone:\n\n| Material | Initial Cost/m² | Lifespan | 5-Year Maintenance/m² | Annualized Cost |\n|----------|----------------|----------|----------------------|----------------|\n| Stainless steel (PVD) | ¥300–600 | 10–15 years | ¥20–50 | ¥23–43 |\n| Natural marble | ¥400–800 | 20+ years | ¥100–200 (polishing) | ¥45–65 |\n| Solid wood veneer | ¥200–400 | 5–8 years | ¥150–300 (refurbish/replace) | ¥50–88 |\n| Premium wallpaper | ¥100–300 | 3–5 years | ¥200–400 (replacement) | ¥60–100 |\n\nMaintenance is extremely simple:\n- Daily: wipe with microfiber cloth + neutral cleaner\n- Weekly: inspect joints for looseness\n- Quarterly: apply stainless steel care oil to mirror / satin surfaces to restore luster\n- Strictly avoid: steel wool, strong acid cleaners, chlorine bleach`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "常见问题解答",
+          en: "Frequently Asked Questions",
+        },
+        paragraphs: [
+          {
+            zh: `**Q：不锈钢墙面会让餐厅显得太"冷"吗？**\n\nA：不会——关键在于颜色选择和搭配。香槟金、玫瑰金、古铜色等暖色调PVD不锈钢与木材、皮革、织物搭配后，不仅不冷，反而比纯白墙面更有温度感。\n\n**Q：餐厅墙面用镜面不锈钢，顾客吃饭时会不会被自己的倒影分心？**\n\nA：会——这就是为什么镜面只推荐小面积使用（如 accent 墙或吧台背景），且应避免正对餐桌主视线。大面积使用拉丝表面则无此问题。\n\n**Q：蚀刻隔断的图案可以定制吗？**\n\nA：完全可以。通过化学蚀刻或激光切割，可以将品牌LOGO、餐厅名称、甚至抽象艺术图案精确还原到不锈钢板上。最小线条精度可达0.05mm。\n\n**Q：吧台台面用不锈钢好还是大理石好？**\n\nA：从功能角度，不锈钢更优：食品级安全、不渗色、耐刮擦、易清洁。从颜值角度，大理石更天然。高端餐厅常见的折中方案是：台面用大理石，立面用不锈钢——兼顾颜值和耐用。\n\n**Q：PVD彩色板在餐厅灯光下会变色吗？**\n\nA：PVD涂层本身不会变色，但不同色温的光源（2700K暖黄 vs 4000K中性白 vs 6000K冷白）会让板材呈现出不同的视觉色调。这是光学现象，不是涂层问题。设计阶段务必在实际灯光下确认色板。`,
+            en: `**Q: Will stainless steel walls make a restaurant feel too "cold"?**\n\nA: Not if color selection and pairing are handled correctly. Warm-tone PVD finishes such as champagne gold, rose gold, and antique bronze — when paired with wood, leather, and textiles — feel warmer than plain white walls.\n\n**Q: With mirror stainless steel walls, won't diners be distracted by their own reflections?**\n\nA: Yes — which is why mirror is only recommended for small accent areas (feature walls or bar backgrounds) and should avoid facing the main dining sightline. Large-area brushed finishes do not have this issue.\n\n**Q: Can etched partition patterns be customized?**\n\nA: Absolutely. Through chemical etching or laser cutting, brand logos, restaurant names, or even abstract art patterns can be precisely reproduced on stainless steel sheets. Minimum line precision reaches 0.05 mm.\n\n**Q: For bar countertops, is stainless steel or marble better?**\nA: Functionally, stainless steel is superior: food-grade safe, stain-resistant, scratch-resistant, easy to clean. Aesthetically, marble is more natural. A common high-end compromise: marble for the countertop surface, stainless steel for the facade — balancing beauty and durability.\n\n**Q: Do PVD colored panels change color under restaurant lighting?**\nA: The PVD coating itself does not change color, but different color-temperature light sources (2700K warm yellow vs 4000K neutral white vs 6000K cool white) will make the panel appear visually different. This is an optical phenomenon, not a coating defect. Always confirm swatches under actual lighting during the design phase.`,
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "关于固特森不锈钢",
+          en: "About Greateson Stainless Steel",
+        },
+        paragraphs: [
+          {
+            zh: `Greateson Stainless Steel（广东顺佳兴不锈钢有限公司）专注为高端餐饮、酒店和商业空间提供不锈钢装饰解决方案。成立于2008年，总部位于中国佛山——全球最大不锈钢生产基地，拥有10,000㎡自有工厂和11条专业生产线。\n\n我们为餐厅空间提供完整的产品体系：\n- **PVD彩色电镀板**：黑钛、香槟金、玫瑰金、古铜色、枪灰色等全系颜色\n- **拉丝/镜面板**：从HL180标准拉丝到8K超镜面，满足不同光泽需求\n- **蚀刻/压花板**：支持品牌LOGO定制、几何图案、艺术纹理\n- **不锈钢制品**：屏风隔断、吧台、展示柜、酒架等深加工成品\n\n所有产品均基于304/316牌号不锈钢，通过ISO 9001:2015质量认证，出口中东、欧洲、东南亚等30多个国家。从原材料到成品的一站式服务，确保每一件产品都达到工程级精度。\n\n**联系我们获取餐厅项目方案：**\n- 邮箱：sales@greateson.com\n- 网站：greatesonsteel.com\n- 工厂：中国广东省佛山市`,
+            en: `Greateson Stainless Steel (Guangdong Shun Jiaxing Stainless Steel Co., Ltd.) specializes in stainless steel decorative solutions for high-end dining, hospitality, and commercial spaces. Founded in 2008 and headquartered in Foshan, China — the world's largest stainless steel production hub — we operate a 10,000 m² factory with 11 specialized production lines.\n\nWe provide a complete product system for restaurant environments:\n- **PVD color-plated panels**: black titanium, champagne gold, rose gold, antique bronze, gunmetal gray, and more\n- **Brushed / mirror panels**: from HL180 standard satin to 8K ultra-mirror, meeting diverse lumen needs\n- **Etched / embossed panels**: supporting brand logo customization, geometric patterns, artistic textures\n- **Stainless steel products**: screens, partitions, bar counters, display cabinets, wine racks, and other fabricated items\n\nAll products are based on 304/316-grade stainless steel, ISO 9001:2015 certified, and exported to over 30 countries across the Middle East, Europe, and Southeast Asia. Our one-stop service from raw material to finished product ensures every piece meets engineering-grade precision.\n\n**Contact us for restaurant project solutions:**\n- Email: sales@greateson.com\n- Website: greatesonsteel.com\n- Factory: Foshan, Guangdong, China`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: {
+          zh: "不锈钢墙面会让餐厅显得太'冷'吗？",
+          en: "Will stainless steel walls make a restaurant feel too 'cold'?",
+        },
+        a: {
+          zh: "不会——关键在于颜色选择和搭配。香槟金、玫瑰金、古铜色等暖色调PVD不锈钢与木材、皮革、织物搭配后，不仅不冷，反而比纯白墙面更有温度感。",
+          en: "Not if color selection and pairing are handled correctly. Warm-tone PVD finishes such as champagne gold, rose gold, and antique bronze — when paired with wood, leather, and textiles — feel warmer than plain white walls.",
+        },
+      },
+      {
+        q: {
+          zh: "餐厅墙面用镜面不锈钢，顾客吃饭时会不会被自己的倒影分心？",
+          en: "With mirror stainless steel walls, won't diners be distracted by their own reflections?",
+        },
+        a: {
+          zh: "会——这就是为什么镜面只推荐小面积使用（如 accent 墙或吧台背景），且应避免正对餐桌主视线。大面积使用拉丝表面则无此问题。",
+          en: "Yes — which is why mirror is only recommended for small accent areas (feature walls or bar backgrounds) and should avoid facing the main dining sightline. Large-area brushed finishes do not have this issue.",
+        },
+      },
+      {
+        q: {
+          zh: "蚀刻隔断的图案可以定制吗？",
+          en: "Can etched partition patterns be customized?",
+        },
+        a: {
+          zh: "完全可以。通过化学蚀刻或激光切割，可以将品牌LOGO、餐厅名称、甚至抽象艺术图案精确还原到不锈钢板上。最小线条精度可达0.05mm。",
+          en: "Absolutely. Through chemical etching or laser cutting, brand logos, restaurant names, or even abstract art patterns can be precisely reproduced on stainless steel sheets. Minimum line precision reaches 0.05 mm.",
+        },
+      },
+      {
+        q: {
+          zh: "吧台台面用不锈钢好还是大理石好？",
+          en: "For bar countertops, is stainless steel or marble better?",
+        },
+        a: {
+          zh: "从功能角度，不锈钢更优：食品级安全、不渗色、耐刮擦、易清洁。从颜值角度，大理石更天然。高端餐厅常见的折中方案是：台面用大理石，立面用不锈钢——兼顾颜值和耐用。",
+          en: "Functionally, stainless steel is superior: food-grade safe, stain-resistant, scratch-resistant, easy to clean. Aesthetically, marble is more natural. A common high-end compromise: marble for the countertop surface, stainless steel for the facade — balancing beauty and durability.",
+        },
+      },
+      {
+        q: {
+          zh: "PVD彩色板在餐厅灯光下会变色吗？",
+          en: "Do PVD colored panels change color under restaurant lighting?",
+        },
+        a: {
+          zh: "PVD涂层本身不会变色，但不同色温的光源（2700K暖黄 vs 4000K中性白 vs 6000K冷白）会让板材呈现出不同的视觉色调。这是光学现象，不是涂层问题。设计阶段务必在实际灯光下确认色板。",
+          en: "The PVD coating itself does not change color, but different color-temperature light sources (2700K warm yellow vs 4000K neutral white vs 6000K cool white) will make the panel appear visually different. This is an optical phenomenon, not a coating defect. Always confirm swatches under actual lighting during the design phase.",
+        },
+      },
+    ],
+  },
 ];
