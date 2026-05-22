@@ -1426,7 +1426,7 @@ export const blogArticles: BlogPost[] = [
         },
         paragraphs: [
           {
-            zh: "不锈钢墙面覆层（Stainless Steel Wall Cladding）已经成为现代建筑外立面设计的主流选择之一。从迪拜的商业综合体到伦敦的地标建筑，不锈钢以其独特的金属质感、优异的耐候性能和极低的维护需求，赢得了建筑师和开发商的广泛认可。作为一家拥有20余年不锈钢板材生产经验的源头工厂，我们在日常与全球建筑项目的合作中，深刻理解了不锈钢覆层在实际工程中的真实表现。本文将从材料性能、牌号选择、表面处理、安装工艺四个维度，客观分析不锈钢用于户外墙面覆层的实际可行性。",
+            zh: "不锈钢墙面覆层（Stainless Steel Wall Cladding）已经成为现代建筑外立面设计的主流选择之一。从迪拜的商业综合体到伦敦的地标建筑，不锈钢以其独特的金属质感、优异的耐候性能和极低的维护需求，赢得了建筑师和开发商的广泛认可。作为一家拥有20余年不锈钢板材生产经验的源头工厂，我们在日常与全球建筑项目的合作中，深刻理解了不锈钢覆层在实际工程中的真实表现。本文将从材料性能、材质选择、表面处理、安装工艺四个维度，客观分析不锈钢用于户外墙面覆层的实际可行性。",
             en: "Stainless steel wall cladding has become a mainstream choice in modern building facade design. From commercial complexes in Dubai to landmark structures in London, stainless steel has earned broad recognition from architects and developers for its distinctive metallic texture, superior weather resistance, and minimal maintenance requirements. As a factory-source manufacturer with over 20 years of stainless steel sheet production experience, we have gained deep insight into the real-world performance of stainless steel cladding through daily collaboration with global construction projects. This article objectively analyzes the practical viability of stainless steel for outdoor wall cladding across four dimensions: material performance, grade selection, surface finishes, and installation systems.",
           },
         ],
@@ -1458,7 +1458,7 @@ export const blogArticles: BlogPost[] = [
         },
         paragraphs: [
           {
-            zh: "304不锈钢（国标06Cr19Ni10）是户外墙面覆层中使用最广泛的牌号。其镍含量约8-10.5%，铬含量约18-20%，在大多数城市环境和中低污染工业区的户外条件下表现出色。对于内陆城市、温带气候区的商业建筑、办公楼和住宅项目，304不锈钢在性能与成本之间取得了最佳平衡。在我们的出口订单中，约70%的户外覆层项目指定使用304材质，这反映了全球建筑行业对这一牌号可靠性的普遍认可。",
+            zh: "304不锈钢（国标06Cr19Ni10）是户外墙面覆层中使用最广泛的材质。其镍含量约8-10.5%，铬含量约18-20%，在大多数城市环境和中低污染工业区的户外条件下表现出色。对于内陆城市、温带气候区的商业建筑、办公楼和住宅项目，304不锈钢在性能与成本之间取得了最佳平衡。在我们的出口订单中，约70%的户外覆层项目指定使用304材质，这反映了全球建筑行业对这一材质可靠性的普遍认可。",
             en: "304 stainless steel (Chinese standard 06Cr19Ni10) is the most widely used grade for outdoor wall cladding. With nickel content of approximately 8-10.5% and chromium at 18-20%, it performs excellently in most urban environments and low-to-medium pollution industrial zones. For inland cities and commercial, office, and residential projects in temperate climate zones, 304 stainless steel achieves the optimal balance between performance and cost. In our export orders, approximately 70% of outdoor cladding projects specify 304, reflecting the global construction industry's broad recognition of this grade's reliability.",
           },
           {
