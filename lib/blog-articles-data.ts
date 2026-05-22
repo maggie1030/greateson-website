@@ -1223,34 +1223,38 @@ export const blogArticles: BlogPost[] = [
     ],
   },
   {
-    slug: "is-stainless-steel-decorative-panels-good-for-commercial-kitchens",
+    slug: "is-stainless-steel-good-for-outdoor-wall-cladding",
     category: "blog",
     title: {
-      zh: "商用厨房墙面选材：为什么304不锈钢装饰板是行业标准？",
-      en: "Are Stainless Steel Decorative Panels the Right Choice for Commercial Kitchens?",
+      zh: "不锈钢适合做户外墙面装饰吗？外墙与内墙选型的关键差异",
+      en: "Is Stainless Steel Good for Outdoor Wall Cladding? Key Differences Between Exterior and Interior Specifications",
     },
     excerpt: {
-      zh: "从FDA食品法规到米其林后厨，不锈钢装饰板为什么成为商用厨房墙面的默认配置？本文从卫生合规、防火安全、全生命周期成本三个维度，结合顺佳兴不锈钢的制造经验，给出客观的选型数据。",
-      en: "From FDA food codes to Michelin-starred back-of-house operations, why has stainless steel become the default wall specification for commercial kitchens? This article examines hygiene compliance, fire safety, and total lifecycle cost — grounded in manufacturing data from Greateson.",
+      zh: "户外墙面装饰对材料的挑战远高于室内——紫外线、雨水、温差、盐雾。顺佳兴不锈钢基于出口30国的项目经验，从材质牌号、表面工艺、安装系统三个维度，解析不锈钢外墙装饰板的选型逻辑。",
+      en: "Outdoor wall cladding imposes far greater challenges on materials than interior applications — UV radiation, rainfall, thermal cycling, salt spray. Greateson analyzes specification logic for stainless steel exterior panels across three dimensions: material grade, surface finish, and installation systems, based on project experience across 30 export markets.",
     },
-    publishedAt: "2026-05-21",
+    publishedAt: "2026-05-22",
     readTime: { zh: "10 分钟", en: "10 min read" },
     keywords: {
       zh: [
-        "商用厨房墙面材料",
-        "不锈钢厨房墙面",
-        "304不锈钢厨房",
-        "商用厨房卫生标准",
-        "不锈钢后挡板",
-        "metal wall decoration",
+        "不锈钢户外墙面",
+        "不锈钢外墙装饰",
+        "Stainless Steel interior and exterior cladding",
+        "Stainless steel wall cladding",
+        "Stainless steel Facade",
+        "304不锈钢户外",
+        "316不锈钢外墙",
+        "不锈钢蜂窝板外墙",
       ],
       en: [
-        "commercial kitchen wall cladding",
-        "stainless steel kitchen walls",
-        "304 stainless steel kitchen",
-        "commercial kitchen hygiene standards",
-        "stainless steel backsplash",
-        "metal wall decoration",
+        "Stainless Steel interior and exterior cladding",
+        "Stainless steel wall cladding",
+        "Stainless steel Facade",
+        "outdoor stainless steel panels",
+        "exterior metal wall panels",
+        "304 stainless steel outdoor",
+        "316 stainless steel facade",
+        "stainless steel honeycomb panel exterior",
       ],
     },
     sections: [
@@ -1261,80 +1265,80 @@ export const blogArticles: BlogPost[] = [
         },
         paragraphs: [
           {
-            zh: `是的。对于绝大多数商用厨房——从连锁快餐到高端酒店餐饮——304牌号不锈钢装饰板（搭配拉丝或喷砂表面）是目前行业公认的最优墙面解决方案。这不是营销话术，而是基于卫生法规、防火标准和全生命周期成本计算后的工程结论。\n\n唯一不适用的情况：预算极低且计划3年内翻新的临时性场所（如快闪店、临时食堂）。对于计划运营5年以上的厨房，不锈钢的总拥有成本低于瓷砖、FRP和粉刷石膏板。`,
-            en: `Yes. For the vast majority of commercial kitchens — from fast-food chains to hotel F&B operations — 304-grade stainless steel decorative panels (with satin or sandblasted finishes) represent the industry-accepted optimal wall solution. This is not marketing language; it is an engineering conclusion based on health codes, fire safety standards, and total lifecycle cost analysis.\n\nThe only scenario where stainless steel is not recommended: extremely budget-constrained temporary installations planned for renovation within three years (pop-up locations, temporary canteens). For kitchens intended to operate five years or longer, stainless steel delivers lower total cost of ownership than tile, FRP, or painted drywall.`,
+            zh: `是的。不锈钢装饰板是户外墙面装饰的合格材料，但必须正确选型。\n\n304牌号不锈钢在一般气候条件下的户外环境中可使用15年以上，316牌号在沿海或工业污染环境中是标准配置。关键点在于：户外应用不能简单复制室内选型逻辑——表面工艺、安装系统和维护方案都需要针对外部环境重新设计。\n\n不适合户外使用的情况只有一种：使用201牌号。201的镍含量不足以形成稳定的钝化膜，在户外雨水和大气污染物的作用下，2-3年内就会出现锈蚀。`,
+            en: `Yes. Stainless steel decorative panels are a viable material for outdoor wall cladding, but correct specification is essential.\n\n304-grade stainless steel performs for 15+ years in general outdoor climates; 316-grade is the standard specification for coastal or industrially polluted environments. The critical point: outdoor applications cannot simply replicate indoor selection logic — surface finish, installation system, and maintenance protocol all require redesign for exterior conditions.\n\nThe only scenario where stainless steel is unsuitable for outdoor use: 201-grade. With insufficient nickel content to form a stable passive film, 201 will develop rust within 2–3 years under outdoor rain and atmospheric pollutants.`,
           },
         ],
       },
       {
         heading: {
-          zh: "商用厨房墙面的特殊挑战",
-          en: "The Unique Challenges of Commercial Kitchen Walls",
+          zh: "户外墙面给材料出了什么难题",
+          en: "What Outdoor Walls Demand from Materials",
         },
         paragraphs: [
           {
-            zh: `商用厨房是建筑装饰中对墙面材料要求最严苛的环境。顺佳兴不锈钢在长期服务餐饮客户的过程中，总结出五大核心挑战：\n\n- **热冲击**：温度在冷藏区（近0°C）与灶台区（90°C以上）之间剧烈波动，材料必须承受反复的热胀冷缩而不变形。\n- **油脂饱和**：中式爆炒、西式煎烤产生的大量油雾会在数月内覆盖所有垂直表面，材料表面必须不吸油、不渗色。\n- **化学暴露**：每日使用含氯消毒剂、强碱除油剂清洁，材料必须耐受化学腐蚀。\n- **物理冲击**：推车、锅具、人流造成的持续碰撞，墙面必须具备抗凹痕能力。\n- **微生物监管**：FDA、EU 852/2004及各国卫生法规均要求食品接触区域使用无孔、易消毒的表面。\n\n传统材料在这五个维度上均有明显短板：石膏板吸油后内部滋生细菌，瓷砖灌浆线是卫生 inspector 的重点扣分项，FRP面板在热源附近变形且3年内黄变。不锈钢装饰板是目前唯一能同时满足五项要求的墙面材料。`,
-            en: `Commercial kitchens impose the most demanding requirements on wall materials of any interior environment. Through years of serving foodservice clients, Greateson has identified five core challenges:\n\n- **Thermal shock**: Temperature swings from near-freezing in walk-in access areas to over 90°C at cooking stations. Materials must withstand repeated thermal expansion and contraction without warping.\n- **Grease saturation**: The heavy oil mist produced by Chinese wok cooking and Western grilling coats every vertical surface within months. The material must be non-absorbent and stain-resistant.\n- **Chemical exposure**: Daily cleaning with chlorine-based disinfectants and strong alkaline degreasers requires chemical corrosion resistance.\n- **Physical impact**: Continuous collisions from carts, cookware, and foot traffic demand dent resistance.\n- **Microbial regulation**: FDA, EU 852/2004, and national health codes all mandate non-porous, easily sanitized surfaces in food-contact zones.\n\nTraditional materials show clear weaknesses across these five dimensions: drywall absorbs grease and harbors bacteria internally, tile grout lines are prime deduction points for health inspectors, and FRP panels warp near heat sources and yellow within three years. Stainless steel decorative panels are currently the only wall material that simultaneously satisfies all five requirements.`,
+            zh: `户外墙面与室内墙面的差异不是程度问题，是本质问题。顺佳兴不锈钢在出口项目中遇到过五种典型的户外失效模式：\n\n- **紫外线降解**：长期UV暴露会使有机涂层（如纳米色油、部分氟碳漆）发生光氧化反应，导致粉化和褪色。PVD无机陶瓷涂层不存在这个问题，但水镀工艺在户外长期暴晒后存在变色风险。\n- **雨水渗透**：雨水不是沿着板面流下，而是通过板缝、螺丝孔、切割边缘渗入。如果基层处理不当，水分会在板材与墙体之间积聚，导致背面腐蚀——这种腐蚀从内部开始，外表可能数年都看不出来。\n- **热胀冷缩**：户外昼夜温差可达30-40°C，板材的线性热膨胀系数约为17.3×10⁻⁶/°C。一块3米长的板在40°C温差下会膨胀约2mm。如果安装系统没有预留膨胀间隙，板材会拱起或脱胶。\n- **盐雾腐蚀**：距海岸线1公里以内的区域，空气中氯离子浓度是内陆的数十倍。304在这种环境中的钝化膜会被氯离子逐步破坏，必须使用316。\n- **风压荷载**：高层建筑外墙需要承受持续风压和阵风冲击。薄板（<1.0mm）在强风下会产生颤振噪声，长期可能导致固定点松动。\n\n这五个挑战决定了：户外不锈钢墙面装饰不是"把室内板搬到外面"那么简单。`,
+            en: `The difference between outdoor and indoor walls is not a matter of degree — it is a matter of nature. Greateson has encountered five typical outdoor failure modes across export projects:\n\n- **UV degradation**: Long-term UV exposure causes photo-oxidation in organic coatings (such as nano color oil and some fluorocarbon paints), leading to chalking and fading. PVD inorganic ceramic coatings do not have this issue, but water-plated finishes carry color-shift risk after prolonged outdoor sun exposure.\n- **Rainwater infiltration**: Rainwater does not simply flow down the panel surface; it penetrates through seams, screw holes, and cut edges. If substrate preparation is inadequate, moisture accumulates between the panel and wall, causing backside corrosion — this corrosion starts internally and may remain invisible externally for years.\n- **Thermal expansion**: Outdoor day-night temperature differentials can reach 30–40°C. With a linear thermal expansion coefficient of approximately 17.3 × 10⁻⁶/°C, a 3-meter panel expands roughly 2 mm under a 40°C differential. Without expansion gap provisions in the installation system, panels will buckle or delaminate.\n- **Salt spray corrosion**: Within 1 kilometer of the coastline, airborne chloride ion concentrations are tens of times higher than inland. In such environments, 304's passive film is gradually destroyed by chloride ions; 316 is mandatory.\n- **Wind load**: High-rise building exteriors must withstand sustained wind pressure and gust impacts. Thin panels (<1.0 mm) generate flutter noise under strong winds and may eventually loosen at fastening points.\n\nThese five challenges determine that outdoor stainless steel wall cladding is not as simple as "moving indoor panels outside."`,
           },
         ],
       },
       {
         heading: {
-          zh: "五大核心优势：数据说话",
-          en: "Five Core Advantages, by the Numbers",
+          zh: "材质选择：304还是316？",
+          en: "Material Selection: 304 or 316?",
         },
         paragraphs: [
           {
-            zh: `**1. 卫生合规性无可替代**\n\nFDA食品法规、EU 852/2004以及中国《餐饮服务食品安全操作规范》均明确规定：食品制备区域墙面应使用光滑、无孔、耐腐蚀材料。不锈钢装饰板（特别是拉丝或喷砂表面）提供连续无接缝的表面，零灌浆线、零孔隙。\n\n2019年《Journal of Food Protection》的研究表明：在标准清洁协议后，304不锈钢表面的*大肠杆菌*和*金黄色葡萄球菌*存活率显著低于陶瓷砖、塑料砧板和木材。\n\n**2. A级防火，不释放有毒气体**\n\n不锈钢本质不可燃（Class A），高温下不释放有毒气体。这相对于FRP面板和PVC墙面覆盖物是决定性优势——后者在火灾中会释放有害化合物。对于灶台后方300mm以内的极端热暴露区域，316牌号因其更高耐热性是行业推荐配置。\n\n**3. 15-20年使用寿命**\n\n| 材料 | 商用厨房寿命 | 主要失效模式 |\n|------|------------|------------|\n| 粉刷石膏板 | 2-4年 | 吸油发霉、结构软化 |\n| 陶瓷砖 | 5-8年 | 灌浆线发黑、瓷砖开裂 |\n| FRP面板 | 4-6年 | 黄变、变形、分层 |\n| 304不锈钢装饰板 | 15-20年 | 表面划痕（仅影响外观） |\n\n**4. 清洁效率提升40%**\n\n典型商用厨房每日墙面清洁耗时45-60分钟。不锈钢面板将其压缩至25-35分钟：无灌浆线需要刷洗、无接缝需要密封、油脂一擦即净。以每年运营360天、18美元/小时计算，年节省清洁工时成本约2,160美元。\n\n**5. 专业外观提升品牌认知**\n\n开放式厨房趋势将墙面变成品牌声明。PVD彩色不锈钢（黑钛、香槟金、玫瑰金）、拉丝纹理、蚀刻图案为餐饮空间提供了瓷砖和FRP无法比拟的设计灵活性。`,
-            en: `**1. Unmatched Hygiene Compliance**\n\nFDA Food Code, EU 852/2004, and China's Catering Service Food Safety Operation Standards all explicitly specify that food preparation area walls should use smooth, non-porous, corrosion-resistant materials. Stainless steel decorative panels — particularly satin or sandblasted finishes — provide continuous, seamless surfaces with zero grout lines and zero pores.\n\nA 2019 study in the *Journal of Food Protection* demonstrated that *E. coli* and *S. aureus* survival rates on 304 stainless steel surfaces were significantly lower than on ceramic tile, plastic cutting boards, and wood after standard cleaning protocols.\n\n**2. Class A Fire Rating, Zero Toxic Emissions**\n\nStainless steel is inherently non-combustible (Class A) and emits no toxic fumes under extreme heat. This is a decisive advantage over FRP panels and PVC wall coverings, which release hazardous compounds during fires. For extreme heat exposure within 300mm of open flames, 316-grade is the industry-recommended specification due to its superior heat resistance.\n\n**3. 15–20 Year Service Life**\n\n| Material | Commercial Kitchen Lifespan | Primary Failure Mode |\n|----------|---------------------------|---------------------|\n| Painted drywall | 2–4 years | Grease absorption, mold, structural softening |\n| Ceramic tile | 5–8 years | Grout blackening, tile cracking |\n| FRP panels | 4–6 years | Yellowing, warping, delamination |\n| 304 stainless steel panels | 15–20 years | Surface scratching (cosmetic only) |\n\n**4. Cleaning Efficiency Improved by 40%**\n\nTypical commercial kitchen wall cleaning consumes 45–60 minutes daily. Stainless steel panels compress this to 25–35 minutes: no grout lines to scrub, no seams to seal, grease wipes away in one pass. At 360 operating days per year and $18/hour labor, annual cleaning labor cost savings approximate $2,160.\n\n**5. Professional Appearance Elevates Brand Perception**\n\nThe open-kitchen trend has transformed walls into brand statements. PVD colored stainless steel (black titanium, champagne gold, rose gold), satin textures, and etched patterns offer design flexibility that tile and FRP cannot match.`,
+            zh: `户外墙面装饰的材质选择逻辑与室内完全不同。室内干燥环境下201都可以凑合用，但户外没有"凑合"的选项。\n\n| 环境条件 | 推荐牌号 | 避免使用 | 核心原因 |\n|---------|---------|--------|---------|\n| 内陆城市、一般大气环境 | 304 | 201 | 304的钝化膜在一般户外环境中稳定，寿命15年以上 |\n| 距海岸线1km以内 | 316 | 304 | 氯离子破坏304钝化膜，316的2%钼提供额外保护 |\n| 工业区、酸雨区域 | 316 | 304 | 硫化物和酸性沉降物加速腐蚀 |\n| 高湿度热带气候 | 316 | 304 | 持续高湿加速电化学腐蚀 |\n\n顺佳兴不锈钢的盐雾测试数据显示：304在CASS（铜加速醋酸盐雾）测试中耐500小时，316可耐1000小时以上。这个差异在沿海环境中直接转化为使用寿命的倍数差异。\n\n需要注意的是，316的成本高于304约30-40%，但在沿海或工业环境中，这不是"贵不贵"的问题，而是"能不能用"的问题。用304做沿海外墙，3-5年后出现的锈蚀维修成本，远高于当初升级316的增量成本。`,
+            en: `The material selection logic for outdoor wall cladding is fundamentally different from indoor applications. While 201 may suffice in dry indoor environments, outdoor applications have no "compromise" option.\n\n| Environmental Condition | Recommended Grade | Avoid | Core Reason |\n|------------------------|-------------------|-------|-------------|\n| Inland cities, general atmospheric | 304 | 201 | 304 passive film stable in typical outdoor conditions; 15+ year lifespan |\n| Within 1 km of coastline | 316 | 304 | Chloride ions destroy 304 passive film; 316's 2% molybdenum provides additional protection |\n| Industrial zones, acid rain areas | 316 | 304 | Sulfides and acidic deposition accelerate corrosion |\n| High-humidity tropical climates | 316 | 304 | Sustained high humidity accelerates electrochemical corrosion |\n\nGreateson's salt spray test data shows: 304 withstands 500 hours in CASS (copper-accelerated acetic acid salt spray) testing, while 316 exceeds 1,000 hours. This difference translates directly into a multi-fold lifespan difference in coastal environments.\n\nIt should be noted that 316 costs approximately 30–40% more than 304. But in coastal or industrial environments, this is not a question of "expensive or cheap" — it is a question of "viable or not." Using 304 for coastal exteriors and facing rust repair costs after 3–5 years far exceeds the incremental cost of upgrading to 316 initially.`,
           },
         ],
       },
       {
         heading: {
-          zh: "选型指南：材质、厚度、工艺",
-          en: "Specification Guide: Grade, Thickness, and Finish",
+          zh: "表面工艺：什么能扛住户外，什么不能",
+          en: "Surface Finishes: What Survives Outdoors, What Doesn't",
         },
         paragraphs: [
           {
-            zh: `**材质选择**\n\n| 应用场景 | 推荐牌号 | 避免使用 | 原因 |\n|---------|---------|--------|------|\n| 干区墙面（储藏室、走廊） | 201 | — | 干燥环境无锈蚀风险，成本最优 |\n| 通用厨房墙面、备餐区、后挡板 | 304 | 201 | 耐受水汽、油脂和日常酸碱 |\n| 沿海/高湿环境、泳池区 | 316 | 304 | 2%钼含量抵御氯离子腐蚀 |\n\n顺佳兴不锈钢的实测数据显示：90%的商用厨房项目，304牌号是正确配置。仅当厨房位于距海岸线500米以内或涉及重度氯化物暴露时，才需要升级至316。\n\n**厚度选择**\n\n| 应用 | 推荐厚度 | 理由 |\n|------|---------|------|\n| 墙面装饰/后挡板 | 0.8–1.2mm | 足够刚性，易于切割插座开口 |\n| 高冲击区（炸锅后方、门侧） | 1.2–1.5mm | 抗设备碰撞凹痕 |\n| 天花板 | 0.6–0.8mm | 减轻 overhead 安装重量 |\n| 台面饰面 | 1.5–3.0mm | 边缘稳定性和承重能力 |\n\n**表面工艺选择**\n\n1. **拉丝（Hairline）**：商用厨房最常用。哑光质感，耐指纹，低反射率减少眩光，轻微划痕不明显。\n2. **喷砂/磨砂**：最高划痕隐藏性，适合高使用备餐区。\n3. **镜面（8K）**：仅推荐用于顾客可见区域的小面积 accent 墙，需接受更高维护频率。\n4. **防指纹涂层（可选）**：纳米陶瓷层，减少70-80%可见污迹，推荐用于传菜窗口。`,
-            en: `**Grade Selection**\n\n| Application | Recommended Grade | Avoid | Reason |\n|-------------|-------------------|-------|--------|\n| Dry zone walls (storage, corridors) | 201 | — | No corrosion risk in dry environments; optimal cost |\n| General kitchen walls, prep areas, backsplashes | 304 | 201 | Tolerates steam, grease, and daily acid/alkali exposure |\n| Coastal/high-humidity environments, pool areas | 316 | 304 | 2% molybdenum resists chloride corrosion |\n\nGreateson's field data shows that for 90% of commercial kitchen projects, 304-grade is the correct specification. Only upgrade to 316 if the kitchen is within 500 meters of the coast or involves heavy chloride exposure.\n\n**Thickness Selection**\n\n| Application | Recommended Thickness | Rationale |\n|-------------|----------------------|-----------|\n| Wall cladding / backsplashes | 0.8–1.2 mm | Sufficient rigidity; easy to cut for outlet openings |\n| High-impact zones (behind fryers, near doors) | 1.2–1.5 mm | Resists denting from equipment collision |\n| Ceiling panels | 0.6–0.8 mm | Reduced weight for overhead installation |\n| Countertop facing | 1.5–3.0 mm | Edge stability and load-bearing capacity |\n\n**Surface Finish Selection**\n\n1. **Brushed (Hairline)**: Most common for commercial kitchens. Matte texture, fingerprint-resistant, low reflectivity reduces glare, minor scratches are inconspicuous.\n2. **Sandblasted / Matte**: Highest scratch concealment; ideal for heavy-use prep areas.\n3. **Mirror (8K)**: Only recommended for small accent areas in customer-visible zones; accept higher maintenance frequency.\n4. **Anti-fingerprint coating (optional)**: Nano-ceramic layer reduces visible smudging by 70–80%; recommended for pass-through windows.`,
+            zh: `不是所有的不锈钢表面工艺都适合户外。顺佳兴不锈钢的生产经验表明，户外应用需要区分三类工艺：\n\n**适合户外长期使用的工艺：**\n\n- **PVD真空电镀**：无机陶瓷涂层，耐紫外线、耐盐雾、耐酸碱。顺佳兴的PVD产线产品通过500小时CASS盐雾测试，膜层硬度HV 1500+。黑钛、香槟金、枪灰色等颜色在户外5-10年内保持稳定。\n- **原色拉丝/喷砂**：没有有机涂层，完全依赖不锈钢自身的钝化膜保护。不存在涂层老化问题，是户外最"保险"的选择。\n- **氟碳漆（PVDF）**：有机涂层中户外耐候性最强的选择，但需要区分氟碳含量。PVDF含量≥70%的产品可提供10年以上质保，低氟碳含量的产品3-5年就会粉化。\n\n**不适合户外长期使用的工艺：**\n\n- **水镀黑钛/古铜**：水镀层在户外紫外线和雨水作用下，2-3年会出现明显变色。户外项目必须指定PVD工艺替代水镀。\n- **纳米色油**：有机涂层在UV作用下会逐渐老化、褪色，不适合直接暴露在户外。如果必须用色油，需要额外覆加抗UV保护层。\n- **热转印木纹/石纹**：转印层的耐候性有限，户外长期使用存在剥离风险。`,
+            en: `Not all stainless steel surface finishes are suitable for outdoor use. Greateson production experience indicates that outdoor applications require distinguishing three categories of processes:\n\n**Processes suitable for long-term outdoor use:**\n\n- **PVD vacuum plating**: Inorganic ceramic coating, resistant to UV, salt spray, and acid/alkali. Greateson's PVD line products pass 500-hour CASS salt spray testing with film hardness exceeding HV 1500. Colors including black titanium, champagne gold, and gunmetal gray remain stable outdoors for 5–10 years.\n- **Natural satin / sandblasted**: No organic coating; relies entirely on stainless steel's own passive film for protection. No coating aging issues — the "safest" choice for outdoor applications.\n- **Fluorocarbon paint (PVDF)**: The most weather-resistant organic coating option, but fluorocarbon content must be distinguished. Products with ≥70% PVDF content can provide 10+ year warranties; low-fluorocarbon products chalk within 3–5 years.\n\n**Processes unsuitable for long-term outdoor use:**\n\n- **Water-plated black titanium / antique bronze**: Water-plated layers show significant color change within 2–3 years under outdoor UV and rainfall. Outdoor projects must specify PVD process instead of water plating.\n- **Nano color oil**: Organic coatings gradually age and fade under UV exposure; not suitable for direct outdoor exposure. If color oil must be used, an additional anti-UV protective layer is required.\n- **Heat-transfer wood / stone grain**: Transfer film layers have limited weather resistance; long-term outdoor use carries peeling risk.`,
           },
         ],
       },
       {
         heading: {
-          zh: "成本分析：为什么不锈钢反而更便宜",
-          en: "Cost Analysis: Why Stainless Steel Costs Less Over Time",
+          zh: "安装系统：户外比室内复杂得多",
+          en: "Installation Systems: Outdoor Is Far More Complex Than Indoor",
         },
         paragraphs: [
           {
-            zh: `下表对比了四种常见墙面材料在商用厨房环境中的全生命周期成本（以50㎡墙面、10年周期计算）：\n\n| 成本因素 | 304不锈钢（拉丝） | FRP面板 | 陶瓷砖 |\n|---------|-----------------|--------|-------|\n| 材料+安装成本/m² | ¥450–750 | ¥180–280 | ¥220–420 |\n| 初始总成本（50㎡） | ¥22,500–37,500 | ¥9,000–14,000 | ¥11,000–21,000 |\n| 10年维护/翻新成本 | ¥2,000–5,000 | ¥12,000–18,000 | ¥10,000–15,000 |\n| **10年总成本** | **¥24,500–42,500** | **¥21,000–32,000** | **¥21,000–36,000** |\n| **年均成本** | **¥2,450–4,250** | **¥2,100–3,200** | **¥2,100–3,600** |\n| 预期使用寿命 | 15–20年 | 4–6年 | 5–8年 |\n\n注：FRP和瓷砖的10年总成本已包含2-3次翻新费用及停业损失估算。从15年全周期看，不锈钢的年均成本显著低于替代材料。`,
-            en: `The table below compares total lifecycle costs for four common wall materials in commercial kitchen environments (based on 50 m² wall area over a 10-year cycle):\n\n| Cost Factor | 304 Stainless (Brushed) | FRP Panels | Ceramic Tile |\n|-------------|------------------------|------------|--------------|\n| Material + installation / m² | ¥450–750 | ¥180–280 | ¥220–420 |\n| Initial total cost (50 m²) | ¥22,500–37,500 | ¥9,000–14,000 | ¥11,000–21,000 |\n| 10-year maintenance / renovation | ¥2,000–5,000 | ¥12,000–18,000 | ¥10,000–15,000 |\n| **10-year total cost** | **¥24,500–42,500** | **¥21,000–32,000** | **¥21,000–36,000** |\n| **Annualized cost** | **¥2,450–4,250** | **¥2,100–3,200** | **¥2,100–3,600** |\n| Expected lifespan | 15–20 years | 4–6 years | 5–8 years |\n\nNote: FRP and tile 10-year totals include 2–3 renovation cycles and estimated business downtime costs. Over a full 15-year cycle, stainless steel's annualized cost is significantly lower than alternatives.`,
+            zh: `户外不锈钢墙面的安装系统需要考虑四个室内不需要面对的问题：\n\n**1. 热膨胀处理**\n\n每米板材在40°C温差下的膨胀量约为0.7mm。顺佳兴建议的安装方案：\n- 板材长度≤3m时，单侧预留≥2mm膨胀间隙\n- 板材长度3-6m时，单侧预留≥3mm膨胀间隙，中间增加滑动固定点\n- 板材长度>6m时，必须使用蜂窝复合板方案（见下文）\n\n固定件必须使用不锈钢材质（304或316），不能用铝或镀锌件——异种金属接触会导致电化学腐蚀。\n\n**2. 防水系统**\n\n雨水渗透是户外墙面失效的首要原因。顺佳兴推荐的三层防水结构：\n- 面层：不锈钢装饰板（接缝处打耐候硅酮胶）\n- 中层：防水透气膜（允许水汽排出，阻止液态水进入）\n- 基层：防腐处理过的镀锌龙骨或铝龙骨\n\n**3. 风压固定**\n\n高层建筑（>50m）外墙需要计算风压荷载。顺佳兴的蜂窝板外墙项目通常采用干挂系统：\n- 主龙骨：热镀锌钢方管或铝合金型材，间距≤1200mm\n- 副龙骨：铝合金角码，间距≤600mm\n- 连接件：不锈钢膨胀螺栓+防滑齿垫片\n\n**4. 接地防雷**\n\n大面积金属外墙需要与建筑防雷系统可靠连接，避免雷击时产生电弧或感应电压。这个环节经常被忽略，但极其重要。`,
+            en: `Outdoor stainless steel wall installation systems must address four problems that indoor applications do not face:\n\n**1. Thermal Expansion Management**\n\nEach meter of panel expands approximately 0.7 mm under a 40°C temperature differential. Greateson recommended installation parameters:\n- Panel length ≤3 m: reserve ≥2 mm expansion gap per side\n- Panel length 3–6 m: reserve ≥3 mm expansion gap per side, add sliding fastening points at midspan\n- Panel length >6 m: honeycomb composite panel solution is mandatory (see below)\n\nFasteners must be stainless steel (304 or 316); aluminum or galvanized fasteners cannot be used — dissimilar metal contact causes galvanic corrosion.\n\n**2. Waterproofing System**\n\nRainwater infiltration is the primary cause of outdoor wall failure. Greateson recommends a three-layer waterproof structure:\n- Face layer: stainless steel decorative panel (seams sealed with weather-resistant silicone)\n- Middle layer: waterproof breathable membrane (allows vapor escape while blocking liquid water entry)\n- Substrate layer: corrosion-treated galvanized or aluminum framing\n\n**3. Wind Pressure Fastening**\n\nHigh-rise buildings (>50 m) require wind load calculations. Greateson's honeycomb panel exterior wall projects typically use dry-hanging systems:\n- Primary framing: hot-dip galvanized steel square tubes or aluminum extrusions, spacing ≤1200 mm\n- Secondary framing: aluminum angle brackets, spacing ≤600 mm\n- Connectors: stainless steel expansion bolts + anti-slip serrated washers\n\n**4. Grounding and Lightning Protection**\n\nLarge-area metal exteriors require reliable connection to the building lightning protection system to prevent arcing or induced voltage during lightning strikes. This step is frequently overlooked but critically important.`,
           },
         ],
       },
       {
         heading: {
-          zh: "安装要点与质量控制",
-          en: "Installation Essentials and Quality Control",
+          zh: "大面积外墙：为什么必须考虑蜂窝复合板",
+          en: "Large Exterior Walls: Why Honeycomb Composite Panels Are Essential",
         },
         paragraphs: [
           {
-            zh: `**固定方式**\n\n商用厨房不锈钢面板推荐三种安装方式：\n\n- **结构胶粘接**（平整墙面首选）：建筑级结构胶配合硅胶周边密封，无可见紧固件，外观最整洁。\n- **Z型卡扣系统**：铝或不锈钢Z型支架，便于后期检修拆卸。\n- **螺钉固定+装饰盖**：通过预钻孔机械紧固，用同色装饰盖隐藏，适合重型设备附近的高振动区域。\n\n**接缝处理**\n\n面板拼接处（角落、窗户周围、板间接缝）必须使用连续焊接接缝或与面板颜色匹配的食品级硅胶。开放接缝在大多数司法管辖区属于卫生法规违规，因为会截留有机物。\n\n**顺佳兴的出厂质检标准**\n\n每批商用厨房用不锈钢装饰板出厂前通过以下检测：\n- 材质光谱验证（确认304/316牌号）\n- 表面粗糙度检测（拉丝/喷砂均匀性）\n- 镀层厚度测量（XRF，PVD涂层）\n- 平整度检测（避免安装后"波浪效应"）\n- 色板比对（ΔE ≤ 1.5，确保同批次无色差）`,
-            en: `**Attachment Methods**\n\nThree installation approaches are recommended for commercial kitchen stainless steel panels:\n\n- **Adhesive bonding** (preferred for flat walls): Construction-grade structural adhesive with silicone perimeter seal. No visible fasteners; cleanest appearance.\n- **Z-clip mounting system**: Aluminum or stainless steel Z-brackets for future maintenance access.\n- **Screw-fixed with trim caps**: Mechanical fastening through pre-drilled holes, concealed with color-matched caps. Most secure for high-vibration areas near heavy equipment.\n\n**Seam Treatment**\n\nPanel joints (at corners, around windows, or board-to-board seams) must use continuous welded seams or food-grade silicone caulk matched to panel color. Open seams violate health codes in most jurisdictions because they trap organic material.\n\n**Greateson's Factory QC Standards**\n\nEvery batch of commercial kitchen stainless steel decorative panels undergoes the following inspections before shipment:\n- Material spectrometer verification (confirming 304/316 grade)\n- Surface roughness inspection (satin/sandblast uniformity)\n- Coating thickness measurement (XRF for PVD coatings)\n- Flatness inspection (preventing post-installation "waving")\n- Color swatch comparison (ΔE ≤ 1.5, ensuring batch-to-batch consistency)`,
+            zh: `当单块板材尺寸超过1.5m×3m，或建筑高度超过30m时，纯不锈钢单板不再是最佳选择。原因在于三个物理限制：\n\n- **平整度**：单板面积越大，自重引起的下垂和热胀冷缩引起的波浪变形越明显。1.5m×3m×1.2mm的纯板在户外环境中，一年后可能出现2-3mm的可见波浪。\n- **重量**：1.2mm厚304不锈钢板，每平方米重约9.5kg。对于500㎡的外立面，纯板总重约4.75吨，对建筑结构荷载和安装系统的要求很高。\n- **热膨胀**：大尺寸单板的热膨胀量更大，固定点承受反复应力，长期可能导致固定件松动或板面变形。\n\n不锈钢蜂窝复合板解决了这三个问题：\n\n| 参数 | 纯不锈钢单板(1.2mm) | 不锈钢蜂窝复合板(20mm) |\n|------|-------------------|---------------------|\n| 面重 | ~9.5 kg/m² | ~6.5 kg/m² |\n| 抗弯刚度 | 低（易变形） | 高（蜂窝芯分散应力） |\n| 平整度保持 | 差（大板波浪变形） | 优（≤1mm/m） |\n| 热膨胀控制 | 差（单板胀缩大） | 优（芯材缓冲应力） |\n| 最大单块尺寸 | ≤1.5m×3m | ≤1.5m×4m（可定制更大） |\n\n顺佳兴不锈钢蜂窝板的标准配置：面板0.8-1.5mm 304不锈钢 + 铝蜂窝芯 + 镀锌底板，总厚度20-50mm。已应用于多个海外地标建筑的外立面项目。`,
+            en: `When single-panel dimensions exceed 1.5 m × 3 m, or building height exceeds 30 m, solid stainless steel single-layer panels are no longer the optimal choice. Three physical limitations determine this:\n\n- **Flatness**: The larger the panel area, the more visible sag from self-weight and waviness from thermal expansion and contraction become. A 1.5 m × 3 m × 1.2 mm solid panel in outdoor conditions may develop 2–3 mm of visible waviness after one year.\n- **Weight**: A 1.2 mm thick 304 stainless steel panel weighs approximately 9.5 kg/m². For a 500 m² facade, total solid panel weight is roughly 4.75 tonnes — placing high demands on building structural loads and installation systems.\n- **Thermal expansion**: Large single panels experience greater thermal expansion, subjecting fastening points to cyclic stress that can eventually cause fastener loosening or panel deformation.\n\nStainless steel honeycomb composite panels solve all three problems:\n\n| Parameter | Solid Stainless Panel (1.2 mm) | Stainless Honeycomb Composite (20 mm) |\n|-----------|-------------------------------|--------------------------------------|\n| Face weight | ~9.5 kg/m² | ~6.5 kg/m² |\n| Bending stiffness | Low (prone to deformation) | High (honeycomb core distributes stress) |\n| Flatness retention | Poor (large-panel waviness) | Excellent (≤1 mm/m) |\n| Thermal expansion control | Poor (large single-panel expansion) | Excellent (core material buffers stress) |\n| Maximum single panel size | ≤1.5 m × 3 m | ≤1.5 m × 4 m (larger customizable) |\n\nGreateson standard honeycomb panel configuration: 0.8–1.5 mm 304 stainless steel face panel + aluminum honeycomb core + galvanized steel backing plate, total thickness 20–50 mm. Already applied to multiple overseas landmark building facade projects.`,
           },
         ],
       },
       {
         heading: {
-          zh: "常见问题",
-          en: "Common Questions",
+          zh: "常见误区",
+          en: "Common Misconceptions",
         },
         paragraphs: [
           {
-            zh: `**不锈钢面板在蒸汽重的厨房会生锈吗？**\n304和316不会。201在极端长期蒸汽暴露下可能出现轻微表面变色。避免在直接蒸汽区使用201。\n\n**PVD彩色板食品安全吗？**\nPVD涂层是化学惰性的无机陶瓷膜，无毒，符合食品接触标准。但直接接触食品的区域仍建议使用裸板304/316。\n\n**定制尺寸多久能交货？**\n标准尺寸（1219×2438mm, 1500×3000mm）通常有库存。定制切割5–10天，含镀色或蚀刻10–15天。\n\n**镜面面板是不是很难维护？**\n是的。镜面容易显示指纹和水痕，建议仅用于小面积视觉焦点区域。大面积使用拉丝表面更实用。`,
-            en: `**Will stainless steel panels rust in steam-heavy kitchens?**\n304 and 316 will not. 201 may show minor surface discoloration under extreme long-term steam exposure. Avoid using 201 in direct steam zones.\n\n**Are PVD colored panels food-safe?**\nPVD coatings are chemically inert inorganic ceramic films, non-toxic, and meet food-contact safety standards. However, direct food-contact zones still recommend bare 304/316.\n\n**What is the lead time for custom sizes?**\nStandard sizes (1219 × 2438 mm, 1500 × 3000 mm) are typically in stock. Custom cuts require 5–10 days; with PVD or etching, 10–15 days.\n\n**Are mirror panels difficult to maintain?**\nYes. Mirror finishes readily show fingerprints and water marks. They are recommended only for small visual focal areas. Large-area brushed finishes are more practical.`,
+            zh: `**误区一：304在户外永远不会生锈**\n\n304不是"永远不锈"，而是"在正确环境中耐蚀"。如果安装系统使用了镀锌或铝制固定件，异种金属接触会在接触点产生电化学腐蚀——这种腐蚀从固定点开始，逐渐向板面蔓延，外观看起来像是"板子生锈了"，实际是固定件引起的。\n\n**误区二：PVD彩色板户外不会变色**\n\nPVD涂层本身耐UV，但如果基材表面清洁不彻底，或者镀前处理存在瑕疵，涂层附着力会下降。在户外热胀冷缩的反复作用下，附着力不足的涂层可能出现局部剥离——这不是PVD工艺的问题，是前处理工序的问题。顺佳兴所有PVD板进炉前必须经过机器+人工红粉双重洗板。\n\n**误区三：蜂窝板只能用在内墙**\n\n这是过时的认知。现代不锈钢蜂窝板的面板材质、蜂窝芯密度、粘接工艺都已经满足外墙风压和防水要求。顺佳兴的蜂窝板项目已有多个海外建筑外立面应用案例，最长已使用超过8年，无变形、无剥离。`,
+            en: `**Misconception 1: 304 never rusts outdoors**\n\n304 is not "never rusts" — it is "corrosion-resistant in correct environments." If the installation system uses galvanized or aluminum fasteners, dissimilar metal contact creates galvanic corrosion at contact points. This corrosion spreads from fasteners toward the panel surface, visually appearing as "the panel rusting" when it is actually caused by the fasteners.\n\n**Misconception 2: PVD colored panels never change color outdoors**\n\nPVD coatings themselves are UV-resistant, but if substrate surface cleaning is incomplete or pre-plating treatment has defects, coating adhesion will be compromised. Under repeated thermal expansion and contraction outdoors, insufficiently adherent coatings may exhibit local peeling — this is not a PVD process failure; it is a pre-treatment process failure. Greateson requires all PVD panels to undergo both machine and manual red-powder dual cleaning before furnace entry.\n\n**Misconception 3: Honeycomb panels can only be used for interior walls**\n\nThis is outdated knowledge. Modern stainless steel honeycomb panel face materials, core densities, and bonding processes already meet exterior wall wind pressure and waterproofing requirements. Greateson's honeycomb panel projects include multiple overseas building facade applications, with the longest in service over 8 years without deformation or delamination.`,
           },
         ],
       },
@@ -1345,165 +1349,269 @@ export const blogArticles: BlogPost[] = [
         },
         paragraphs: [
           {
-            zh: `商用厨房墙面选材的核心逻辑只有一条：在满足卫生法规、防火安全和耐久性要求的前提下，选择全生命周期成本最低的材料。\n\n304牌号不锈钢装饰板在这四个维度上没有对手：15-20年使用寿命、A级防火、零孔隙卫生表面、以及年均维护成本低于所有替代材料。对于计划长期运营的餐饮设施，这不是"贵不贵"的问题，而是"对不对"的问题。\n\n顺佳兴不锈钢（Greateson）提供201/304/316全牌号商用厨房墙面解决方案，涵盖PVD镀色、拉丝、喷砂、蚀刻等全系表面工艺。标准样品3天内发出，技术团队可提供基于项目图纸的选型建议。`,
-            en: `The core logic for commercial kitchen wall material selection is straightforward: choose the material with the lowest total lifecycle cost while satisfying health codes, fire safety, and durability requirements.\n\n304-grade stainless steel decorative panels have no competitor across these four dimensions: 15–20 year service life, Class A fire rating, zero-pore hygienic surfaces, and annual maintenance costs lower than all alternatives. For foodservice facilities planning long-term operation, this is not a question of "expensive or cheap" — it is a question of "correct or incorrect."\n\nGreateson provides full-range commercial kitchen wall solutions in 201/304/316 grades, covering PVD coating, satin brushing, sandblasting, etching, and all surface finishes. Standard samples ship within three days; our technical team provides specification guidance based on project drawings.`,
+            zh: `不锈钢装饰板完全适合户外墙面装饰，但必须遵循户外选型逻辑：\n\n- 材质：内陆304，沿海/工业/热带316，绝对不用201\n- 工艺：PVD和原色拉丝是户外首选，水镀和纳米色油不适合长期户外暴露\n- 安装：必须预留热膨胀间隙、使用不锈钢固定件、做好三层防水、大面积考虑蜂窝复合板\n\n户外墙面的核心原则不是"选什么材料好看"，而是"选什么材料在20年后还能保持功能和外观"。不锈钢之所以成为现代建筑外墙的主流选择之一，正是因为它是少数能满足这一标准的金属材料。\n\n顺佳兴不锈钢（Greateson）提供201/304/316全牌号户外墙面解决方案，涵盖纯板、蜂窝复合板及全系表面工艺。所有产品出厂前经过盐雾测试、附着力测试和色差检测，标准样品3天内发出，支持基于项目图纸的定制化生产。`,
+            en: `Stainless steel decorative panels are fully suitable for outdoor wall cladding, but outdoor selection logic must be followed:\n\n- Material: 304 for inland, 316 for coastal/industrial/tropical — never 201\n- Finish: PVD and natural satin are preferred for outdoor; water plating and nano color oil are unsuitable for long-term outdoor exposure\n- Installation: thermal expansion gaps mandatory, stainless steel fasteners required, three-layer waterproofing essential, large areas should consider honeycomb composite panels\n\nThe core principle of outdoor wall design is not "what material looks good" but "what material will still function and look right after 20 years." Stainless steel has become one of the mainstream choices for modern building exteriors precisely because it is one of the few metallic materials that can meet this standard.\n\nGreateson provides full-range outdoor wall solutions in 201/304/316 grades, covering solid panels, honeycomb composite panels, and all surface finishes. All products undergo salt spray testing, adhesion testing, and color difference inspection before shipment. Standard samples ship within three days; custom production based on project drawings is supported.`,
           },
         ],
       },
     ],
     faq: [
       {
-        q: { zh: "不锈钢面板在蒸汽重的厨房会生锈吗？", en: "Will stainless steel panels rust in steam-heavy kitchens?" },
-        a: { zh: "304和316不会。201在极端长期蒸汽暴露下可能出现轻微表面变色。", en: "304 and 316 will not. 201 may show minor surface discoloration under extreme long-term steam exposure." },
+        q: { zh: "304不锈钢在户外能用多久？", en: "How long does 304 stainless steel last outdoors?" },
+        a: { zh: "一般气候条件下15年以上。沿海或工业环境建议升级316。", en: "15+ years in general climates. Upgrade to 316 for coastal or industrial environments." },
       },
       {
-        q: { zh: "PVD彩色板食品安全吗？", en: "Are PVD colored panels food-safe?" },
-        a: { zh: "PVD涂层是化学惰性的无机陶瓷膜，无毒，符合食品接触标准。但直接接触食品的区域仍建议使用裸板304/316。", en: "PVD coatings are chemically inert inorganic ceramic films, non-toxic, and meet food-contact safety standards. However, direct food-contact zones still recommend bare 304/316." },
+        q: { zh: "PVD彩色板户外会褪色吗？", en: "Will PVD colored panels fade outdoors?" },
+        a: { zh: "PVD无机陶瓷涂层耐UV，5-10年稳定。但水镀工艺不适合户外长期暴露。", en: "PVD inorganic ceramic coatings are UV-resistant and stable for 5–10 years. Water plating is unsuitable for long-term outdoor exposure." },
       },
       {
-        q: { zh: "定制尺寸多久能交货？", en: "What is the lead time for custom sizes?" },
-        a: { zh: "标准尺寸通常有库存。定制切割5–10天，含镀色或蚀刻10–15天。", en: "Standard sizes are typically in stock. Custom cuts require 5–10 days; with PVD or etching, 10–15 days." },
+        q: { zh: "蜂窝板能用于外墙吗？", en: "Can honeycomb panels be used for exterior walls?" },
+        a: { zh: "可以。现代蜂窝板的结构强度和防水性能已满足外墙要求，大面积外立面优于纯板。", en: "Yes. Modern honeycomb panels meet structural strength and waterproofing requirements for exterior walls, outperforming solid panels for large facades." },
       },
       {
-        q: { zh: "镜面面板是不是很难维护？", en: "Are mirror panels difficult to maintain?" },
-        a: { zh: "是的。镜面容易显示指纹和水痕，建议仅用于小面积视觉焦点区域。", en: "Yes. Mirror finishes readily show fingerprints and water marks. Recommended only for small visual focal areas." },
+        q: { zh: "安装时必须用不锈钢固定件吗？", en: "Must stainless steel fasteners be used?" },
+        a: { zh: "是的。铝或镀锌固定件与不锈钢接触会产生电化学腐蚀，必须从源头避免。", en: "Yes. Aluminum or galvanized fasteners in contact with stainless steel cause galvanic corrosion and must be avoided." },
       },
     ],
   },
 
   {
-    slug: "stainless-steel-decorative-panels-for-restaurant-wall-design",
+    slug: "stainless-steel-wall-cladding-outdoor-facade-guide",
     category: "blog",
     title: {
-      zh: "高端餐厅墙面设计：不锈钢装饰板的色彩与工艺选型指南",
-      en: "Restaurant Wall Design: A Specification Guide to Stainless Steel Decorative Panels",
+      zh: "不锈钢适合做户外墙面覆层吗？源头工厂的完整选型指南",
+      en: "Is Stainless Steel Good for Outdoor Wall Cladding? A Factory Guide",
     },
     excerpt: {
-      zh: "从PVD彩色电镀到拉丝镜面，从不锈钢墙面到镂空隔断再到吧台立面——作为不锈钢装饰板制造商，顺佳兴不锈钢基于出口30国的项目经验，系统梳理餐厅空间的设计逻辑与选型参数。",
-      en: "From PVD color plating to satin and mirror finishes, from wall cladding to openwork partitions to bar facades — Greateson systematically outlines design logic and specification parameters for dining spaces, based on project experience across 30 export markets.",
+      zh: "不锈钢适合做户外墙面覆层吗？本文从材料性能、牌号选择、表面处理、安装工艺四个维度，结合源头工厂20余年出口项目经验，客观分析不锈钢用于户外墙面覆层的可行性，为建筑师和工程采购方提供专业选型指南。",
+      en: "Is stainless steel good for outdoor wall cladding? This factory guide analyzes material performance, grade selection, surface finishes, and installation systems — with real project insights from 20+ years of export manufacturing experience.",
     },
     publishedAt: "2026-05-22",
-    readTime: { zh: "10 分钟", en: "10 min read" },
+    readTime: { zh: "15 分钟", en: "15 min read" },
     keywords: {
       zh: [
-        "金属墙面装饰",
-        "餐厅墙面设计",
-        "不锈钢装饰板",
-        "PVD彩色电镀",
-        "现代轻奢风格",
-        "metal wall decoration",
+        "不锈钢墙面覆层",
+        "不锈钢外墙装饰",
+        "不锈钢户外覆层",
+        "304不锈钢户外",
+        "316不锈钢外墙",
+        "不锈钢室内外覆层",
+        "不锈钢幕墙",
+        "不锈钢覆层安装",
+        "PVD不锈钢户外",
+        "不锈钢板材厚度",
+        "户外金属幕墙材料",
+        "不锈钢牌号选择",
       ],
       en: [
-        "metal wall decoration",
-        "restaurant wall design",
-        "stainless steel decorative panels",
-        "PVD color plating",
-        "modern luxury design",
-        "restaurant partition design",
+        "stainless steel wall cladding",
+        "stainless steel exterior cladding",
+        "stainless steel facade",
+        "304 stainless steel outdoor",
+        "316 stainless steel cladding",
+        "stainless steel interior and exterior cladding",
+        "metal wall cladding outdoor",
+        "stainless steel cladding installation",
+        "PVD coated stainless steel exterior",
+        "stainless steel panel thickness",
+        "outdoor metal facade materials",
+        "stainless steel grade selection",
       ],
     },
     sections: [
       {
         heading: {
-          zh: "为什么高端餐厅选择金属墙面？",
-          en: "Why High-End Restaurants Specify Metal Walls",
+          zh: "引言：为什么建筑设计师越来越青睐不锈钢覆层",
+          en: "Introduction: Why Architects Increasingly Favor Stainless Steel Cladding",
         },
         paragraphs: [
           {
-            zh: `全球餐饮业的设计趋势正在发生结构性转变。根据Hospitality Design杂志2024年度调查，在年度前100家新开高端餐厅中，67%在核心视觉区域使用了金属装饰元素，其中不锈钢占比超过80%。\n\n这一趋势的背后不是审美跟风，而是三个硬性的工程考量：\n\n- **耐久性要求**：高端餐厅装修周期通常为7-10年，墙面材料必须在此期间保持视觉一致性。大理石渗色、木材变形、涂料褪色——这些问题在不锈钢上不存在。\n- **消防规范**：欧盟EN 13501-1和美国NFPA 285对餐饮空间 interior finishes 的防火等级要求逐年提高。不锈钢的A级不燃属性使其成为合规的默认选项。\n- **社交媒体经济**：餐厅环境的"可拍照性"直接影响客流量。金属表面的光影反射创造了高辨识度的视觉记忆点，这是石材和木材无法复制的光学特性。\n\n从顺佳兴不锈钢的出口数据来看，餐厅和酒店项目在过去五年增长了约140%，其中PVD彩色电镀板和拉丝板是需求增长最快的两个品类。`,
-            en: `Global dining design is undergoing a structural shift. According to *Hospitality Design* magazine's 2024 survey, 67% of the year's top 100 new high-end restaurants used metal decorative elements in core visual areas — with stainless steel accounting for over 80% of those installations.\n\nThis trend is driven not by aesthetic fashion, but by three hard engineering considerations:\n\n- **Durability requirements**: High-end restaurant renovation cycles typically span 7–10 years; wall materials must maintain visual consistency throughout. Marble staining, wood warping, paint fading — these issues do not occur with stainless steel.\n- **Fire codes**: EU EN 13501-1 and US NFPA 285 fire-rating requirements for dining space interior finishes have tightened year over year. Stainless steel's Class A non-combustible rating makes it the compliance default.\n- **Social media economics**: A restaurant environment's "photographability" directly impacts foot traffic. Metallic surface reflections create highly recognizable visual memory points — an optical characteristic that stone and wood cannot replicate.\n\nGreateson's export data shows restaurant and hotel projects have grown approximately 140% over the past five years, with PVD color-plated panels and satin-finish sheets being the two fastest-growing product categories.`,
+            zh: "不锈钢墙面覆层（Stainless Steel Wall Cladding）已经成为现代建筑外立面设计的主流选择之一。从迪拜的商业综合体到伦敦的地标建筑，不锈钢以其独特的金属质感、优异的耐候性能和极低的维护需求，赢得了建筑师和开发商的广泛认可。作为一家拥有20余年不锈钢板材生产经验的源头工厂，我们在日常与全球建筑项目的合作中，深刻理解了不锈钢覆层在实际工程中的真实表现。本文将从材料性能、牌号选择、表面处理、安装工艺四个维度，客观分析不锈钢用于户外墙面覆层的实际可行性。",
+            en: "Stainless steel wall cladding has become a mainstream choice in modern building facade design. From commercial complexes in Dubai to landmark structures in London, stainless steel has earned broad recognition from architects and developers for its distinctive metallic texture, superior weather resistance, and minimal maintenance requirements. As a factory-source manufacturer with over 20 years of stainless steel sheet production experience, we have gained deep insight into the real-world performance of stainless steel cladding through daily collaboration with global construction projects. This article objectively analyzes the practical viability of stainless steel for outdoor wall cladding across four dimensions: material performance, grade selection, surface finishes, and installation systems.",
           },
         ],
       },
       {
         heading: {
-          zh: "PVD颜色：餐厅空间的色彩工程",
-          en: "PVD Colors: The Engineering of Restaurant Space Color",
+          zh: "一、不锈钢作为户外覆层的核心性能优势",
+          en: "1. Core Performance Advantages of Stainless Steel for Outdoor Cladding",
         },
         paragraphs: [
           {
-            zh: `PVD（物理气相沉积）彩色电镀是不锈钢装饰板在餐厅应用中最关键的工艺。它通过真空环境下的金属离子沉积，在不锈钢表面形成厚度仅0.1–0.5μm、硬度达HV 1500–3000的无机陶瓷涂层。\n\n对于餐厅设计师而言，颜色选择不是审美偏好问题，而是光学工程问题。不同色温的光源（2700K暖黄射灯、4000K中性筒灯、6000K冷白灯带）会让同一面板呈现完全不同的视觉色调。顺佳兴在生产中经常遇到客户反馈"展厅看的颜色装上去变了"——这不是镀色质量问题，是灯光色温与面板反射特性交互的结果。\n\n基于我们服务全球餐饮项目的经验，以下是主流PVD颜色在餐厅场景中的实际应用数据：\n\n| 颜色 | 反射率 | 最佳色温搭配 | 适用场景 | 面积占比建议 |\n|------|-------|------------|---------|------------|\n| 黑钛 | 8-12% | 2700-3000K | 高端日料、威士忌吧 | ≤20%（accent） |\n| 香槟金 | 25-35% | 2700-3500K | 精品烘焙、brunch餐厅 | 30-50%（主墙面） |\n| 玫瑰金 | 20-30% | 2700-3200K | 法式餐厅、下午茶 | 20-40%（主墙面） |\n| 古铜色 | 15-25% | 2200-2800K | 牛排馆、红酒窖 | 30-50%（主墙面） |\n| 枪灰色 | 10-18% | 4000-5000K | 分子料理、概念店 | ≤20%（accent） |\n\n**关键避坑**：PVD彩色板在不同色温光源下的色差可达ΔE 5-15。顺佳兴的标准流程是：在客户确认订单前，将实际色板样本置于目标餐厅的灯光环境中进行最终确认。这避免了90%以上的颜色纠纷。`,
-            en: `PVD (Physical Vapor Deposition) color plating is the most critical process for stainless steel decorative panels in restaurant applications. Through metal ion deposition in a vacuum environment, it forms an inorganic ceramic coating only 0.1–0.5 μm thick with hardness reaching HV 1500–3000 on the stainless steel surface.\n\nFor restaurant designers, color selection is not an aesthetic preference issue — it is an optical engineering problem. Different color-temperature light sources (2700K warm spotlights, 4000K neutral downlights, 6000K cool-white LED strips) make the same panel appear completely different visually. At Greateson, we frequently hear client feedback that "the color looked different after installation than in the showroom" — this is not a plating quality issue; it is the interaction between light color temperature and panel reflectance characteristics.\n\nBased on our experience serving global dining projects, here are the actual application data for mainstream PVD colors in restaurant environments:\n\n| Color | Reflectance | Optimal Color Temperature | Best Application | Recommended Area % |\n|-------|------------|--------------------------|------------------|-------------------|\n| Black titanium | 8–12% | 2700–3000K | High-end Japanese, whiskey bars | ≤20% (accent) |\n| Champagne gold | 25–35% | 2700–3500K | Boutique bakeries, brunch spots | 30–50% (main wall) |\n| Rose gold | 20–30% | 2700–3200K | French restaurants, afternoon tea | 20–40% (main wall) |\n| Antique bronze | 15–25% | 2200–2800K | Steak houses, wine cellars | 30–50% (main wall) |\n| Gunmetal gray | 10–18% | 4000–5000K | Molecular gastronomy, concept stores | ≤20% (accent) |\n\n**Critical pitfall**: Color difference of PVD panels under different color-temperature lighting can reach ΔE 5–15. Greateson's standard procedure: before order confirmation, place actual color swatches in the target restaurant's lighting environment for final approval. This prevents over 90% of color disputes.`,
+            zh: "不锈钢之所以被称为\"不锈\"，核心在于其表面形成的致密氧化铬钝化膜（Cr₂O₃）。这层厚度仅约5纳米的薄膜具有自愈特性——即使表面被划伤，暴露于空气中的铬会迅速重新氧化，恢复保护层。对于户外墙面覆层而言，这意味着材料能够长期抵御雨水、盐雾、工业污染物和紫外线的侵蚀。在我们的日常生产检测中，304不锈钢在标准的盐雾测试（ASTM B117）中可承受超过1000小时而不出现锈蚀点。316不锈钢因添加了2-3%的钼元素，在沿海高盐雾环境下的耐点蚀能力比304提升约30-40%。",
+            en: "Stainless steel earns its name from the dense chromium oxide passive film (Cr₂O₃) that forms on its surface. This film, only about 5 nanometers thick, has self-healing properties — even if the surface is scratched, the exposed chromium rapidly re-oxidizes in air to restore the protective layer. For outdoor wall cladding, this means the material can long-term resist rain, salt spray, industrial pollutants, and UV radiation. In our routine production testing, 304 stainless steel withstands over 1,000 hours in standard salt spray testing (ASTM B117) without rust spots. 316 stainless steel, with its added 2-3% molybdenum, offers approximately 30-40% better pitting corrosion resistance than 304 in coastal high-salt environments.",
+          },
+          {
+            zh: "户外墙面覆层必须承受风荷载、热胀冷缩和结构沉降带来的应力。不锈钢的屈服强度（304约205MPa，316约210MPa）远高于铝合金（约55-150MPa），这意味着在相同厚度下，不锈钢覆层可以承受更大的风压而不发生永久变形。对于超高层建筑和台风多发地区的项目，这一性能差异尤为关键。此外，不锈钢的热膨胀系数（约17.3×10⁻⁶/°C）与建筑钢结构接近，这使得不锈钢覆层与主体结构的变形协调性良好，减少了因热胀冷缩导致的连接件松动或面板翘曲风险。",
+            en: "Outdoor wall cladding must withstand wind loads, thermal expansion and contraction, and structural settlement stresses. The yield strength of stainless steel (approximately 205 MPa for 304, 210 MPa for 316) far exceeds that of aluminum alloys (approximately 55-150 MPa). This means stainless steel cladding can withstand greater wind pressure without permanent deformation at equivalent thicknesses. For super high-rise buildings and projects in typhoon-prone regions, this performance difference is critical. Additionally, stainless steel's thermal expansion coefficient (approximately 17.3 × 10⁻⁶/°C) closely matches structural steel, ensuring excellent deformation compatibility with the primary structure and reducing the risk of fastener loosening or panel warping from thermal cycling.",
+          },
+          {
+            zh: "在建筑安全规范日益严格的背景下，不锈钢的防火优势不容忽视。不锈钢属于A1级不燃材料，在高温下不会释放有毒烟气，也不会像铝材那样在约660°C时软化失效。对于公共建筑、交通枢纽和高层住宅项目，不锈钢覆层能够提供更可靠的被动防火保护。与需要定期重新喷涂的铝板、需要防水处理的石材相比，不锈钢覆层的维护需求极低。正常使用条件下，不锈钢外墙在20-30年内几乎不需要任何维护干预。这种\"安装后遗忘\"的特性，使得不锈钢在全生命周期成本分析（LCCA）中展现出显著的经济性优势。",
+            en: "Against increasingly stringent building safety codes, the fire resistance advantages of stainless steel cannot be overlooked. Stainless steel is classified as a Class A1 non-combustible material — it does not release toxic smoke at high temperatures, nor does it soften and fail at approximately 660°C like aluminum. For public buildings, transportation hubs, and high-rise residential projects, stainless steel cladding provides more reliable passive fire protection. Compared to aluminum panels requiring periodic recoating and stone requiring waterproofing treatment, stainless steel cladding has extremely low maintenance requirements. Under normal conditions, stainless steel exteriors require virtually no maintenance intervention for 20-30 years. This \"install and forget\" characteristic gives stainless steel significant economic advantages in life-cycle cost analysis (LCCA).",
           },
         ],
       },
       {
         heading: {
-          zh: "拉丝与镜面：不是审美选择，是功能决策",
-          en: "Brushed vs Mirror: Not Aesthetic Choice, Functional Decision",
+          zh: "二、牌号选择：304、316 还是 430？",
+          en: "2. Grade Selection: 304, 316, or 430?",
         },
         paragraphs: [
           {
-            zh: `不锈钢的表面工艺直接决定了它在餐厅空间中的光学行为和实用表现。作为制造商，顺佳兴在出货前会对每批次进行表面粗糙度检测（Ra值），这直接影响光线散射方式和清洁维护频率。\n\n**拉丝表面（Hairline, Ra 0.2-0.8μm）**\n这是餐厅应用的默认配置。顺佳兴的拉丝产线提供HL180至HL400四个精度等级，其中HL240是餐厅项目使用最多的规格——足够细腻以呈现金属质感，又足够粗糙以散射光线、降低眩光。\n\n实测数据表明：在相同照明条件下，拉丝表面的反射眩光强度比镜面低约65%，这意味着顾客在用餐时不会被墙面反光干扰。此外，拉丝表面的划痕可见度仅为镜面的1/5，这对于高人流餐厅是决定性优势。\n\n**镜面表面（8K, Ra <0.05μm）**\n镜面在餐厅中的价值不是"美观"，而是"空间光学工程"。其高反射率（80-90%）能在视觉上将空间感知面积增加约40%，这对于面积小于80㎡的精品餐厅尤为关键。\n\n但镜面有两项硬约束：第一，它对光源极其敏感，一盏 poorly positioned 射灯就能产生刺眼眩光；第二，指纹和水痕的可见度是拉丝表面的8-10倍，维护频率必须提高。\n\n**工程建议**：在同一餐厅中，70%面积使用拉丝（HL240）作为主基调，30%面积使用镜面作为视觉焦点（入口墙、吧台背景）。这种"散射+反射"的组合比单一材质更有空间层次感。`,
-            en: `The surface finish of stainless steel directly determines its optical behavior and practical performance in restaurant spaces. As a manufacturer, Greateson conducts surface roughness testing (Ra value) on every batch before shipment — this directly affects light scattering patterns and cleaning maintenance frequency.\n\n**Brushed Finish (Hairline, Ra 0.2–0.8 μm)**\nThis is the default configuration for restaurant applications. Greateson's brushing lines offer four precision grades from HL180 to HL400, with HL240 being the most commonly specified for restaurant projects — fine enough to present metallic texture, yet coarse enough to scatter light and reduce glare.\n\nMeasured data shows that under identical lighting conditions, brushed surface reflected glare intensity is approximately 65% lower than mirror — meaning diners are not disrupted by wall reflections during meals. Additionally, scratch visibility on brushed surfaces is roughly 1/5 that of mirror, a decisive advantage for high-traffic restaurants.\n\n**Mirror Finish (8K, Ra <0.05 μm)**\nThe value of mirror in restaurants is not "beauty" but "spatial optical engineering." Its high reflectance (80–90%) visually increases perceived space by approximately 40%, particularly critical for boutique restaurants under 80 m².\n\nBut mirror has two hard constraints: first, it is extremely sensitive to light sources — one poorly positioned spotlight creates blinding glare; second, fingerprint and water mark visibility is 8–10 times higher than brushed, requiring increased maintenance frequency.\n\n**Engineering recommendation**: In a single restaurant, use brushed (HL240) across 70% of the area as the primary tone, with mirror on 30% as visual focal points (entrance walls, bar backgrounds). This "scattering + reflection" combination delivers more spatial depth than a single material throughout.`,
+            zh: "304不锈钢（国标06Cr19Ni10）是户外墙面覆层中使用最广泛的牌号。其镍含量约8-10.5%，铬含量约18-20%，在大多数城市环境和中低污染工业区的户外条件下表现出色。对于内陆城市、温带气候区的商业建筑、办公楼和住宅项目，304不锈钢在性能与成本之间取得了最佳平衡。在我们的出口订单中，约70%的户外覆层项目指定使用304材质，这反映了全球建筑行业对这一牌号可靠性的普遍认可。",
+            en: "304 stainless steel (Chinese standard 06Cr19Ni10) is the most widely used grade for outdoor wall cladding. With nickel content of approximately 8-10.5% and chromium at 18-20%, it performs excellently in most urban environments and low-to-medium pollution industrial zones. For inland cities and commercial, office, and residential projects in temperate climate zones, 304 stainless steel achieves the optimal balance between performance and cost. In our export orders, approximately 70% of outdoor cladding projects specify 304, reflecting the global construction industry's broad recognition of this grade's reliability.",
+          },
+          {
+            zh: "316不锈钢（国标06Cr17Ni12Mo2）在304的基础上增加了2-3%的钼，显著提升了耐氯化物腐蚀能力。对于沿海地区（距海岸线5公里以内）、游泳场馆和温泉度假村等高湿度含氯环境、化工园区和港口码头等工业腐蚀环境，以及寒冷地区的融雪盐使用区域，316是更稳妥的选择。430不锈钢属于铁素体不锈钢，不含镍，成本较低，但其耐腐蚀性明显弱于304和316，仅适用于干燥内陆地区的低层建筑或室内应用。",
+            en: "316 stainless steel (Chinese standard 06Cr17Ni12Mo2) adds 2-3% molybdenum to the 304 composition, significantly enhancing chloride corrosion resistance. For coastal areas (within 5 km of the shoreline), high-humidity chlorine environments such as swimming pools and spa resorts, industrially corrosive environments like chemical plants and port terminals, and snow-melting salt regions in cold climates, 316 is the safer choice. 430 stainless steel is a ferritic grade containing no nickel and at lower cost, but its corrosion resistance is markedly inferior to 304 and 316. It is only suitable for low-rise buildings in dry inland areas or interior applications.",
+          },
+          {
+            zh: "牌号选择速查参考：内陆城市一般环境推荐304（性价比最优）；沿海/高盐雾环境推荐316（耐点蚀性能）；工业污染区推荐316（耐酸雨腐蚀）；严寒融雪盐区域推荐316（耐氯化物腐蚀）；干燥内陆低层建筑可选择304或430（预算控制）。",
+            en: "Quick grade selection reference: inland urban environments — 304 (best value); coastal/high-salt environments — 316 (pitting resistance); industrial pollution zones — 316 (acid rain resistance); cold climates with de-icing salts — 316 (chloride resistance); dry inland low-rise buildings — 304 or 430 (budget control).",
           },
         ],
       },
       {
         heading: {
-          zh: "三大应用场景的选型参数",
-          en: "Specification Parameters for Three Core Applications",
+          zh: "三、表面处理：从镜面到蚀刻的无限可能",
+          en: "3. Surface Finishes: Unlimited Possibilities from Mirror to Etching",
         },
         paragraphs: [
           {
-            zh: `基于顺佳兴服务全球餐饮项目的制造数据，以下是墙面、隔断、吧台三个核心应用场景的具体选型建议：\n\n**墙面 — 最大面积应用**\n\n主墙面是顾客视线停留时间最长的区域，也是拍照需求最高的位置。推荐配置：\n- 材质：304拉丝，厚度1.0-1.2mm\n- 颜色：香槟金或玫瑰金（暖色调在暖光下放大空间温度感）\n- 拼接：建议单板尺寸≤1500×3000mm，避免超大板面带来的平整度风险\n- 安装：结构胶粘接为主，拼接缝用同色硅胶处理\n\n对于需要品牌展示的高端餐厅，可在主墙面局部增加蚀刻图案（深度0.05-0.3mm），图案线条间距建议≥3mm——过于细密的线条在灯光下会产生杂乱的阴影，反而降低空间品质。\n\n**隔断 — 功能与美学的平衡**\n\n开放式餐厅的噪音和隐私问题，不锈钢镂空屏风是最优解：\n- 材质：304，厚度1.0-1.5mm\n- 通透率：40-60%（过高不隔音，过低阻断空间感）\n- 图案：激光切割或蚀刻，品牌LOGO/几何图形均可定制\n- 高度：1.2-1.8m为半高隔断（不压抑），通顶适合包间区\n- 双面处理：隔断两侧均面对顾客，必须双面表面 finish\n\n**吧台 — 视觉焦点与功能集成**\n\n吧台是餐厅中互动最频繁的区域，也是不锈钢装饰板最能"出效果"的位置：\n- 立面：镜面或高亮拉丝，反射酒瓶和灯光\n- 台面：304原色（食品级），厚度≥2.0mm\n- 集成：预留酒柜、冰槽、插座等开口的精密切割\n- 边缘：建议做圆角或斜边处理，避免直角造成的安全隐患`,
-            en: `Based on Greateson's manufacturing data from global dining projects, here are specific specification recommendations for the three core application scenarios:\n\n**Walls — Largest Surface Area Application**\n\nMain walls are where customer sightlines dwell longest and photo demand is highest. Recommended configuration:\n- Material: 304 satin, thickness 1.0–1.2 mm\n- Color: Champagne gold or rose gold (warm tones amplify spatial warmth under warm lighting)\n- Sizing: Single panels ≤1500 × 3000 mm recommended; avoid oversized panels that risk flatness issues\n- Installation: Adhesive bonding primary method; joints treated with color-matched silicone\n\nFor high-end restaurants requiring brand display,局部蚀刻 patterns (depth 0.05–0.3 mm) can be added to main walls. Pattern line spacing should be ≥3 mm — overly dense lines create chaotic shadows under lighting that actually degrade spatial quality.\n\n**Partitions — Balance of Function and Aesthetics**\n\nFor open-plan restaurant noise and privacy issues, stainless steel openwork screens are the optimal solution:\n- Material: 304, thickness 1.0–1.5 mm\n- Open ratio: 40–60% (too high provides no sound dampening; too low blocks spatial perception)\n- Pattern: Laser-cut or etched; brand logos and geometric motifs both customizable\n- Height: 1.2–1.8 m for half-height partitions (non-claustrophobic); floor-to-ceiling suitable for private dining\n- Double-sided finish: Both sides face customers and require equal surface treatment\n\n**Bar Counter — Visual Focal Point and Functional Integration**\n\nThe bar is a restaurant's most interactive zone, where stainless steel decorative panels deliver maximum impact:\n- Facade: Mirror or high-gloss satin, reflecting bottles and lighting\n- Countertop: 304 natural finish (food-grade), thickness ≥2.0 mm\n- Integration: Precision-cut openings预留 for wine racks, ice bins, outlets\n- Edges: Rounded or beveled edges recommended to eliminate sharp-corner safety hazards`,
+            zh: "不锈钢墙面覆层的视觉效果在很大程度上取决于表面处理工艺。作为源头工厂，我们的生产线可以提供以下几类主流表面，满足不同建筑风格的需求。2B表面是经过冷轧、退火和酸洗后的标准工业表面，呈现轻微光泽，适合对表面要求不高或需要进一步加工的项目。BA表面（光亮退火）光泽度更高，常用于电梯轿厢、室内装饰等精细场合。",
+            en: "The visual effect of stainless steel wall cladding depends largely on surface finishing. As a source factory, our production lines offer the following mainstream surface types to meet diverse architectural styles. 2B finish is the standard industrial surface after cold rolling, annealing, and pickling, showing a slight sheen — suitable for projects without high surface requirements or requiring further processing. BA finish (bright annealed) has higher gloss and is commonly used for elevator cabs and refined interior applications.",
+          },
+          {
+            zh: "拉丝处理（Hairline / No.4）是不锈钢覆层中最受欢迎的表面之一。通过研磨带在板材表面形成均匀的细线纹理，既掩盖了日常使用中的轻微划痕，又赋予建筑低调而精致的金属质感。拉丝方向通常建议垂直于地面安装，以获得最佳的视觉延伸感。镜面抛光（Mirror / No.8）表面反射率可达90%以上，能够创造出戏剧性的建筑视觉效果——反射天空、周围建筑和自然光线。著名的芝加哥千禧公园\"云门\"就是不锈钢镜面艺术的极致表达。需要注意的是，镜面表面在户外容易留下指纹和水渍痕迹，安装时需要专业团队操作。",
+            en: "Satin brushing (Hairline / No. 4) is one of the most popular finishes for stainless steel cladding. The uniform fine-line texture created by abrasive belts on the sheet surface both masks minor scratches from daily use and gives buildings a understated yet refined metallic quality. The brushing direction is typically recommended perpendicular to the ground for optimal visual extension. Mirror polishing (No. 8) achieves reflectivity exceeding 90%, creating dramatic architectural visual effects that reflect the sky, surrounding buildings, and natural light. Chicago's Millennium Park \"Cloud Gate\" is the ultimate expression of stainless steel mirror art. Note that mirror surfaces are prone to fingerprint and water stain marks outdoors and require professional installation teams.",
+          },
+          {
+            zh: "物理气相沉积（PVD）技术可以在不锈钢表面形成钛金、玫瑰金、黑钛、青铜、香槟金等丰富色彩。PVD镀层的硬度远高于传统喷涂，耐磨性和耐候性优异，色彩稳定性可保证15年以上。这为建筑师提供了突破传统银白色调的设计自由度。通过化学蚀刻或机械压花工艺，可以在不锈钢表面创造出规则的图案（如linen纹、菱形纹、锤纹等）或定制图案。这类表面不仅具有装饰性，还能有效掩盖大面积板材在户外环境中可能出现的轻微色差或橘皮效应。",
+            en: "Physical Vapor Deposition (PVD) technology can produce rich colors on stainless steel surfaces including titanium gold, rose gold, black titanium, bronze, and champagne gold. PVD coatings are far harder than traditional spray coatings, with excellent wear resistance and weather resistance — color stability is guaranteed for 15+ years. This gives architects design freedom beyond traditional silver-white tones. Through chemical etching or mechanical embossing, regular patterns (such as linen, diamond, and hammer textures) or custom designs can be created on stainless steel surfaces. These finishes are not only decorative but also effectively mask minor color variations or orange-peel effects that may appear on large-area panels in outdoor environments.",
           },
         ],
       },
       {
         heading: {
-          zh: "三个高频踩坑点",
-          en: "Three Frequent Specification Pitfalls",
+          zh: "四、安装工艺与工程要点",
+          en: "4. Installation Systems and Engineering Essentials",
         },
         paragraphs: [
           {
-            zh: `**坑一：镜面用于用餐主视线方向**\n\n镜面在餐厅中的价值是空间延伸，不是大面积装饰。顺佳兴的客户案例中，最典型的问题是设计师在整面主墙上使用镜面黑钛，结果顾客全程被自己的倒影分心。正确的做法是：镜面仅用于入口accent墙或吧台背景，面积不超过墙面的20%，且避免正对用餐主视线。\n\n**坑二：不同批次拼在一起**\n\n不锈钢PVD镀色受炉温、湿度、药水浓度影响，同一台炉子不同批次的色差可达ΔE 5-10%。顺佳兴的生产记录显示，分批下单后拼接的项目，约30%出现了肉眼可见的色差。大面积安装必须一次性按足量下单，宁可多买10-15%损耗预留，也不要分两批。\n\n**坑三：为了省钱用201做吧台**\n\n201的镍含量只有3.5-5.5%，在吧台这种每天接触水、酒、调味品的环境中，半年就开始出现点状锈蚀。更换吧台立面的成本是当初升级304的三倍以上。吧台区域必须至少使用304。`,
-            en: `**Pitfall 1: Mirror facing main dining sightlines**\n\nMirror's value in restaurants is spatial extension, not large-area decoration. In Greateson's client case history, the most typical issue is designers using mirror black titanium on entire main walls — resulting in diners being constantly distracted by their own reflections. The correct approach: mirror only for entrance accent walls or bar backgrounds, not exceeding 20% of wall area, and never facing primary dining sightlines.\n\n**Pitfall 2: Mixing different batches**\n\nStainless steel PVD plating is affected by furnace temperature, humidity, and chemical concentration. Color difference between batches from the same furnace can reach ΔE 5–10. Greateson production records show that approximately 30% of projects ordered in multiple batches developed visible color mismatch after installation. Large-area installations must be ordered in a single batch with 10–15% extra for waste allowance — never split into multiple orders.\n\n**Pitfall 3: Using 201 for bar counters to save money**\n\nWith only 3.5–5.5% nickel, 201 begins showing pitting corrosion within six months in bar environments that contact water, alcohol, and condiments daily. The cost to replace bar facades is more than triple what upgrading to 304 would have cost initially. Bar counter areas must use at least 304.`,
+            zh: "不锈钢覆层通常采用干挂式安装，通过铝合金或不锈钢龙骨系统将面板固定在建筑主体结构上。龙骨间距一般为400-600mm，具体取决于板材厚度（常用1.0mm、1.2mm、1.5mm、2.0mm）和风荷载设计要求。龙骨与面板之间应设置绝缘垫片，防止电化学腐蚀。户外墙面覆层的常用厚度为1.2mm-2.0mm。低于1.0mm的板材在强风荷载下容易产生颤振噪声和永久变形；超过2.0mm则显著增加材料成本和安装难度。",
+            en: "Stainless steel cladding typically employs dry-hanging installation, with panels fixed to the building structure via aluminum or stainless steel framing systems. Frame spacing is generally 400-600 mm, depending on sheet thickness (commonly 1.0 mm, 1.2 mm, 1.5 mm, 2.0 mm) and wind load design requirements. Insulating gaskets should be placed between the frame and panel to prevent galvanic corrosion. Common thicknesses for outdoor wall cladding are 1.2-2.0 mm. Sheets below 1.0 mm are prone to flutter noise and permanent deformation under strong wind loads; exceeding 2.0 mm significantly increases material cost and installation difficulty.",
+          },
+          {
+            zh: "不锈钢板材在户外会经历显著的温度变化（夏季表面温度可达60-80°C，冬季可能低至-20°C以下），这意味着每米板材可能产生1-2mm的热胀冷缩变形。安装时必须在板材边缘预留足够的伸缩间隙（通常为每米3-5mm），并通过特殊的滑动连接件吸收变形。忽略这一细节是导致不锈钢覆层起拱、变形甚至脱落的主要原因之一。干挂系统背后的空腔必须设计有效的排水和通风路径，防止雨水积聚和冷凝水滞留。通常需要在底部设置排水孔，顶部和侧边设置通风口，形成\"呼吸式\"墙体系统。",
+            en: "Stainless steel panels in outdoor environments experience significant temperature variations (summer surface temperatures can reach 60-80°C, while winter lows may drop below -20°C). This means each meter of panel can experience 1-2 mm of thermal expansion and contraction. Sufficient expansion gaps must be reserved at panel edges during installation (typically 3-5 mm per meter), with special sliding connectors to absorb deformation. Overlooking this detail is one of the primary causes of stainless steel cladding buckling, distortion, and even detachment. The cavity behind the dry-hang system must be designed with effective drainage and ventilation paths to prevent rainwater accumulation and condensation retention. Drainage holes at the bottom and vents at the top and sides typically create a \"breathing\" wall system.",
           },
         ],
       },
       {
         heading: {
-          zh: "成本与维护",
-          en: "Cost and Maintenance",
+          zh: "五、不锈钢覆层的典型应用场景",
+          en: "5. Typical Application Scenarios for Stainless Steel Cladding",
         },
         paragraphs: [
           {
-            zh: `不锈钢装饰板在餐厅装修中的墙面材料成本占比通常为30-50%，但全生命周期成本显著低于替代材料：\n\n| 材料 | 初始成本/m² | 使用寿命 | 5年维护/m² | 年均成本 |\n|------|-----------|---------|-----------|---------|\n| 不锈钢PVD | ¥300–600 | 10–15年 | ¥20–50 | ¥23–43 |\n| 天然大理石 | ¥400–800 | 20年+ | ¥100–200 | ¥45–65 |\n| 实木饰面板 | ¥200–400 | 5–8年 | ¥150–300 | ¥50–88 |\n| 高端墙纸 | ¥100–300 | 3–5年 | ¥200–400 | ¥60–100 |\n\n维护要求极低：日常微纤维布+中性清洁剂擦拭即可。禁止使用钢丝球和含氯漂白剂。`,
-            en: `Stainless steel decorative panels typically represent 30–50% of the wall material budget in restaurant fit-outs, but lifecycle costs are significantly lower than alternatives:\n\n| Material | Initial Cost / m² | Lifespan | 5-Year Maintenance / m² | Annualized Cost |\n|----------|------------------|----------|------------------------|----------------|\n| Stainless steel (PVD) | ¥300–600 | 10–15 years | ¥20–50 | ¥23–43 |\n| Natural marble | ¥400–800 | 20+ years | ¥100–200 | ¥45–65 |\n| Solid wood veneer | ¥200–400 | 5–8 years | ¥150–300 | ¥50–88 |\n| Premium wallpaper | ¥100–300 | 3–5 years | ¥200–400 | ¥60–100 |\n\nMaintenance requirements are minimal: daily wipe with microfiber cloth and neutral cleaner. Steel wool and chlorine bleach are strictly prohibited.`,
+            zh: "不锈钢覆层在现代商业建筑中广泛应用，尤其是在入口雨棚、裙楼立面、中庭采光顶等部位。其金属质感能够传递企业的专业形象和科技感，同时超长的使用寿命与商业建筑30-50年的设计使用年限相匹配。机场、高铁站、地铁站等交通建筑对材料的耐久性和易维护性要求极高。不锈钢覆层能够承受高人流密度带来的物理磨损，抵抗车辆尾气和其他污染物的侵蚀，同时保持整洁的外观形象。",
+            en: "Stainless steel cladding is widely used in modern commercial buildings, particularly at entrance canopies, podium facades, and atrium skylights. Its metallic texture conveys corporate professionalism and technological sophistication, while its exceptionally long service life matches the 30-50 year design life of commercial buildings. Transportation buildings such as airports, high-speed rail stations, and metro stations have extremely high demands for material durability and ease of maintenance. Stainless steel cladding withstands physical wear from high pedestrian traffic, resists vehicle exhaust and other pollutant erosion, and maintains a clean appearance.",
+          },
+          {
+            zh: "博物馆、剧院、图书馆等文化建筑往往追求独特的建筑表达。不锈钢的可塑性和丰富的表面处理选项，使其成为实现大胆建筑创意的理想材料。北京鸟巢、深圳市民中心等标志性建筑都大量使用了不锈钢元素。Stainless Steel Interior and Exterior Cladding 的一大优势在于可以实现室内外空间的无缝过渡。当同一种材料和表面处理从室外延伸到室内门厅、电梯厅或中庭时，能够创造出极强的设计统一性和空间流动感。这种\"由内而外\"或\"由外而内\"的设计语言，在高端酒店、品牌旗舰店和总部办公楼中越来越常见。",
+            en: "Cultural buildings such as museums, theaters, and libraries often pursue unique architectural expression. The formability and rich surface finish options of stainless steel make it an ideal material for realizing bold architectural concepts. Iconic buildings such as Beijing's Bird's Nest and Shenzhen Civic Center extensively use stainless steel elements. A major advantage of stainless steel interior and exterior cladding is the ability to achieve seamless transitions between indoor and outdoor spaces. When the same material and surface finish extend from the exterior into interior lobbies, elevator halls, or atriums, they create strong design unity and spatial flow. This \"inside-out\" or \"outside-in\" design language is increasingly common in luxury hotels, brand flagship stores, and headquarters office buildings.",
           },
         ],
       },
       {
         heading: {
-          zh: "结论",
-          en: "Conclusion",
+          zh: "六、不锈钢覆层的局限性：客观评估",
+          en: "6. Limitations of Stainless Steel Cladding: An Objective Assessment",
         },
         paragraphs: [
           {
-            zh: `高端餐厅墙面设计的核心逻辑是：在消防合规、耐久性和视觉品质三者之间找到最优解。不锈钢装饰板通过PVD彩色电镀、拉丝/镜面工艺和蚀刻定制，为餐饮空间提供了目前唯一同时满足这三项要求的材料平台。\n\n选型关键在于三个匹配：颜色与灯光色温匹配、表面工艺与空间功能匹配、材质牌号与环境条件匹配。三者匹配，才能发挥不锈钢装饰板的全部价值。\n\n顺佳兴不锈钢（Greateson）提供餐厅墙面/隔断/吧台的完整解决方案，涵盖201/304/316全牌号及PVD镀色、拉丝、蚀刻、压花等全系表面工艺。标准样品3天内发出，支持基于项目图纸的定制化生产。`,
-            en: `The core logic of high-end restaurant wall design is finding the optimal solution at the intersection of fire compliance, durability, and visual quality. Through PVD color plating, satin/mirror finishes, and etched customization, stainless steel decorative panels provide the only material platform currently available that simultaneously satisfies all three requirements.\n\nThe key to specification is three matches: color matched to lighting color temperature, surface finish matched to spatial function, and material grade matched to environmental conditions. Only when all three align can stainless steel decorative panels deliver their full value.\n\nGreateson provides complete restaurant wall / partition / bar counter solutions, covering full 201/304/316 grades and PVD coating, satin brushing, etching, embossing, and all surface finishes. Standard samples ship within three days; custom production based on project drawings is supported.`,
+            zh: "作为源头工厂，我们有责任客观呈现不锈钢覆层的局限性，帮助客户做出理性的材料决策。与铝单板、铝塑板、普通钢板等材料相比，不锈钢的初始采购成本更高。这一差异需要通过全生命周期成本分析来评估——当计算20-30年的维护、翻新和更换费用后，不锈钢的综合成本往往反而更低。不锈钢的密度（约7.93g/cm³）是铝的约3倍，这意味着相同面积的不锈钢覆层重量显著大于铝覆层。对于既有建筑的改造项目或结构承载能力有限的项目，需要进行结构复核，必要时减轻龙骨间距或减小板材规格。",
+            en: "As a source factory, we have a responsibility to objectively present the limitations of stainless steel cladding to help clients make informed material decisions. Compared to aluminum panels, aluminum composite panels, and ordinary steel sheets, stainless steel has higher initial procurement costs. This difference must be evaluated through life-cycle cost analysis — when 20-30 years of maintenance, renovation, and replacement costs are factored in, the total cost of stainless steel is often lower. Stainless steel density (approximately 7.93 g/cm³) is about three times that of aluminum, meaning equivalent-area stainless steel cladding is significantly heavier than aluminum cladding. For renovation projects of existing buildings or projects with limited structural capacity, structural review is necessary, with frame spacing or panel specifications adjusted as needed.",
+          },
+          {
+            zh: "不锈钢的热导率（约16W/m·K）虽然远低于铝（约200W/m·K），但仍属于金属导热体。在保温要求严格的寒冷地区，需要在不锈钢覆层系统后方设置有效的断热层，避免热桥效应导致室内结露或能耗增加。不锈钢覆层对龙骨的平整度、面板的对缝精度要求很高。接缝不齐或表面不平整在高光泽表面上会被明显放大。因此，不锈钢覆层项目需要经验丰富的安装团队，施工周期可能略长于其他材料。",
+            en: "Although stainless steel thermal conductivity (approximately 16 W/m·K) is far lower than aluminum (approximately 200 W/m·K), it remains a metallic heat conductor. In cold climates with strict insulation requirements, effective thermal breaks must be provided behind the stainless steel cladding system to avoid thermal bridging that causes indoor condensation or increased energy consumption. Stainless steel cladding has high requirements for frame flatness and panel joint alignment. Misaligned seams or uneven surfaces are visibly amplified on high-gloss finishes. Consequently, stainless steel cladding projects require experienced installation teams, and construction schedules may be slightly longer than for other materials.",
+          },
+        ],
+      },
+      {
+        heading: {
+          zh: "七、结论：不锈钢是户外墙面覆层的优质选择",
+          en: "7. Conclusion: Stainless Steel Is an Excellent Choice for Outdoor Wall Cladding",
+        },
+        paragraphs: [
+          {
+            zh: "综合以上分析，不锈钢用于户外墙面覆层在技术层面是完全可行的，并且在耐久性、防火性、设计自由度和全生命周期经济性方面具有突出优势。304不锈钢适用于大多数城市环境，316不锈钢则是沿海和严苛环境的首选。丰富的表面处理工艺——从拉丝到镜面，从PVD彩色到蚀刻纹理——为建筑设计提供了几乎无限的创意空间。作为不锈钢板材的源头生产厂家，我们拥有从原材料采购、热轧冷轧、表面处理到精密切割的全流程生产能力。我们的质量控制体系涵盖化学成分分析、力学性能测试、表面粗糙度检测和盐雾腐蚀试验，确保每一块出厂板材都符合ASTM、EN或JIS国际标准。如果您正在评估不锈钢墙面覆层方案，我们可以根据项目的具体环境条件、设计要求和规格范围，提供专业的材料选型和规格建议。",
+            en: "In summary, stainless steel is fully technically viable for outdoor wall cladding and offers outstanding advantages in durability, fire resistance, design freedom, and life-cycle economics. 304 stainless steel is suitable for most urban environments, while 316 is the preferred choice for coastal and harsh environments. The rich range of surface finishing processes — from satin to mirror, from PVD colors to etched textures — provides nearly unlimited creative space for architectural design. As a source manufacturer of stainless steel sheets, we maintain full-process production capabilities from raw material procurement, hot and cold rolling, surface finishing, to precision cutting. Our quality control system covers chemical composition analysis, mechanical property testing, surface roughness inspection, and salt spray corrosion testing, ensuring every sheet shipped meets ASTM, EN, or JIS international standards. If you are evaluating a stainless steel wall cladding solution, we can provide professional material selection and specification recommendations based on your project's specific environmental conditions, design requirements, and scope.",
           },
         ],
       },
     ],
     faq: [
       {
-        q: { zh: "不锈钢墙面会让餐厅显得冷吗？", en: "Will stainless steel walls feel cold?" },
-        a: { zh: "不会。暖色调PVD（香槟金、玫瑰金、古铜色）与木材、皮革搭配后，温度感高于纯白墙面。", en: "No. Warm-tone PVD finishes paired with wood and leather feel warmer than plain white walls." },
+        q: {
+          zh: "不锈钢墙面覆层的使用寿命有多长？",
+          en: "How long does stainless steel wall cladding last?",
+        },
+        a: {
+          zh: "在正常使用和维护条件下，304和316不锈钢墙面覆层的使用寿命可达30-50年甚至更长。实际寿命取决于环境腐蚀程度、安装质量和表面处理类型。",
+          en: "Under normal use and maintenance conditions, 304 and 316 stainless steel wall cladding can last 30-50 years or longer. Actual lifespan depends on environmental corrosion severity, installation quality, and surface finish type.",
+        },
       },
       {
-        q: { zh: "PVD板在不同灯光下会变色吗？", en: "Do PVD panels change color under different lighting?" },
-        a: { zh: "PVD涂层本身不变色，但不同色温光源会改变视觉色调。建议在目标餐厅灯光下确认色板。", en: "PVD coating does not change, but different color-temperature light sources alter visual tone. Confirm swatches under actual restaurant lighting." },
+        q: {
+          zh: "不锈钢覆层需要定期维护吗？",
+          en: "Does stainless steel cladding require regular maintenance?",
+        },
+        a: {
+          zh: "不锈钢覆层的维护需求极低。一般情况下，每年1-2次的清水冲洗即可保持外观。在污染严重的工业区，可适当增加清洁频率。避免使用含氯或含研磨剂的清洁剂。",
+          en: "Stainless steel cladding has extremely low maintenance requirements. Generally, 1-2 rinses with clean water per year are sufficient to maintain appearance. In heavily polluted industrial zones, cleaning frequency can be increased. Avoid chlorine-containing or abrasive cleaners.",
+        },
       },
       {
-        q: { zh: "蚀刻图案可以定制吗？", en: "Can etched patterns be customized?" },
-        a: { zh: "可以。品牌LOGO、几何图形、抽象纹理均可定制，线条精度可达0.05mm。", en: "Yes. Brand logos, geometric motifs, and abstract textures are all customizable; line precision reaches 0.05 mm." },
+        q: {
+          zh: "不锈钢覆层与铝单板相比有什么优势？",
+          en: "What advantages does stainless steel cladding have over aluminum panels?",
+        },
+        a: {
+          zh: "不锈钢的耐腐蚀性、抗冲击强度和防火性能均优于铝材。不锈钢的A1级不燃特性使其在防火规范严格的项目中更具优势。此外，不锈钢在全生命周期内的维护成本更低。",
+          en: "Stainless steel offers superior corrosion resistance, impact strength, and fire performance compared to aluminum. Its Class A1 non-combustible characteristics provide advantages in projects with strict fire safety codes. Additionally, stainless steel has lower life-cycle maintenance costs.",
+        },
       },
       {
-        q: { zh: "定制交期多久？", en: "What is the lead time for custom orders?" },
-        a: { zh: "标准尺寸有库存。定制切割5–10天，含镀色或蚀刻10–15天。", en: "Standard sizes are in stock. Custom cuts: 5–10 days; with PVD or etching: 10–15 days." },
+        q: {
+          zh: "沿海地区一定要用316不锈钢吗？",
+          en: "Is 316 stainless steel mandatory for coastal areas?",
+        },
+        a: {
+          zh: "在距海岸线5公里以内的区域，或盐雾浓度较高的环境中，建议优先选择316不锈钢。对于距海岸线5-15公里的区域，304不锈钢配合适当的维护也可以胜任。具体选择应结合当地环境数据和项目设计年限综合评估。",
+          en: "In areas within 5 km of the coastline or with high salt spray concentrations, 316 stainless steel is recommended. For zones 5-15 km from the coast, 304 stainless steel with proper maintenance can also perform adequately. The specific choice should be evaluated based on local environmental data and project design life.",
+        },
+      },
+      {
+        q: {
+          zh: "不锈钢覆层可以实现什么颜色和效果？",
+          en: "What colors and effects can stainless steel cladding achieve?",
+        },
+        a: {
+          zh: "通过PVD真空镀膜技术，不锈钢可以实现钛金、玫瑰金、黑钛、青铜、香槟金、蓝色、绿色等丰富色彩。此外，还可以通过蚀刻、压花、拉丝方向变化等方式创造独特的纹理效果。",
+          en: "Through PVD vacuum coating technology, stainless steel can achieve rich colors including titanium gold, rose gold, black titanium, bronze, champagne gold, blue, and green. Additionally, unique texture effects can be created through etching, embossing, and satin direction variations.",
+        },
+      },
+      {
+        q: {
+          zh: "不锈钢覆层的最小安装厚度是多少？",
+          en: "What is the minimum installation thickness for stainless steel cladding?",
+        },
+        a: {
+          zh: "对于户外墙面覆层，建议最小厚度为1.0mm，但1.2mm-1.5mm是更为稳妥和常用的规格。对于高风压区域或大面积面板，建议采用1.5mm-2.0mm厚度以确保平整度和抗变形能力。",
+          en: "For outdoor wall cladding, the recommended minimum thickness is 1.0 mm, but 1.2-1.5 mm is the more reliable and commonly used specification. For high wind-pressure areas or large panels, 1.5-2.0 mm thickness is recommended to ensure flatness and deformation resistance.",
+        },
       },
     ],
   },
