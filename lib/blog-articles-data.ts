@@ -1453,8 +1453,8 @@ export const blogArticles: BlogPost[] = [
       },
       {
         heading: {
-          zh: "二、牌号选择：304、316 还是 430？",
-          en: "2. Grade Selection: 304, 316, or 430?",
+          zh: "二、材质选择：201、304 还是 316？",
+          en: "2. Material Selection: 201, 304, or 316?",
         },
         paragraphs: [
           {
@@ -1462,12 +1462,12 @@ export const blogArticles: BlogPost[] = [
             en: "304 stainless steel (Chinese standard 06Cr19Ni10) is the most widely used grade for outdoor wall cladding. With nickel content of approximately 8-10.5% and chromium at 18-20%, it performs excellently in most urban environments and low-to-medium pollution industrial zones. For inland cities and commercial, office, and residential projects in temperate climate zones, 304 stainless steel achieves the optimal balance between performance and cost. In our export orders, approximately 70% of outdoor cladding projects specify 304, reflecting the global construction industry's broad recognition of this grade's reliability.",
           },
           {
-            zh: "316不锈钢（国标06Cr17Ni12Mo2）在304的基础上增加了2-3%的钼，显著提升了耐氯化物腐蚀能力。对于沿海地区（距海岸线5公里以内）、游泳场馆和温泉度假村等高湿度含氯环境、化工园区和港口码头等工业腐蚀环境，以及寒冷地区的融雪盐使用区域，316是更稳妥的选择。430不锈钢属于铁素体不锈钢，不含镍，成本较低，但其耐腐蚀性明显弱于304和316，仅适用于干燥内陆地区的低层建筑或室内应用。",
-            en: "316 stainless steel (Chinese standard 06Cr17Ni12Mo2) adds 2-3% molybdenum to the 304 composition, significantly enhancing chloride corrosion resistance. For coastal areas (within 5 km of the shoreline), high-humidity chlorine environments such as swimming pools and spa resorts, industrially corrosive environments like chemical plants and port terminals, and snow-melting salt regions in cold climates, 316 is the safer choice. 430 stainless steel is a ferritic grade containing no nickel and at lower cost, but its corrosion resistance is markedly inferior to 304 and 316. It is only suitable for low-rise buildings in dry inland areas or interior applications.",
+            zh: "316不锈钢（国标06Cr17Ni12Mo2）在304的基础上增加了2-3%的钼，显著提升了耐氯化物腐蚀能力。对于沿海地区（距海岸线5公里以内）、游泳场馆和温泉度假村等高湿度含氯环境、化工园区和港口码头等工业腐蚀环境，以及寒冷地区的融雪盐使用区域，316是更稳妥的选择。201不锈钢含镍量仅3.5%–5.5%，成本最低，但耐腐蚀性一般。其镍含量不足以在户外环境中形成稳定的钝化膜，在雨水和大气污染物的持续作用下，2-3年内即可能出现锈蚀。因此201仅适用于室内干燥空间的装饰应用，绝不建议用于户外墙面覆层。",
+            en: "316 stainless steel (Chinese standard 06Cr17Ni12Mo2) adds 2-3% molybdenum to the 304 composition, significantly enhancing chloride corrosion resistance. For coastal areas (within 5 km of the shoreline), high-humidity chlorine environments such as swimming pools and spa resorts, industrially corrosive environments like chemical plants and port terminals, and snow-melting salt regions in cold climates, 316 is the safer choice. 201 stainless steel contains only 3.5%–5.5% nickel and is the lowest-cost option, but its corrosion resistance is limited. Its nickel content is insufficient to form a stable passive film in outdoor environments; under sustained rain and atmospheric pollutants, rust can appear within 2–3 years. Therefore 201 is only suitable for dry indoor decorative applications and should never be used for outdoor wall cladding.",
           },
           {
-            zh: "牌号选择速查参考：内陆城市一般环境推荐304（性价比最优）；沿海/高盐雾环境推荐316（耐点蚀性能）；工业污染区推荐316（耐酸雨腐蚀）；严寒融雪盐区域推荐316（耐氯化物腐蚀）；干燥内陆低层建筑可选择304或430（预算控制）。",
-            en: "Quick grade selection reference: inland urban environments — 304 (best value); coastal/high-salt environments — 316 (pitting resistance); industrial pollution zones — 316 (acid rain resistance); cold climates with de-icing salts — 316 (chloride resistance); dry inland low-rise buildings — 304 or 430 (budget control).",
+            zh: "材质选择速查参考：室内干燥环境推荐201（成本最低）；内陆城市一般户外环境推荐304（性价比最优）；沿海/高盐雾环境推荐316（耐点蚀性能）；工业污染区推荐316（耐酸雨腐蚀）；严寒融雪盐区域推荐316（耐氯化物腐蚀）。户外墙面覆层绝不建议使用201。",
+            en: "Quick material selection reference: dry indoor environments — 201 (lowest cost); inland urban outdoor environments — 304 (best value); coastal/high-salt environments — 316 (pitting resistance); industrial pollution zones — 316 (acid rain resistance); cold climates with de-icing salts — 316 (chloride resistance). 201 should never be used for outdoor wall cladding.",
           },
         ],
       },
