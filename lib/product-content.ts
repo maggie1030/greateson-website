@@ -781,8 +781,22 @@ function stripChineseForEn(text: string) {
       .replace(/[\u4e00-\u9fff]/g, "")
       .replace(/[，。；：、（）【】《》“”‘’]/g, " ")
       .replace(/\s{2,}/g, " ")
+      .replace(/[→←↑↓⇒⇐]/g, " ")
       .trim(),
   );
+}
+
+function hasSubstantialEnglish(text: string): boolean {
+  const lines = text
+    .split(/\r?\n/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+  if (lines.length < 2) return false;
+  // Require at least one line with 5+ real English words to count as "substantial"
+  return lines.some((line) => {
+    const words = line.split(/\s+/).filter((w) => /^[A-Za-z]{2,}$/.test(w));
+    return words.length >= 5;
+  });
 }
 
 function trimSeriesDocBeforeFaq(raw: string) {
@@ -846,7 +860,7 @@ function applyManualSeriesTranslation(slug: string, code: string, source: Locali
   if (!manual) return source;
 
   const zhWeak = !source.zh || lineCount(source.zh) < 3;
-  const enWeak = !source.en || lineCount(source.en) < 3;
+  const enWeak = !source.en || !hasSubstantialEnglish(source.en);
   const forceDecorativeSheetEn = slug === "stainless-steel-decorative-sheet" && Boolean(manual.enFromZh);
 
   return {

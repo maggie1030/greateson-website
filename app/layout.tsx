@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Cormorant_Garamond, Noto_Sans_SC, Noto_Serif_SC } from "next/font/google";
+import { Inter, Cormorant_Garamond, Noto_Sans_SC } from "next/font/google";
 import "./globals.css";
 
 // English fonts
@@ -22,11 +22,6 @@ const notoSansSC = Noto_Sans_SC({
   weight: ["400", "500", "700"],
 });
 
-const notoSerifSC = Noto_Serif_SC({
-  variable: "--font-zh-display",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://greatesonsteel.com"),
@@ -54,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={`${inter.variable} ${cormorant.variable} ${notoSansSC.variable} ${notoSerifSC.variable} h-full`}>
+    <html className={`${inter.variable} ${cormorant.variable} ${notoSansSC.variable} h-full`}>
       <body className="min-h-full bg-[#0f1714] text-white antialiased">{children}</body>
     </html>
   );

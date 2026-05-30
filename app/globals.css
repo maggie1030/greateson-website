@@ -21,7 +21,7 @@
 
 :lang(zh) {
   --font-body: var(--font-zh-body);
-  --font-display: var(--font-zh-display);
+  --font-display: "Songti SC", "STSong", "SimSun", serif;
 }
 
 body {
