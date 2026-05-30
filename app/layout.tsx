@@ -1,17 +1,31 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Noto_Sans_SC } from "next/font/google";
+import { Inter, Cormorant_Garamond, Noto_Sans_SC, Noto_Serif_SC } from "next/font/google";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
-  variable: "--font-display",
+// English fonts
+const inter = Inter({
+  variable: "--font-en-body",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const cormorant = Cormorant_Garamond({
+  variable: "--font-en-display",
   subsets: ["latin"],
   weight: ["500", "600", "700"],
 });
 
-const body = Noto_Sans_SC({
-  variable: "--font-body",
+// Chinese fonts
+const notoSansSC = Noto_Sans_SC({
+  variable: "--font-zh-body",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
+});
+
+const notoSerifSC = Noto_Serif_SC({
+  variable: "--font-zh-display",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -40,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={`${display.variable} ${body.variable} h-full`}>
+    <html className={`${inter.variable} ${cormorant.variable} ${notoSansSC.variable} ${notoSerifSC.variable} h-full`}>
       <body className="min-h-full bg-[#0f1714] text-white antialiased">{children}</body>
     </html>
   );

@@ -11,20 +11,29 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-body);
-  --font-serif: var(--font-display);
+}
+
+/* Locale-aware font families */
+:lang(en) {
+  --font-body: var(--font-en-body);
+  --font-display: var(--font-en-display);
+}
+
+:lang(zh) {
+  --font-body: var(--font-zh-body);
+  --font-display: var(--font-zh-display);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-body), sans-serif;
+  font-family: var(--font-body), "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--font-display), serif;
+  font-family: var(--font-display), "Songti SC", serif;
 }
 
 .section {
